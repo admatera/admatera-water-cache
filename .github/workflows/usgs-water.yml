@@ -1,0 +1,29 @@
+name: USGS Water Cache (daily)
+
+on:
+  schedule:
+    - cron: '15 13 * * *'   # 13:15 UTC once daily (adjust later)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cache-water:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Write heartbeat
+        run: |
+          mkdir -p data
+          node -e 'const fs=require("fs");fs.writeFileSync("data/health.json", JSON.stringify({updatedAt:new Date().toISOString()},null,2));'
+
+      - name: Commit & push
+        run: |
+          git config user.name  "admatera-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/health.json
+          git commit -m "water cache heartbeat $(date -u +'%F %T UTC')" || echo "no changes"
+          git push
