@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2025-11-19T19:31:02.895Z",
-  "count": 1899,
+  "updatedAt": "2025-11-19T19:50:40.646Z",
+  "count": 2683,
   "items": [
     {
       "site": "023432415",
       "state": "al",
-      "tempC": 17.2,
+      "tempC": 17.3,
       "condu": 105
     },
     {
@@ -30,6 +30,38 @@
       "tempC": -999999
     },
     {
+      "site": "02412000",
+      "state": "al",
+      "tempC": 11.4
+    },
+    {
+      "site": "02413300",
+      "state": "al",
+      "tempC": 8.7
+    },
+    {
+      "site": "02414500",
+      "state": "al",
+      "tempC": 15.7
+    },
+    {
+      "site": "02414715",
+      "state": "al",
+      "tempC": 17.3
+    },
+    {
+      "site": "02419890",
+      "state": "al",
+      "tempC": 19.5,
+      "condu": 52
+    },
+    {
+      "site": "02423130",
+      "state": "al",
+      "tempC": 24.3,
+      "condu": 246
+    },
+    {
       "site": "02423160",
       "state": "al",
       "tempC": 14.1,
@@ -50,7 +82,7 @@
     {
       "site": "02423496",
       "state": "al",
-      "tempC": 14.3,
+      "tempC": 14.4,
       "condu": 355
     },
     {
@@ -58,6 +90,11 @@
       "state": "al",
       "tempC": 15.6,
       "condu": 394
+    },
+    {
+      "site": "02423555",
+      "state": "al",
+      "tempC": 23.8
     },
     {
       "site": "02423571",
@@ -72,6 +109,11 @@
       "condu": 363
     },
     {
+      "site": "02423647",
+      "state": "al",
+      "tempC": 27.1
+    },
+    {
       "site": "02450250",
       "state": "al",
       "tempC": 12.2
@@ -84,7 +126,7 @@
     {
       "site": "02455980",
       "state": "al",
-      "tempC": 16.2,
+      "tempC": 16.3,
       "condu": 321
     },
     {
@@ -114,19 +156,24 @@
     {
       "site": "02458600",
       "state": "al",
-      "tempC": 18.5
+      "tempC": 18.6
     },
     {
       "site": "02461130",
       "state": "al",
       "tempC": 19.8,
-      "condu": 360
+      "condu": 359
     },
     {
       "site": "02461192",
       "state": "al",
-      "tempC": 18.8,
+      "tempC": 19,
       "condu": 354
+    },
+    {
+      "site": "02461405",
+      "state": "al",
+      "tempC": 16.4
     },
     {
       "site": "02469100",
@@ -142,7 +189,13 @@
       "site": "02470805",
       "state": "al",
       "tempC": 18,
-      "condu": 4160
+      "condu": 4170
+    },
+    {
+      "site": "15008000",
+      "state": "ak",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "15015595",
@@ -164,7 +217,18 @@
     {
       "site": "15041200",
       "state": "ak",
-      "tempC": 0.1
+      "tempC": 0.1,
+      "condu": 36
+    },
+    {
+      "site": "15052000",
+      "state": "ak",
+      "tempC": 2.1
+    },
+    {
+      "site": "15052500",
+      "state": "ak",
+      "tempC": 1.1
     },
     {
       "site": "15056210",
@@ -175,6 +239,16 @@
       "site": "15056500",
       "state": "ak",
       "tempC": 2.2
+    },
+    {
+      "site": "15056560",
+      "state": "ak",
+      "tempC": -999999
+    },
+    {
+      "site": "15057596",
+      "state": "ak",
+      "tempC": 6.9
     },
     {
       "site": "15068040",
@@ -189,7 +263,7 @@
     {
       "site": "15081497",
       "state": "ak",
-      "tempC": 5.2
+      "tempC": 5.3
     },
     {
       "site": "15085697",
@@ -219,7 +293,7 @@
     {
       "site": "15088000",
       "state": "ak",
-      "tempC": 8.6
+      "tempC": 7.5
     },
     {
       "site": "15101490",
@@ -229,7 +303,8 @@
     {
       "site": "15129120",
       "state": "ak",
-      "tempC": 2.8
+      "tempC": 2.8,
+      "condu": 183
     },
     {
       "site": "15129500",
@@ -242,6 +317,12 @@
       "tempC": 0.2
     },
     {
+      "site": "15209700",
+      "state": "ak",
+      "tempC": 0.1,
+      "condu": 210
+    },
+    {
       "site": "15209770",
       "state": "ak",
       "tempC": 0.8
@@ -249,12 +330,18 @@
     {
       "site": "15215900",
       "state": "ak",
-      "tempC": 3.2
+      "tempC": 3.3
     },
     {
       "site": "15219000",
       "state": "ak",
       "tempC": 2.8
+    },
+    {
+      "site": "15236900",
+      "state": "ak",
+      "tempC": 1.2,
+      "condu": 33
     },
     {
       "site": "15238951",
@@ -287,6 +374,11 @@
       "tempC": 4
     },
     {
+      "site": "15260001",
+      "state": "ak",
+      "tempC": 14.4
+    },
+    {
       "site": "15261000",
       "state": "ak",
       "tempC": 0.3
@@ -307,14 +399,24 @@
       "tempC": 0.1
     },
     {
+      "site": "15284000",
+      "state": "ak",
+      "tempC": -999999
+    },
+    {
       "site": "15290000",
       "state": "ak",
-      "tempC": 0.1
+      "tempC": 0
     },
     {
       "site": "15292700",
       "state": "ak",
       "tempC": 0.3
+    },
+    {
+      "site": "15293200",
+      "state": "ak",
+      "tempC": 4.6
     },
     {
       "site": "15294005",
@@ -339,7 +441,7 @@
     {
       "site": "15300300",
       "state": "ak",
-      "tempC": 0.3
+      "tempC": 0.5
     },
     {
       "site": "15300500",
@@ -352,9 +454,25 @@
       "tempC": 0.4
     },
     {
+      "site": "15303600",
+      "state": "ak",
+      "tempC": 3.1
+    },
+    {
       "site": "15304010",
       "state": "ak",
-      "tempC": 0
+      "tempC": 0,
+      "condu": 180
+    },
+    {
+      "site": "15304150",
+      "state": "ak",
+      "tempC": 15
+    },
+    {
+      "site": "15348000",
+      "state": "ak",
+      "tempC": 2.7
     },
     {
       "site": "15446000",
@@ -367,9 +485,19 @@
       "tempC": 0.1
     },
     {
+      "site": "15493000",
+      "state": "ak",
+      "tempC": 7.5
+    },
+    {
       "site": "15515500",
       "state": "ak",
       "tempC": 0.1
+    },
+    {
+      "site": "15519030",
+      "state": "ak",
+      "tempC": 0
     },
     {
       "site": "15519100",
@@ -377,9 +505,19 @@
       "tempC": 0
     },
     {
+      "site": "15564860",
+      "state": "ak",
+      "tempC": -0.2
+    },
+    {
       "site": "15564879",
       "state": "ak",
       "tempC": 0.1
+    },
+    {
+      "site": "15564880",
+      "state": "ak",
+      "tempC": 4.4
     },
     {
       "site": "15565447",
@@ -395,6 +533,16 @@
       "site": "15747000",
       "state": "ak",
       "tempC": 0
+    },
+    {
+      "site": "15896000",
+      "state": "ak",
+      "tempC": 7.7
+    },
+    {
+      "site": "15908000",
+      "state": "ak",
+      "tempC": -999999
     },
     {
       "site": "09380000",
@@ -418,6 +566,11 @@
       "tempC": 17.9
     },
     {
+      "site": "09415000",
+      "state": "az",
+      "tempC": 29.3
+    },
+    {
       "site": "09426630",
       "state": "az",
       "tempC": 0
@@ -425,7 +578,7 @@
     {
       "site": "09429070",
       "state": "az",
-      "tempC": 15.6
+      "tempC": 15.8
     },
     {
       "site": "09471000",
@@ -465,9 +618,14 @@
       "tempC": 10.7
     },
     {
+      "site": "09508300",
+      "state": "az",
+      "tempC": 7.7
+    },
+    {
       "site": "09510000",
       "state": "az",
-      "tempC": 18.7,
+      "tempC": 18.8,
       "condu": 583
     },
     {
@@ -479,7 +637,7 @@
     {
       "site": "09530200",
       "state": "az",
-      "tempC": 17.9,
+      "tempC": 18.6,
       "condu": 1
     },
     {
@@ -495,10 +653,22 @@
       "condu": 1940
     },
     {
+      "site": "332029112353701",
+      "state": "az",
+      "tempC": 30.3,
+      "condu": 7270
+    },
+    {
+      "site": "332106112314101",
+      "state": "az",
+      "tempC": 2.5,
+      "condu": 0
+    },
+    {
       "site": "07047932",
       "state": "ar",
-      "tempC": 14.8,
-      "condu": 354
+      "tempC": 15.1,
+      "condu": 353
     },
     {
       "site": "07047942",
@@ -515,7 +685,7 @@
     {
       "site": "07048550",
       "state": "ar",
-      "tempC": 15.4,
+      "tempC": 15.6,
       "condu": 366
     },
     {
@@ -553,12 +723,12 @@
     {
       "site": "07055646",
       "state": "ar",
-      "tempC": 14.3
+      "tempC": 14.5
     },
     {
       "site": "07060000",
       "state": "ar",
-      "tempC": 16.7
+      "tempC": 16.6
     },
     {
       "site": "07060500",
@@ -603,10 +773,34 @@
       "condu": 333
     },
     {
+      "site": "07077500",
+      "state": "ar",
+      "tempC": 23.1,
+      "condu": 622
+    },
+    {
       "site": "071948095",
       "state": "ar",
-      "tempC": 15.5,
-      "condu": 418
+      "tempC": 15.8,
+      "condu": 417
+    },
+    {
+      "site": "07194880",
+      "state": "ar",
+      "tempC": 20.4,
+      "condu": 442
+    },
+    {
+      "site": "07194933",
+      "state": "ar",
+      "tempC": 10.2,
+      "condu": -999999
+    },
+    {
+      "site": "07257500",
+      "state": "ar",
+      "tempC": 19.2,
+      "condu": 43
     },
     {
       "site": "07263296",
@@ -634,7 +828,7 @@
     {
       "site": "072638805",
       "state": "ar",
-      "tempC": 17.3,
+      "tempC": 17.5,
       "condu": 299
     },
     {
@@ -666,10 +860,33 @@
       "tempC": 19.9
     },
     {
+      "site": "07355860",
+      "state": "ar",
+      "tempC": 9.1,
+      "condu": 12
+    },
+    {
+      "site": "07355870",
+      "state": "ar",
+      "tempC": -999999,
+      "condu": 45
+    },
+    {
+      "site": "07359002",
+      "state": "ar",
+      "tempC": 19.9
+    },
+    {
       "site": "07364130",
       "state": "ar",
-      "tempC": 19.5,
+      "tempC": 19.6,
       "condu": 472
+    },
+    {
+      "site": "07364133",
+      "state": "ar",
+      "tempC": 25.4,
+      "condu": 73
     },
     {
       "site": "09429490",
@@ -682,6 +899,12 @@
       "state": "ca",
       "tempC": 9.8,
       "condu": 168
+    },
+    {
+      "site": "10260950",
+      "state": "ca",
+      "tempC": 17.2,
+      "condu": 385
     },
     {
       "site": "10261500",
@@ -697,32 +920,59 @@
     {
       "site": "10265150",
       "state": "ca",
-      "tempC": 27
+      "tempC": 27,
+      "condu": 587
     },
     {
       "site": "10336610",
       "state": "ca",
-      "tempC": 4.2
+      "tempC": 4.3
     },
     {
-      "site": "10336780",
+      "site": "10336645",
+      "state": "ca",
+      "tempC": 2
+    },
+    {
+      "site": "10336660",
       "state": "ca",
       "tempC": 2.8
     },
     {
+      "site": "10336676",
+      "state": "ca",
+      "tempC": 1
+    },
+    {
+      "site": "10336780",
+      "state": "ca",
+      "tempC": 3
+    },
+    {
       "site": "10343500",
       "state": "ca",
-      "tempC": 3.4
+      "tempC": 3.4,
+      "condu": 94
     },
     {
       "site": "10346000",
       "state": "ca",
-      "tempC": 7.1
+      "tempC": 7.2
+    },
+    {
+      "site": "11022830",
+      "state": "ca",
+      "tempC": 23.4
     },
     {
       "site": "11023100",
       "state": "ca",
       "tempC": 13.7
+    },
+    {
+      "site": "11042430",
+      "state": "ca",
+      "tempC": 4.7
     },
     {
       "site": "11044000",
@@ -731,15 +981,27 @@
       "condu": 682
     },
     {
+      "site": "11074000",
+      "state": "ca",
+      "tempC": 16.2,
+      "condu": 272
+    },
+    {
       "site": "11120600",
       "state": "ca",
       "tempC": 11.5
     },
     {
+      "site": "11125600",
+      "state": "ca",
+      "tempC": 13,
+      "condu": 1040
+    },
+    {
       "site": "11125605",
       "state": "ca",
       "tempC": 16.7,
-      "condu": 849
+      "condu": 850
     },
     {
       "site": "11126000",
@@ -760,9 +1022,35 @@
       "condu": 966
     },
     {
+      "site": "11133000",
+      "state": "ca",
+      "tempC": 29.6,
+      "condu": 1580
+    },
+    {
+      "site": "11152850",
+      "state": "ca",
+      "tempC": 22.4
+    },
+    {
       "site": "11152870",
       "state": "ca",
-      "tempC": 12.5
+      "tempC": 12.4
+    },
+    {
+      "site": "11152880",
+      "state": "ca",
+      "tempC": 18.6
+    },
+    {
+      "site": "11152890",
+      "state": "ca",
+      "tempC": 22.6
+    },
+    {
+      "site": "11153000",
+      "state": "ca",
+      "tempC": 24.6
     },
     {
       "site": "11162620",
@@ -782,7 +1070,7 @@
     {
       "site": "11170450",
       "state": "ca",
-      "tempC": 14.9
+      "tempC": 15
     },
     {
       "site": "11171500",
@@ -797,17 +1085,18 @@
     {
       "site": "11172945",
       "state": "ca",
-      "tempC": 12
+      "tempC": 12.1
     },
     {
       "site": "11172955",
       "state": "ca",
-      "tempC": 11.8
+      "tempC": 11.9
     },
     {
       "site": "11173200",
       "state": "ca",
-      "tempC": 12.2
+      "tempC": 12.2,
+      "condu": -999999
     },
     {
       "site": "11173500",
@@ -822,7 +1111,7 @@
     {
       "site": "11173575",
       "state": "ca",
-      "tempC": 12
+      "tempC": 12.2
     },
     {
       "site": "11174000",
@@ -843,7 +1132,7 @@
       "site": "11176900",
       "state": "ca",
       "tempC": 14,
-      "condu": 579
+      "condu": 585
     },
     {
       "site": "11179000",
@@ -874,8 +1163,8 @@
     {
       "site": "11204100",
       "state": "ca",
-      "tempC": 8.8,
-      "condu": 136
+      "tempC": 9,
+      "condu": 137
     },
     {
       "site": "11206820",
@@ -900,13 +1189,19 @@
     {
       "site": "11251000",
       "state": "ca",
-      "tempC": 14.2,
+      "tempC": 14.5,
       "condu": 37
+    },
+    {
+      "site": "11254000",
+      "state": "ca",
+      "tempC": 13,
+      "condu": 611
     },
     {
       "site": "11261100",
       "state": "ca",
-      "tempC": 13.1,
+      "tempC": 13.3,
       "condu": 1090
     },
     {
@@ -918,31 +1213,37 @@
     {
       "site": "11262900",
       "state": "ca",
-      "tempC": 13.6,
+      "tempC": 13.8,
       "condu": 1360
     },
     {
       "site": "11264500",
       "state": "ca",
-      "tempC": 3.7
+      "tempC": 3.8
     },
     {
       "site": "11273400",
       "state": "ca",
-      "tempC": 13.7,
-      "condu": 966
+      "tempC": 13.9,
+      "condu": 959
+    },
+    {
+      "site": "11274500",
+      "state": "ca",
+      "tempC": 20.2,
+      "condu": 943
     },
     {
       "site": "11274550",
       "state": "ca",
-      "tempC": 13.2,
-      "condu": 834
+      "tempC": 13.4,
+      "condu": 823
     },
     {
       "site": "11274790",
       "state": "ca",
-      "tempC": 5.3,
-      "condu": 18
+      "tempC": 5.4,
+      "condu": 17
     },
     {
       "site": "11276500",
@@ -952,7 +1253,7 @@
     {
       "site": "11276600",
       "state": "ca",
-      "tempC": 10.5
+      "tempC": 10.6
     },
     {
       "site": "11276900",
@@ -967,7 +1268,7 @@
     {
       "site": "11278000",
       "state": "ca",
-      "tempC": 11.1
+      "tempC": 11.2
     },
     {
       "site": "11278300",
@@ -982,12 +1283,12 @@
     {
       "site": "11289650",
       "state": "ca",
-      "tempC": 12.2
+      "tempC": 12.3
     },
     {
       "site": "11290000",
       "state": "ca",
-      "tempC": 13.4,
+      "tempC": 13.5,
       "condu": 100
     },
     {
@@ -998,7 +1299,7 @@
     {
       "site": "11302000",
       "state": "ca",
-      "tempC": 12.6
+      "tempC": 12.7
     },
     {
       "site": "11302500",
@@ -1017,6 +1318,88 @@
       "tempC": 13.6
     },
     {
+      "site": "11304810",
+      "state": "ca",
+      "tempC": 24.1,
+      "condu": 471
+    },
+    {
+      "site": "11312676",
+      "state": "ca",
+      "tempC": 22.2,
+      "condu": 435
+    },
+    {
+      "site": "11313315",
+      "state": "ca",
+      "tempC": 22.1,
+      "condu": 772
+    },
+    {
+      "site": "11313405",
+      "state": "ca",
+      "tempC": 21.9,
+      "condu": 903
+    },
+    {
+      "site": "11313433",
+      "state": "ca",
+      "tempC": 21.7,
+      "condu": 2260
+    },
+    {
+      "site": "11313460",
+      "state": "ca",
+      "tempC": 22.6,
+      "condu": 207
+    },
+    {
+      "site": "11329500",
+      "state": "ca",
+      "tempC": 22
+    },
+    {
+      "site": "11335000",
+      "state": "ca",
+      "tempC": 11.8
+    },
+    {
+      "site": "11336600",
+      "state": "ca",
+      "tempC": 19.1,
+      "condu": 123
+    },
+    {
+      "site": "11336680",
+      "state": "ca",
+      "tempC": 19,
+      "condu": 128
+    },
+    {
+      "site": "11336685",
+      "state": "ca",
+      "tempC": 18.8,
+      "condu": 127
+    },
+    {
+      "site": "11336790",
+      "state": "ca",
+      "tempC": 20.8,
+      "condu": 153
+    },
+    {
+      "site": "11336955",
+      "state": "ca",
+      "tempC": 10.8,
+      "condu": 758
+    },
+    {
+      "site": "11337190",
+      "state": "ca",
+      "tempC": 17.5,
+      "condu": 1440
+    },
+    {
       "site": "11355500",
       "state": "ca",
       "tempC": 7
@@ -1029,7 +1412,7 @@
     {
       "site": "11383500",
       "state": "ca",
-      "tempC": 11.1
+      "tempC": 11.2
     },
     {
       "site": "11390000",
@@ -1040,6 +1423,12 @@
       "site": "11390500",
       "state": "ca",
       "tempC": 13.3
+    },
+    {
+      "site": "11425500",
+      "state": "ca",
+      "tempC": 22.2,
+      "condu": 110
     },
     {
       "site": "11433790",
@@ -1059,7 +1448,7 @@
     {
       "site": "11446500",
       "state": "ca",
-      "tempC": 14.2
+      "tempC": 14.3
     },
     {
       "site": "11446700",
@@ -1080,7 +1469,52 @@
       "site": "11447650",
       "state": "ca",
       "tempC": 14.1,
-      "condu": 184
+      "condu": 185
+    },
+    {
+      "site": "11447830",
+      "state": "ca",
+      "tempC": 18.8,
+      "condu": 150
+    },
+    {
+      "site": "11447850",
+      "state": "ca",
+      "tempC": 19.2,
+      "condu": 139
+    },
+    {
+      "site": "11447890",
+      "state": "ca",
+      "tempC": 18.4,
+      "condu": 123
+    },
+    {
+      "site": "11447903",
+      "state": "ca",
+      "tempC": 18.4,
+      "condu": 122
+    },
+    {
+      "site": "11447905",
+      "state": "ca",
+      "tempC": 18.6,
+      "condu": 122
+    },
+    {
+      "site": "11448750",
+      "state": "ca",
+      "tempC": 14.2
+    },
+    {
+      "site": "11448800",
+      "state": "ca",
+      "tempC": 14.2
+    },
+    {
+      "site": "11449235",
+      "state": "ca",
+      "tempC": 13.2
     },
     {
       "site": "11449255",
@@ -1101,8 +1535,97 @@
     {
       "site": "11452500",
       "state": "ca",
-      "tempC": 12,
+      "tempC": 13.2,
       "condu": 0
+    },
+    {
+      "site": "11452800",
+      "state": "ca",
+      "tempC": 20,
+      "condu": -1310
+    },
+    {
+      "site": "11452900",
+      "state": "ca",
+      "tempC": 19,
+      "condu": 879
+    },
+    {
+      "site": "11453000",
+      "state": "ca",
+      "tempC": 11.7
+    },
+    {
+      "site": "11453590",
+      "state": "ca",
+      "tempC": -999999,
+      "condu": 589
+    },
+    {
+      "site": "11455095",
+      "state": "ca",
+      "tempC": 22.1,
+      "condu": 733
+    },
+    {
+      "site": "11455136",
+      "state": "ca",
+      "tempC": 21.6,
+      "condu": 470
+    },
+    {
+      "site": "11455140",
+      "state": "ca",
+      "tempC": 20.4,
+      "condu": 189
+    },
+    {
+      "site": "11455142",
+      "state": "ca",
+      "tempC": 21.6,
+      "condu": 305
+    },
+    {
+      "site": "11455276",
+      "state": "ca",
+      "tempC": 20,
+      "condu": 188
+    },
+    {
+      "site": "11455315",
+      "state": "ca",
+      "tempC": 19.8,
+      "condu": 141
+    },
+    {
+      "site": "11455338",
+      "state": "ca",
+      "tempC": 19.8,
+      "condu": 144
+    },
+    {
+      "site": "11455340",
+      "state": "ca",
+      "tempC": 22.2,
+      "condu": 159
+    },
+    {
+      "site": "11455385",
+      "state": "ca",
+      "tempC": 19.9,
+      "condu": 138
+    },
+    {
+      "site": "11455420",
+      "state": "ca",
+      "tempC": 20.7,
+      "condu": 168
+    },
+    {
+      "site": "11455485",
+      "state": "ca",
+      "tempC": 10.4,
+      "condu": 474
     },
     {
       "site": "11458000",
@@ -1114,6 +1637,11 @@
       "state": "ca",
       "tempC": 12.5,
       "condu": 349
+    },
+    {
+      "site": "11458500",
+      "state": "ca",
+      "tempC": 18.2
     },
     {
       "site": "11461500",
@@ -1141,14 +1669,31 @@
     {
       "site": "11463980",
       "state": "ca",
-      "tempC": 13.8,
+      "tempC": 13.9,
       "condu": 255
+    },
+    {
+      "site": "11465240",
+      "state": "ca",
+      "tempC": 12.8,
+      "condu": 153
+    },
+    {
+      "site": "11466800",
+      "state": "ca",
+      "tempC": 15.7,
+      "condu": 435
     },
     {
       "site": "11467000",
       "state": "ca",
-      "tempC": 13.5,
-      "condu": 231
+      "tempC": 13.6,
+      "condu": 234
+    },
+    {
+      "site": "11468900",
+      "state": "ca",
+      "tempC": -999999
     },
     {
       "site": "11475000",
@@ -1158,12 +1703,12 @@
     {
       "site": "11475500",
       "state": "ca",
-      "tempC": 10.5
+      "tempC": 10.6
     },
     {
       "site": "11475560",
       "state": "ca",
-      "tempC": 10
+      "tempC": 10.1
     },
     {
       "site": "11479700",
@@ -1207,9 +1752,26 @@
       "tempC": 11.5
     },
     {
+      "site": "372750122012701",
+      "state": "ca",
+      "tempC": 10.7,
+      "condu": 39300
+    },
+    {
+      "site": "380138121441401",
+      "state": "ca",
+      "tempC": 10.9,
+      "condu": 5880
+    },
+    {
+      "site": "381905121413901",
+      "state": "ca",
+      "tempC": 22.4
+    },
+    {
       "site": "384115121402501",
       "state": "ca",
-      "tempC": 14.1,
+      "tempC": 14.8,
       "condu": 0
     },
     {
@@ -1239,7 +1801,7 @@
     {
       "site": "07083000",
       "state": "co",
-      "tempC": 0.9
+      "tempC": 1.9
     },
     {
       "site": "07086000",
@@ -1256,8 +1818,8 @@
     {
       "site": "07097000",
       "state": "co",
-      "tempC": 7,
-      "condu": 405
+      "tempC": 7.8,
+      "condu": 439
     },
     {
       "site": "07099400",
@@ -1274,8 +1836,8 @@
     {
       "site": "07099971",
       "state": "co",
-      "tempC": 10.9,
-      "condu": 625
+      "tempC": 11.5,
+      "condu": 621
     },
     {
       "site": "07103700",
@@ -1341,10 +1903,16 @@
       "tempC": 10.9
     },
     {
+      "site": "07106500",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
       "site": "07109500",
       "state": "co",
-      "tempC": 9.7,
-      "condu": 917
+      "tempC": 10,
+      "condu": 916
     },
     {
       "site": "07119700",
@@ -1367,12 +1935,13 @@
     {
       "site": "07126300",
       "state": "co",
-      "tempC": 7.2,
+      "tempC": 7.6,
       "condu": 3000
     },
     {
       "site": "07126485",
       "state": "co",
+      "tempC": 14.1,
       "condu": -13100
     },
     {
@@ -1387,20 +1956,122 @@
       "tempC": 3.1
     },
     {
+      "site": "09010500",
+      "state": "co",
+      "tempC": 1.6,
+      "condu": 96
+    },
+    {
+      "site": "09013500",
+      "state": "co",
+      "tempC": 3.3,
+      "condu": 23
+    },
+    {
+      "site": "09014050",
+      "state": "co",
+      "tempC": 5.6,
+      "condu": 70
+    },
+    {
+      "site": "09019500",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09020500",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09022000",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09024000",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09025000",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09026500",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09027100",
+      "state": "co",
+      "tempC": 2.3,
+      "condu": -999999
+    },
+    {
+      "site": "09032000",
+      "state": "co",
+      "tempC": -999999
+    },
+    {
+      "site": "09033100",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09033300",
+      "state": "co",
+      "tempC": -999999
+    },
+    {
+      "site": "09034250",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09037500",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09040500",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09041090",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
       "site": "09041400",
       "state": "co",
-      "tempC": 8.2,
+      "tempC": 7.9,
       "condu": 507
     },
     {
       "site": "09046600",
       "state": "co",
-      "tempC": 7.2
+      "tempC": 7.2,
+      "condu": -999999
     },
     {
       "site": "09050700",
       "state": "co",
-      "tempC": 6.9
+      "tempC": 6.9,
+      "condu": -999999
     },
     {
       "site": "09051050",
@@ -1411,13 +2082,74 @@
     {
       "site": "09058000",
       "state": "co",
-      "tempC": -999999
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09060799",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09063000",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09064600",
+      "state": "co",
+      "tempC": 1.1,
+      "condu": 176
+    },
+    {
+      "site": "09065500",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09066000",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09066200",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09066300",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09066310",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "09066325",
+      "state": "co",
+      "tempC": 1.9,
+      "condu": 430
+    },
+    {
+      "site": "09066510",
+      "state": "co",
+      "tempC": 2.8,
+      "condu": 409
     },
     {
       "site": "09070050",
       "state": "co",
-      "tempC": 5.8,
-      "condu": 1010
+      "tempC": 6.5,
+      "condu": 1000
     },
     {
       "site": "09070500",
@@ -1432,6 +2164,24 @@
       "condu": 757
     },
     {
+      "site": "09073300",
+      "state": "co",
+      "tempC": 2.3,
+      "condu": 93
+    },
+    {
+      "site": "09076300",
+      "state": "co",
+      "tempC": 5.5,
+      "condu": 426
+    },
+    {
+      "site": "09081000",
+      "state": "co",
+      "tempC": 4.4,
+      "condu": 451
+    },
+    {
       "site": "09085000",
       "state": "co",
       "tempC": 6.8,
@@ -1440,14 +2190,26 @@
     {
       "site": "09085160",
       "state": "co",
-      "tempC": 6.8,
-      "condu": 1260
+      "tempC": 6.9,
+      "condu": 1270
+    },
+    {
+      "site": "09092570",
+      "state": "co",
+      "tempC": 7.6,
+      "condu": 1000
     },
     {
       "site": "09095500",
       "state": "co",
-      "tempC": 7.7,
+      "tempC": 7.8,
       "condu": 1240
+    },
+    {
+      "site": "09105000",
+      "state": "co",
+      "tempC": 10.7,
+      "condu": 598
     },
     {
       "site": "09106485",
@@ -1456,15 +2218,68 @@
       "condu": 1350
     },
     {
+      "site": "09107000",
+      "state": "co",
+      "tempC": 0.5,
+      "condu": -999999
+    },
+    {
+      "site": "09110000",
+      "state": "co",
+      "tempC": 3,
+      "condu": 157
+    },
+    {
+      "site": "09112200",
+      "state": "co",
+      "tempC": -999999,
+      "condu": 333
+    },
+    {
+      "site": "09112500",
+      "state": "co",
+      "tempC": 4.8,
+      "condu": 360
+    },
+    {
+      "site": "09114500",
+      "state": "co",
+      "tempC": 6.5,
+      "condu": 254
+    },
+    {
+      "site": "09114520",
+      "state": "co",
+      "tempC": 13.3
+    },
+    {
+      "site": "09119000",
+      "state": "co",
+      "tempC": 2.7,
+      "condu": 235
+    },
+    {
+      "site": "09124500",
+      "state": "co",
+      "tempC": 2.7,
+      "condu": 206
+    },
+    {
+      "site": "09127000",
+      "state": "co",
+      "tempC": 3.7,
+      "condu": 455
+    },
+    {
       "site": "09132095",
       "state": "co",
-      "tempC": 3.5
+      "tempC": 3.8
     },
     {
       "site": "09136100",
       "state": "co",
-      "tempC": 8.4,
-      "condu": 987
+      "tempC": 9.2,
+      "condu": 986
     },
     {
       "site": "09144250",
@@ -1487,8 +2302,14 @@
     {
       "site": "09152500",
       "state": "co",
-      "tempC": 8.6,
+      "tempC": 8.9,
       "condu": 1130
+    },
+    {
+      "site": "09163492",
+      "state": "co",
+      "tempC": 1.5,
+      "condu": 3900
     },
     {
       "site": "09163500",
@@ -1520,26 +2341,87 @@
       "condu": 263
     },
     {
+      "site": "09240020",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
       "site": "09251000",
       "state": "co",
-      "tempC": 7.2,
+      "tempC": 7.9,
       "condu": 455
     },
     {
       "site": "09260050",
       "state": "co",
-      "tempC": 7.6
+      "tempC": 8.6
+    },
+    {
+      "site": "09303000",
+      "state": "co",
+      "tempC": 12.9
+    },
+    {
+      "site": "09303400",
+      "state": "co",
+      "tempC": 11
+    },
+    {
+      "site": "09304000",
+      "state": "co",
+      "tempC": 17.8
+    },
+    {
+      "site": "09304115",
+      "state": "co",
+      "tempC": 18.4
     },
     {
       "site": "09304200",
       "state": "co",
-      "tempC": 4.9
+      "tempC": 5.7
+    },
+    {
+      "site": "09304500",
+      "state": "co",
+      "tempC": 11.6
+    },
+    {
+      "site": "09304800",
+      "state": "co",
+      "tempC": 3,
+      "condu": 512
+    },
+    {
+      "site": "09306200",
+      "state": "co",
+      "tempC": 5.3,
+      "condu": 1530
+    },
+    {
+      "site": "09306222",
+      "state": "co",
+      "tempC": 16.1,
+      "condu": 3000
+    },
+    {
+      "site": "09306255",
+      "state": "co",
+      "tempC": 9.9,
+      "condu": 4080
+    },
+    {
+      "site": "09306290",
+      "state": "co",
+      "tempC": 4,
+      "condu": 645
     },
     {
       "site": "09342600",
       "state": "co",
-      "tempC": 5.1,
-      "condu": 221
+      "tempC": 6,
+      "condu": 232
     },
     {
       "site": "09352900",
@@ -1547,24 +2429,56 @@
       "tempC": 3.1
     },
     {
+      "site": "09358000",
+      "state": "co",
+      "tempC": 1.8,
+      "condu": 402
+    },
+    {
+      "site": "09358550",
+      "state": "co",
+      "tempC": 2,
+      "condu": -999999
+    },
+    {
+      "site": "09359010",
+      "state": "co",
+      "tempC": 0.5,
+      "condu": 553
+    },
+    {
+      "site": "09359020",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
       "site": "09361000",
       "state": "co",
-      "tempC": 5.1
+      "tempC": 5.7
     },
     {
       "site": "09361500",
       "state": "co",
-      "tempC": -999999
+      "tempC": -999999,
+      "condu": 805
+    },
+    {
+      "site": "09363500",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "09371010",
       "state": "co",
-      "tempC": 8.6
+      "tempC": 8.6,
+      "condu": -999999
     },
     {
       "site": "09371492",
       "state": "co",
-      "tempC": 4.8,
+      "tempC": 4.9,
       "condu": 5680
     },
     {
@@ -1576,7 +2490,20 @@
     {
       "site": "381312104321001",
       "state": "co",
-      "tempC": 16.6
+      "tempC": 16.6,
+      "condu": 239
+    },
+    {
+      "site": "383408107535101",
+      "state": "co",
+      "tempC": 20.1,
+      "condu": 600
+    },
+    {
+      "site": "383633107560701",
+      "state": "co",
+      "tempC": 2.2,
+      "condu": 6080
     },
     {
       "site": "383926107593001",
@@ -1585,16 +2512,77 @@
       "condu": 4460
     },
     {
+      "site": "385106106571000",
+      "state": "co",
+      "tempC": 2080,
+      "condu": 178
+    },
+    {
+      "site": "385407107010901",
+      "state": "co",
+      "tempC": 6.6
+    },
+    {
+      "site": "385436107013401",
+      "state": "co",
+      "tempC": 4.5
+    },
+    {
+      "site": "385508107021201",
+      "state": "co",
+      "tempC": -0.6
+    },
+    {
+      "site": "385553107243301",
+      "state": "co",
+      "tempC": 2.1
+    },
+    {
       "site": "391953108130201",
       "state": "co",
-      "tempC": 7.3,
+      "tempC": 7.7,
       "condu": 1880
     },
     {
       "site": "393259107194801",
       "state": "co",
-      "tempC": 6.9,
-      "condu": 1190
+      "tempC": 7,
+      "condu": 1200
+    },
+    {
+      "site": "393815106180601",
+      "state": "co",
+      "tempC": 6
+    },
+    {
+      "site": "393826106213501",
+      "state": "co",
+      "tempC": 0
+    },
+    {
+      "site": "393830106224701",
+      "state": "co",
+      "tempC": 4.6
+    },
+    {
+      "site": "393832106182201",
+      "state": "co",
+      "tempC": 5.3
+    },
+    {
+      "site": "393834106230201",
+      "state": "co",
+      "tempC": 4.3
+    },
+    {
+      "site": "393836106203901",
+      "state": "co",
+      "tempC": 0
+    },
+    {
+      "site": "393843106193101",
+      "state": "co",
+      "tempC": 0.1
     },
     {
       "site": "394220106431500",
@@ -1605,8 +2593,8 @@
     {
       "site": "394548108280501",
       "state": "co",
-      "tempC": 3.1,
-      "condu": 878
+      "tempC": 3.8,
+      "condu": 872
     },
     {
       "site": "394746108262901",
@@ -1615,20 +2603,144 @@
       "condu": 988
     },
     {
+      "site": "395607105472701",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "395632105481201",
+      "state": "co",
+      "tempC": -999999
+    },
+    {
+      "site": "395643107461200",
+      "state": "co",
+      "tempC": 15.7
+    },
+    {
+      "site": "395650107435600",
+      "state": "co",
+      "tempC": 15.4
+    },
+    {
+      "site": "395706105485201",
+      "state": "co",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "395756107384601",
+      "state": "co",
+      "tempC": 14.3
+    },
+    {
+      "site": "395830107483601",
+      "state": "co",
+      "tempC": 11.1
+    },
+    {
+      "site": "395835107380401",
+      "state": "co",
+      "tempC": 10
+    },
+    {
+      "site": "400048107332401",
+      "state": "co",
+      "tempC": 12
+    },
+    {
+      "site": "400158107313101",
+      "state": "co",
+      "tempC": 7.9
+    },
+    {
+      "site": "400210107530201",
+      "state": "co",
+      "tempC": 17.3
+    },
+    {
+      "site": "400238107294901",
+      "state": "co",
+      "tempC": 16.2
+    },
+    {
+      "site": "400329107192801",
+      "state": "co",
+      "tempC": 13.6
+    },
+    {
+      "site": "400341105302901",
+      "state": "co",
+      "tempC": 9.2,
+      "condu": 93
+    },
+    {
+      "site": "400351107244701",
+      "state": "co",
+      "tempC": 12.6
+    },
+    {
+      "site": "400352105304301",
+      "state": "co",
+      "tempC": 8.4,
+      "condu": 42
+    },
+    {
       "site": "400712108214601",
       "state": "co",
-      "tempC": 7.2,
+      "tempC": 7.8,
       "condu": 2960
+    },
+    {
+      "site": "401530105475401",
+      "state": "co",
+      "tempC": 6.7,
+      "condu": 24
     },
     {
       "site": "402114105350101",
       "state": "co",
-      "tempC": 3.3
+      "tempC": 3.2
     },
     {
       "site": "404417108524900",
       "state": "co",
       "tempC": 8.1
+    },
+    {
+      "site": "07099970",
+      "state": "co",
+      "condu": 797
+    },
+    {
+      "site": "385450107015700",
+      "state": "co",
+      "condu": 148
+    },
+    {
+      "site": "01118500",
+      "state": "ct",
+      "tempC": 24.7,
+      "condu": 164
+    },
+    {
+      "site": "01124000",
+      "state": "ct",
+      "tempC": 22.9,
+      "condu": 368
+    },
+    {
+      "site": "01125100",
+      "state": "ct",
+      "tempC": 17.4,
+      "condu": -999999
+    },
+    {
+      "site": "01127500",
+      "state": "ct",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "01184000",
@@ -1637,9 +2749,21 @@
       "condu": 130
     },
     {
+      "site": "01184490",
+      "state": "ct",
+      "tempC": 13.2,
+      "condu": 231
+    },
+    {
       "site": "01186000",
       "state": "ct",
       "tempC": 9.1
+    },
+    {
+      "site": "01186500",
+      "state": "ct",
+      "tempC": 17.1,
+      "condu": 163
     },
     {
       "site": "01191000",
@@ -1648,15 +2772,80 @@
       "condu": 431
     },
     {
+      "site": "01192500",
+      "state": "ct",
+      "tempC": 13.6,
+      "condu": 599
+    },
+    {
       "site": "01193050",
       "state": "ct",
       "tempC": 6.1,
       "condu": 158
     },
     {
+      "site": "01193500",
+      "state": "ct",
+      "tempC": 3.8,
+      "condu": 143
+    },
+    {
+      "site": "01194000",
+      "state": "ct",
+      "tempC": 14.6
+    },
+    {
       "site": "01194500",
       "state": "ct",
       "tempC": 4.8
+    },
+    {
+      "site": "01196500",
+      "state": "ct",
+      "tempC": 11.4,
+      "condu": 472
+    },
+    {
+      "site": "01200600",
+      "state": "ct",
+      "tempC": 18.3,
+      "condu": 332
+    },
+    {
+      "site": "01201487",
+      "state": "ct",
+      "tempC": 9.2,
+      "condu": -999999
+    },
+    {
+      "site": "01203000",
+      "state": "ct",
+      "tempC": 22.6,
+      "condu": 213
+    },
+    {
+      "site": "01205500",
+      "state": "ct",
+      "tempC": 17.1,
+      "condu": 258
+    },
+    {
+      "site": "01208500",
+      "state": "ct",
+      "tempC": 20.2,
+      "condu": 291
+    },
+    {
+      "site": "01208873",
+      "state": "ct",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "01208990",
+      "state": "ct",
+      "tempC": 19.2,
+      "condu": 380
     },
     {
       "site": "01478000",
@@ -1673,8 +2862,8 @@
     {
       "site": "01478950",
       "state": "de",
-      "tempC": 7.6,
-      "condu": 261
+      "tempC": 7.7,
+      "condu": 262
     },
     {
       "site": "01479000",
@@ -1695,15 +2884,28 @@
       "condu": 381
     },
     {
+      "site": "01480065",
+      "state": "de",
+      "tempC": 7.6,
+      "condu": 498
+    },
+    {
       "site": "01480120",
       "state": "de",
-      "tempC": 9.8,
-      "condu": 5470
+      "tempC": 9.6,
+      "condu": 5690
+    },
+    {
+      "site": "01481500",
+      "state": "de",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "01482100",
       "state": "de",
-      "tempC": 9.6
+      "tempC": 9.7,
+      "condu": -999999
     },
     {
       "site": "01482695",
@@ -1720,14 +2922,32 @@
     {
       "site": "01483700",
       "state": "de",
-      "tempC": 9.3,
-      "condu": 193
+      "tempC": 9.4,
+      "condu": 197
+    },
+    {
+      "site": "01483740",
+      "state": "de",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "01483750",
+      "state": "de",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "01484080",
       "state": "de",
       "tempC": 8.8,
       "condu": 14800
+    },
+    {
+      "site": "01484085",
+      "state": "de",
+      "tempC": 16.7,
+      "condu": 31600
     },
     {
       "site": "01484100",
@@ -1754,45 +2974,76 @@
       "condu": 231
     },
     {
+      "site": "02231291",
+      "state": "fl",
+      "tempC": 28.5,
+      "condu": 28600
+    },
+    {
       "site": "02232400",
       "state": "fl",
       "tempC": 20.2,
-      "condu": 354
+      "condu": 352
+    },
+    {
+      "site": "02234000",
+      "state": "fl",
+      "tempC": 27.4,
+      "condu": 532
+    },
+    {
+      "site": "02234500",
+      "state": "fl",
+      "tempC": 28.5,
+      "condu": 911
     },
     {
       "site": "02236000",
       "state": "fl",
-      "tempC": 19.5
+      "tempC": 19.6,
+      "condu": 769
+    },
+    {
+      "site": "02236125",
+      "state": "fl",
+      "tempC": 29.2,
+      "condu": 1050
     },
     {
       "site": "02239501",
       "state": "fl",
-      "tempC": 23.3,
+      "tempC": 23.4,
       "condu": 505
     },
     {
       "site": "02244040",
       "state": "fl",
-      "tempC": 19.2,
-      "condu": 751
+      "tempC": 19.4,
+      "condu": 752
+    },
+    {
+      "site": "02245260",
+      "state": "fl",
+      "tempC": 25.5,
+      "condu": 1470
     },
     {
       "site": "02245290",
       "state": "fl",
-      "tempC": 19.5,
+      "tempC": 19.2,
       "condu": 641
     },
     {
       "site": "02245340",
       "state": "fl",
       "tempC": 18.2,
-      "condu": 878
+      "condu": 879
     },
     {
       "site": "022462002",
       "state": "fl",
-      "tempC": 17.1,
-      "condu": 253
+      "tempC": 17.3,
+      "condu": 251
     },
     {
       "site": "02246459",
@@ -1803,14 +3054,14 @@
     {
       "site": "02246500",
       "state": "fl",
-      "tempC": 19.5,
-      "condu": 15500
+      "tempC": 20,
+      "condu": 10900
     },
     {
       "site": "02246518",
       "state": "fl",
-      "tempC": 19.6,
-      "condu": 1130
+      "tempC": 19.3,
+      "condu": 950
     },
     {
       "site": "02246751",
@@ -1823,6 +3074,12 @@
       "state": "fl",
       "tempC": 18.9,
       "condu": 6430
+    },
+    {
+      "site": "02248380",
+      "state": "fl",
+      "tempC": 28.6,
+      "condu": 47800
     },
     {
       "site": "02264000",
@@ -1843,6 +3100,12 @@
       "condu": 295
     },
     {
+      "site": "02266200",
+      "state": "fl",
+      "tempC": 17,
+      "condu": 134
+    },
+    {
       "site": "02266291",
       "state": "fl",
       "tempC": 16.8,
@@ -1857,8 +3120,14 @@
     {
       "site": "02266495",
       "state": "fl",
-      "tempC": 18.3,
-      "condu": 218
+      "tempC": 18.4,
+      "condu": 219
+    },
+    {
+      "site": "02276877",
+      "state": "fl",
+      "tempC": 27.2,
+      "condu": 650
     },
     {
       "site": "02276998",
@@ -1879,6 +3148,12 @@
       "condu": 822
     },
     {
+      "site": "02288900",
+      "state": "fl",
+      "tempC": 29.4,
+      "condu": 213
+    },
+    {
       "site": "0229070825",
       "state": "fl",
       "tempC": 24.1
@@ -1886,12 +3161,18 @@
     {
       "site": "0229070834",
       "state": "fl",
-      "tempC": 24.2
+      "tempC": 24.3
     },
     {
       "site": "0229070836",
       "state": "fl",
       "tempC": 24.1
+    },
+    {
+      "site": "022907085",
+      "state": "fl",
+      "tempC": 26.9,
+      "condu": 521
     },
     {
       "site": "0229070854",
@@ -1901,14 +3182,35 @@
     {
       "site": "02290709",
       "state": "fl",
-      "tempC": 24.5,
-      "condu": 424
+      "tempC": 24.6,
+      "condu": 423
+    },
+    {
+      "site": "022908205",
+      "state": "fl",
+      "tempC": 29.1,
+      "condu": 14700
     },
     {
       "site": "022908295",
       "state": "fl",
-      "tempC": 23.4,
+      "tempC": 23.8,
       "condu": 475
+    },
+    {
+      "site": "02290878",
+      "state": "fl",
+      "tempC": 21.6
+    },
+    {
+      "site": "02290888",
+      "state": "fl",
+      "tempC": 20.2
+    },
+    {
+      "site": "02290918",
+      "state": "fl",
+      "tempC": 21.5
     },
     {
       "site": "02290928",
@@ -1923,6 +3225,24 @@
       "condu": 37300
     },
     {
+      "site": "02292010",
+      "state": "fl",
+      "tempC": 25.2,
+      "condu": 308
+    },
+    {
+      "site": "02292900",
+      "state": "fl",
+      "tempC": 30.4,
+      "condu": 498
+    },
+    {
+      "site": "02297100",
+      "state": "fl",
+      "tempC": 26.9,
+      "condu": 319
+    },
+    {
       "site": "02297345",
       "state": "fl",
       "tempC": 22.6,
@@ -1935,10 +3255,40 @@
       "condu": 882
     },
     {
+      "site": "02297460",
+      "state": "fl",
+      "tempC": 31.8,
+      "condu": 6700
+    },
+    {
+      "site": "02297635",
+      "state": "fl",
+      "tempC": 26.3,
+      "condu": 417
+    },
+    {
+      "site": "02298170",
+      "state": "fl",
+      "tempC": 28.4,
+      "condu": 245
+    },
+    {
       "site": "02298202",
       "state": "fl",
       "tempC": 23.5,
       "condu": 708
+    },
+    {
+      "site": "02298492",
+      "state": "fl",
+      "tempC": 22.8,
+      "condu": 461
+    },
+    {
+      "site": "02299230",
+      "state": "fl",
+      "tempC": 25.3,
+      "condu": 193
     },
     {
       "site": "02299729",
@@ -1949,20 +3299,26 @@
     {
       "site": "02299734",
       "state": "fl",
-      "tempC": 22.9,
-      "condu": 48900
+      "tempC": 23.4,
+      "condu": 49000
     },
     {
       "site": "023000095",
       "state": "fl",
-      "tempC": 20.2,
-      "condu": 550
+      "tempC": 20.7,
+      "condu": 741
     },
     {
       "site": "02301500",
       "state": "fl",
       "tempC": 18.8,
       "condu": 615
+    },
+    {
+      "site": "02301635",
+      "state": "fl",
+      "tempC": 19.2,
+      "condu": 586
     },
     {
       "site": "02301718",
@@ -1979,26 +3335,26 @@
     {
       "site": "02304000",
       "state": "fl",
-      "tempC": 19.5,
+      "tempC": 19.6,
       "condu": 448
     },
     {
       "site": "02304510",
       "state": "fl",
-      "tempC": 23.5,
-      "condu": 4830
+      "tempC": 23.6,
+      "condu": 4560
     },
     {
       "site": "02304517",
       "state": "fl",
-      "tempC": 24.2,
-      "condu": 18400
+      "tempC": 24,
+      "condu": 16400
     },
     {
       "site": "023060013",
       "state": "fl",
-      "tempC": 23.7,
-      "condu": 18900
+      "tempC": 23.9,
+      "condu": 19800
     },
     {
       "site": "02306028",
@@ -2013,10 +3369,28 @@
       "condu": 26400
     },
     {
+      "site": "02310650",
+      "state": "fl",
+      "tempC": 23,
+      "condu": 3000
+    },
+    {
+      "site": "02310673",
+      "state": "fl",
+      "tempC": 16.8,
+      "condu": 27300
+    },
+    {
+      "site": "02310674",
+      "state": "fl",
+      "tempC": 16,
+      "condu": 31300
+    },
+    {
       "site": "02310687",
       "state": "fl",
-      "tempC": 22.4,
-      "condu": 6790
+      "tempC": 22.5,
+      "condu": 6890
     },
     {
       "site": "02310689",
@@ -2061,6 +3435,21 @@
       "condu": 1250
     },
     {
+      "site": "02313090",
+      "state": "fl",
+      "tempC": 16.9
+    },
+    {
+      "site": "02313095",
+      "state": "fl",
+      "tempC": 23
+    },
+    {
+      "site": "02313098",
+      "state": "fl",
+      "tempC": 23.2
+    },
+    {
       "site": "02313100",
       "state": "fl",
       "tempC": 22.1
@@ -2103,8 +3492,8 @@
     {
       "site": "02319000",
       "state": "fl",
-      "tempC": 18.3,
-      "condu": 478
+      "tempC": 18.4,
+      "condu": 476
     },
     {
       "site": "02319394",
@@ -2181,13 +3570,20 @@
     {
       "site": "02324170",
       "state": "fl",
-      "tempC": 19.2,
-      "condu": 32900
+      "tempC": 19.3,
+      "condu": 33400
+    },
+    {
+      "site": "02325543",
+      "state": "fl",
+      "tempC": 21,
+      "condu": 538
     },
     {
       "site": "02326050",
       "state": "fl",
-      "tempC": 17.3
+      "tempC": 17.3,
+      "condu": 415
     },
     {
       "site": "02326516",
@@ -2198,20 +3594,26 @@
     {
       "site": "02326526",
       "state": "fl",
-      "tempC": 19.7,
+      "tempC": 19.8,
       "condu": 300
     },
     {
       "site": "02327022",
       "state": "fl",
-      "tempC": 21.4,
+      "tempC": 21.8,
       "condu": 397
     },
     {
       "site": "02327031",
       "state": "fl",
-      "tempC": 19,
-      "condu": 49000
+      "tempC": 19.2,
+      "condu": 49100
+    },
+    {
+      "site": "02327033",
+      "state": "fl",
+      "tempC": 22.9,
+      "condu": 48
     },
     {
       "site": "02327100",
@@ -2222,7 +3624,7 @@
       "site": "02358000",
       "state": "fl",
       "tempC": 17.8,
-      "condu": 134
+      "condu": 135
     },
     {
       "site": "02359170",
@@ -2233,14 +3635,26 @@
     {
       "site": "02359223",
       "state": "fl",
-      "tempC": 19.9,
-      "condu": 4200
+      "tempC": 19.5,
+      "condu": 4430
     },
     {
       "site": "250802081035500",
       "state": "fl",
-      "tempC": 24.4,
-      "condu": 49100
+      "tempC": 24.5,
+      "condu": 49000
+    },
+    {
+      "site": "251003080435500",
+      "state": "fl",
+      "tempC": 28.6,
+      "condu": 42300
+    },
+    {
+      "site": "251032080432200",
+      "state": "fl",
+      "tempC": 31.5,
+      "condu": 39200
     },
     {
       "site": "251127080382100",
@@ -2255,6 +3669,24 @@
       "condu": 32800
     },
     {
+      "site": "251241080385300",
+      "state": "fl",
+      "tempC": 26.8,
+      "condu": 4560
+    },
+    {
+      "site": "251253080320100",
+      "state": "fl",
+      "tempC": 28.3,
+      "condu": 11800
+    },
+    {
+      "site": "251341080291200",
+      "state": "fl",
+      "tempC": 27.9,
+      "condu": 15200
+    },
+    {
       "site": "251355080312800",
       "state": "fl",
       "tempC": -999999,
@@ -2263,8 +3695,26 @@
     {
       "site": "251433080265000",
       "state": "fl",
-      "tempC": 24.9,
-      "condu": 31200
+      "tempC": 25.9,
+      "condu": 35700
+    },
+    {
+      "site": "251549080251200",
+      "state": "fl",
+      "tempC": 27.1,
+      "condu": 45400
+    },
+    {
+      "site": "252230081021300",
+      "state": "fl",
+      "tempC": 19.1,
+      "condu": 24700
+    },
+    {
+      "site": "252551081050900",
+      "state": "fl",
+      "tempC": 27.6,
+      "condu": 7390
     },
     {
       "site": "252653080273001",
@@ -2277,6 +3727,18 @@
       "state": "fl",
       "tempC": 25.8,
       "condu": 1280
+    },
+    {
+      "site": "253044080555900",
+      "state": "fl",
+      "tempC": 26.6,
+      "condu": 680
+    },
+    {
+      "site": "253047080555600",
+      "state": "fl",
+      "tempC": 27.5,
+      "condu": 460
     },
     {
       "site": "253256080205103",
@@ -2299,7 +3761,14 @@
     {
       "site": "254157080213800",
       "state": "fl",
-      "condu": 555
+      "tempC": 25.9,
+      "condu": 556
+    },
+    {
+      "site": "254543080405401",
+      "state": "fl",
+      "tempC": 25,
+      "condu": 456
     },
     {
       "site": "254838080155301",
@@ -2317,7 +3786,7 @@
       "site": "255138081321701",
       "state": "fl",
       "tempC": 23,
-      "condu": 50500
+      "condu": 50600
     },
     {
       "site": "255151080371501",
@@ -2326,10 +3795,28 @@
       "condu": 630
     },
     {
+      "site": "255154080371300",
+      "state": "fl",
+      "tempC": 22.5,
+      "condu": 592
+    },
+    {
+      "site": "255200080405001",
+      "state": "fl",
+      "tempC": 26.2,
+      "condu": 633
+    },
+    {
       "site": "255242080110901",
       "state": "fl",
       "tempC": 26.7,
       "condu": 6570
+    },
+    {
+      "site": "255300080370001",
+      "state": "fl",
+      "tempC": 21.5,
+      "condu": 646
     },
     {
       "site": "255327081275900",
@@ -2346,7 +3833,7 @@
     {
       "site": "255534081324000",
       "state": "fl",
-      "tempC": 24.7,
+      "tempC": 24.9,
       "condu": 52700
     },
     {
@@ -2358,8 +3845,8 @@
     {
       "site": "255726081303700",
       "state": "fl",
-      "tempC": 24,
-      "condu": 26900
+      "tempC": 24.5,
+      "condu": 26400
     },
     {
       "site": "265906080093500",
@@ -2370,14 +3857,14 @@
     {
       "site": "265929080091800",
       "state": "fl",
-      "tempC": 22.1,
-      "condu": 682
+      "tempC": 22.4,
+      "condu": 579
     },
     {
       "site": "285531082412600",
       "state": "fl",
-      "tempC": 20.9,
-      "condu": 31400
+      "tempC": 21.1,
+      "condu": 33300
     },
     {
       "site": "294213081345300",
@@ -2418,8 +3905,8 @@
     {
       "site": "301124081395901",
       "state": "fl",
-      "tempC": 18.6,
-      "condu": 654
+      "tempC": 19.7,
+      "condu": 714
     },
     {
       "site": "301204081434900",
@@ -2431,37 +3918,37 @@
       "site": "301510081383500",
       "state": "fl",
       "tempC": 19.1,
-      "condu": 1170
+      "condu": 2890
     },
     {
       "site": "301817081393600",
       "state": "fl",
-      "tempC": 20,
-      "condu": 8960
+      "tempC": 20.7,
+      "condu": 6580
     },
     {
       "site": "302307083101400",
       "state": "fl",
-      "tempC": 19.7,
+      "tempC": 19.9,
       "condu": 334
     },
     {
       "site": "302309081333001",
       "state": "fl",
       "tempC": 20.2,
-      "condu": 38800
+      "condu": 37200
     },
     {
       "site": "302609081453300",
       "state": "fl",
-      "tempC": -999999,
-      "condu": 11900
+      "tempC": 18.4,
+      "condu": 11600
     },
     {
       "site": "302657081312400",
       "state": "fl",
-      "tempC": 21,
-      "condu": 24700
+      "tempC": 21.2,
+      "condu": 24000
     },
     {
       "site": "02176930",
@@ -2471,7 +3958,7 @@
     {
       "site": "02181350",
       "state": "ga",
-      "tempC": 12.2
+      "tempC": 12.7
     },
     {
       "site": "02195520",
@@ -2504,14 +3991,14 @@
     {
       "site": "02198920",
       "state": "ga",
-      "tempC": 15.6,
-      "condu": 423
+      "tempC": 15.7,
+      "condu": 206
     },
     {
       "site": "02198950",
       "state": "ga",
-      "tempC": 16,
-      "condu": 3130
+      "tempC": 16.1,
+      "condu": 1670
     },
     {
       "site": "02198955",
@@ -2528,14 +4015,14 @@
     {
       "site": "021989773",
       "state": "ga",
-      "tempC": 16.4,
-      "condu": 23000
+      "tempC": 16.5,
+      "condu": 22900
     },
     {
       "site": "021989792",
       "state": "ga",
-      "tempC": 15.5,
-      "condu": 429
+      "tempC": 15.6,
+      "condu": 406
     },
     {
       "site": "021989793",
@@ -2556,10 +4043,15 @@
       "condu": 36100
     },
     {
+      "site": "02201000",
+      "state": "ga",
+      "tempC": 23.6
+    },
+    {
       "site": "022035975",
       "state": "ga",
-      "tempC": 17.1,
-      "condu": 44000
+      "tempC": 17,
+      "condu": 43900
     },
     {
       "site": "02203603",
@@ -2588,13 +4080,13 @@
     {
       "site": "02203863",
       "state": "ga",
-      "tempC": 13.8,
-      "condu": 118
+      "tempC": 14.2,
+      "condu": 117
     },
     {
       "site": "02203873",
       "state": "ga",
-      "tempC": 13.8,
+      "tempC": 14.2,
       "condu": 116
     },
     {
@@ -2606,8 +4098,8 @@
     {
       "site": "02203950",
       "state": "ga",
-      "tempC": 13.7,
-      "condu": 120
+      "tempC": 14.1,
+      "condu": 119
     },
     {
       "site": "02203960",
@@ -2618,7 +4110,7 @@
     {
       "site": "02204037",
       "state": "ga",
-      "tempC": 13.1,
+      "tempC": 13.5,
       "condu": 91
     },
     {
@@ -2648,7 +4140,7 @@
     {
       "site": "02207135",
       "state": "ga",
-      "tempC": 14.3,
+      "tempC": 14.8,
       "condu": 133
     },
     {
@@ -2712,6 +4204,26 @@
       "condu": 87
     },
     {
+      "site": "02212600",
+      "state": "ga",
+      "tempC": 19
+    },
+    {
+      "site": "02215000",
+      "state": "ga",
+      "tempC": 28.8
+    },
+    {
+      "site": "02215260",
+      "state": "ga",
+      "tempC": 11.1
+    },
+    {
+      "site": "02215500",
+      "state": "ga",
+      "tempC": 15.9
+    },
+    {
       "site": "02217274",
       "state": "ga",
       "tempC": 15.1,
@@ -2730,6 +4242,47 @@
       "condu": 100
     },
     {
+      "site": "02223056",
+      "state": "ga",
+      "tempC": 4.8
+    },
+    {
+      "site": "02225000",
+      "state": "ga",
+      "tempC": -999999
+    },
+    {
+      "site": "02226000",
+      "state": "ga",
+      "tempC": 9.6
+    },
+    {
+      "site": "02228000",
+      "state": "ga",
+      "tempC": -120
+    },
+    {
+      "site": "02231254",
+      "state": "ga",
+      "tempC": 26.7,
+      "condu": 48
+    },
+    {
+      "site": "02314500",
+      "state": "ga",
+      "tempC": 22.2
+    },
+    {
+      "site": "02317500",
+      "state": "ga",
+      "tempC": 23.7
+    },
+    {
+      "site": "02317797",
+      "state": "ga",
+      "tempC": 22.8
+    },
+    {
       "site": "02318500",
       "state": "ga",
       "tempC": 15.5,
@@ -2741,6 +4294,11 @@
       "tempC": 13.5
     },
     {
+      "site": "02333500",
+      "state": "ga",
+      "tempC": 15.8
+    },
+    {
       "site": "02334430",
       "state": "ga",
       "tempC": 12.6,
@@ -2749,7 +4307,7 @@
     {
       "site": "02334480",
       "state": "ga",
-      "tempC": 14,
+      "tempC": 14.4,
       "condu": 101
     },
     {
@@ -2810,7 +4368,7 @@
     {
       "site": "02335405",
       "state": "ga",
-      "tempC": 15.1
+      "tempC": 15.3
     },
     {
       "site": "02335450",
@@ -2833,10 +4391,15 @@
       "tempC": 14
     },
     {
+      "site": "02335815",
+      "state": "ga",
+      "tempC": 17.4
+    },
+    {
       "site": "02335880",
       "state": "ga",
-      "tempC": 14.4,
-      "condu": 92
+      "tempC": 14.5,
+      "condu": 90
     },
     {
       "site": "02336000",
@@ -2889,8 +4452,8 @@
     {
       "site": "02336340",
       "state": "ga",
-      "tempC": 13,
-      "condu": 130
+      "tempC": 13.4,
+      "condu": 131
     },
     {
       "site": "02336360",
@@ -2929,6 +4492,11 @@
       "condu": 68
     },
     {
+      "site": "02337498",
+      "state": "ga",
+      "tempC": 18.6
+    },
+    {
       "site": "02338500",
       "state": "ga",
       "tempC": 14.9
@@ -2951,10 +4519,36 @@
       "condu": 87
     },
     {
+      "site": "02344655",
+      "state": "ga",
+      "tempC": 15.4,
+      "condu": 64
+    },
+    {
       "site": "02344673",
       "state": "ga",
-      "tempC": 14.6,
+      "tempC": 14.8,
       "condu": 67
+    },
+    {
+      "site": "02350600",
+      "state": "ga",
+      "tempC": -999999
+    },
+    {
+      "site": "02350900",
+      "state": "ga",
+      "tempC": 16.7
+    },
+    {
+      "site": "02352500",
+      "state": "ga",
+      "tempC": 30.8
+    },
+    {
+      "site": "02353000",
+      "state": "ga",
+      "tempC": 27.7
     },
     {
       "site": "02356000",
@@ -2965,13 +4559,18 @@
     {
       "site": "02357150",
       "state": "ga",
-      "tempC": 19.3,
-      "condu": 288
+      "tempC": 19.4,
+      "condu": 289
     },
     {
       "site": "02382500",
       "state": "ga",
       "tempC": 16.7
+    },
+    {
+      "site": "02385800",
+      "state": "ga",
+      "tempC": 12.9
     },
     {
       "site": "02388975",
@@ -2997,6 +4596,11 @@
       "tempC": 11.4
     },
     {
+      "site": "02392000",
+      "state": "ga",
+      "tempC": 24.3
+    },
+    {
       "site": "02394000",
       "state": "ga",
       "tempC": 16.2
@@ -3004,8 +4608,13 @@
     {
       "site": "02394682",
       "state": "ga",
-      "tempC": 15.3,
+      "tempC": 15.5,
       "condu": 91
+    },
+    {
+      "site": "02394820",
+      "state": "ga",
+      "tempC": 17.9
     },
     {
       "site": "02397000",
@@ -3031,9 +4640,14 @@
       "condu": 56
     },
     {
+      "site": "03544970",
+      "state": "ga",
+      "tempC": 13.6
+    },
+    {
       "site": "16618000",
       "state": "hi",
-      "tempC": 20.3
+      "tempC": 20.2
     },
     {
       "site": "12305000",
@@ -3051,9 +4665,80 @@
       "tempC": 8.7
     },
     {
+      "site": "13032500",
+      "state": "id",
+      "tempC": 9.4
+    },
+    {
+      "site": "13038500",
+      "state": "id",
+      "tempC": 15.5
+    },
+    {
+      "site": "13056500",
+      "state": "id",
+      "tempC": 0
+    },
+    {
+      "site": "13057000",
+      "state": "id",
+      "tempC": 15.8
+    },
+    {
+      "site": "13068500",
+      "state": "id",
+      "tempC": 13.4
+    },
+    {
+      "site": "13069500",
+      "state": "id",
+      "tempC": 13.5
+    },
+    {
       "site": "13092747",
       "state": "id",
       "tempC": 12.1
+    },
+    {
+      "site": "13093383",
+      "state": "id",
+      "tempC": 15.1,
+      "condu": 928
+    },
+    {
+      "site": "13094000",
+      "state": "id",
+      "tempC": 15.4
+    },
+    {
+      "site": "13135500",
+      "state": "id",
+      "tempC": 9.8
+    },
+    {
+      "site": "13135520",
+      "state": "id",
+      "tempC": 10.2
+    },
+    {
+      "site": "13137500",
+      "state": "id",
+      "tempC": 13.4
+    },
+    {
+      "site": "13138000",
+      "state": "id",
+      "tempC": 12.7
+    },
+    {
+      "site": "13139510",
+      "state": "id",
+      "tempC": 14
+    },
+    {
+      "site": "13140800",
+      "state": "id",
+      "tempC": 14.7
     },
     {
       "site": "13150430",
@@ -3066,6 +4751,11 @@
       "tempC": 13.9
     },
     {
+      "site": "13168500",
+      "state": "id",
+      "tempC": 17.1
+    },
+    {
       "site": "13176400",
       "state": "id",
       "tempC": 7.6
@@ -3073,12 +4763,18 @@
     {
       "site": "13190500",
       "state": "id",
-      "tempC": 10.8
+      "tempC": 10.9
     },
     {
       "site": "13192200",
       "state": "id",
       "tempC": 10.2
+    },
+    {
+      "site": "13206400",
+      "state": "id",
+      "tempC": 12.3,
+      "condu": 324
     },
     {
       "site": "13211205",
@@ -3093,7 +4789,24 @@
     {
       "site": "13213000",
       "state": "id",
-      "tempC": 11.6
+      "tempC": 11.6,
+      "condu": 483
+    },
+    {
+      "site": "13213100",
+      "state": "id",
+      "tempC": 15.9,
+      "condu": 545
+    },
+    {
+      "site": "13251000",
+      "state": "id",
+      "tempC": 15.8
+    },
+    {
+      "site": "13266000",
+      "state": "id",
+      "tempC": 14.6
     },
     {
       "site": "13269000",
@@ -3103,7 +4816,7 @@
     {
       "site": "13296000",
       "state": "id",
-      "tempC": 3.8
+      "tempC": 4
     },
     {
       "site": "13304050",
@@ -3118,8 +4831,8 @@
     {
       "site": "13310800",
       "state": "id",
-      "tempC": 1.8,
-      "condu": 73
+      "tempC": 1.1,
+      "condu": 72
     },
     {
       "site": "13310850",
@@ -3136,14 +4849,14 @@
     {
       "site": "13311250",
       "state": "id",
-      "tempC": 3.7,
-      "condu": 101
+      "tempC": 3.4,
+      "condu": 100
     },
     {
       "site": "13311450",
       "state": "id",
-      "tempC": 2.5,
-      "condu": 123
+      "tempC": 2.1,
+      "condu": 121
     },
     {
       "site": "13317000",
@@ -3181,6 +4894,24 @@
       "tempC": 8.6
     },
     {
+      "site": "03339000",
+      "state": "il",
+      "tempC": 17.6,
+      "condu": 645
+    },
+    {
+      "site": "03346500",
+      "state": "il",
+      "tempC": 15.9,
+      "condu": 402
+    },
+    {
+      "site": "03381495",
+      "state": "il",
+      "tempC": 28,
+      "condu": 356
+    },
+    {
       "site": "03612600",
       "state": "il",
       "tempC": 13,
@@ -3196,6 +4927,18 @@
       "site": "05440700",
       "state": "il",
       "tempC": 6.8
+    },
+    {
+      "site": "05446500",
+      "state": "il",
+      "tempC": 1.1,
+      "condu": 647
+    },
+    {
+      "site": "05447500",
+      "state": "il",
+      "tempC": 14.3,
+      "condu": 678
     },
     {
       "site": "05527000",
@@ -3232,10 +4975,22 @@
       "condu": 1270
     },
     {
+      "site": "05538020",
+      "state": "il",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
       "site": "05539670",
       "state": "il",
       "tempC": 10.7,
       "condu": 993
+    },
+    {
+      "site": "05543010",
+      "state": "il",
+      "tempC": 11.8,
+      "condu": 825
     },
     {
       "site": "05549400",
@@ -3255,6 +5010,42 @@
       "condu": -999999
     },
     {
+      "site": "05553700",
+      "state": "il",
+      "tempC": 5.6,
+      "condu": 887
+    },
+    {
+      "site": "05554000",
+      "state": "il",
+      "tempC": 25.3
+    },
+    {
+      "site": "05554200",
+      "state": "il",
+      "tempC": 20
+    },
+    {
+      "site": "05554480",
+      "state": "il",
+      "tempC": 23.8
+    },
+    {
+      "site": "05554500",
+      "state": "il",
+      "tempC": 24.7
+    },
+    {
+      "site": "05554580",
+      "state": "il",
+      "tempC": 23.5
+    },
+    {
+      "site": "05555300",
+      "state": "il",
+      "tempC": 24.7
+    },
+    {
       "site": "05558300",
       "state": "il",
       "tempC": 8.3,
@@ -3267,16 +5058,101 @@
       "condu": 824
     },
     {
+      "site": "05564190",
+      "state": "il",
+      "tempC": 29
+    },
+    {
+      "site": "05564250",
+      "state": "il",
+      "tempC": 7.7
+    },
+    {
+      "site": "05565900",
+      "state": "il",
+      "tempC": 24.4
+    },
+    {
       "site": "05567500",
       "state": "il",
       "tempC": 8.1,
       "condu": 729
     },
     {
+      "site": "05567545",
+      "state": "il",
+      "tempC": 24.5
+    },
+    {
+      "site": "05568000",
+      "state": "il",
+      "tempC": 23.9
+    },
+    {
       "site": "05568705",
       "state": "il",
       "tempC": 11.2,
       "condu": -999999
+    },
+    {
+      "site": "05568770",
+      "state": "il",
+      "tempC": 18
+    },
+    {
+      "site": "05568830",
+      "state": "il",
+      "tempC": 20.1
+    },
+    {
+      "site": "05568917",
+      "state": "il",
+      "tempC": 20.8
+    },
+    {
+      "site": "05569500",
+      "state": "il",
+      "tempC": 21.6
+    },
+    {
+      "site": "05570000",
+      "state": "il",
+      "tempC": 11.6
+    },
+    {
+      "site": "05570400",
+      "state": "il",
+      "tempC": 20.9
+    },
+    {
+      "site": "05570910",
+      "state": "il",
+      "tempC": 27.8
+    },
+    {
+      "site": "05572000",
+      "state": "il",
+      "tempC": 24.9
+    },
+    {
+      "site": "05572500",
+      "state": "il",
+      "tempC": 15.9
+    },
+    {
+      "site": "05573500",
+      "state": "il",
+      "tempC": 17.3
+    },
+    {
+      "site": "05573540",
+      "state": "il",
+      "tempC": 23.8
+    },
+    {
+      "site": "05576000",
+      "state": "il",
+      "tempC": 23.8
     },
     {
       "site": "05576100",
@@ -3291,26 +5167,80 @@
       "condu": 514
     },
     {
+      "site": "05576205",
+      "state": "il",
+      "tempC": 26
+    },
+    {
+      "site": "05576250",
+      "state": "il",
+      "tempC": 26
+    },
+    {
+      "site": "05578000",
+      "state": "il",
+      "tempC": 26.1
+    },
+    {
       "site": "05578100",
       "state": "il",
-      "tempC": 7.2
+      "tempC": 7.3,
+      "condu": -999999
     },
     {
       "site": "05578250",
       "state": "il",
-      "tempC": 7.8
+      "tempC": 7.8,
+      "condu": 609
+    },
+    {
+      "site": "05578330",
+      "state": "il",
+      "tempC": 29.8
+    },
+    {
+      "site": "05578360",
+      "state": "il",
+      "tempC": 27.4
+    },
+    {
+      "site": "05578500",
+      "state": "il",
+      "tempC": 25.2
+    },
+    {
+      "site": "05579630",
+      "state": "il",
+      "tempC": 18.4,
+      "condu": 709
+    },
+    {
+      "site": "05582000",
+      "state": "il",
+      "tempC": 28.3
+    },
+    {
+      "site": "05583000",
+      "state": "il",
+      "tempC": 27.3
     },
     {
       "site": "05586300",
       "state": "il",
       "tempC": 10.2,
-      "condu": 1130
+      "condu": 1120
     },
     {
       "site": "05587498",
       "state": "il",
       "tempC": 10.4,
       "condu": 590
+    },
+    {
+      "site": "05595000",
+      "state": "il",
+      "tempC": 23,
+      "condu": 388
     },
     {
       "site": "05599490",
@@ -3321,13 +5251,18 @@
     {
       "site": "411955088280601",
       "state": "il",
-      "tempC": 8,
+      "tempC": 8.1,
       "condu": 535
     },
     {
       "site": "412320088154101",
       "state": "il",
       "tempC": 7.3
+    },
+    {
+      "site": "05551580",
+      "state": "il",
+      "condu": 961
     },
     {
       "site": "03275500",
@@ -3338,7 +5273,8 @@
     {
       "site": "03276000",
       "state": "in",
-      "tempC": 12.4
+      "tempC": 12.4,
+      "condu": 424
     },
     {
       "site": "03294445",
@@ -3346,9 +5282,20 @@
       "tempC": 10
     },
     {
+      "site": "03303280",
+      "state": "in",
+      "tempC": 14.7,
+      "condu": 407
+    },
+    {
       "site": "03323500",
       "state": "in",
       "tempC": 7.7
+    },
+    {
+      "site": "03324500",
+      "state": "in",
+      "tempC": -999999
     },
     {
       "site": "03327000",
@@ -3358,7 +5305,13 @@
     {
       "site": "03340900",
       "state": "in",
-      "tempC": 11.2
+      "tempC": 11.2,
+      "condu": 403
+    },
+    {
+      "site": "03352875",
+      "state": "in",
+      "tempC": 15.1
     },
     {
       "site": "03353000",
@@ -3375,7 +5328,7 @@
       "site": "03353415",
       "state": "in",
       "tempC": 8,
-      "condu": 5410
+      "condu": 5130
     },
     {
       "site": "03353420",
@@ -3431,14 +5384,51 @@
       "condu": 603
     },
     {
+      "site": "04092677",
+      "state": "in",
+      "tempC": 24.4
+    },
+    {
+      "site": "04092750",
+      "state": "in",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
       "site": "04093100",
       "state": "in",
       "tempC": 6.9
     },
     {
+      "site": "04093176",
+      "state": "in",
+      "tempC": 17.6
+    },
+    {
+      "site": "04093250",
+      "state": "in",
+      "tempC": 27.6
+    },
+    {
+      "site": "04094000",
+      "state": "in",
+      "tempC": 1.4
+    },
+    {
+      "site": "04095090",
+      "state": "in",
+      "tempC": 16.8,
+      "condu": 674
+    },
+    {
+      "site": "04095300",
+      "state": "in",
+      "tempC": 13.7
+    },
+    {
       "site": "04183030",
       "state": "in",
-      "tempC": 6.1
+      "tempC": 6.2
     },
     {
       "site": "04183032",
@@ -3496,9 +5486,19 @@
       "condu": 784
     },
     {
+      "site": "05536160",
+      "state": "in",
+      "tempC": 11.2
+    },
+    {
       "site": "05536179",
       "state": "in",
       "tempC": 9.6
+    },
+    {
+      "site": "05536195",
+      "state": "in",
+      "tempC": 12.3
     },
     {
       "site": "05536356",
@@ -3509,12 +5509,18 @@
     {
       "site": "413339087223001",
       "state": "in",
-      "tempC": 10.6
+      "tempC": 10.4
     },
     {
       "site": "05412500",
       "state": "ia",
-      "tempC": 6.4
+      "tempC": 6.6
+    },
+    {
+      "site": "05418400",
+      "state": "ia",
+      "tempC": 4.5,
+      "condu": 558
     },
     {
       "site": "05420460",
@@ -3524,7 +5530,37 @@
     {
       "site": "05420500",
       "state": "ia",
-      "tempC": 7.4
+      "tempC": 7.4,
+      "condu": 359
+    },
+    {
+      "site": "05422405",
+      "state": "ia",
+      "tempC": 11.2,
+      "condu": 388
+    },
+    {
+      "site": "05422410",
+      "state": "ia",
+      "tempC": 5.7,
+      "condu": 466
+    },
+    {
+      "site": "05451080",
+      "state": "ia",
+      "tempC": 5.9,
+      "condu": 685
+    },
+    {
+      "site": "05451210",
+      "state": "ia",
+      "tempC": 2.4,
+      "condu": 530
+    },
+    {
+      "site": "05455100",
+      "state": "ia",
+      "tempC": 8.9
     },
     {
       "site": "05458300",
@@ -3534,12 +5570,23 @@
     {
       "site": "05464420",
       "state": "ia",
+      "tempC": 24,
       "condu": 595
     },
     {
       "site": "05464475",
       "state": "ia",
-      "tempC": 7.8
+      "tempC": 7.9
+    },
+    {
+      "site": "05464500",
+      "state": "ia",
+      "tempC": 16.4
+    },
+    {
+      "site": "05465500",
+      "state": "ia",
+      "tempC": 9.5
     },
     {
       "site": "05474500",
@@ -3548,9 +5595,39 @@
       "condu": 501
     },
     {
+      "site": "05481000",
+      "state": "ia",
+      "tempC": -999999
+    },
+    {
       "site": "05482000",
       "state": "ia",
       "tempC": -999999
+    },
+    {
+      "site": "05482300",
+      "state": "ia",
+      "tempC": 7.3
+    },
+    {
+      "site": "05482500",
+      "state": "ia",
+      "tempC": -999999
+    },
+    {
+      "site": "05484000",
+      "state": "ia",
+      "tempC": -999999
+    },
+    {
+      "site": "05484500",
+      "state": "ia",
+      "tempC": -999999
+    },
+    {
+      "site": "05487520",
+      "state": "ia",
+      "tempC": 26.8
     },
     {
       "site": "05488110",
@@ -3561,6 +5638,12 @@
       "site": "05489500",
       "state": "ia",
       "tempC": 9.2
+    },
+    {
+      "site": "06601200",
+      "state": "ia",
+      "tempC": 6.8,
+      "condu": 826
     },
     {
       "site": "06808500",
@@ -3575,8 +5658,8 @@
     {
       "site": "06856600",
       "state": "ks",
-      "tempC": 9.9,
-      "condu": 880
+      "tempC": 10.5,
+      "condu": 878
     },
     {
       "site": "06865500",
@@ -3587,8 +5670,8 @@
     {
       "site": "06877600",
       "state": "ks",
-      "tempC": 11.2,
-      "condu": 1430
+      "tempC": 0,
+      "condu": 32
     },
     {
       "site": "06879150",
@@ -3614,6 +5697,12 @@
       "condu": 489
     },
     {
+      "site": "06887500",
+      "state": "ks",
+      "tempC": 20.6,
+      "condu": 557
+    },
+    {
       "site": "06888990",
       "state": "ks",
       "tempC": 10.8,
@@ -3622,8 +5711,8 @@
     {
       "site": "06889110",
       "state": "ks",
-      "tempC": 9.1,
-      "condu": 809
+      "tempC": 9.6,
+      "condu": 805
     },
     {
       "site": "06889160",
@@ -3634,7 +5723,14 @@
     {
       "site": "06892350",
       "state": "ks",
-      "tempC": 11.2
+      "tempC": 11.7,
+      "condu": 529
+    },
+    {
+      "site": "06892360",
+      "state": "ks",
+      "tempC": 3,
+      "condu": 412
     },
     {
       "site": "06892495",
@@ -3655,9 +5751,51 @@
       "condu": 795
     },
     {
+      "site": "06892900",
+      "state": "ks",
+      "tempC": 0.1,
+      "condu": 1220
+    },
+    {
+      "site": "06893100",
+      "state": "ks",
+      "tempC": 2.2,
+      "condu": 755
+    },
+    {
+      "site": "06893300",
+      "state": "ks",
+      "tempC": 26.3,
+      "condu": 901
+    },
+    {
+      "site": "06893350",
+      "state": "ks",
+      "tempC": 5.3,
+      "condu": -999999
+    },
+    {
+      "site": "06893390",
+      "state": "ks",
+      "tempC": 20.2,
+      "condu": 950
+    },
+    {
+      "site": "06914950",
+      "state": "ks",
+      "tempC": 1.6,
+      "condu": 893
+    },
+    {
+      "site": "06914990",
+      "state": "ks",
+      "tempC": 5,
+      "condu": 510
+    },
+    {
       "site": "07137500",
       "state": "ks",
-      "tempC": 9.6,
+      "tempC": 10.1,
       "condu": 3890
     },
     {
@@ -3691,6 +5829,18 @@
       "condu": 581
     },
     {
+      "site": "07179750",
+      "state": "ks",
+      "tempC": 27.5,
+      "condu": 565
+    },
+    {
+      "site": "07182250",
+      "state": "ks",
+      "tempC": 22.8,
+      "condu": 290
+    },
+    {
       "site": "07182390",
       "state": "ks",
       "tempC": 11.8,
@@ -3703,15 +5853,33 @@
       "condu": 479
     },
     {
+      "site": "07183000",
+      "state": "ks",
+      "tempC": 16.4,
+      "condu": 526
+    },
+    {
+      "site": "07183500",
+      "state": "ks",
+      "tempC": 15.3,
+      "condu": 394
+    },
+    {
       "site": "375350097262800",
       "state": "ks",
-      "tempC": 12,
+      "tempC": 12.6,
       "condu": 921
+    },
+    {
+      "site": "03123499",
+      "state": "ky",
+      "tempC": 17.9,
+      "condu": 176
     },
     {
       "site": "03216350",
       "state": "ky",
-      "tempC": 12.1
+      "tempC": 12
     },
     {
       "site": "03249500",
@@ -3741,9 +5909,33 @@
       "tempC": 14.3
     },
     {
+      "site": "03284533",
+      "state": "ky",
+      "tempC": 25.7,
+      "condu": 348
+    },
+    {
+      "site": "03284552",
+      "state": "ky",
+      "tempC": 23.7,
+      "condu": 474
+    },
+    {
       "site": "03287500",
       "state": "ky",
-      "tempC": 10.6
+      "tempC": 10.7
+    },
+    {
+      "site": "03287590",
+      "state": "ky",
+      "tempC": 4.8,
+      "condu": 21
+    },
+    {
+      "site": "03287600",
+      "state": "ky",
+      "tempC": 24.8,
+      "condu": 550
     },
     {
       "site": "03288180",
@@ -3752,9 +5944,27 @@
       "condu": 606
     },
     {
+      "site": "03289000",
+      "state": "ky",
+      "tempC": 22.7,
+      "condu": 617
+    },
+    {
+      "site": "03289193",
+      "state": "ky",
+      "tempC": 23.5,
+      "condu": 600
+    },
+    {
+      "site": "03289200",
+      "state": "ky",
+      "tempC": 19.5,
+      "condu": 697
+    },
+    {
       "site": "03289500",
       "state": "ky",
-      "tempC": 10.1
+      "tempC": 10.2
     },
     {
       "site": "03290500",
@@ -3765,8 +5975,8 @@
     {
       "site": "03292470",
       "state": "ky",
-      "tempC": 9.2,
-      "condu": 351
+      "tempC": 9.3,
+      "condu": 355
     },
     {
       "site": "0329247350",
@@ -3777,8 +5987,8 @@
     {
       "site": "03292474",
       "state": "ky",
-      "tempC": 11.2,
-      "condu": 512
+      "tempC": 11.4,
+      "condu": 519
     },
     {
       "site": "0329247450",
@@ -3789,8 +5999,8 @@
     {
       "site": "03292475",
       "state": "ky",
-      "tempC": 10.1,
-      "condu": 567
+      "tempC": 10.2,
+      "condu": 559
     },
     {
       "site": "03292480",
@@ -3808,13 +6018,13 @@
       "site": "03292550",
       "state": "ky",
       "tempC": 11.1,
-      "condu": 322
+      "condu": 324
     },
     {
       "site": "03292900",
       "state": "ky",
-      "tempC": 13.5,
-      "condu": 426
+      "tempC": 13.6,
+      "condu": 438
     },
     {
       "site": "03293000",
@@ -3826,7 +6036,7 @@
       "site": "03293500",
       "state": "ky",
       "tempC": 11.5,
-      "condu": 356
+      "condu": 371
     },
     {
       "site": "03293510",
@@ -3843,7 +6053,7 @@
     {
       "site": "03293532",
       "state": "ky",
-      "tempC": 11.2,
+      "tempC": 11.3,
       "condu": 378
     },
     {
@@ -3855,14 +6065,26 @@
     {
       "site": "03297800",
       "state": "ky",
-      "tempC": 10.8,
-      "condu": 439
+      "tempC": 10.9,
+      "condu": 440
+    },
+    {
+      "site": "03297900",
+      "state": "ky",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "03298000",
       "state": "ky",
       "tempC": 9.7,
       "condu": 564
+    },
+    {
+      "site": "03298135",
+      "state": "ky",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "03298150",
@@ -3885,25 +6107,37 @@
     {
       "site": "03298300",
       "state": "ky",
-      "tempC": 11,
-      "condu": 423
+      "tempC": 11.1,
+      "condu": 424
+    },
+    {
+      "site": "03301900",
+      "state": "ky",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "03301940",
       "state": "ky",
-      "tempC": 11.7,
-      "condu": 570
+      "tempC": 11.8,
+      "condu": 567
+    },
+    {
+      "site": "03302000",
+      "state": "ky",
+      "tempC": 14.1,
+      "condu": 541
     },
     {
       "site": "03302030",
       "state": "ky",
       "tempC": 10.6,
-      "condu": 364
+      "condu": 357
     },
     {
       "site": "03302050",
       "state": "ky",
-      "tempC": 10.8,
+      "tempC": 10.9,
       "condu": 274
     },
     {
@@ -3925,7 +6159,7 @@
     {
       "site": "03307000",
       "state": "ky",
-      "tempC": 12.4
+      "tempC": 12.5
     },
     {
       "site": "03311000",
@@ -3946,12 +6180,23 @@
       "site": "03321500",
       "state": "ky",
       "tempC": 12.8,
-      "condu": 319
+      "condu": 320
+    },
+    {
+      "site": "03400800",
+      "state": "ky",
+      "tempC": 11.2,
+      "condu": 184
+    },
+    {
+      "site": "03414000",
+      "state": "ky",
+      "tempC": 10.6
     },
     {
       "site": "03414002",
       "state": "ky",
-      "tempC": 16.4
+      "tempC": 16.5
     },
     {
       "site": "073645001",
@@ -3970,6 +6215,12 @@
       "state": "la",
       "tempC": 24,
       "condu": 1560
+    },
+    {
+      "site": "07380215",
+      "state": "la",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "07380245",
@@ -3992,14 +6243,20 @@
     {
       "site": "07380255",
       "state": "la",
-      "tempC": 24.3,
-      "condu": 17400
+      "tempC": 24.8,
+      "condu": 17300
     },
     {
       "site": "07381150",
       "state": "la",
       "tempC": 21.3,
-      "condu": 1270
+      "condu": 1300
+    },
+    {
+      "site": "07381235",
+      "state": "la",
+      "tempC": 23,
+      "condu": 3310
     },
     {
       "site": "07381350",
@@ -4014,8 +6271,21 @@
       "condu": 2280
     },
     {
+      "site": "07381427",
+      "state": "la",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "073814675",
+      "state": "la",
+      "tempC": 25.5,
+      "condu": 1250
+    },
+    {
       "site": "07381600",
       "state": "la",
+      "tempC": 30.2,
       "condu": -999999
     },
     {
@@ -4031,8 +6301,8 @@
     {
       "site": "08017044",
       "state": "la",
-      "tempC": 21.7,
-      "condu": 16200
+      "tempC": 22.2,
+      "condu": 15300
     },
     {
       "site": "295124089542100",
@@ -4044,13 +6314,13 @@
       "site": "295501090190400",
       "state": "la",
       "tempC": 17.7,
-      "condu": 515
+      "condu": 516
     },
     {
       "site": "295847093420600",
       "state": "la",
-      "tempC": 23.4,
-      "condu": 16400
+      "tempC": 24,
+      "condu": 15100
     },
     {
       "site": "300507091355600",
@@ -4065,7 +6335,8 @@
     {
       "site": "01018035",
       "state": "me",
-      "tempC": 2.4
+      "tempC": 2.4,
+      "condu": 225
     },
     {
       "site": "01021050",
@@ -4074,14 +6345,40 @@
       "condu": 76
     },
     {
+      "site": "01022500",
+      "state": "me",
+      "tempC": 17.4
+    },
+    {
       "site": "01029100",
       "state": "me",
       "tempC": 4
     },
     {
+      "site": "01031500",
+      "state": "me",
+      "tempC": 13.7
+    },
+    {
+      "site": "01036390",
+      "state": "me",
+      "tempC": 16.3,
+      "condu": 43
+    },
+    {
+      "site": "01037380",
+      "state": "me",
+      "tempC": 14.9
+    },
+    {
+      "site": "01038000",
+      "state": "me",
+      "tempC": 15
+    },
+    {
       "site": "01054200",
       "state": "me",
-      "tempC": 1.1
+      "tempC": 1.3
     },
     {
       "site": "01491000",
@@ -4090,16 +6387,22 @@
       "condu": 172
     },
     {
+      "site": "01493112",
+      "state": "md",
+      "tempC": 10.1,
+      "condu": 194
+    },
+    {
       "site": "01579550",
       "state": "md",
-      "tempC": 10.3,
+      "tempC": 10.4,
       "condu": 308
     },
     {
       "site": "01581752",
       "state": "md",
-      "tempC": 8.4,
-      "condu": 350
+      "tempC": 8.5,
+      "condu": 343
     },
     {
       "site": "01581920",
@@ -4110,7 +6413,13 @@
       "site": "01585075",
       "state": "md",
       "tempC": 7.8,
-      "condu": 328
+      "condu": 326
+    },
+    {
+      "site": "01585219",
+      "state": "md",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "01589290",
@@ -4119,10 +6428,15 @@
       "condu": 249
     },
     {
+      "site": "01591610",
+      "state": "md",
+      "tempC": 21.3
+    },
+    {
       "site": "01594441",
       "state": "md",
       "tempC": 9.8,
-      "condu": 417
+      "condu": 416
     },
     {
       "site": "01596500",
@@ -4132,7 +6446,7 @@
     {
       "site": "01597500",
       "state": "md",
-      "tempC": 10.2
+      "tempC": 10.1
     },
     {
       "site": "01638500",
@@ -4143,8 +6457,14 @@
     {
       "site": "01640152",
       "state": "md",
-      "tempC": 6.9,
-      "condu": 306
+      "tempC": 7,
+      "condu": 305
+    },
+    {
+      "site": "01642198",
+      "state": "md",
+      "tempC": 14.7,
+      "condu": 616
     },
     {
       "site": "01643580",
@@ -4153,46 +6473,70 @@
       "condu": 503
     },
     {
+      "site": "01646500",
+      "state": "md",
+      "tempC": 24.3,
+      "condu": 406
+    },
+    {
       "site": "01649190",
       "state": "md",
-      "tempC": 7.9,
-      "condu": 373
+      "tempC": 8,
+      "condu": 375
     },
     {
       "site": "01649500",
       "state": "md",
-      "tempC": 9.8,
-      "condu": 390
+      "tempC": 9.9,
+      "condu": 394
     },
     {
       "site": "01650800",
       "state": "md",
-      "tempC": 8.9,
-      "condu": 585
+      "tempC": 9,
+      "condu": 583
     },
     {
       "site": "01651003",
       "state": "md",
-      "tempC": 9.2,
-      "condu": 499
+      "tempC": 9.4,
+      "condu": 493
+    },
+    {
+      "site": "01651730",
+      "state": "md",
+      "tempC": 24.2,
+      "condu": 353
+    },
+    {
+      "site": "01653521",
+      "state": "md",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "01653522",
       "state": "md",
       "tempC": 11.6,
-      "condu": 325
+      "condu": 329
     },
     {
       "site": "01653560",
       "state": "md",
-      "tempC": 10.3,
+      "tempC": 10.4,
       "condu": 258
     },
     {
       "site": "01653620",
       "state": "md",
-      "tempC": 9.7,
-      "condu": 426
+      "tempC": 9.8,
+      "condu": 423
+    },
+    {
+      "site": "01658000",
+      "state": "md",
+      "tempC": 22.9,
+      "condu": 173
     },
     {
       "site": "03076500",
@@ -4202,13 +6546,13 @@
     {
       "site": "01095220",
       "state": "ma",
-      "tempC": 4.2,
-      "condu": 189
+      "tempC": 4.3,
+      "condu": 190
     },
     {
       "site": "01095375",
       "state": "ma",
-      "tempC": 4.6,
+      "tempC": 4.7,
       "condu": 348
     },
     {
@@ -4256,7 +6600,7 @@
       "site": "01104430",
       "state": "ma",
       "tempC": 6.6,
-      "condu": 709
+      "condu": 708
     },
     {
       "site": "01104453",
@@ -4283,9 +6627,33 @@
       "condu": 330
     },
     {
+      "site": "01104480",
+      "state": "ma",
+      "tempC": 15.8,
+      "condu": 865
+    },
+    {
+      "site": "01108000",
+      "state": "ma",
+      "tempC": 16.8,
+      "condu": 682
+    },
+    {
+      "site": "01108410",
+      "state": "ma",
+      "tempC": 14.9,
+      "condu": 433
+    },
+    {
+      "site": "01161280",
+      "state": "ma",
+      "tempC": 0.4,
+      "condu": 110
+    },
+    {
       "site": "01168250",
       "state": "ma",
-      "tempC": 2.3,
+      "tempC": 2.2,
       "condu": 94
     },
     {
@@ -4306,8 +6674,8 @@
     {
       "site": "04032150",
       "state": "mi",
-      "tempC": 0.3,
-      "condu": 136
+      "tempC": 0.5,
+      "condu": 135
     },
     {
       "site": "040325155",
@@ -4329,8 +6697,8 @@
     {
       "site": "04043097",
       "state": "mi",
-      "tempC": 0.6,
-      "condu": 192
+      "tempC": 0.7,
+      "condu": 186
     },
     {
       "site": "04043238",
@@ -4342,6 +6710,11 @@
       "state": "mi",
       "tempC": 2,
       "condu": 134
+    },
+    {
+      "site": "04044755",
+      "state": "mi",
+      "tempC": -999999
     },
     {
       "site": "04057800",
@@ -4373,12 +6746,14 @@
     {
       "site": "04101500",
       "state": "mi",
-      "tempC": 8.1
+      "tempC": 8.1,
+      "condu": 621
     },
     {
       "site": "04108660",
       "state": "mi",
-      "tempC": 6.1
+      "tempC": 6.1,
+      "condu": 662
     },
     {
       "site": "04108862",
@@ -4392,14 +6767,20 @@
       "condu": 740
     },
     {
+      "site": "04119400",
+      "state": "mi",
+      "tempC": 21,
+      "condu": 714
+    },
+    {
       "site": "04121650",
       "state": "mi",
-      "tempC": 2.1
+      "tempC": 2.5
     },
     {
       "site": "04121660",
       "state": "mi",
-      "tempC": 3.9
+      "tempC": 3.8
     },
     {
       "site": "04121680",
@@ -4429,12 +6810,12 @@
     {
       "site": "04124200",
       "state": "mi",
-      "tempC": 5.8
+      "tempC": 5.7
     },
     {
       "site": "04125460",
       "state": "mi",
-      "tempC": 3.7
+      "tempC": 3.8
     },
     {
       "site": "04125550",
@@ -4442,9 +6823,14 @@
       "tempC": 6.2
     },
     {
+      "site": "04135687",
+      "state": "mi",
+      "tempC": 7.4
+    },
+    {
       "site": "04135700",
       "state": "mi",
-      "tempC": 3
+      "tempC": 3.4
     },
     {
       "site": "04135800",
@@ -4464,7 +6850,7 @@
     {
       "site": "04136900",
       "state": "mi",
-      "tempC": 3.1
+      "tempC": 3.2
     },
     {
       "site": "04137005",
@@ -4490,6 +6876,24 @@
       "site": "04137500",
       "state": "mi",
       "tempC": 6.2
+    },
+    {
+      "site": "04142000",
+      "state": "mi",
+      "tempC": 11.8,
+      "condu": 442
+    },
+    {
+      "site": "04144032",
+      "state": "mi",
+      "tempC": 10.6,
+      "condu": 652
+    },
+    {
+      "site": "041482663",
+      "state": "mi",
+      "tempC": 11.3,
+      "condu": 709
     },
     {
       "site": "04157005",
@@ -4518,7 +6922,7 @@
     {
       "site": "04166100",
       "state": "mi",
-      "tempC": 4.3,
+      "tempC": 4.5,
       "condu": 1300
     },
     {
@@ -4528,16 +6932,33 @@
       "condu": 1450
     },
     {
+      "site": "04166700",
+      "state": "mi",
+      "tempC": 7.2
+    },
+    {
       "site": "04167625",
       "state": "mi",
-      "tempC": 12.9,
-      "condu": 924
+      "tempC": 13.1,
+      "condu": 926
     },
     {
       "site": "04168400",
       "state": "mi",
       "tempC": 8,
       "condu": 1070
+    },
+    {
+      "site": "04174500",
+      "state": "mi",
+      "tempC": 17.9,
+      "condu": 758
+    },
+    {
+      "site": "04176500",
+      "state": "mi",
+      "tempC": 19.6,
+      "condu": 865
     },
     {
       "site": "421337083074201",
@@ -4563,6 +6984,12 @@
       "condu": 348
     },
     {
+      "site": "05062130",
+      "state": "mn",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
       "site": "05124480",
       "state": "mn",
       "tempC": 4.2
@@ -4576,7 +7003,17 @@
     {
       "site": "05133500",
       "state": "mn",
-      "tempC": 2.4
+      "tempC": 2.5
+    },
+    {
+      "site": "05288475",
+      "state": "mn",
+      "tempC": 6
+    },
+    {
+      "site": "05288487",
+      "state": "mn",
+      "tempC": 4.2
     },
     {
       "site": "05288580",
@@ -4614,10 +7051,59 @@
     {
       "site": "02488000",
       "state": "ms",
-      "tempC": 19
+      "tempC": 19.1
+    },
+    {
+      "site": "07280010",
+      "state": "ms",
+      "tempC": -999999
+    },
+    {
+      "site": "07281600",
+      "state": "ms",
+      "tempC": -999999
+    },
+    {
+      "site": "07287700",
+      "state": "ms",
+      "tempC": 15.2
+    },
+    {
+      "site": "07288048",
+      "state": "ms",
+      "tempC": 9.5,
+      "condu": 950
+    },
+    {
+      "site": "07288068",
+      "state": "ms",
+      "tempC": 4.1,
+      "condu": 78
+    },
+    {
+      "site": "07288280",
+      "state": "ms",
+      "tempC": -999999
+    },
+    {
+      "site": "07288500",
+      "state": "ms",
+      "tempC": -999999,
+      "condu": 91
+    },
+    {
+      "site": "07288521",
+      "state": "ms",
+      "tempC": 16,
+      "condu": 608
     },
     {
       "site": "07288650",
+      "state": "ms",
+      "tempC": -999999
+    },
+    {
+      "site": "07288847",
       "state": "ms",
       "tempC": -999999
     },
@@ -4648,13 +7134,37 @@
       "site": "06893619",
       "state": "mo",
       "tempC": 9.4,
-      "condu": 785
+      "condu": 784
+    },
+    {
+      "site": "06893620",
+      "state": "mo",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "06893820",
       "state": "mo",
       "tempC": 10.5,
       "condu": 519
+    },
+    {
+      "site": "06893830",
+      "state": "mo",
+      "tempC": 4.6,
+      "condu": 785
+    },
+    {
+      "site": "06893890",
+      "state": "mo",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "06893970",
+      "state": "mo",
+      "tempC": -999999,
+      "condu": 813
     },
     {
       "site": "06894000",
@@ -4669,10 +7179,38 @@
       "condu": 648
     },
     {
+      "site": "06899900",
+      "state": "mo",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "06900050",
+      "state": "mo",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "06901500",
+      "state": "mo",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
       "site": "06902000",
       "state": "mo",
       "tempC": 10.8,
       "condu": 473
+    },
+    {
+      "site": "06906500",
+      "state": "mo",
+      "tempC": -999999
+    },
+    {
+      "site": "06910450",
+      "state": "mo",
+      "tempC": 21.5
     },
     {
       "site": "06918250",
@@ -4690,20 +7228,40 @@
       "tempC": 12.9
     },
     {
+      "site": "06926510",
+      "state": "mo",
+      "tempC": 12.6
+    },
+    {
+      "site": "06934000",
+      "state": "mo",
+      "tempC": 13.5
+    },
+    {
       "site": "06934500",
       "state": "mo",
       "tempC": 10.6,
       "condu": 661
     },
     {
+      "site": "06935550",
+      "state": "mo",
+      "tempC": 21
+    },
+    {
       "site": "07014000",
       "state": "mo",
-      "tempC": 14.3
+      "tempC": 14.6
     },
     {
       "site": "07017610",
       "state": "mo",
-      "tempC": 13.4
+      "tempC": 13.6
+    },
+    {
+      "site": "07018500",
+      "state": "mo",
+      "tempC": 21.8
     },
     {
       "site": "07020850",
@@ -4714,7 +7272,8 @@
     {
       "site": "07053450",
       "state": "mo",
-      "tempC": 14.5
+      "tempC": 14.5,
+      "condu": -999999
     },
     {
       "site": "07061270",
@@ -4754,6 +7313,11 @@
       "tempC": 4.4
     },
     {
+      "site": "06024540",
+      "state": "mt",
+      "tempC": -999999
+    },
+    {
       "site": "06024580",
       "state": "mt",
       "tempC": -999999
@@ -4776,7 +7340,7 @@
     {
       "site": "06026420",
       "state": "mt",
-      "tempC": 6.5
+      "tempC": 7
     },
     {
       "site": "06026500",
@@ -4801,7 +7365,8 @@
     {
       "site": "06037500",
       "state": "mt",
-      "tempC": 10
+      "tempC": 10.2,
+      "condu": 426
     },
     {
       "site": "06038500",
@@ -4811,22 +7376,22 @@
     {
       "site": "06038800",
       "state": "mt",
-      "tempC": 6.6
+      "tempC": 7
     },
     {
       "site": "06040000",
       "state": "mt",
-      "tempC": 6.1
+      "tempC": 6.5
     },
     {
       "site": "06040050",
       "state": "mt",
-      "tempC": 7.2
+      "tempC": 7.3
     },
     {
       "site": "06041000",
       "state": "mt",
-      "tempC": 6.2
+      "tempC": 6.1
     },
     {
       "site": "06043120",
@@ -4859,6 +7424,11 @@
       "tempC": -999999
     },
     {
+      "site": "06077500",
+      "state": "mt",
+      "tempC": 20
+    },
+    {
       "site": "06085800",
       "state": "mt",
       "tempC": 5
@@ -4879,14 +7449,38 @@
       "tempC": -999999
     },
     {
+      "site": "06174500",
+      "state": "mt",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "06175510",
+      "state": "mt",
+      "tempC": -999999
+    },
+    {
+      "site": "06177000",
+      "state": "mt",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
       "site": "06191500",
       "state": "mt",
-      "tempC": 8.2
+      "tempC": 8.2,
+      "condu": 207
     },
     {
       "site": "06192500",
       "state": "mt",
       "tempC": -999999
+    },
+    {
+      "site": "06192978",
+      "state": "mt",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "06195750",
@@ -4916,18 +7510,59 @@
     {
       "site": "06287800",
       "state": "mt",
-      "tempC": 10.6
+      "tempC": 11
     },
     {
       "site": "06306300",
       "state": "mt",
-      "tempC": 7,
-      "condu": 700
+      "tempC": 7.5,
+      "condu": 699
+    },
+    {
+      "site": "06307500",
+      "state": "mt",
+      "tempC": 8.1,
+      "condu": 555
+    },
+    {
+      "site": "06307830",
+      "state": "mt",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "06308500",
+      "state": "mt",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "06326500",
       "state": "mt",
       "tempC": -999999
+    },
+    {
+      "site": "06329500",
+      "state": "mt",
+      "tempC": -999999
+    },
+    {
+      "site": "12301933",
+      "state": "mt",
+      "tempC": -999999,
+      "condu": 267
+    },
+    {
+      "site": "12323233",
+      "state": "mt",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "12323242",
+      "state": "mt",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "12323250",
@@ -4940,6 +7575,11 @@
       "tempC": 4.7
     },
     {
+      "site": "12323700",
+      "state": "mt",
+      "tempC": 4
+    },
+    {
       "site": "12323720",
       "state": "mt",
       "tempC": 6.6
@@ -4947,7 +7587,7 @@
     {
       "site": "12323750",
       "state": "mt",
-      "tempC": 5.7
+      "tempC": 5.8
     },
     {
       "site": "12323770",
@@ -4957,12 +7597,25 @@
     {
       "site": "12323800",
       "state": "mt",
-      "tempC": -999999
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "12323850",
       "state": "mt",
-      "tempC": 5.9
+      "tempC": 6.1
+    },
+    {
+      "site": "12324200",
+      "state": "mt",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "12324400",
+      "state": "mt",
+      "tempC": 3.1,
+      "condu": 505
     },
     {
       "site": "12334510",
@@ -4978,6 +7631,12 @@
       "site": "12340000",
       "state": "mt",
       "tempC": 6.3
+    },
+    {
+      "site": "12340500",
+      "state": "mt",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "12344000",
@@ -5030,6 +7689,76 @@
       "tempC": -999999
     },
     {
+      "site": "475207115253401",
+      "state": "mt",
+      "tempC": 7.8
+    },
+    {
+      "site": "475209115242603",
+      "state": "mt",
+      "tempC": 6.4
+    },
+    {
+      "site": "475210115240801",
+      "state": "mt",
+      "tempC": 10.4
+    },
+    {
+      "site": "475210115242001",
+      "state": "mt",
+      "tempC": 10
+    },
+    {
+      "site": "475210115243101",
+      "state": "mt",
+      "tempC": 8.1
+    },
+    {
+      "site": "475210115244001",
+      "state": "mt",
+      "tempC": 17.8
+    },
+    {
+      "site": "475210115250103",
+      "state": "mt",
+      "tempC": 6.7
+    },
+    {
+      "site": "475211115241701",
+      "state": "mt",
+      "tempC": 5.6
+    },
+    {
+      "site": "475211115244901",
+      "state": "mt",
+      "tempC": 11.1
+    },
+    {
+      "site": "475211115245901",
+      "state": "mt",
+      "tempC": 7.7
+    },
+    {
+      "site": "475211115250701",
+      "state": "mt",
+      "tempC": 9.3
+    },
+    {
+      "site": "475213115251801",
+      "state": "mt",
+      "tempC": 8.1
+    },
+    {
+      "site": "06307616",
+      "state": "mt",
+      "condu": 575
+    },
+    {
+      "site": "06324500",
+      "state": "mt",
+      "condu": 2600
+    },
+    {
       "site": "06461500",
       "state": "ne",
       "tempC": 7.4,
@@ -5038,12 +7767,24 @@
     {
       "site": "06465500",
       "state": "ne",
-      "tempC": 9.4
+      "tempC": 9.4,
+      "condu": 282
+    },
+    {
+      "site": "06478522",
+      "state": "ne",
+      "tempC": 4.9,
+      "condu": 858
     },
     {
       "site": "06486000",
       "state": "ne",
       "tempC": -999999
+    },
+    {
+      "site": "06610000",
+      "state": "ne",
+      "tempC": 26.6
     },
     {
       "site": "06680500",
@@ -5061,9 +7802,76 @@
       "tempC": 9.9
     },
     {
+      "site": "06784000",
+      "state": "ne",
+      "tempC": 6.3,
+      "condu": 393
+    },
+    {
+      "site": "06785500",
+      "state": "ne",
+      "tempC": 5
+    },
+    {
+      "site": "06786000",
+      "state": "ne",
+      "tempC": 7.3
+    },
+    {
+      "site": "06796500",
+      "state": "ne",
+      "tempC": 7.7,
+      "condu": 416
+    },
+    {
       "site": "06796550",
       "state": "ne",
-      "tempC": 7.5
+      "tempC": 7.8
+    },
+    {
+      "site": "06799350",
+      "state": "ne",
+      "tempC": 15.2
+    },
+    {
+      "site": "06800500",
+      "state": "ne",
+      "tempC": 8.8,
+      "condu": 714
+    },
+    {
+      "site": "06801000",
+      "state": "ne",
+      "tempC": 25.8,
+      "condu": 429
+    },
+    {
+      "site": "06805000",
+      "state": "ne",
+      "tempC": 9.1,
+      "condu": 3600
+    },
+    {
+      "site": "06805500",
+      "state": "ne",
+      "tempC": 9.9,
+      "condu": -999999
+    },
+    {
+      "site": "06807000",
+      "state": "ne",
+      "tempC": -999999,
+      "condu": 794
+    },
+    {
+      "site": "06813500",
+      "state": "ne",
+      "tempC": -999999
+    },
+    {
+      "site": "09415089",
+      "state": "nv",
+      "tempC": 29.2
     },
     {
       "site": "10246835",
@@ -5073,41 +7881,59 @@
     {
       "site": "10249300",
       "state": "nv",
-      "tempC": 5.5
+      "tempC": 5.6
     },
     {
       "site": "10301500",
       "state": "nv",
-      "tempC": 6.4,
-      "condu": 382
+      "tempC": 6.6,
+      "condu": 381
     },
     {
       "site": "10302002",
       "state": "nv",
-      "tempC": 8.8,
-      "condu": 721
+      "tempC": 9.3,
+      "condu": 718
     },
     {
       "site": "10302025",
       "state": "nv",
-      "tempC": 11.7,
+      "tempC": 12.3,
       "condu": 1030
+    },
+    {
+      "site": "10317480",
+      "state": "nv",
+      "tempC": 10.4
+    },
+    {
+      "site": "10336698",
+      "state": "nv",
+      "tempC": 0.4,
+      "condu": 58
+    },
+    {
+      "site": "10336700",
+      "state": "nv",
+      "tempC": 0.9,
+      "condu": 72
     },
     {
       "site": "10336730",
       "state": "nv",
-      "tempC": 3.6
+      "tempC": 3.7,
+      "condu": -999999
     },
     {
       "site": "10348200",
       "state": "nv",
-      "tempC": 6.3,
-      "condu": 142
+      "tempC": 6.4,
+      "condu": 143
     },
     {
       "site": "10350500",
       "state": "nv",
-      "tempC": 7.1,
+      "tempC": 7.4,
       "condu": 263
     },
     {
@@ -5118,8 +7944,14 @@
     {
       "site": "10351700",
       "state": "nv",
-      "tempC": 7.5,
+      "tempC": 7.7,
       "condu": 324
+    },
+    {
+      "site": "391945118443901",
+      "state": "nv",
+      "tempC": 19.9,
+      "condu": 1100
     },
     {
       "site": "010642505",
@@ -5135,6 +7967,11 @@
       "site": "01073319",
       "state": "nh",
       "tempC": 2.7
+    },
+    {
+      "site": "01078000",
+      "state": "nh",
+      "tempC": 14.7
     },
     {
       "site": "01091000",
@@ -5164,7 +8001,7 @@
     {
       "site": "01157000",
       "state": "nh",
-      "tempC": 2.2
+      "tempC": 2.4
     },
     {
       "site": "01379530",
@@ -5180,6 +8017,16 @@
       "site": "01382210",
       "state": "nj",
       "tempC": -999999
+    },
+    {
+      "site": "01382385",
+      "state": "nj",
+      "tempC": 11
+    },
+    {
+      "site": "01382500",
+      "state": "nj",
+      "tempC": 9.6
     },
     {
       "site": "01388000",
@@ -5199,10 +8046,25 @@
       "condu": 818
     },
     {
+      "site": "01396500",
+      "state": "nj",
+      "tempC": 21
+    },
+    {
+      "site": "01396800",
+      "state": "nj",
+      "tempC": 25.7
+    },
+    {
       "site": "01400500",
       "state": "nj",
       "tempC": 7.6,
       "condu": 376
+    },
+    {
+      "site": "01401000",
+      "state": "nj",
+      "tempC": 24.7
     },
     {
       "site": "01401750",
@@ -5216,15 +8078,37 @@
       "condu": 400
     },
     {
+      "site": "01408000",
+      "state": "nj",
+      "tempC": 18.6,
+      "condu": 331
+    },
+    {
       "site": "01408029",
       "state": "nj",
       "tempC": 7.7,
       "condu": 262
     },
     {
+      "site": "01408500",
+      "state": "nj",
+      "tempC": 17.5,
+      "condu": 132
+    },
+    {
       "site": "01410500",
       "state": "nj",
       "tempC": 9.4
+    },
+    {
+      "site": "01411500",
+      "state": "nj",
+      "tempC": 23.2
+    },
+    {
+      "site": "01412000",
+      "state": "nj",
+      "tempC": 12.9
     },
     {
       "site": "01412080",
@@ -5234,7 +8118,25 @@
     {
       "site": "01412350",
       "state": "nj",
-      "condu": 34200
+      "tempC": -999999,
+      "condu": 33700
+    },
+    {
+      "site": "01412800",
+      "state": "nj",
+      "tempC": 21.3
+    },
+    {
+      "site": "01440000",
+      "state": "nj",
+      "tempC": 21.1,
+      "condu": 168
+    },
+    {
+      "site": "01443500",
+      "state": "nj",
+      "tempC": 27.8,
+      "condu": 507
     },
     {
       "site": "01445500",
@@ -5243,9 +8145,20 @@
       "condu": 574
     },
     {
+      "site": "01446500",
+      "state": "nj",
+      "tempC": 9.6,
+      "condu": 252
+    },
+    {
+      "site": "01455145",
+      "state": "nj",
+      "tempC": 8.1
+    },
+    {
       "site": "01455290",
       "state": "nj",
-      "tempC": 7.8
+      "tempC": 8
     },
     {
       "site": "01457500",
@@ -5255,7 +8168,7 @@
     {
       "site": "01458500",
       "state": "nj",
-      "tempC": 6.5,
+      "tempC": 6.6,
       "condu": 189
     },
     {
@@ -5272,24 +8185,29 @@
       "site": "01460595",
       "state": "nj",
       "tempC": 7.5,
-      "condu": 247
+      "condu": 248
+    },
+    {
+      "site": "01462000",
+      "state": "nj",
+      "tempC": -999999
     },
     {
       "site": "01463500",
       "state": "nj",
-      "tempC": 6.9,
-      "condu": 217
+      "tempC": 7.1,
+      "condu": 223
     },
     {
       "site": "01464040",
       "state": "nj",
-      "tempC": 6.7
+      "tempC": 6.9
     },
     {
       "site": "01464290",
       "state": "nj",
       "tempC": 7.5,
-      "condu": 228
+      "condu": 226
     },
     {
       "site": "01464500",
@@ -5298,27 +8216,39 @@
       "condu": 224
     },
     {
+      "site": "01465850",
+      "state": "nj",
+      "tempC": 20,
+      "condu": 156
+    },
+    {
+      "site": "0146587310",
+      "state": "nj",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
       "site": "01465880",
       "state": "nj",
-      "tempC": 7.6,
-      "condu": 276
+      "tempC": 7.7,
+      "condu": 274
     },
     {
       "site": "01466500",
       "state": "nj",
       "tempC": 9.6,
-      "condu": 40
+      "condu": 39.5
     },
     {
       "site": "01466900",
       "state": "nj",
-      "tempC": 7.4,
+      "tempC": 7.5,
       "condu": 61
     },
     {
       "site": "01467000",
       "state": "nj",
-      "tempC": 7.1,
+      "tempC": 7.2,
       "condu": 78
     },
     {
@@ -5330,7 +8260,7 @@
     {
       "site": "01467024",
       "state": "nj",
-      "tempC": 8.5,
+      "tempC": 8.6,
       "condu": 268
     },
     {
@@ -5349,7 +8279,12 @@
       "site": "01467194",
       "state": "nj",
       "tempC": 9.4,
-      "condu": 362
+      "condu": 358
+    },
+    {
+      "site": "01475001",
+      "state": "nj",
+      "tempC": 24.8
     },
     {
       "site": "01477070",
@@ -5360,13 +8295,18 @@
     {
       "site": "01477120",
       "state": "nj",
-      "tempC": 7.9,
-      "condu": 266
+      "tempC": 8,
+      "condu": 268
     },
     {
       "site": "07214550",
       "state": "nm",
       "tempC": 8.2
+    },
+    {
+      "site": "07218525",
+      "state": "nm",
+      "tempC": 0
     },
     {
       "site": "07227100",
@@ -5389,6 +8329,12 @@
       "tempC": -999999
     },
     {
+      "site": "08317400",
+      "state": "nm",
+      "tempC": 19.4,
+      "condu": 362
+    },
+    {
       "site": "08324000",
       "state": "nm",
       "tempC": 9.6
@@ -5396,18 +8342,36 @@
     {
       "site": "08329918",
       "state": "nm",
-      "tempC": 11.2
+      "tempC": 11.6
+    },
+    {
+      "site": "08330000",
+      "state": "nm",
+      "tempC": 23.8,
+      "condu": 322
+    },
+    {
+      "site": "08363510",
+      "state": "nm",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "08377900",
       "state": "nm",
-      "tempC": 2.8
+      "tempC": 3.5
     },
     {
       "site": "08380500",
       "state": "nm",
       "tempC": 5.8,
       "condu": 252
+    },
+    {
+      "site": "08386970",
+      "state": "nm",
+      "tempC": 5.5,
+      "condu": 892
     },
     {
       "site": "08405200",
@@ -5418,8 +8382,14 @@
     {
       "site": "08405400",
       "state": "nm",
-      "tempC": 15.1,
-      "condu": 1670
+      "tempC": 15.2,
+      "condu": 1660
+    },
+    {
+      "site": "08406500",
+      "state": "nm",
+      "tempC": 11.4,
+      "condu": 6280
     },
     {
       "site": "08407500",
@@ -5430,39 +8400,53 @@
     {
       "site": "09355500",
       "state": "nm",
-      "tempC": 7
+      "tempC": 7.2
+    },
+    {
+      "site": "09364010",
+      "state": "nm",
+      "tempC": 11.8,
+      "condu": 675
     },
     {
       "site": "09364500",
       "state": "nm",
-      "tempC": 8.4
+      "tempC": 9
     },
     {
       "site": "09365000",
       "state": "nm",
-      "tempC": 7.8
+      "tempC": 7.8,
+      "condu": 390
     },
     {
       "site": "09368000",
       "state": "nm",
-      "tempC": 8.4
+      "tempC": 8.4,
+      "condu": -999999
     },
     {
       "site": "01302020",
       "state": "ny",
-      "tempC": 7.5,
+      "tempC": 7.6,
       "condu": 710
+    },
+    {
+      "site": "01309500",
+      "state": "ny",
+      "tempC": 19.4
     },
     {
       "site": "01342732",
       "state": "ny",
-      "tempC": 0
+      "tempC": 0,
+      "condu": 509
     },
     {
       "site": "01349527",
       "state": "ny",
-      "tempC": 3.8,
-      "condu": 313
+      "tempC": 3.9,
+      "condu": 327
     },
     {
       "site": "01353900",
@@ -5512,7 +8496,13 @@
       "site": "01357500",
       "state": "ny",
       "tempC": 4.8,
-      "condu": 314
+      "condu": 313
+    },
+    {
+      "site": "01358000",
+      "state": "ny",
+      "tempC": 23.3,
+      "condu": 312
     },
     {
       "site": "01359139",
@@ -5539,12 +8529,27 @@
     {
       "site": "01362200",
       "state": "ny",
-      "tempC": 5.4
+      "tempC": 5.7
     },
     {
       "site": "01362230",
       "state": "ny",
-      "tempC": 5.2
+      "tempC": 5.1
+    },
+    {
+      "site": "01362232",
+      "state": "ny",
+      "tempC": 16.4
+    },
+    {
+      "site": "0136230002",
+      "state": "ny",
+      "tempC": 24.5
+    },
+    {
+      "site": "0136230005",
+      "state": "ny",
+      "tempC": 16.7
     },
     {
       "site": "01362500",
@@ -5560,18 +8565,18 @@
     {
       "site": "01364500",
       "state": "ny",
-      "tempC": 5.8,
-      "condu": 185
+      "tempC": 6.2,
+      "condu": 186
     },
     {
       "site": "01365100",
       "state": "ny",
-      "tempC": 9
+      "tempC": 8.9
     },
     {
       "site": "01365550",
       "state": "ny",
-      "tempC": 8.6
+      "tempC": 8.5
     },
     {
       "site": "01376307",
@@ -5586,6 +8591,39 @@
       "condu": 37100
     },
     {
+      "site": "01413398",
+      "state": "ny",
+      "tempC": -999999
+    },
+    {
+      "site": "01413500",
+      "state": "ny",
+      "tempC": 16.2,
+      "condu": 125
+    },
+    {
+      "site": "01414500",
+      "state": "ny",
+      "tempC": 15.5,
+      "condu": 45
+    },
+    {
+      "site": "01415000",
+      "state": "ny",
+      "tempC": 16.4,
+      "condu": 126
+    },
+    {
+      "site": "01415460",
+      "state": "ny",
+      "tempC": 15.6
+    },
+    {
+      "site": "01417000",
+      "state": "ny",
+      "tempC": 6.5
+    },
+    {
       "site": "01417500",
       "state": "ny",
       "tempC": 4.3
@@ -5593,17 +8631,22 @@
     {
       "site": "01419500",
       "state": "ny",
-      "tempC": 3.7
+      "tempC": 3.8
     },
     {
       "site": "01420500",
       "state": "ny",
-      "tempC": 3.8
+      "tempC": 3.9
+    },
+    {
+      "site": "01421000",
+      "state": "ny",
+      "tempC": -999999
     },
     {
       "site": "01421500",
       "state": "ny",
-      "tempC": 3.8
+      "tempC": 3.9
     },
     {
       "site": "01423000",
@@ -5629,12 +8672,12 @@
     {
       "site": "01427000",
       "state": "ny",
-      "tempC": 5.2
+      "tempC": 5.4
     },
     {
       "site": "01427500",
       "state": "ny",
-      "tempC": 3.8
+      "tempC": 4.1
     },
     {
       "site": "01428000",
@@ -5661,25 +8704,31 @@
     {
       "site": "0143400680",
       "state": "ny",
-      "tempC": 9,
+      "tempC": 9.2,
       "condu": 9
+    },
+    {
+      "site": "01434017",
+      "state": "ny",
+      "tempC": 13.7,
+      "condu": 22
     },
     {
       "site": "01434021",
       "state": "ny",
-      "tempC": 2.3,
+      "tempC": 2.4,
       "condu": 13
     },
     {
       "site": "01434025",
       "state": "ny",
-      "tempC": 3.5,
+      "tempC": 3.7,
       "condu": 16
     },
     {
       "site": "01434498",
       "state": "ny",
-      "tempC": 4.4,
+      "tempC": 4.3,
       "condu": 26
     },
     {
@@ -5691,7 +8740,7 @@
     {
       "site": "01436000",
       "state": "ny",
-      "tempC": 8.8,
+      "tempC": 8.7,
       "condu": 30
     },
     {
@@ -5703,7 +8752,14 @@
     {
       "site": "01436690",
       "state": "ny",
-      "tempC": 5.1
+      "tempC": 5.3,
+      "condu": 47
+    },
+    {
+      "site": "01437100",
+      "state": "ny",
+      "tempC": 14.9,
+      "condu": 110
     },
     {
       "site": "01437349",
@@ -5726,7 +8782,7 @@
       "site": "04213500",
       "state": "ny",
       "tempC": 4,
-      "condu": 368
+      "condu": 369
     },
     {
       "site": "04218601",
@@ -5749,13 +8805,13 @@
     {
       "site": "04219915",
       "state": "ny",
-      "tempC": 3.8,
+      "tempC": 3.9,
       "condu": 855
     },
     {
       "site": "04220045",
       "state": "ny",
-      "tempC": 3.2,
+      "tempC": 3.3,
       "condu": 2120
     },
     {
@@ -5767,8 +8823,8 @@
     {
       "site": "0422018610",
       "state": "ny",
-      "tempC": 5.5,
-      "condu": 656
+      "tempC": 5.6,
+      "condu": 657
     },
     {
       "site": "04220223",
@@ -5782,15 +8838,21 @@
       "tempC": 3.8
     },
     {
+      "site": "04226000",
+      "state": "ny",
+      "tempC": 4.2,
+      "condu": 443
+    },
+    {
       "site": "04231600",
       "state": "ny",
       "tempC": 4.8,
-      "condu": 530
+      "condu": 526
     },
     {
       "site": "04232050",
       "state": "ny",
-      "tempC": 6.7
+      "tempC": 6.9
     },
     {
       "site": "0423205010",
@@ -5799,14 +8861,45 @@
       "condu": 1390
     },
     {
+      "site": "04249000",
+      "state": "ny",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
       "site": "04253296",
       "state": "ny",
       "tempC": 1.4
     },
     {
+      "site": "04256000",
+      "state": "ny",
+      "tempC": 0.7
+    },
+    {
       "site": "04274185",
       "state": "ny",
       "tempC": 1.5
+    },
+    {
+      "site": "420706074212201",
+      "state": "ny",
+      "tempC": 15.8
+    },
+    {
+      "site": "420745074155501",
+      "state": "ny",
+      "tempC": 14.3
+    },
+    {
+      "site": "420758074160401",
+      "state": "ny",
+      "tempC": 17.8
+    },
+    {
+      "site": "420760074160501",
+      "state": "ny",
+      "tempC": 13.9
     },
     {
       "site": "02077200",
@@ -5825,6 +8918,12 @@
       "condu": 114
     },
     {
+      "site": "02081022",
+      "state": "nc",
+      "tempC": 10.4,
+      "condu": 89
+    },
+    {
       "site": "02081094",
       "state": "nc",
       "tempC": 12.8,
@@ -5833,14 +8932,20 @@
     {
       "site": "0208114150",
       "state": "nc",
-      "tempC": 13.5,
-      "condu": 8850
+      "tempC": 13.4,
+      "condu": 8800
     },
     {
       "site": "02101726",
       "state": "nc",
-      "tempC": 12.4,
+      "tempC": 12.5,
       "condu": 109
+    },
+    {
+      "site": "02102500",
+      "state": "nc",
+      "tempC": -999999,
+      "condu": 57
     },
     {
       "site": "02105769",
@@ -5865,7 +8970,7 @@
     {
       "site": "02129375",
       "state": "nc",
-      "tempC": 13.8
+      "tempC": 14
     },
     {
       "site": "02137727",
@@ -5880,7 +8985,7 @@
     {
       "site": "02141500",
       "state": "nc",
-      "tempC": 13.4
+      "tempC": 14
     },
     {
       "site": "0214196125",
@@ -5895,7 +9000,7 @@
     {
       "site": "0214264790",
       "state": "nc",
-      "tempC": 17.3
+      "tempC": 17.2
     },
     {
       "site": "0214267602",
@@ -5905,18 +9010,24 @@
     {
       "site": "03441000",
       "state": "nc",
-      "tempC": 9.6
+      "tempC": 10.1
     },
     {
       "site": "03446000",
       "state": "nc",
-      "tempC": 9.8
+      "tempC": 10.5
     },
     {
       "site": "03447687",
       "state": "nc",
-      "tempC": 10.4,
+      "tempC": 10.6,
       "condu": 44
+    },
+    {
+      "site": "03447890",
+      "state": "nc",
+      "tempC": 9.1,
+      "condu": 39
     },
     {
       "site": "03448050",
@@ -5927,7 +9038,7 @@
     {
       "site": "0344878100",
       "state": "nc",
-      "tempC": 10.9,
+      "tempC": 11.3,
       "condu": 83
     },
     {
@@ -5938,13 +9049,13 @@
     {
       "site": "03451200",
       "state": "nc",
-      "tempC": 10.1,
-      "condu": 45
+      "tempC": 10.4,
+      "condu": 44
     },
     {
       "site": "03451500",
       "state": "nc",
-      "tempC": 10.8,
+      "tempC": 11.1,
       "condu": 50
     },
     {
@@ -5960,7 +9071,12 @@
     {
       "site": "03460000",
       "state": "nc",
-      "tempC": 8.9
+      "tempC": 9.4
+    },
+    {
+      "site": "03460795",
+      "state": "nc",
+      "tempC": -999999
     },
     {
       "site": "03512000",
@@ -5974,6 +9090,12 @@
       "tempC": 14.9
     },
     {
+      "site": "05051522",
+      "state": "nd",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
       "site": "05054000",
       "state": "nd",
       "tempC": 2.5,
@@ -5982,13 +9104,25 @@
     {
       "site": "05054500",
       "state": "nd",
-      "tempC": 4.3
+      "tempC": 4.7
     },
     {
       "site": "05055300",
       "state": "nd",
       "tempC": 2.8,
       "condu": 1570
+    },
+    {
+      "site": "05055400",
+      "state": "nd",
+      "tempC": 3.5,
+      "condu": 1510
+    },
+    {
+      "site": "05056678",
+      "state": "nd",
+      "tempC": 2.5,
+      "condu": 920
     },
     {
       "site": "05057000",
@@ -6003,15 +9137,45 @@
       "condu": 1850
     },
     {
+      "site": "05059300",
+      "state": "nd",
+      "tempC": 2.4,
+      "condu": 1800
+    },
+    {
+      "site": "05064500",
+      "state": "nd",
+      "tempC": 2.9,
+      "condu": 1350
+    },
+    {
       "site": "05082500",
       "state": "nd",
       "tempC": 1.9,
       "condu": 1160
     },
     {
+      "site": "05114000",
+      "state": "nd",
+      "tempC": 1.5,
+      "condu": 1110
+    },
+    {
       "site": "05116500",
       "state": "nd",
       "tempC": 4.4
+    },
+    {
+      "site": "05117500",
+      "state": "nd",
+      "tempC": 10,
+      "condu": 1190
+    },
+    {
+      "site": "05124000",
+      "state": "nd",
+      "tempC": 15.5,
+      "condu": 1330
     },
     {
       "site": "06330000",
@@ -6025,19 +9189,60 @@
       "condu": 76
     },
     {
+      "site": "06336000",
+      "state": "nd",
+      "tempC": 3.4,
+      "condu": 1060
+    },
+    {
+      "site": "06340590",
+      "state": "nd",
+      "tempC": 5.5,
+      "condu": 1480
+    },
+    {
       "site": "06342500",
       "state": "nd",
       "tempC": 7.6
     },
     {
+      "site": "06348300",
+      "state": "nd",
+      "tempC": 0,
+      "condu": 1890
+    },
+    {
+      "site": "06349000",
+      "state": "nd",
+      "tempC": 6.3,
+      "condu": 1900
+    },
+    {
       "site": "06354890",
       "state": "nd",
+      "tempC": -999999,
       "condu": -999999
     },
     {
       "site": "06354980",
       "state": "nd",
+      "tempC": 2.5,
       "condu": -999999
+    },
+    {
+      "site": "06470000",
+      "state": "nd",
+      "tempC": 24.2
+    },
+    {
+      "site": "06470500",
+      "state": "nd",
+      "tempC": 21.7
+    },
+    {
+      "site": "06470878",
+      "state": "nd",
+      "tempC": 0
     },
     {
       "site": "03086500",
@@ -6082,6 +9287,7 @@
     {
       "site": "03098600",
       "state": "oh",
+      "tempC": 21.4,
       "condu": 636
     },
     {
@@ -6093,7 +9299,13 @@
     {
       "site": "03102950",
       "state": "oh",
-      "tempC": 4.1
+      "tempC": 4.2
+    },
+    {
+      "site": "03119341",
+      "state": "oh",
+      "tempC": 5.6,
+      "condu": 388
     },
     {
       "site": "03119971",
@@ -6116,8 +9328,8 @@
     {
       "site": "03120869",
       "state": "oh",
-      "tempC": 6.2,
-      "condu": 159
+      "tempC": 6.6,
+      "condu": 158
     },
     {
       "site": "03120961",
@@ -6128,20 +9340,20 @@
     {
       "site": "03125338",
       "state": "oh",
-      "tempC": 5.8,
-      "condu": 1560
+      "tempC": 5.9,
+      "condu": 1580
     },
     {
       "site": "03126395",
       "state": "oh",
-      "tempC": 4.8,
-      "condu": 2230
+      "tempC": 5.2,
+      "condu": 2250
     },
     {
       "site": "03127980",
       "state": "oh",
-      "tempC": 5.7,
-      "condu": 1180
+      "tempC": 6,
+      "condu": 1170
     },
     {
       "site": "03127986",
@@ -6152,14 +9364,14 @@
     {
       "site": "03127989",
       "state": "oh",
-      "tempC": 7.2,
-      "condu": 376
+      "tempC": 7.5,
+      "condu": 363
     },
     {
       "site": "03140853",
       "state": "oh",
-      "tempC": 6.3,
-      "condu": 524
+      "tempC": 6.6,
+      "condu": 521
     },
     {
       "site": "03140900",
@@ -6170,8 +9382,8 @@
     {
       "site": "03140950",
       "state": "oh",
-      "tempC": 6.7,
-      "condu": 770
+      "tempC": 7.1,
+      "condu": 771
     },
     {
       "site": "03145483",
@@ -6182,7 +9394,7 @@
     {
       "site": "03159540",
       "state": "oh",
-      "tempC": 6.5
+      "tempC": 6.6
     },
     {
       "site": "03216070",
@@ -6233,7 +9445,7 @@
     {
       "site": "03240000",
       "state": "oh",
-      "tempC": 7.1
+      "tempC": 7.5
     },
     {
       "site": "03242350",
@@ -6246,6 +9458,12 @@
       "tempC": 13
     },
     {
+      "site": "03255349",
+      "state": "oh",
+      "tempC": 6.6,
+      "condu": 960
+    },
+    {
       "site": "03262700",
       "state": "oh",
       "tempC": 8.5
@@ -6253,7 +9471,7 @@
     {
       "site": "03265000",
       "state": "oh",
-      "tempC": 7.8
+      "tempC": 8
     },
     {
       "site": "03267900",
@@ -6288,24 +9506,55 @@
       "tempC": 7.2
     },
     {
+      "site": "04193500",
+      "state": "oh",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "04195500",
+      "state": "oh",
+      "tempC": 2.6,
+      "condu": 817
+    },
+    {
       "site": "04198000",
       "state": "oh",
-      "tempC": 7.5
+      "tempC": 7.7
     },
     {
       "site": "04199000",
       "state": "oh",
-      "tempC": 5.9
+      "tempC": 6.1,
+      "condu": 712
+    },
+    {
+      "site": "04199500",
+      "state": "oh",
+      "tempC": 19.4,
+      "condu": 552
+    },
+    {
+      "site": "04200500",
+      "state": "oh",
+      "tempC": 23.3,
+      "condu": 568
     },
     {
       "site": "04201500",
       "state": "oh",
-      "tempC": 6.9
+      "tempC": 7
+    },
+    {
+      "site": "04206425",
+      "state": "oh",
+      "tempC": 7.8
     },
     {
       "site": "04208000",
       "state": "oh",
-      "tempC": 7.5
+      "tempC": 7.5,
+      "condu": 710
     },
     {
       "site": "04208509",
@@ -6315,7 +9564,8 @@
     {
       "site": "04212100",
       "state": "oh",
-      "tempC": -999999
+      "tempC": -999999,
+      "condu": 348
     },
     {
       "site": "395339083130100",
@@ -6326,8 +9576,14 @@
     {
       "site": "411402080492400",
       "state": "oh",
-      "tempC": 6.7,
-      "condu": 457
+      "tempC": 6.9,
+      "condu": 458
+    },
+    {
+      "site": "412122083061400",
+      "state": "oh",
+      "tempC": 7.2,
+      "condu": 869
     },
     {
       "site": "07160350",
@@ -6341,25 +9597,38 @@
       "tempC": 15
     },
     {
+      "site": "07177500",
+      "state": "ok",
+      "tempC": 23.6,
+      "condu": 151
+    },
+    {
       "site": "07178200",
       "state": "ok",
-      "tempC": 17.3,
-      "condu": 425
+      "tempC": 17.4,
+      "condu": 426
+    },
+    {
+      "site": "07185080",
+      "state": "ok",
+      "tempC": 1.5
     },
     {
       "site": "071912213",
       "state": "ok",
-      "tempC": 17.5
+      "tempC": 17.8,
+      "condu": 310
     },
     {
       "site": "07191222",
       "state": "ok",
-      "tempC": 16.7
+      "tempC": 16.8,
+      "condu": 287
     },
     {
       "site": "07191288",
       "state": "ok",
-      "tempC": 16.3
+      "tempC": 16.4
     },
     {
       "site": "07191315",
@@ -6369,7 +9638,7 @@
     {
       "site": "07191322",
       "state": "ok",
-      "tempC": 17.6
+      "tempC": 17.7
     },
     {
       "site": "07195500",
@@ -6401,8 +9670,8 @@
     {
       "site": "07239700",
       "state": "ok",
-      "tempC": 15.7,
-      "condu": 1370
+      "tempC": 16.5,
+      "condu": 1290
     },
     {
       "site": "07241000",
@@ -6423,14 +9692,38 @@
       "condu": 837
     },
     {
+      "site": "07301500",
+      "state": "ok",
+      "tempC": 27,
+      "condu": 3470
+    },
+    {
+      "site": "07303400",
+      "state": "ok",
+      "tempC": 20,
+      "condu": 179000
+    },
+    {
+      "site": "07305000",
+      "state": "ok",
+      "tempC": 11.6,
+      "condu": 8860
+    },
+    {
+      "site": "07331000",
+      "state": "ok",
+      "tempC": 22.8,
+      "condu": 1010
+    },
+    {
       "site": "07335700",
       "state": "ok",
-      "tempC": 20.1
+      "tempC": 20.4
     },
     {
       "site": "07339000",
       "state": "ok",
-      "tempC": 18.1
+      "tempC": 18.3
     },
     {
       "site": "10396000",
@@ -6438,9 +9731,14 @@
       "tempC": 5.9
     },
     {
+      "site": "11485000",
+      "state": "or",
+      "tempC": 17.9
+    },
+    {
       "site": "11491450",
       "state": "or",
-      "tempC": 5.1
+      "tempC": 5.5
     },
     {
       "site": "11491470",
@@ -6450,12 +9748,12 @@
     {
       "site": "11491950",
       "state": "or",
-      "tempC": 2.5
+      "tempC": 2.6
     },
     {
       "site": "11492550",
       "state": "or",
-      "tempC": 2.5
+      "tempC": 2.6
     },
     {
       "site": "11493100",
@@ -6465,7 +9763,7 @@
     {
       "site": "11501000",
       "state": "or",
-      "tempC": 6.4,
+      "tempC": 6.8,
       "condu": 97
     },
     {
@@ -6492,6 +9790,12 @@
       "tempC": 7.8
     },
     {
+      "site": "11507501",
+      "state": "or",
+      "tempC": 8.3,
+      "condu": 117
+    },
+    {
       "site": "11509370",
       "state": "or",
       "tempC": 8,
@@ -6500,7 +9804,7 @@
     {
       "site": "11509500",
       "state": "or",
-      "tempC": 7.9,
+      "tempC": 8,
       "condu": 125
     },
     {
@@ -6527,22 +9831,22 @@
     {
       "site": "14020000",
       "state": "or",
-      "tempC": 6.4
+      "tempC": 6.6
     },
     {
       "site": "14033500",
       "state": "or",
-      "tempC": 9.8
+      "tempC": 10.1
     },
     {
       "site": "14034470",
       "state": "or",
-      "tempC": 5.6
+      "tempC": 5.7
     },
     {
       "site": "14034500",
       "state": "or",
-      "tempC": 7.1
+      "tempC": 7.3
     },
     {
       "site": "14038530",
@@ -6550,9 +9854,15 @@
       "tempC": 6.3
     },
     {
+      "site": "14039320",
+      "state": "or",
+      "tempC": 13.2,
+      "condu": 705
+    },
+    {
       "site": "14043840",
       "state": "or",
-      "tempC": 5.3
+      "tempC": 6.2
     },
     {
       "site": "14044000",
@@ -6562,7 +9872,7 @@
     {
       "site": "14046778",
       "state": "or",
-      "tempC": 5.9
+      "tempC": 6.5
     },
     {
       "site": "14048000",
@@ -6595,6 +9905,18 @@
       "tempC": 7.7
     },
     {
+      "site": "14078240",
+      "state": "or",
+      "tempC": 5.5,
+      "condu": 573
+    },
+    {
+      "site": "14078250",
+      "state": "or",
+      "tempC": 16.3,
+      "condu": 584
+    },
+    {
       "site": "14078260",
       "state": "or",
       "tempC": 4.7,
@@ -6613,7 +9935,7 @@
     {
       "site": "14092500",
       "state": "or",
-      "tempC": 11.4
+      "tempC": 11.5
     },
     {
       "site": "14097100",
@@ -6687,14 +10009,19 @@
       "tempC": 7
     },
     {
+      "site": "14144780",
+      "state": "or",
+      "tempC": 9.2
+    },
+    {
       "site": "14144790",
       "state": "or",
-      "tempC": 6.1
+      "tempC": 6.2
     },
     {
       "site": "14144800",
       "state": "or",
-      "tempC": 7.3
+      "tempC": 7.4
     },
     {
       "site": "14144900",
@@ -6707,6 +10034,11 @@
       "tempC": 11.2
     },
     {
+      "site": "14147200",
+      "state": "or",
+      "tempC": 14.1
+    },
+    {
       "site": "14147500",
       "state": "or",
       "tempC": 7.7
@@ -6714,7 +10046,7 @@
     {
       "site": "14148000",
       "state": "or",
-      "tempC": 9.1
+      "tempC": 9.2
     },
     {
       "site": "14149011",
@@ -6724,17 +10056,22 @@
     {
       "site": "14150000",
       "state": "or",
-      "tempC": 11.9
+      "tempC": 12
+    },
+    {
+      "site": "14150250",
+      "state": "or",
+      "tempC": 19.4
     },
     {
       "site": "14150290",
       "state": "or",
-      "tempC": 8.7
+      "tempC": 8.8
     },
     {
       "site": "14150800",
       "state": "or",
-      "tempC": 7.4
+      "tempC": 7.5
     },
     {
       "site": "14151000",
@@ -6749,7 +10086,7 @@
     {
       "site": "14152500",
       "state": "or",
-      "tempC": 7.3
+      "tempC": 7.5
     },
     {
       "site": "14153500",
@@ -6779,12 +10116,12 @@
     {
       "site": "14158100",
       "state": "or",
-      "tempC": 10
+      "tempC": 10.1
     },
     {
       "site": "14158500",
       "state": "or",
-      "tempC": 5.4,
+      "tempC": 5.5,
       "condu": 59
     },
     {
@@ -6812,6 +10149,16 @@
       "condu": 50
     },
     {
+      "site": "14158977",
+      "state": "or",
+      "tempC": 7.8
+    },
+    {
+      "site": "14159100",
+      "state": "or",
+      "tempC": 11.9
+    },
+    {
       "site": "14159110",
       "state": "or",
       "tempC": 6.2
@@ -6829,7 +10176,7 @@
     {
       "site": "14159500",
       "state": "or",
-      "tempC": 9,
+      "tempC": 9.1,
       "condu": 52
     },
     {
@@ -6845,25 +10192,32 @@
     {
       "site": "14162050",
       "state": "or",
-      "tempC": 7.3
+      "tempC": 7.4,
+      "condu": 46
     },
     {
       "site": "14162200",
       "state": "or",
-      "tempC": 10.8,
+      "tempC": 10.9,
       "condu": 47
+    },
+    {
+      "site": "14162450",
+      "state": "or",
+      "tempC": -999999,
+      "condu": 34
     },
     {
       "site": "14162500",
       "state": "or",
-      "tempC": 7,
+      "tempC": 6.9,
       "condu": 60
     },
     {
       "site": "14163000",
       "state": "or",
-      "tempC": 6.2,
-      "condu": 46
+      "tempC": 6.5,
+      "condu": 45
     },
     {
       "site": "14163150",
@@ -6886,7 +10240,7 @@
     {
       "site": "14164700",
       "state": "or",
-      "tempC": 9.3,
+      "tempC": 9.5,
       "condu": 112
     },
     {
@@ -6903,7 +10257,7 @@
     {
       "site": "14165500",
       "state": "or",
-      "tempC": 8
+      "tempC": 8.1
     },
     {
       "site": "14166000",
@@ -6956,9 +10310,39 @@
       "tempC": 5.9
     },
     {
+      "site": "14178430",
+      "state": "or",
+      "tempC": 8.3
+    },
+    {
+      "site": "14178440",
+      "state": "or",
+      "tempC": 7
+    },
+    {
+      "site": "14178470",
+      "state": "or",
+      "tempC": 7.3
+    },
+    {
+      "site": "14178490",
+      "state": "or",
+      "tempC": 11.2
+    },
+    {
       "site": "14178500",
       "state": "or",
       "tempC": 5.9
+    },
+    {
+      "site": "14178610",
+      "state": "or",
+      "tempC": 13.1
+    },
+    {
+      "site": "14178620",
+      "state": "or",
+      "tempC": 12.6
     },
     {
       "site": "14179000",
@@ -6994,7 +10378,7 @@
     {
       "site": "14181900",
       "state": "or",
-      "tempC": 6.2
+      "tempC": 6.4
     },
     {
       "site": "14182500",
@@ -7003,15 +10387,25 @@
       "condu": 34
     },
     {
+      "site": "14183000",
+      "state": "or",
+      "tempC": 4.9
+    },
+    {
       "site": "14183020",
       "state": "or",
-      "tempC": 10.2,
+      "tempC": 10.3,
       "condu": 45
     },
     {
       "site": "14184100",
       "state": "or",
       "tempC": 9.6
+    },
+    {
+      "site": "14184300",
+      "state": "or",
+      "tempC": 16.6
     },
     {
       "site": "14185000",
@@ -7029,9 +10423,14 @@
       "tempC": 6.7
     },
     {
+      "site": "14185865",
+      "state": "or",
+      "tempC": 15.7
+    },
+    {
       "site": "14185900",
       "state": "or",
-      "tempC": 6.6
+      "tempC": 6.7
     },
     {
       "site": "14186200",
@@ -7041,7 +10440,7 @@
     {
       "site": "14187000",
       "state": "or",
-      "tempC": 6.1
+      "tempC": 6.3
     },
     {
       "site": "14187200",
@@ -7076,7 +10475,7 @@
     {
       "site": "14189050",
       "state": "or",
-      "tempC": 9.9
+      "tempC": 9.8
     },
     {
       "site": "14190500",
@@ -7086,12 +10485,17 @@
     {
       "site": "14190610",
       "state": "or",
-      "tempC": 9.3
+      "tempC": 9.2
+    },
+    {
+      "site": "14192015",
+      "state": "or",
+      "tempC": 21.2
     },
     {
       "site": "14197900",
       "state": "or",
-      "tempC": 10.6
+      "tempC": 10.7
     },
     {
       "site": "14198500",
@@ -7149,8 +10553,23 @@
     {
       "site": "14206241",
       "state": "or",
-      "tempC": 8.6,
-      "condu": 123
+      "tempC": 8.5,
+      "condu": 121
+    },
+    {
+      "site": "14206339",
+      "state": "or",
+      "tempC": 10.7
+    },
+    {
+      "site": "142063391",
+      "state": "or",
+      "tempC": 11.2
+    },
+    {
+      "site": "14206340",
+      "state": "or",
+      "tempC": 11.5
     },
     {
       "site": "14206694",
@@ -7182,9 +10601,20 @@
       "tempC": 11.7
     },
     {
+      "site": "14208000",
+      "state": "or",
+      "tempC": 7.6
+    },
+    {
+      "site": "14208300",
+      "state": "or",
+      "tempC": 8.9
+    },
+    {
       "site": "14209700",
       "state": "or",
-      "tempC": 5.9
+      "tempC": 5.9,
+      "condu": 38
     },
     {
       "site": "14209710",
@@ -7201,7 +10631,7 @@
     {
       "site": "14210750",
       "state": "or",
-      "tempC": 7.5
+      "tempC": 7.6
     },
     {
       "site": "14211010",
@@ -7212,12 +10642,12 @@
     {
       "site": "14211400",
       "state": "or",
-      "tempC": 7.7
+      "tempC": 7.8
     },
     {
       "site": "14211499",
       "state": "or",
-      "tempC": 7.4
+      "tempC": 7.6
     },
     {
       "site": "14211500",
@@ -7232,7 +10662,7 @@
     {
       "site": "14211550",
       "state": "or",
-      "tempC": 8.6
+      "tempC": 8.9
     },
     {
       "site": "14211720",
@@ -7251,6 +10681,12 @@
       "tempC": 8.7
     },
     {
+      "site": "14301500",
+      "state": "or",
+      "tempC": 14.6,
+      "condu": 80
+    },
+    {
       "site": "14302020",
       "state": "or",
       "tempC": 8.4
@@ -7258,7 +10694,8 @@
     {
       "site": "14302480",
       "state": "or",
-      "tempC": 7.6
+      "tempC": 7.6,
+      "condu": 91
     },
     {
       "site": "14303600",
@@ -7268,7 +10705,7 @@
     {
       "site": "14305500",
       "state": "or",
-      "tempC": 7.7
+      "tempC": 7.8
     },
     {
       "site": "14305800",
@@ -7318,7 +10755,7 @@
     {
       "site": "14312000",
       "state": "or",
-      "tempC": 10.5
+      "tempC": 10.6
     },
     {
       "site": "14312330",
@@ -7344,13 +10781,14 @@
     {
       "site": "14317450",
       "state": "or",
-      "tempC": 8,
+      "tempC": 8.1,
       "condu": 69
     },
     {
       "site": "14317600",
       "state": "or",
-      "tempC": 8.8
+      "tempC": 8.8,
+      "condu": 83
     },
     {
       "site": "14318000",
@@ -7365,7 +10803,7 @@
     {
       "site": "14320934",
       "state": "or",
-      "tempC": 7.4
+      "tempC": 7.7
     },
     {
       "site": "14321000",
@@ -7375,12 +10813,12 @@
     {
       "site": "14322810",
       "state": "or",
-      "tempC": 9.7
+      "tempC": 9.8
     },
     {
       "site": "14326300",
       "state": "or",
-      "tempC": 9.3
+      "tempC": 9.2
     },
     {
       "site": "14326510",
@@ -7395,47 +10833,47 @@
     {
       "site": "14327150",
       "state": "or",
-      "tempC": 9.9
+      "tempC": 10
     },
     {
       "site": "14330000",
       "state": "or",
-      "tempC": 5.9
+      "tempC": 6
     },
     {
       "site": "14335072",
       "state": "or",
-      "tempC": 6.7
+      "tempC": 6.8
     },
     {
       "site": "14337500",
       "state": "or",
-      "tempC": 8.5
+      "tempC": 8.6
     },
     {
       "site": "14337600",
       "state": "or",
-      "tempC": 7
+      "tempC": 7.1
     },
     {
       "site": "14338000",
       "state": "or",
-      "tempC": 9
+      "tempC": 9.1
     },
     {
       "site": "14339000",
       "state": "or",
-      "tempC": 7.5
+      "tempC": 7.6
     },
     {
       "site": "14359000",
       "state": "or",
-      "tempC": 8
+      "tempC": 8.1
     },
     {
       "site": "14361500",
       "state": "or",
-      "tempC": 8.2
+      "tempC": 8.3
     },
     {
       "site": "14362000",
@@ -7473,10 +10911,37 @@
       "tempC": 10
     },
     {
+      "site": "415954121312100",
+      "state": "or",
+      "tempC": 14.2
+    },
+    {
+      "site": "420024121132800",
+      "state": "or",
+      "tempC": 18.9
+    },
+    {
+      "site": "420037121334100",
+      "state": "or",
+      "tempC": 9.1,
+      "condu": 311
+    },
+    {
       "site": "420448121503100",
       "state": "or",
       "tempC": 7.1,
       "condu": 430
+    },
+    {
+      "site": "420451121510000",
+      "state": "or",
+      "tempC": 7.9,
+      "condu": 437
+    },
+    {
+      "site": "420535121143800",
+      "state": "or",
+      "tempC": 22.3
     },
     {
       "site": "420741121554001",
@@ -7485,10 +10950,231 @@
       "condu": 127
     },
     {
+      "site": "420833121402000",
+      "state": "or",
+      "tempC": 8.9,
+      "condu": 346
+    },
+    {
+      "site": "420853121505500",
+      "state": "or",
+      "tempC": 8.8,
+      "condu": 123
+    },
+    {
+      "site": "420853121505501",
+      "state": "or",
+      "tempC": 8.7,
+      "condu": 124
+    },
+    {
+      "site": "421015121471800",
+      "state": "or",
+      "tempC": 8.6,
+      "condu": 127
+    },
+    {
+      "site": "421401121480900",
+      "state": "or",
+      "tempC": 8.4,
+      "condu": 114
+    },
+    {
+      "site": "423815118453900",
+      "state": "or",
+      "tempC": 5
+    },
+    {
+      "site": "424003118453700",
+      "state": "or",
+      "tempC": 2.6
+    },
+    {
+      "site": "424833118521200",
+      "state": "or",
+      "tempC": 12.8
+    },
+    {
+      "site": "425818118520500",
+      "state": "or",
+      "tempC": 14.2
+    },
+    {
+      "site": "430242118502100",
+      "state": "or",
+      "tempC": 15.2
+    },
+    {
+      "site": "430506118505600",
+      "state": "or",
+      "tempC": 15.4
+    },
+    {
+      "site": "431258118523900",
+      "state": "or",
+      "tempC": 20.4
+    },
+    {
+      "site": "431605118510600",
+      "state": "or",
+      "tempC": 17.9
+    },
+    {
+      "site": "441344122095400",
+      "state": "or",
+      "tempC": 4.5
+    },
+    {
+      "site": "441400122123000",
+      "state": "or",
+      "tempC": 5.1
+    },
+    {
+      "site": "441504122105500",
+      "state": "or",
+      "tempC": 5.9
+    },
+    {
+      "site": "443056122221700",
+      "state": "or",
+      "tempC": 16.9
+    },
+    {
+      "site": "443226122260700",
+      "state": "or",
+      "tempC": 10
+    },
+    {
+      "site": "443317122252600",
+      "state": "or",
+      "tempC": 10.3
+    },
+    {
+      "site": "443348122244400",
+      "state": "or",
+      "tempC": 10.1
+    },
+    {
+      "site": "443404122240500",
+      "state": "or",
+      "tempC": 9.5
+    },
+    {
+      "site": "443517122221800",
+      "state": "or",
+      "tempC": 9.9
+    },
+    {
+      "site": "443531122203900",
+      "state": "or",
+      "tempC": 18.5
+    },
+    {
+      "site": "444516122243900",
+      "state": "or",
+      "tempC": 8.4,
+      "condu": 36
+    },
+    {
+      "site": "445009122212100",
+      "state": "or",
+      "tempC": 17.7
+    },
+    {
       "site": "452230122512201",
       "state": "or",
       "tempC": 7.9,
       "condu": 142
+    },
+    {
+      "site": "452533122472600",
+      "state": "or",
+      "tempC": 6
+    },
+    {
+      "site": "452538122471600",
+      "state": "or",
+      "tempC": 8.6
+    },
+    {
+      "site": "452547122465900",
+      "state": "or",
+      "tempC": 4.9
+    },
+    {
+      "site": "452559122472401",
+      "state": "or",
+      "tempC": 2.7
+    },
+    {
+      "site": "452600122471400",
+      "state": "or",
+      "tempC": 2.5
+    },
+    {
+      "site": "452600122471700",
+      "state": "or",
+      "tempC": 2.6
+    },
+    {
+      "site": "452657122244500",
+      "state": "or",
+      "tempC": 16.7
+    },
+    {
+      "site": "452704122474200",
+      "state": "or",
+      "tempC": 2.5
+    },
+    {
+      "site": "452710122224800",
+      "state": "or",
+      "tempC": 17.4
+    },
+    {
+      "site": "452711122474100",
+      "state": "or",
+      "tempC": 10.4
+    },
+    {
+      "site": "452715122474500",
+      "state": "or",
+      "tempC": 2.7
+    },
+    {
+      "site": "452721122474800",
+      "state": "or",
+      "tempC": 3.4
+    },
+    {
+      "site": "452722122474600",
+      "state": "or",
+      "tempC": 10.1
+    },
+    {
+      "site": "452722122474800",
+      "state": "or",
+      "tempC": 10.1
+    },
+    {
+      "site": "452723122474600",
+      "state": "or",
+      "tempC": 4
+    },
+    {
+      "site": "452723122474700",
+      "state": "or",
+      "tempC": 4.6
+    },
+    {
+      "site": "452726122474500",
+      "state": "or",
+      "tempC": 4.4
+    },
+    {
+      "site": "452726122474600",
+      "state": "or",
+      "tempC": 4
     },
     {
       "site": "452731123092100",
@@ -7497,10 +11183,123 @@
       "condu": 92
     },
     {
+      "site": "452737122194200",
+      "state": "or",
+      "tempC": 16.7
+    },
+    {
+      "site": "452737122231400",
+      "state": "or",
+      "tempC": 18.1
+    },
+    {
+      "site": "452753122233100",
+      "state": "or",
+      "tempC": 20.4
+    },
+    {
+      "site": "452755122234100",
+      "state": "or",
+      "tempC": 19.4
+    },
+    {
+      "site": "452806122231900",
+      "state": "or",
+      "tempC": 21.1
+    },
+    {
+      "site": "452807122215001",
+      "state": "or",
+      "tempC": 21.5
+    },
+    {
+      "site": "453004122510301",
+      "state": "or",
+      "tempC": -999999,
+      "condu": 262
+    },
+    {
+      "site": "453027122400000",
+      "state": "or",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "453030122560101",
+      "state": "or",
+      "tempC": 10.4,
+      "condu": 171
+    },
+    {
       "site": "453040123065201",
       "state": "or",
       "tempC": 7.5,
       "condu": 109
+    },
+    {
+      "site": "453248122580600",
+      "state": "or",
+      "tempC": 5.2
+    },
+    {
+      "site": "453248122582100",
+      "state": "or",
+      "tempC": 4.7
+    },
+    {
+      "site": "453301122491600",
+      "state": "or",
+      "tempC": 8.1
+    },
+    {
+      "site": "453302122491300",
+      "state": "or",
+      "tempC": 5.3
+    },
+    {
+      "site": "453303122491300",
+      "state": "or",
+      "tempC": 5.2
+    },
+    {
+      "site": "453303122491400",
+      "state": "or",
+      "tempC": 6.2
+    },
+    {
+      "site": "453304122491300",
+      "state": "or",
+      "tempC": 5.3
+    },
+    {
+      "site": "453319122505000",
+      "state": "or",
+      "tempC": 15.3
+    },
+    {
+      "site": "453320122483701",
+      "state": "or",
+      "tempC": 5.5
+    },
+    {
+      "site": "453320122505700",
+      "state": "or",
+      "tempC": 6.8
+    },
+    {
+      "site": "453322122512200",
+      "state": "or",
+      "tempC": 5.2
+    },
+    {
+      "site": "453328122514600",
+      "state": "or",
+      "tempC": 4.5
+    },
+    {
+      "site": "453334122511500",
+      "state": "or",
+      "tempC": 3.5
     },
     {
       "site": "453630122021400",
@@ -7521,13 +11320,13 @@
     {
       "site": "01427510",
       "state": "pa",
-      "tempC": 4.1,
+      "tempC": 4,
       "condu": 67
     },
     {
       "site": "01428750",
       "state": "pa",
-      "tempC": 4.4
+      "tempC": 4.5
     },
     {
       "site": "01429000",
@@ -7552,7 +11351,8 @@
     {
       "site": "01432160",
       "state": "pa",
-      "tempC": 4.2
+      "tempC": 4.2,
+      "condu": 72
     },
     {
       "site": "01432495",
@@ -7562,17 +11362,24 @@
     {
       "site": "01432805",
       "state": "pa",
-      "tempC": 4.2
+      "tempC": 4.4
     },
     {
       "site": "01434000",
       "state": "pa",
-      "tempC": 4.9
+      "tempC": 4.9,
+      "condu": 92
     },
     {
       "site": "01438500",
       "state": "pa",
       "tempC": 4.5,
+      "condu": 94
+    },
+    {
+      "site": "01439500",
+      "state": "pa",
+      "tempC": 9.5,
       "condu": 94
     },
     {
@@ -7599,12 +11406,12 @@
     {
       "site": "01449360",
       "state": "pa",
-      "tempC": 5.8
+      "tempC": 6.7
     },
     {
       "site": "01449800",
       "state": "pa",
-      "tempC": 11.3
+      "tempC": 11.2
     },
     {
       "site": "01451380",
@@ -7615,20 +11422,20 @@
     {
       "site": "01451400",
       "state": "pa",
-      "tempC": 9.3,
+      "tempC": 9.5,
       "condu": 589
     },
     {
       "site": "01451500",
       "state": "pa",
-      "tempC": 9.7,
-      "condu": 539
+      "tempC": 9.9,
+      "condu": 537
     },
     {
       "site": "01451630",
       "state": "pa",
       "tempC": 9.6,
-      "condu": 654
+      "condu": 700
     },
     {
       "site": "01451650",
@@ -7657,8 +11464,8 @@
     {
       "site": "01465798",
       "state": "pa",
-      "tempC": 7.9,
-      "condu": 509
+      "tempC": 8,
+      "condu": 504
     },
     {
       "site": "014670261",
@@ -7676,24 +11483,31 @@
       "site": "01467048",
       "state": "pa",
       "tempC": 7.8,
-      "condu": 609
+      "condu": 622
+    },
+    {
+      "site": "01467086",
+      "state": "pa",
+      "tempC": 20.2,
+      "condu": 717
     },
     {
       "site": "01467087",
       "state": "pa",
-      "tempC": 10,
-      "condu": 554
+      "tempC": 9.9,
+      "condu": 561
     },
     {
-      "site": "01468500",
+      "site": "01467200",
       "state": "pa",
-      "condu": 546
+      "tempC": 8.8,
+      "condu": 171
     },
     {
       "site": "01470736",
       "state": "pa",
-      "tempC": 6.3,
-      "condu": 375
+      "tempC": 6.6,
+      "condu": 376
     },
     {
       "site": "01470779",
@@ -7713,7 +11527,7 @@
     {
       "site": "01472157",
       "state": "pa",
-      "tempC": 6.6
+      "tempC": 6.8
     },
     {
       "site": "01473000",
@@ -7724,8 +11538,8 @@
     {
       "site": "01473169",
       "state": "pa",
-      "tempC": 8.9,
-      "condu": 867
+      "tempC": 9.1,
+      "condu": 858
     },
     {
       "site": "01473470",
@@ -7735,14 +11549,14 @@
     {
       "site": "01473500",
       "state": "pa",
-      "tempC": 7.3,
+      "tempC": 7.4,
       "condu": 569
     },
     {
       "site": "01473900",
       "state": "pa",
-      "tempC": 8.4,
-      "condu": 988
+      "tempC": 8.6,
+      "condu": 982
     },
     {
       "site": "01474000",
@@ -7760,19 +11574,25 @@
       "site": "01474703",
       "state": "pa",
       "tempC": 10.2,
-      "condu": 647
+      "condu": 770
     },
     {
       "site": "01475510",
       "state": "pa",
-      "tempC": 7.5,
-      "condu": 511
+      "tempC": 7.6,
+      "condu": 512
     },
     {
       "site": "01475530",
       "state": "pa",
-      "tempC": 8.5,
-      "condu": 408
+      "tempC": 8.6,
+      "condu": 393
+    },
+    {
+      "site": "01475548",
+      "state": "pa",
+      "tempC": 27.3,
+      "condu": 517
     },
     {
       "site": "01477050",
@@ -7783,13 +11603,20 @@
     {
       "site": "01477200",
       "state": "pa",
-      "tempC": 9.8
+      "tempC": 9.8,
+      "condu": 5850
     },
     {
       "site": "01478100",
       "state": "pa",
-      "tempC": 7.8,
+      "tempC": 7.9,
       "condu": 253
+    },
+    {
+      "site": "01478120",
+      "state": "pa",
+      "tempC": 3,
+      "condu": 424
     },
     {
       "site": "01478137",
@@ -7812,8 +11639,8 @@
     {
       "site": "01478245",
       "state": "pa",
-      "tempC": 6.9,
-      "condu": 362
+      "tempC": 7,
+      "condu": 361
     },
     {
       "site": "01480400",
@@ -7829,24 +11656,24 @@
       "site": "01480617",
       "state": "pa",
       "tempC": 8.4,
-      "condu": 414
+      "condu": 420
     },
     {
       "site": "01480629",
       "state": "pa",
-      "tempC": 6.9
+      "tempC": 7
     },
     {
       "site": "01480870",
       "state": "pa",
-      "tempC": 8.5,
+      "tempC": 8.6,
       "condu": 453
     },
     {
       "site": "01481000",
       "state": "pa",
       "tempC": 6.8,
-      "condu": 436
+      "condu": 435
     },
     {
       "site": "01516350",
@@ -7872,15 +11699,21 @@
       "condu": 246
     },
     {
+      "site": "01540008",
+      "state": "pa",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
       "site": "01540500",
       "state": "pa",
-      "tempC": 5.3,
-      "condu": 261
+      "tempC": 5.4,
+      "condu": 260
     },
     {
       "site": "01542500",
       "state": "pa",
-      "tempC": 4.9,
+      "tempC": 5.1,
       "condu": 382
     },
     {
@@ -7890,6 +11723,11 @@
       "condu": 59
     },
     {
+      "site": "01545600",
+      "state": "pa",
+      "tempC": -999999
+    },
+    {
       "site": "01547500",
       "state": "pa",
       "tempC": 8.6
@@ -7897,7 +11735,7 @@
     {
       "site": "01548030",
       "state": "pa",
-      "tempC": 9.3,
+      "tempC": 9.4,
       "condu": 410
     },
     {
@@ -7912,6 +11750,12 @@
       "tempC": 10.8
     },
     {
+      "site": "01567000",
+      "state": "pa",
+      "tempC": 6.2,
+      "condu": 215
+    },
+    {
       "site": "01570500",
       "state": "pa",
       "tempC": 5.9,
@@ -7921,7 +11765,7 @@
       "site": "01573208",
       "state": "pa",
       "tempC": 6.7,
-      "condu": 398
+      "condu": 381
     },
     {
       "site": "01573660",
@@ -7972,9 +11816,16 @@
       "condu": 718
     },
     {
+      "site": "01576000",
+      "state": "pa",
+      "tempC": 6,
+      "condu": 222
+    },
+    {
       "site": "01576003",
       "state": "pa",
-      "tempC": 5.6
+      "tempC": 5.7,
+      "condu": 218
     },
     {
       "site": "01576007",
@@ -7991,8 +11842,8 @@
     {
       "site": "01576381",
       "state": "pa",
-      "tempC": 9.6,
-      "condu": 545
+      "tempC": 9.8,
+      "condu": 538
     },
     {
       "site": "015765195",
@@ -8003,7 +11854,7 @@
     {
       "site": "01577500",
       "state": "pa",
-      "tempC": 6.2,
+      "tempC": 6.3,
       "condu": 178
     },
     {
@@ -8026,6 +11877,12 @@
       "site": "03012550",
       "state": "pa",
       "tempC": 9.4
+    },
+    {
+      "site": "03016000",
+      "state": "pa",
+      "tempC": -999999,
+      "condu": 114
     },
     {
       "site": "03017500",
@@ -8060,7 +11917,8 @@
     {
       "site": "03027500",
       "state": "pa",
-      "tempC": 7.4
+      "tempC": 7.4,
+      "condu": 41
     },
     {
       "site": "03028000",
@@ -8092,7 +11950,7 @@
     {
       "site": "03038000",
       "state": "pa",
-      "tempC": 5.2
+      "tempC": 5.3
     },
     {
       "site": "03039000",
@@ -8100,10 +11958,26 @@
       "tempC": 7.4
     },
     {
+      "site": "03039035",
+      "state": "pa",
+      "tempC": 5.5
+    },
+    {
+      "site": "03039036",
+      "state": "pa",
+      "tempC": 5.5
+    },
+    {
       "site": "03039040",
       "state": "pa",
-      "tempC": 5.2,
+      "tempC": 5.3,
       "condu": 241
+    },
+    {
+      "site": "03039041",
+      "state": "pa",
+      "tempC": 5.1,
+      "condu": 199
     },
     {
       "site": "03041500",
@@ -8119,7 +11993,7 @@
       "site": "03043810",
       "state": "pa",
       "tempC": 5.8,
-      "condu": 646
+      "condu": 649
     },
     {
       "site": "03044000",
@@ -8153,13 +12027,19 @@
       "site": "03072655",
       "state": "pa",
       "tempC": 9.6,
-      "condu": 419
+      "condu": 420
     },
     {
       "site": "03073000",
       "state": "pa",
       "tempC": 5.4,
       "condu": 583
+    },
+    {
+      "site": "03075070",
+      "state": "pa",
+      "tempC": 10.7,
+      "condu": 294
     },
     {
       "site": "03077100",
@@ -8175,8 +12055,8 @@
     {
       "site": "03079000",
       "state": "pa",
-      "tempC": 4.8,
-      "condu": 498
+      "tempC": 4.9,
+      "condu": 496
     },
     {
       "site": "03081000",
@@ -8193,7 +12073,12 @@
     {
       "site": "03085000",
       "state": "pa",
-      "tempC": 8.3
+      "tempC": 8.5
+    },
+    {
+      "site": "03085002",
+      "state": "pa",
+      "tempC": 7.2
     },
     {
       "site": "03102850",
@@ -8219,19 +12104,25 @@
     {
       "site": "03106000",
       "state": "pa",
-      "tempC": 5.3,
-      "condu": 754
+      "tempC": 5.4,
+      "condu": 753
+    },
+    {
+      "site": "03108490",
+      "state": "pa",
+      "tempC": 13.2,
+      "condu": 344
     },
     {
       "site": "03108500",
       "state": "pa",
       "tempC": 7.9,
-      "condu": 393
+      "condu": 392
     },
     {
       "site": "04212895",
       "state": "pa",
-      "tempC": 4.8,
+      "tempC": 5,
       "condu": 270
     },
     {
@@ -8245,6 +12136,11 @@
       "state": "pa",
       "tempC": 9.4,
       "condu": 468
+    },
+    {
+      "site": "01468500",
+      "state": "pa",
+      "condu": 539
     },
     {
       "site": "01115098",
@@ -8261,61 +12157,61 @@
     {
       "site": "01115114",
       "state": "ri",
-      "tempC": 3.9,
-      "condu": 150
+      "tempC": 4.2,
+      "condu": 149
     },
     {
       "site": "01115170",
       "state": "ri",
-      "tempC": 8.1,
+      "tempC": 8.2,
       "condu": 191
     },
     {
       "site": "01115183",
       "state": "ri",
-      "tempC": 3.6,
+      "tempC": 3.9,
       "condu": 140
     },
     {
       "site": "011151843",
       "state": "ri",
-      "tempC": 5.9,
+      "tempC": 6.3,
       "condu": 74
     },
     {
       "site": "01115185",
       "state": "ri",
-      "tempC": 4.1,
-      "condu": 103
+      "tempC": 4.6,
+      "condu": 104
     },
     {
       "site": "01115187",
       "state": "ri",
-      "tempC": 3.3,
+      "tempC": 3.6,
       "condu": -999999
     },
     {
       "site": "01115190",
       "state": "ri",
-      "tempC": 3.6,
+      "tempC": 3.9,
       "condu": 107
     },
     {
       "site": "01115265",
       "state": "ri",
-      "tempC": 3.2,
+      "tempC": 3.6,
       "condu": 96
     },
     {
       "site": "01115276",
       "state": "ri",
-      "tempC": 5.2,
-      "condu": 92
+      "tempC": 5.3,
+      "condu": 93
     },
     {
       "site": "01115278",
       "state": "ri",
-      "tempC": 5.5,
+      "tempC": 5.7,
       "condu": 145
     },
     {
@@ -8333,7 +12229,7 @@
     {
       "site": "02110400",
       "state": "sc",
-      "tempC": 16.9,
+      "tempC": 17,
       "condu": 528
     },
     {
@@ -8363,20 +12259,20 @@
     {
       "site": "02110725",
       "state": "sc",
-      "tempC": 14.2,
+      "tempC": 14.3,
       "condu": 108
     },
     {
       "site": "02110755",
       "state": "sc",
       "tempC": 16.2,
-      "condu": 169
+      "condu": 161
     },
     {
       "site": "02110760",
       "state": "sc",
-      "tempC": 15.8,
-      "condu": 126
+      "tempC": 16,
+      "condu": 125
     },
     {
       "site": "02110770",
@@ -8385,9 +12281,15 @@
       "condu": 197
     },
     {
+      "site": "02110777",
+      "state": "sc",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
       "site": "02110802",
       "state": "sc",
-      "tempC": 14.1
+      "tempC": 14.5
     },
     {
       "site": "021108125",
@@ -8410,8 +12312,8 @@
     {
       "site": "02136371",
       "state": "sc",
-      "tempC": 15.4,
-      "condu": 9150
+      "tempC": 15.5,
+      "condu": 8540
     },
     {
       "site": "02145910",
@@ -8421,7 +12323,7 @@
     {
       "site": "02147310",
       "state": "sc",
-      "tempC": 14
+      "tempC": 14.1
     },
     {
       "site": "021474095",
@@ -8446,19 +12348,19 @@
     {
       "site": "02156500",
       "state": "sc",
-      "tempC": 13.4,
-      "condu": 82
+      "tempC": 13.5,
+      "condu": 85
     },
     {
       "site": "02160105",
       "state": "sc",
-      "tempC": 12.7,
-      "condu": 146
+      "tempC": 12.8,
+      "condu": 145
     },
     {
       "site": "02160700",
       "state": "sc",
-      "tempC": 12.9,
+      "tempC": 13,
       "condu": 139
     },
     {
@@ -8470,12 +12372,12 @@
     {
       "site": "02162035",
       "state": "sc",
-      "tempC": 15.2
+      "tempC": 15.1
     },
     {
       "site": "021622825",
       "state": "sc",
-      "tempC": 11.3
+      "tempC": 11.2
     },
     {
       "site": "021622845",
@@ -8490,7 +12392,7 @@
     {
       "site": "02162287",
       "state": "sc",
-      "tempC": 14.5
+      "tempC": 14.6
     },
     {
       "site": "02162290",
@@ -8500,7 +12402,7 @@
     {
       "site": "021623950",
       "state": "sc",
-      "tempC": 11.3
+      "tempC": 12
     },
     {
       "site": "0216239615",
@@ -8520,7 +12422,7 @@
     {
       "site": "02167600",
       "state": "sc",
-      "tempC": 15
+      "tempC": 15.2
     },
     {
       "site": "02167716",
@@ -8530,18 +12432,19 @@
     {
       "site": "02168504",
       "state": "sc",
-      "tempC": 16.1
+      "tempC": 16
     },
     {
       "site": "02169000",
       "state": "sc",
-      "tempC": 15.8
+      "tempC": 15.8,
+      "condu": 75
     },
     {
       "site": "02171500",
       "state": "sc",
-      "tempC": 15.4,
-      "condu": 60
+      "tempC": 15.6,
+      "condu": 58
     },
     {
       "site": "02171560",
@@ -8552,20 +12455,20 @@
     {
       "site": "02171645",
       "state": "sc",
-      "tempC": 14.8,
-      "condu": 95
+      "tempC": 15,
+      "condu": 97
     },
     {
       "site": "02171905",
       "state": "sc",
       "tempC": 15.9,
-      "condu": 17400
+      "condu": 13500
     },
     {
       "site": "02171920",
       "state": "sc",
-      "tempC": 18.7,
-      "condu": 50300
+      "tempC": 18.6,
+      "condu": 50400
     },
     {
       "site": "02172002",
@@ -8647,8 +12550,8 @@
     {
       "site": "021720869",
       "state": "sc",
-      "tempC": 16,
-      "condu": 24800
+      "tempC": 16.1,
+      "condu": 24000
     },
     {
       "site": "021721675",
@@ -8659,13 +12562,13 @@
     {
       "site": "02172300",
       "state": "sc",
-      "tempC": 12
+      "tempC": 12.2
     },
     {
       "site": "021765795",
       "state": "sc",
-      "tempC": 17.1,
-      "condu": 47800
+      "tempC": 17.2,
+      "condu": 47700
     },
     {
       "site": "0217689150",
@@ -8676,7 +12579,7 @@
     {
       "site": "02185010",
       "state": "sc",
-      "tempC": 12.3
+      "tempC": 12.8
     },
     {
       "site": "021963601",
@@ -8691,14 +12594,32 @@
     {
       "site": "021989784",
       "state": "sc",
-      "tempC": 15.8,
-      "condu": 513
+      "tempC": 16.1,
+      "condu": 477
     },
     {
       "site": "0219897993",
       "state": "sc",
-      "tempC": 16.5,
-      "condu": 26500
+      "tempC": 16.6,
+      "condu": 24600
+    },
+    {
+      "site": "06403700",
+      "state": "sd",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "06418800",
+      "state": "sd",
+      "tempC": 3.2,
+      "condu": 782
+    },
+    {
+      "site": "06449100",
+      "state": "sd",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "03408500",
@@ -8715,12 +12636,20 @@
     {
       "site": "03417500",
       "state": "tn",
-      "tempC": 15.5
+      "tempC": 15.7,
+      "condu": 178
     },
     {
       "site": "03418420",
       "state": "tn",
-      "tempC": 13.9
+      "tempC": 14.1,
+      "condu": 190
+    },
+    {
+      "site": "03426310",
+      "state": "tn",
+      "tempC": 15.7,
+      "condu": 204
     },
     {
       "site": "03428180",
@@ -8731,8 +12660,8 @@
     {
       "site": "03430200",
       "state": "tn",
-      "tempC": 15.8,
-      "condu": 299
+      "tempC": 15.9,
+      "condu": 305
     },
     {
       "site": "03431083",
@@ -8744,7 +12673,7 @@
       "site": "03431091",
       "state": "tn",
       "tempC": 14.7,
-      "condu": 185
+      "condu": 182
     },
     {
       "site": "03431514",
@@ -8755,7 +12684,7 @@
     {
       "site": "03432100",
       "state": "tn",
-      "tempC": 15.2,
+      "tempC": 15.4,
       "condu": 439
     },
     {
@@ -8763,6 +12692,12 @@
       "state": "tn",
       "tempC": 15.4,
       "condu": 493
+    },
+    {
+      "site": "03432350",
+      "state": "tn",
+      "tempC": 15.4,
+      "condu": 303
     },
     {
       "site": "034324146",
@@ -8773,8 +12708,14 @@
     {
       "site": "03433500",
       "state": "tn",
-      "tempC": 15.5,
-      "condu": 556
+      "tempC": 15.8,
+      "condu": 552
+    },
+    {
+      "site": "03434500",
+      "state": "tn",
+      "tempC": 8.9,
+      "condu": 332
     },
     {
       "site": "03497300",
@@ -8805,6 +12746,18 @@
       "tempC": 14.7
     },
     {
+      "site": "03597860",
+      "state": "tn",
+      "tempC": 21.4,
+      "condu": 201
+    },
+    {
+      "site": "03598000",
+      "state": "tn",
+      "tempC": 18.9,
+      "condu": 237
+    },
+    {
       "site": "03604000",
       "state": "tn",
       "tempC": 16.2
@@ -8812,13 +12765,13 @@
     {
       "site": "07227500",
       "state": "tx",
-      "tempC": 11.2,
+      "tempC": 11.6,
       "condu": 4440
     },
     {
       "site": "07311782",
       "state": "tx",
-      "tempC": 16.4,
+      "tempC": 16.5,
       "condu": 56000
     },
     {
@@ -8834,6 +12787,12 @@
       "condu": 6420
     },
     {
+      "site": "07312700",
+      "state": "tx",
+      "tempC": 26.1,
+      "condu": 6180
+    },
+    {
       "site": "07332605",
       "state": "tx",
       "tempC": 21.9,
@@ -8846,6 +12805,12 @@
       "condu": 286
     },
     {
+      "site": "07336820",
+      "state": "tx",
+      "tempC": 25.4,
+      "condu": 957
+    },
+    {
       "site": "08041770",
       "state": "tx",
       "tempC": -999999,
@@ -8854,20 +12819,20 @@
     {
       "site": "08047050",
       "state": "tx",
-      "tempC": 20,
-      "condu": 567
+      "tempC": 20.1,
+      "condu": 565
     },
     {
       "site": "08048000",
       "state": "tx",
-      "tempC": 21.6,
+      "tempC": 21.8,
       "condu": 356
     },
     {
       "site": "08049500",
       "state": "tx",
-      "tempC": 24.2,
-      "condu": 755
+      "tempC": 24.5,
+      "condu": 748
     },
     {
       "site": "08052700",
@@ -8884,8 +12849,8 @@
     {
       "site": "08057000",
       "state": "tx",
-      "tempC": 25.1,
-      "condu": 893
+      "tempC": 25.3,
+      "condu": 894
     },
     {
       "site": "08057410",
@@ -8897,7 +12862,7 @@
       "site": "08062500",
       "state": "tx",
       "tempC": 23.4,
-      "condu": 784
+      "condu": 783
     },
     {
       "site": "08065350",
@@ -8915,12 +12880,12 @@
       "site": "08067000",
       "state": "tx",
       "tempC": 23,
-      "condu": 372
+      "condu": 373
     },
     {
       "site": "08067100",
       "state": "tx",
-      "tempC": 23.2,
+      "tempC": 23.4,
       "condu": 351
     },
     {
@@ -8944,14 +12909,14 @@
     {
       "site": "08067254",
       "state": "tx",
-      "tempC": 24.3,
-      "condu": 9530
+      "tempC": 24.2,
+      "condu": 9520
     },
     {
       "site": "08068000",
       "state": "tx",
-      "tempC": 23.5,
-      "condu": 534
+      "tempC": 23.8,
+      "condu": 522
     },
     {
       "site": "08068500",
@@ -8990,15 +12955,46 @@
       "condu": 914
     },
     {
+      "site": "08108700",
+      "state": "tx",
+      "tempC": 30.9,
+      "condu": 848
+    },
+    {
+      "site": "08110200",
+      "state": "tx",
+      "tempC": 31.7,
+      "condu": 621
+    },
+    {
+      "site": "08111500",
+      "state": "tx",
+      "tempC": 30.8,
+      "condu": 709
+    },
+    {
+      "site": "08114000",
+      "state": "tx",
+      "tempC": 32.5,
+      "condu": 744
+    },
+    {
+      "site": "08116650",
+      "state": "tx",
+      "tempC": 31.8,
+      "condu": 635
+    },
+    {
       "site": "08117300",
       "state": "tx",
-      "tempC": 24.5,
+      "tempC": 24.4,
       "condu": 23900
     },
     {
       "site": "08117301",
       "state": "tx",
-      "tempC": 24.5
+      "tempC": 24.4,
+      "condu": 9920
     },
     {
       "site": "08123850",
@@ -9011,6 +13007,12 @@
       "state": "tx",
       "tempC": 18.7,
       "condu": 4280
+    },
+    {
+      "site": "08171290",
+      "state": "tx",
+      "tempC": 10.1,
+      "condu": 488
     },
     {
       "site": "08180800",
@@ -9027,8 +13029,8 @@
     {
       "site": "08181800",
       "state": "tx",
-      "tempC": 27.3,
-      "condu": 1260
+      "tempC": 27.5,
+      "condu": 1270
     },
     {
       "site": "08188060",
@@ -9045,7 +13047,7 @@
     {
       "site": "08195000",
       "state": "tx",
-      "tempC": 21.6,
+      "tempC": 21.7,
       "condu": 534
     },
     {
@@ -9063,8 +13065,8 @@
     {
       "site": "08364000",
       "state": "tx",
-      "tempC": 16.1,
-      "condu": 4020
+      "tempC": 16.5,
+      "condu": 4030
     },
     {
       "site": "08371500",
@@ -9083,6 +13085,12 @@
       "state": "tx",
       "tempC": -999999,
       "condu": -999999
+    },
+    {
+      "site": "08374550",
+      "state": "tx",
+      "tempC": 26.7,
+      "condu": 3340
     },
     {
       "site": "08375300",
@@ -9181,16 +13189,27 @@
       "condu": 1170
     },
     {
+      "site": "08474115",
+      "state": "tx",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
       "site": "295524095072701",
       "state": "tx",
       "tempC": 20.1,
-      "condu": 314
+      "condu": 315
+    },
+    {
+      "site": "08474320",
+      "state": "tx",
+      "condu": -999999
     },
     {
       "site": "09180000",
       "state": "ut",
-      "tempC": 8.9,
-      "condu": 1550
+      "tempC": 9,
+      "condu": 1520
     },
     {
       "site": "09180500",
@@ -9201,7 +13220,7 @@
     {
       "site": "09183600",
       "state": "ut",
-      "tempC": 8.6
+      "tempC": 8.5
     },
     {
       "site": "09234500",
@@ -9224,20 +13243,31 @@
     {
       "site": "09314500",
       "state": "ut",
-      "tempC": 7.6,
-      "condu": 1940
+      "tempC": 7.9,
+      "condu": 1910
     },
     {
       "site": "09315000",
       "state": "ut",
       "tempC": 8.7,
-      "condu": 785
+      "condu": 784
+    },
+    {
+      "site": "09326500",
+      "state": "ut",
+      "tempC": 16.5
     },
     {
       "site": "09328500",
       "state": "ut",
       "tempC": 7.7,
       "condu": -999999
+    },
+    {
+      "site": "09328910",
+      "state": "ut",
+      "tempC": 7.1,
+      "condu": 3300
     },
     {
       "site": "09328960",
@@ -9248,14 +13278,14 @@
     {
       "site": "09379500",
       "state": "ut",
-      "tempC": 9.1,
-      "condu": 502
+      "tempC": 9.2,
+      "condu": 503
     },
     {
       "site": "09406000",
       "state": "ut",
       "tempC": 10.2,
-      "condu": 619
+      "condu": 599
     },
     {
       "site": "09408400",
@@ -9272,14 +13302,14 @@
     {
       "site": "10129900",
       "state": "ut",
-      "tempC": 9,
+      "tempC": 9.4,
       "condu": 1950
     },
     {
       "site": "10133650",
       "state": "ut",
-      "tempC": 5.5,
-      "condu": 890
+      "tempC": 6.1,
+      "condu": 887
     },
     {
       "site": "10133800",
@@ -9294,6 +13324,12 @@
       "condu": 1030
     },
     {
+      "site": "10136500",
+      "state": "ut",
+      "tempC": 12.9,
+      "condu": 550
+    },
+    {
       "site": "10141000",
       "state": "ut",
       "tempC": 11.3,
@@ -9302,7 +13338,7 @@
     {
       "site": "10155500",
       "state": "ut",
-      "tempC": 7.8
+      "tempC": 8
     },
     {
       "site": "10172200",
@@ -9316,6 +13352,11 @@
       "condu": 3550
     },
     {
+      "site": "09277500",
+      "state": "ut",
+      "condu": 510
+    },
+    {
       "site": "01135100",
       "state": "vt",
       "tempC": 2.1,
@@ -9324,13 +13365,24 @@
     {
       "site": "04282795",
       "state": "vt",
-      "tempC": 2
+      "tempC": 2.1
+    },
+    {
+      "site": "04296000",
+      "state": "vt",
+      "tempC": 13.9
+    },
+    {
+      "site": "01616100",
+      "state": "va",
+      "tempC": 14.1,
+      "condu": 599
     },
     {
       "site": "0163287828",
       "state": "va",
-      "tempC": 9.7,
-      "condu": 494
+      "tempC": 10,
+      "condu": 493
     },
     {
       "site": "01632900",
@@ -9339,10 +13391,28 @@
       "condu": 543
     },
     {
+      "site": "01633000",
+      "state": "va",
+      "tempC": 1.2,
+      "condu": 423
+    },
+    {
+      "site": "01634000",
+      "state": "va",
+      "tempC": 0.4,
+      "condu": 451
+    },
+    {
+      "site": "01636316",
+      "state": "va",
+      "tempC": 15.8,
+      "condu": 542
+    },
+    {
       "site": "01645704",
       "state": "va",
-      "tempC": 8.2,
-      "condu": 522
+      "tempC": 8.3,
+      "condu": 500
     },
     {
       "site": "01645762",
@@ -9383,8 +13453,8 @@
     {
       "site": "01654107",
       "state": "va",
-      "tempC": 8.5,
-      "condu": 134
+      "tempC": 8.6,
+      "condu": 141
     },
     {
       "site": "01654500",
@@ -9407,13 +13477,37 @@
     {
       "site": "01668000",
       "state": "va",
-      "tempC": 8.1,
+      "tempC": 8.3,
       "condu": 125
+    },
+    {
+      "site": "01669000",
+      "state": "va",
+      "tempC": 17.8,
+      "condu": 87
     },
     {
       "site": "01669520",
       "state": "va",
       "tempC": 9.3
+    },
+    {
+      "site": "016701405",
+      "state": "va",
+      "tempC": -0.3,
+      "condu": 95
+    },
+    {
+      "site": "01670200",
+      "state": "va",
+      "tempC": -0.1,
+      "condu": 124
+    },
+    {
+      "site": "01671100",
+      "state": "va",
+      "tempC": 15.1,
+      "condu": 226
     },
     {
       "site": "01673000",
@@ -9430,22 +13524,22 @@
     {
       "site": "02011400",
       "state": "va",
-      "tempC": 7.1
+      "tempC": 7.4
     },
     {
       "site": "02011500",
       "state": "va",
-      "tempC": 8.3
+      "tempC": 8.5
     },
     {
       "site": "02011800",
       "state": "va",
-      "tempC": 12.3
+      "tempC": 12.4
     },
     {
       "site": "02012500",
       "state": "va",
-      "tempC": 12
+      "tempC": 12.1
     },
     {
       "site": "02012800",
@@ -9483,7 +13577,7 @@
     {
       "site": "0204309906",
       "state": "va",
-      "tempC": 13.5,
+      "tempC": 13.8,
       "condu": 235
     },
     {
@@ -9494,8 +13588,20 @@
     {
       "site": "02054550",
       "state": "va",
-      "tempC": 11.3,
-      "condu": 401
+      "tempC": 11.6,
+      "condu": 400
+    },
+    {
+      "site": "02054750",
+      "state": "va",
+      "tempC": 10.6,
+      "condu": 289
+    },
+    {
+      "site": "0205551460",
+      "state": "va",
+      "tempC": 14.6,
+      "condu": 544
     },
     {
       "site": "0205551614",
@@ -9506,12 +13612,12 @@
     {
       "site": "02072000",
       "state": "va",
-      "tempC": 12.6
+      "tempC": 12.5
     },
     {
       "site": "02072500",
       "state": "va",
-      "tempC": 11.7
+      "tempC": 11.9
     },
     {
       "site": "02073000",
@@ -9521,13 +13627,31 @@
     {
       "site": "02079500",
       "state": "va",
-      "tempC": 15.7,
+      "tempC": 15.6,
       "condu": 107
     },
     {
       "site": "03490000",
       "state": "va",
       "tempC": 10.4
+    },
+    {
+      "site": "03520968",
+      "state": "va",
+      "tempC": 12.7,
+      "condu": 157
+    },
+    {
+      "site": "03520980",
+      "state": "va",
+      "tempC": 11.9,
+      "condu": 406
+    },
+    {
+      "site": "03520981",
+      "state": "va",
+      "tempC": 12,
+      "condu": 382
     },
     {
       "site": "03524000",
@@ -9538,8 +13662,13 @@
     {
       "site": "03524740",
       "state": "va",
-      "tempC": 9,
+      "tempC": 9.3,
       "condu": 386
+    },
+    {
+      "site": "12039500",
+      "state": "wa",
+      "tempC": 19.8
     },
     {
       "site": "1203951610",
@@ -9549,7 +13678,7 @@
     {
       "site": "12042800",
       "state": "wa",
-      "tempC": 7.3
+      "tempC": 7.4
     },
     {
       "site": "12043000",
@@ -9565,7 +13694,25 @@
       "site": "12056500",
       "state": "wa",
       "tempC": 6.3,
-      "condu": 110
+      "condu": 109
+    },
+    {
+      "site": "12090400",
+      "state": "wa",
+      "tempC": 15.5,
+      "condu": 186
+    },
+    {
+      "site": "12090500",
+      "state": "wa",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
+      "site": "12098700",
+      "state": "wa",
+      "tempC": 9.4,
+      "condu": 78
     },
     {
       "site": "12100490",
@@ -9588,7 +13735,7 @@
     {
       "site": "12102078",
       "state": "wa",
-      "tempC": 9.5,
+      "tempC": 9.6,
       "condu": 234
     },
     {
@@ -9597,19 +13744,29 @@
       "tempC": 8.7
     },
     {
+      "site": "12113415",
+      "state": "wa",
+      "tempC": 18
+    },
+    {
       "site": "12114500",
       "state": "wa",
-      "tempC": 5
+      "tempC": 5.1
     },
     {
       "site": "12115000",
       "state": "wa",
-      "tempC": 6.1
+      "tempC": 6.2
     },
     {
       "site": "12115500",
       "state": "wa",
-      "tempC": 5
+      "tempC": 5.1
+    },
+    {
+      "site": "12116100",
+      "state": "wa",
+      "tempC": -999999
     },
     {
       "site": "12116400",
@@ -9624,12 +13781,12 @@
     {
       "site": "12117000",
       "state": "wa",
-      "tempC": 5.9
+      "tempC": 6.1
     },
     {
       "site": "12117500",
       "state": "wa",
-      "tempC": 7.9
+      "tempC": 8
     },
     {
       "site": "12117600",
@@ -9644,7 +13801,7 @@
     {
       "site": "12134500",
       "state": "wa",
-      "tempC": 6.4
+      "tempC": 6.5
     },
     {
       "site": "12137290",
@@ -9654,17 +13811,17 @@
     {
       "site": "12137800",
       "state": "wa",
-      "tempC": 7.2
+      "tempC": 7.3
     },
     {
       "site": "12138160",
       "state": "wa",
-      "tempC": 7.5
+      "tempC": 7.6
     },
     {
       "site": "12147470",
       "state": "wa",
-      "tempC": 6.6
+      "tempC": 6.7
     },
     {
       "site": "12147500",
@@ -9674,12 +13831,12 @@
     {
       "site": "12147600",
       "state": "wa",
-      "tempC": 5.6
+      "tempC": 5.7
     },
     {
       "site": "12148000",
       "state": "wa",
-      "tempC": 7.3
+      "tempC": 7.4
     },
     {
       "site": "12148300",
@@ -9690,6 +13847,24 @@
       "site": "12148500",
       "state": "wa",
       "tempC": 6.8
+    },
+    {
+      "site": "12165800",
+      "state": "wa",
+      "tempC": 6.6,
+      "condu": 49
+    },
+    {
+      "site": "12168997",
+      "state": "wa",
+      "tempC": 12.7,
+      "condu": 173
+    },
+    {
+      "site": "12170300",
+      "state": "wa",
+      "tempC": 13.4,
+      "condu": 81
     },
     {
       "site": "12172000",
@@ -9705,6 +13880,11 @@
       "site": "12178000",
       "state": "wa",
       "tempC": 7.9
+    },
+    {
+      "site": "12178100",
+      "state": "wa",
+      "tempC": -999999
     },
     {
       "site": "12178150",
@@ -9739,7 +13919,7 @@
     {
       "site": "12189500",
       "state": "wa",
-      "tempC": 6.3
+      "tempC": 6.4
     },
     {
       "site": "12200500",
@@ -9752,9 +13932,14 @@
       "tempC": 4.5
     },
     {
+      "site": "12208000",
+      "state": "wa",
+      "tempC": 7.4
+    },
+    {
       "site": "12209490",
       "state": "wa",
-      "tempC": 5.1
+      "tempC": 5.2
     },
     {
       "site": "12210000",
@@ -9764,12 +13949,12 @@
     {
       "site": "12210700",
       "state": "wa",
-      "tempC": 6.1
+      "tempC": 6.2
     },
     {
       "site": "12210900",
       "state": "wa",
-      "tempC": 5.8
+      "tempC": 6
     },
     {
       "site": "12212050",
@@ -9779,7 +13964,7 @@
     {
       "site": "12212430",
       "state": "wa",
-      "tempC": 7.8
+      "tempC": 8.1
     },
     {
       "site": "12213100",
@@ -9813,6 +13998,16 @@
       "condu": 117
     },
     {
+      "site": "12445000",
+      "state": "wa",
+      "tempC": 7.6
+    },
+    {
+      "site": "12447200",
+      "state": "wa",
+      "tempC": -999999
+    },
+    {
       "site": "12447302",
       "state": "wa",
       "tempC": -999999
@@ -9838,16 +14033,28 @@
       "tempC": 6.7
     },
     {
+      "site": "1247351910",
+      "state": "wa",
+      "tempC": 9.9,
+      "condu": 166
+    },
+    {
       "site": "1247351985",
       "state": "wa",
       "tempC": 12.6,
-      "condu": 139
+      "condu": 138
     },
     {
       "site": "12492900",
       "state": "wa",
       "tempC": 5.3,
       "condu": 128
+    },
+    {
+      "site": "12500450",
+      "state": "wa",
+      "tempC": 5,
+      "condu": 159
     },
     {
       "site": "12510500",
@@ -9868,6 +14075,11 @@
       "condu": 143
     },
     {
+      "site": "13334300",
+      "state": "wa",
+      "tempC": -999999
+    },
+    {
       "site": "14113000",
       "state": "wa",
       "tempC": 5.1
@@ -9883,9 +14095,29 @@
       "tempC": 6.5
     },
     {
+      "site": "453712121071200",
+      "state": "wa",
+      "tempC": -999999
+    },
+    {
+      "site": "453845121562000",
+      "state": "wa",
+      "tempC": -999999
+    },
+    {
+      "site": "453845121564001",
+      "state": "wa",
+      "tempC": -999999
+    },
+    {
       "site": "454249120423500",
       "state": "wa",
       "tempC": 12.5
+    },
+    {
+      "site": "454314120413701",
+      "state": "wa",
+      "tempC": -999999
     },
     {
       "site": "01595800",
@@ -9896,7 +14128,7 @@
     {
       "site": "01608500",
       "state": "wv",
-      "tempC": 7,
+      "tempC": 7.3,
       "condu": 304
     },
     {
@@ -9908,7 +14140,12 @@
       "site": "01611500",
       "state": "wv",
       "tempC": 6.9,
-      "condu": 224
+      "condu": 223
+    },
+    {
+      "site": "01636500",
+      "state": "wv",
+      "tempC": 5.4
     },
     {
       "site": "03051100",
@@ -9957,8 +14194,8 @@
     {
       "site": "03066000",
       "state": "wv",
-      "tempC": 5.2,
-      "condu": 97
+      "tempC": 5.3,
+      "condu": 88
     },
     {
       "site": "03067510",
@@ -9984,12 +14221,12 @@
     {
       "site": "03112500",
       "state": "wv",
-      "tempC": 9.6
+      "tempC": 9.7
     },
     {
       "site": "03114500",
       "state": "wv",
-      "tempC": 6.3
+      "tempC": 6.2
     },
     {
       "site": "03155000",
@@ -10005,12 +14242,12 @@
     {
       "site": "03180500",
       "state": "wv",
-      "tempC": 5.8
+      "tempC": 5.9
     },
     {
       "site": "03181949",
       "state": "wv",
-      "tempC": 8.4
+      "tempC": 8.6
     },
     {
       "site": "03183500",
@@ -10032,12 +14269,12 @@
     {
       "site": "03187500",
       "state": "wv",
-      "tempC": 7.6
+      "tempC": 7.7
     },
     {
       "site": "03189100",
       "state": "wv",
-      "tempC": 6.5
+      "tempC": 6.7
     },
     {
       "site": "03191982",
@@ -10059,7 +14296,7 @@
       "site": "03197937",
       "state": "wv",
       "tempC": 8,
-      "condu": 261
+      "condu": 259
     },
     {
       "site": "03197950",
@@ -10074,10 +14311,16 @@
       "condu": 640
     },
     {
+      "site": "03214500",
+      "state": "wv",
+      "tempC": 20.2,
+      "condu": 703
+    },
+    {
       "site": "04026561",
       "state": "wi",
-      "tempC": 0.2,
-      "condu": 98
+      "tempC": 0.3,
+      "condu": 97
     },
     {
       "site": "04027000",
@@ -10097,6 +14340,18 @@
       "condu": 293
     },
     {
+      "site": "040676485",
+      "state": "wi",
+      "tempC": 16.8,
+      "condu": 287
+    },
+    {
+      "site": "04067958",
+      "state": "wi",
+      "tempC": 3.9,
+      "condu": 230
+    },
+    {
       "site": "04069500",
       "state": "wi",
       "tempC": 3.6
@@ -10104,7 +14359,7 @@
     {
       "site": "04071000",
       "state": "wi",
-      "tempC": 1.5
+      "tempC": 1.7
     },
     {
       "site": "04071765",
@@ -10113,14 +14368,37 @@
       "condu": 428
     },
     {
+      "site": "04072150",
+      "state": "wi",
+      "tempC": 11.8,
+      "condu": 954
+    },
+    {
       "site": "04073500",
       "state": "wi",
       "tempC": 4.6
     },
     {
+      "site": "04077630",
+      "state": "wi",
+      "tempC": 17.2
+    },
+    {
       "site": "04079000",
       "state": "wi",
       "tempC": 2.1
+    },
+    {
+      "site": "04080798",
+      "state": "wi",
+      "tempC": 10.8,
+      "condu": 467
+    },
+    {
+      "site": "04084422",
+      "state": "wi",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "04084445",
@@ -10140,15 +14418,20 @@
       "condu": 426
     },
     {
+      "site": "04084911",
+      "state": "wi",
+      "tempC": 6.4
+    },
+    {
       "site": "04085059",
       "state": "wi",
       "tempC": 5.8,
       "condu": 401
     },
     {
-      "site": "04085138",
+      "site": "04085108",
       "state": "wi",
-      "condu": 718
+      "tempC": 2.3
     },
     {
       "site": "040851385",
@@ -10162,14 +14445,48 @@
       "tempC": 3.1
     },
     {
+      "site": "04085427",
+      "state": "wi",
+      "tempC": 7.8,
+      "condu": 682
+    },
+    {
       "site": "04087000",
       "state": "wi",
       "tempC": 6.2
     },
     {
+      "site": "04087119",
+      "state": "wi",
+      "tempC": 13.6,
+      "condu": 1950
+    },
+    {
+      "site": "04087142",
+      "state": "wi",
+      "tempC": 3.4,
+      "condu": 1960
+    },
+    {
       "site": "040871475",
       "state": "wi",
       "tempC": 10.2
+    },
+    {
+      "site": "040871476",
+      "state": "wi",
+      "tempC": -999999
+    },
+    {
+      "site": "04087159",
+      "state": "wi",
+      "tempC": 22.5
+    },
+    {
+      "site": "04087170",
+      "state": "wi",
+      "tempC": 19.4,
+      "condu": 819
     },
     {
       "site": "04087234",
@@ -10181,6 +14498,11 @@
       "site": "05331833",
       "state": "wi",
       "tempC": 3.1
+    },
+    {
+      "site": "05333500",
+      "state": "wi",
+      "tempC": 7.5
     },
     {
       "site": "05340500",
@@ -10229,6 +14551,12 @@
       "state": "wi",
       "tempC": 8.6,
       "condu": 682
+    },
+    {
+      "site": "05406500",
+      "state": "wi",
+      "tempC": 13.2,
+      "condu": 637
     },
     {
       "site": "05407000",
@@ -10307,6 +14635,11 @@
       "tempC": 7.9
     },
     {
+      "site": "04085138",
+      "state": "wi",
+      "condu": 718
+    },
+    {
       "site": "06036805",
       "state": "wy",
       "tempC": 7.6
@@ -10314,17 +14647,19 @@
     {
       "site": "06036905",
       "state": "wy",
-      "tempC": 13.9
+      "tempC": 13.9,
+      "condu": 466
     },
     {
       "site": "06036940",
       "state": "wy",
-      "tempC": 22.6
+      "tempC": 22.4
     },
     {
       "site": "06037100",
       "state": "wy",
-      "tempC": 9.5
+      "tempC": 9.5,
+      "condu": 477
     },
     {
       "site": "06188000",
@@ -10335,6 +14670,11 @@
       "site": "06190540",
       "state": "wy",
       "tempC": 48.2
+    },
+    {
+      "site": "06227600",
+      "state": "wy",
+      "tempC": 13.9
     },
     {
       "site": "06236100",
@@ -10354,12 +14694,29 @@
     {
       "site": "06285100",
       "state": "wy",
-      "tempC": 9.5
+      "tempC": 9.6
+    },
+    {
+      "site": "06324970",
+      "state": "wy",
+      "tempC": 5.9
+    },
+    {
+      "site": "06427850",
+      "state": "wy",
+      "tempC": 3.6,
+      "condu": 2000
     },
     {
       "site": "06623800",
       "state": "wy",
-      "tempC": 1.8
+      "tempC": 2
+    },
+    {
+      "site": "06670500",
+      "state": "wy",
+      "tempC": 7.6,
+      "condu": 641
     },
     {
       "site": "09196500",
@@ -10367,9 +14724,31 @@
       "tempC": 3.7
     },
     {
+      "site": "09205000",
+      "state": "wy",
+      "tempC": 7.5
+    },
+    {
+      "site": "09209400",
+      "state": "wy",
+      "tempC": 0
+    },
+    {
       "site": "09211200",
       "state": "wy",
       "tempC": -999999
+    },
+    {
+      "site": "09217000",
+      "state": "wy",
+      "tempC": 7.8,
+      "condu": -999999
+    },
+    {
+      "site": "09219200",
+      "state": "wy",
+      "tempC": 9.3,
+      "condu": 1560
     },
     {
       "site": "09258050",
@@ -10378,19 +14757,25 @@
       "condu": -999999
     },
     {
+      "site": "09258980",
+      "state": "wy",
+      "tempC": -999999,
+      "condu": -999999
+    },
+    {
       "site": "13010065",
       "state": "wy",
-      "tempC": 6.7
+      "tempC": 6.9
     },
     {
       "site": "13011000",
       "state": "wy",
-      "tempC": 6.6
+      "tempC": 6.7
     },
     {
       "site": "13011500",
       "state": "wy",
-      "tempC": 3.7
+      "tempC": 4.4
     },
     {
       "site": "13011820",
@@ -10400,7 +14785,13 @@
     {
       "site": "13011900",
       "state": "wy",
-      "tempC": 3.7
+      "tempC": 4
+    },
+    {
+      "site": "13013650",
+      "state": "wy",
+      "tempC": -999999,
+      "condu": -999999
     },
     {
       "site": "13014500",
@@ -10410,7 +14801,8 @@
     {
       "site": "13016450",
       "state": "wy",
-      "tempC": 8.5
+      "tempC": 8.5,
+      "condu": -999999
     },
     {
       "site": "13018300",
@@ -10425,7 +14817,8 @@
     {
       "site": "13018750",
       "state": "wy",
-      "tempC": 6.3
+      "tempC": 6.8,
+      "condu": -999999
     },
     {
       "site": "13019500",
@@ -10435,37 +14828,48 @@
     {
       "site": "13022500",
       "state": "wy",
-      "tempC": 5.9
+      "tempC": 6
+    },
+    {
+      "site": "01648010",
+      "state": "dc",
+      "tempC": 16.9,
+      "condu": 414
+    },
+    {
+      "site": "01648011",
+      "state": "dc",
+      "tempC": -999999
     },
     {
       "site": "01651760",
       "state": "dc",
       "tempC": 8.9,
-      "condu": 482
+      "condu": 481
     },
     {
       "site": "01651770",
       "state": "dc",
       "tempC": 14.4,
-      "condu": 570
+      "condu": 574
     },
     {
       "site": "01651800",
       "state": "dc",
-      "tempC": 10.4,
-      "condu": 355
+      "tempC": 10.5,
+      "condu": 358
     },
     {
       "site": "01651827",
       "state": "dc",
-      "tempC": 10.1,
-      "condu": 425
+      "tempC": 10.2,
+      "condu": 423
     },
     {
       "site": "50048565",
       "state": "pr",
-      "tempC": 27.8,
-      "condu": 295
+      "tempC": 27.6,
+      "condu": 348
     },
     {
       "site": "50048580",
