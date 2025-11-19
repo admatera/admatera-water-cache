@@ -2,7 +2,8 @@ name: USGS Water Cache (daily)
 
 on:
   schedule:
-    - cron: '15 13 * * *'   # 13:15 UTC once daily (adjust later)
+    # pick a daily time that’s gentle on rate limits (UTC):
+    - cron: "20 12 * * *"   # 12:20 UTC each day
   workflow_dispatch:
 
 permissions:
@@ -15,15 +16,84 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Write heartbeat
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch USGS temp & conductance → JSON
+        env:
+          # Start with a small region; expand later.
+          # Use USPS/USGS 2-letter codes separated by commas.
+          STATES: "IA,IL,WI,MN,MO,NE"
+          # USGS parameter codes:
+          # 00010 = Water temperature (°C), 00095 = Specific conductance (µS/cm @25°C)
+          PARAMS: "00010,00095"
         run: |
           mkdir -p data
-          node -e 'const fs=require("fs");fs.writeFileSync("data/health.json", JSON.stringify({updatedAt:new Date().toISOString()},null,2));'
+          node -e '
+          const fs = require("fs");
+          const states = (process.env.STATES||"IA").split(",").map(s=>s.trim()).filter(Boolean);
+          const params = process.env.PARAMS || "00010,00095";
+          const sleep = ms => new Promise(r=>setTimeout(r,ms));
+
+          async function getJson(url){
+            const res = await fetch(url);
+            if(!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+            return res.json();
+          }
+
+          async function main(){
+            const bySite = new Map();
+
+            for(const st of states){
+              const url = `https://waterservices.usgs.gov/nwis/iv/?format=json&stateCd=${st}&parameterCd=${params}&siteStatus=active&siteType=ST`;
+              console.log("Fetching:", url);
+              try{
+                const j = await getJson(url);
+                const series = j?.value?.timeSeries || [];
+                for(const s of series){
+                  const site = s?.sourceInfo?.siteCode?.[0]?.value;
+                  if(!site) continue;
+                  const name = s?.sourceInfo?.siteName || "";
+                  const loc  = s?.sourceInfo?.geoLocation?.geogLocation || {};
+                  const lat  = Number(loc.latitude);
+                  const lon  = Number(loc.longitude);
+
+                  const varCode = s?.variable?.variableCode?.[0]?.value;
+                  const vals = s?.values?.[0]?.value || [];
+                  const last = vals.length ? vals[vals.length-1] : null;
+                  const val  = last ? parseFloat(last.value) : null;
+                  const when = last ? last.dateTime : null;
+
+                  const cur = bySite.get(site) || { site, name, lat, lon };
+                  if(varCode === "00010"){ cur.tempC   = val; cur.tempTime = when; }
+                  if(varCode === "00095"){ cur.sc_uScm = val; cur.scTime   = when; }
+                  bySite.set(site, cur);
+                }
+              }catch(e){
+                console.error("State failed:", st, e.message);
+              }
+              // gentle spacing between state calls
+              await sleep(800);
+            }
+
+            const items = Array.from(bySite.values());
+            const stamp = new Date().toISOString();
+            const out = { updatedAt: stamp, count: items.length, items };
+
+            fs.writeFileSync("data/usgs-latest.json", JSON.stringify(out, null, 2));
+            fs.writeFileSync("data/health.json", JSON.stringify({ updatedAt: stamp }, null, 2));
+            console.log("Wrote", items.length, "sites");
+          }
+
+          main().catch(e=>{ console.error(e); process.exit(1); });
+          '
 
       - name: Commit & push
         run: |
           git config user.name  "admatera-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/health.json
-          git commit -m "water cache heartbeat $(date -u +'%F %T UTC')" || echo "no changes"
+          git add data/usgs-latest.json data/health.json
+          git commit -m "water cache $(date -u +'%F %T UTC')" || echo "no changes"
           git push
