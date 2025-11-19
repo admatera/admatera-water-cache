@@ -2,15 +2,20 @@ name: USGS Water Cache (daily)
 
 on:
   schedule:
-    - cron: '10 03 * * *'   # 03:10 UTC daily (adjust later)
+    - cron: '15 12 * * *'   # 12:15 UTC daily
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: usgs-water-cache
+  cancel-in-progress: true
+
 jobs:
   cache-water:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -20,70 +25,58 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Write fetcher script
+      - name: Fetch USGS temp (00010) + cond (00095) for all states & territories
         run: |
           mkdir -p data
-          cat > fetch-usgs.mjs <<'JS'
-          import fs from 'node:fs/promises';
-
-          // Lowercase USPS codes for 50 states + DC
-          const STATES = ['al','ak','az','ar','ca','co','ct','de','fl','ga','hi','id','il','in','ia','ks','ky','la','me','md','ma','mi','mn','ms','mo','mt','ne','nv','nh','nj','nm','ny','nc','nd','oh','ok','or','pa','ri','sc','sd','tn','tx','ut','vt','va','wa','wv','wi','wy','dc'];
-
-          const BASE = 'https://waterservices.usgs.gov/nwis/iv/';
-          const PARAMS = 'parameterCd=00010,00095&siteType=ST&siteStatus=active&format=json';
+          node -e '
           const sleep = ms => new Promise(r => setTimeout(r, ms));
-
-          async function fetchState(sc) {
-            const url = `${BASE}?${PARAMS}&stateCd=${sc}`;
-            const maxRetries = 3;
-            for (let i = 0; i < maxRetries; i++) {
-              const res = await fetch(url);
+          const states = [
+            "al","ak","az","ar","ca","co","ct","de","fl","ga","hi","id","il","in","ia","ks","ky","la","me","md",
+            "ma","mi","mn","ms","mo","mt","ne","nv","nh","nj","nm","ny","nc","nd","oh","ok","or","pa","ri","sc",
+            "sd","tn","tx","ut","vt","va","wa","wv","wi","wy","dc","pr","as","gu","vi","mp"
+          ];
+          async function get(url){
+            for(let attempt=1; attempt<=3; attempt++){
+              const res = await fetch(url, { headers: { "User-Agent":"admatera-water-cache" }});
               if (res.ok) return res.json();
-              await sleep(500 * (i + 1));
+              await sleep(500 * attempt);
             }
-            throw new Error(`USGS fetch failed for ${sc}`);
+            throw new Error("fetch failed: " + url);
           }
-
-          function parseSeries(series) {
-            const getParam = s => s.variable?.variableCode?.[0]?.value;
-            const getSite  = s => s.sourceInfo?.siteCode?.[0]?.value;
-            const getVal   = s => s.values?.[0]?.value?.[0]?.value;
-            const out = {};
-            for (const s of series) {
-              const param = getParam(s);
-              const site  = getSite(s);
-              const val   = getVal(s);
-              if (!param || !site || val == null) continue;
-              const rec = out[site] ?? { site };
-              if (param === '00010') rec.tempC = Number(val);
-              if (param === '00095') rec.condu = Number(val);
-              out[site] = rec;
+          (async () => {
+            const bySite = new Map();
+            for (const st of states){
+              const url = `https://waterservices.usgs.gov/nwis/iv/?format=json&parameterCd=00010,00095&siteType=ST&siteStatus=active&stateCd=${st}`;
+              const js = await get(url);
+              const ts = (js && js.value && js.value.timeSeries) || [];
+              for (const t of ts){
+                try{
+                  const site = t?.sourceInfo?.siteCode?.[0]?.value;
+                  const p    = t?.variable?.variableCode?.[0]?.value;  // 00010 or 00095
+                  const arr  = t?.values?.[0]?.value || [];
+                  if (!site || !p || arr.length === 0) continue;
+                  const last = arr[arr.length - 1];
+                  const dt   = last?.dateTime;
+                  const num  = parseFloat(last?.value);
+                  if (!Number.isFinite(num)) continue;
+                  // ignore readings older than 48h
+                  if (dt && (Date.now() - Date.parse(dt)) > 48*3600*1000) continue;
+                  const rec = bySite.get(site) || { site, state: st };
+                  if (p === "00010") rec.tempC = Math.round(num * 10) / 10;
+                  else if (p === "00095") rec.condu = Math.round(num);
+                  bySite.set(site, rec);
+                } catch {}
+              }
+              await sleep(800); // be kind to API
             }
-            return out;
-          }
-
-          const bySite = new Map();
-          for (const sc of STATES) {
-            const j = await fetchState(sc);
-            const series = j.value?.timeSeries ?? [];
-            const parsed = parseSeries(series);
-            for (const rec of Object.values(parsed)) {
-              const prev = bySite.get(rec.site) || {};
-              bySite.set(rec.site, { ...prev, ...rec, state: sc });
-            }
-            await sleep(750); // be kind to USGS
-          }
-
-          const items = Array.from(bySite.values());
-          const stamp = new Date().toISOString();
-          const out = { updatedAt: stamp, count: items.length, items };
-
-          await fs.writeFile('data/usgs-latest.json', JSON.stringify(out, null, 2));
-          await fs.writeFile('data/health.json', JSON.stringify({ updatedAt: stamp }, null, 2));
-          JS
-
-      - name: Fetch & write JSON
-        run: node fetch-usgs.mjs
+            const items = Array.from(bySite.values()).filter(r => ("tempC" in r) || ("condu" in r));
+            const out = { updatedAt: new Date().toISOString(), count: items.length, items };
+            const fs = require("fs");
+            fs.writeFileSync("data/usgs-latest.json", JSON.stringify(out, null, 2));
+            fs.writeFileSync("data/health.json", JSON.stringify({ updatedAt: out.updatedAt }, null, 2));
+            console.log("Wrote", items.length, "sites");
+          })().catch(e => { console.error(e); process.exit(1); });
+          '
 
       - name: Commit & push
         run: |
