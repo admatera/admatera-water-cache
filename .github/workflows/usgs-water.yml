@@ -2,7 +2,7 @@ name: USGS Water Cache (daily)
 
 on:
   schedule:
-    - cron: '17 11 * * *'   # daily 11:17 UTC (change later if you want)
+    - cron: "35 13 * * *"   # daily 13:35 UTC (adjust later if you want)
   workflow_dispatch:
 
 permissions:
@@ -18,88 +18,152 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Fetch USGS temp (00010) + cond (00095) for all states & territories
-        shell: bash
         run: |
           set -euo pipefail
           mkdir -p data
+          node - <<'NODE'
+          const fs = require('fs');
 
-          node --input-type=module <<'NODE'
-          // Resilient union (temp OR cond) + per-request retries + keep-going on state errors.
-          const sleep = (ms) => new Promise(r => setTimeout(r, ms));
-
-          // 50 states + DC + territories (USGS uses two-letter lowercases)
+          // ---- config ----
           const STATES = [
-            'al','ak','az','ar','ca','co','ct','de','fl','ga','hi','id','il','in','ia','ks','ky','la','me','md','ma','mi','mn','ms','mo','mt',
-            'ne','nv','nh','nj','nm','ny','nc','nd','oh','ok','or','pa','ri','sc','sd','tn','tx','ut','vt','va','wa','wv','wi','wy',
-            'dc','pr','vi','gu','as','mp'
+            'al','ak','az','ar','ca','co','ct','de','fl','ga','hi','id','il','in','ia','ks','ky','la','me','md','ma','mi','mn','ms','mo','mt','ne','nv','nh','nj','nm','ny','nc','nd','oh','ok','or','pa','ri','sc','sd','tn','tx','ut','vt','va','wa','wv','wi','wy',
+            'dc','pr','vi','gu','as','mp' // territories
           ];
+          const PARAMS = '00010,00095'; // temp C, specific conductance
+          const BASE = 'https://waterservices.usgs.gov/nwis/iv/?format=json&siteType=ST&siteStatus=active';
 
-          const base = 'https://waterservices.usgs.gov/nwis/iv/';
-          const makeURL = (state, param) =>
-            `${base}?format=json&stateCd=${state}&siteType=ST&siteStatus=active&parameterCd=${param}`;
-
-          async function getJson(url, tries = 4) {
-            for (let a = 1; a <= tries; a++) {
-              try {
-                const res = await fetch(url, { headers: { 'accept': 'application/json' }});
-                if (!res.ok) throw new Error(`HTTP ${res.status}`);
-                return await res.json();
-              } catch (e) {
-                if (a === tries) throw e;
-                await sleep(400 * a);
-              }
-            }
-          }
-
-          const sites = new Map(); // site -> { site, state, tempC?, condu? }
+          const sleep = (ms)=>new Promise(r=>setTimeout(r,ms));
+          const latest = (series) => {
+            const arr = series?.values?.[0]?.value;
+            if (!arr || !arr.length) return null;
+            const v = arr[arr.length - 1]?.value;
+            const n = Number(v);
+            return Number.isFinite(n) ? n : null;
+          };
 
           async function fetchState(state) {
-            const urls = [makeURL(state, '00010'), makeURL(state, '00095')]; // temp, conductance
-            for (const url of urls) {
+            const url = `${BASE}&parameterCd=${PARAMS}&stateCd=${state}`;
+            let lastErr = null;
+            for (let attempt = 1; attempt <= 3; attempt++) {
               try {
-                const j = await getJson(url);
-                const ts = j?.value?.timeSeries || [];
-                for (const series of ts) {
-                  const site = series?.sourceInfo?.siteCode?.[0]?.value;
-                  const vcode = series?.variable?.variableCode?.[0]?.value;
-                  const last = series?.values?.[0]?.value?.at(-1)?.value;
-                  if (!site || last == null) continue;
-                  const rec = sites.get(site) ?? { site, state };
-                  if (vcode === '00010') rec.tempC = Number(last);
-                  if (vcode === '00095') rec.condu = Number(last);
-                  sites.set(site, rec);
+                const res = await fetch(url);
+                if (!res.ok) {
+                  console.warn(`WARN ${state.toUpperCase()}: HTTP ${res.status}`);
+                  if (attempt < 3) { await sleep(500 * attempt); continue; }
+                  return { state, items: [] };
                 }
-                await sleep(250); // gentle between param calls
+                const json = await res.json();
+                const ts = json?.value?.timeSeries || [];
+                const bySite = new Map();
+                for (const s of ts) {
+                  const code = s?.variable?.variableCode?.[0]?.value;
+                  const site = s?.sourceInfo?.siteCode?.[0]?.value;
+                  if (!site) continue;
+                  const val = latest(s);
+                  if (val == null) continue;
+                  const rec = bySite.get(site) || { site, state, tempC: null, condu: null };
+                  if (code === '00010') rec.tempC = val;
+                  else if (code === '00095') rec.condu = val;
+                  bySite.set(site, rec);
+                }
+                return { state, items: Array.from(bySite.values()) };
               } catch (e) {
-                console.log(`WARN ${state}: ${e.message}`);
+                lastErr = e;
+                console.warn(`WARN ${state.toUpperCase()}: ${e.message}`);
+                if (attempt < 3) { await sleep(500 * attempt); continue; }
               }
             }
-            await sleep(300); // gentle between states
+            return { state, items: [] };
+          }
+
+          function median(a) {
+            if (!a.length) return null;
+            const b = [...a].sort((x,y)=>x-y);
+            const m = Math.floor(b.length/2);
+            return b.length % 2 ? b[m] : (b[m-1] + b[m]) / 2;
           }
 
           (async () => {
-            for (const st of STATES) await fetchState(st);
-            const items = Array.from(sites.values());
+            const byStateCounts = {};
+            const all = [];
+            for (const st of STATES) {
+              const r = await fetchState(st);
+              byStateCounts[st.toUpperCase()] = r.items.length;
+              all.push(...r.items);
+              await sleep(700); // gentle pacing
+            }
+
             const stamp = new Date().toISOString();
-            const fs = await import('node:fs');
-            fs.writeFileSync('data/usgs-latest.json', JSON.stringify({ updatedAt: stamp, count: items.length, items }, null, 2));
+            const out = { updatedAt: stamp, count: all.length, items: all };
+
+            // Guard vs previous count (>= 75% of last run)
+            let prevCount = null;
+            try {
+              const prev = JSON.parse(fs.readFileSync('data/usgs-latest.json', 'utf8'));
+              prevCount = prev?.count ?? null;
+            } catch {}
+            if (prevCount && out.count < Math.floor(prevCount * 0.75)) {
+              throw new Error(`Guard: new count ${out.count} < 75% of previous ${prevCount}`);
+            }
+
+            // Build per-state medians (ignore nulls)
+            const groups = new Map();
+            for (const it of all) {
+              const key = it.state.toUpperCase();
+              const g = groups.get(key) || { count: 0, temps: [], conds: [] };
+              g.count++;
+              if (Number.isFinite(it.tempC)) g.temps.push(it.tempC);
+              if (Number.isFinite(it.condu)) g.conds.push(it.condu);
+              groups.set(key, g);
+            }
+            const statesOut = {};
+            for (const [st, g] of groups) {
+              const mT = median(g.temps);
+              const mC = median(g.conds);
+              statesOut[st] = {
+                count: g.count,
+                medianTempC: mT == null ? null : Number(mT.toFixed(1)),
+                medianCondu: mC == null ? null : Math.round(mC)
+              };
+            }
+
+            // Write files
+            fs.writeFileSync('data/usgs-latest.json', JSON.stringify(out, null, 2));
+            fs.writeFileSync('data/state-summary.json', JSON.stringify({ updatedAt: stamp, states: statesOut }, null, 2));
             fs.writeFileSync('data/health.json', JSON.stringify({ updatedAt: stamp }, null, 2));
-            console.log(`Wrote ${items.length} sites at ${stamp}`);
+
+            // Step summary (handy dashboard in Actions UI)
+            const summary = [];
+            summary.push(`# USGS Cache Summary`);
+            summary.push(`Updated: ${stamp}`);
+            summary.push(`Total sites: ${out.count}`);
+            summary.push('');
+            summary.push('| State | Sites | Median °C | Median µS/cm |');
+            summary.push('|:-----:|-----:|----------:|-------------:|');
+            const keys = Object.keys(statesOut).sort();
+            for (const k of keys) {
+              const s = statesOut[k];
+              const t = s.medianTempC == null ? '—' : s.medianTempC;
+              const c = s.medianCondu == null ? '—' : s.medianCondu;
+              summary.push(`| ${k} | ${s.count} | ${t} | ${c} |`);
+            }
+            if (process.env.GITHUB_STEP_SUMMARY) {
+              fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, summary.join('\n') + '\n');
+            }
+            console.log(`Wrote ${out.count} sites at ${stamp}`);
           })().catch(e => { console.error(e); process.exit(1); });
           NODE
 
       - name: Show summary
-        run: |
-          echo "Health:" && cat data/health.json || true
-          echo "Count:" && (jq -r '.count' data/usgs-latest.json || true)
+        run: cat "$GITHUB_STEP_SUMMARY" || true
 
       - name: Commit & push
         run: |
-          git config user.name  "admatera-bot"
+          git config user.name "admatera-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/usgs-latest.json data/health.json
+          git add data/usgs-latest.json data/state-summary.json data/health.json
           git commit -m "water cache $(date -u +'%F %T UTC')" || echo "no changes"
           git push
