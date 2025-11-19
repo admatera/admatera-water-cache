@@ -1,0 +1,1968 @@
+{
+  "updatedAt": "2025-11-19T16:53:40.514Z",
+  "count": 218,
+  "items": [
+    {
+      "site": "05412500",
+      "name": "Turkey River at Garber, IA",
+      "lat": 42.7399884,
+      "lon": -91.261799,
+      "tempC": 6.2,
+      "tempTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "05418400",
+      "name": "North Fork Maquoketa River near Fulton, IA",
+      "lat": 42.1643333,
+      "lon": -90.7293333,
+      "tempC": 4.5,
+      "tempTime": "2014-11-11T23:45:00.000-06:00",
+      "sc_uScm": 558,
+      "scTime": "2013-08-06T23:59:00.000-05:00"
+    },
+    {
+      "site": "05420460",
+      "name": "Beaver Slough at 3rd Street at Clinton, IA",
+      "lat": 41.82725278,
+      "lon": -90.1904056,
+      "tempC": 6.5,
+      "tempTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "05420500",
+      "name": "Mississippi River at Clinton, IA",
+      "lat": 41.78058635,
+      "lon": -90.252073,
+      "tempC": 7.3,
+      "tempTime": "2025-11-19T10:30:00.000-06:00",
+      "sc_uScm": 359,
+      "scTime": "2021-08-02T00:45:00.000-05:00"
+    },
+    {
+      "site": "05422405",
+      "name": "MISS R AT AUX LOCK 14 (US) AT PLEASANT VALLEY, IA",
+      "lat": 41.57488889,
+      "lon": -90.4043611,
+      "tempC": 11.2,
+      "tempTime": "2018-04-24T09:30:00.000-06:00",
+      "sc_uScm": 388,
+      "scTime": "2018-04-24T09:30:00.000-06:00"
+    },
+    {
+      "site": "05422410",
+      "name": "MISS R AT AUX LOCK 14 (DS) AT PLEASANT VALLEY, IA",
+      "lat": 41.5738333,
+      "lon": -90.4056667,
+      "tempC": 5.7,
+      "tempTime": "2018-04-07T22:00:00.000-06:00",
+      "sc_uScm": 466,
+      "scTime": "2018-04-07T22:00:00.000-06:00"
+    },
+    {
+      "site": "05451080",
+      "name": "South Fork Iowa River near Blairsburg, IA",
+      "lat": 42.5436111,
+      "lon": -93.5894444,
+      "tempC": 5.9,
+      "tempTime": "2011-11-06T23:30:00.000-06:00",
+      "sc_uScm": 685,
+      "scTime": "2009-06-01T23:30:00.000-05:00"
+    },
+    {
+      "site": "05451210",
+      "name": "South Fork Iowa River NE of New Providence, IA",
+      "lat": 42.31530556,
+      "lon": -93.1521944,
+      "tempC": 2.4,
+      "tempTime": "2011-11-28T23:45:00.000-06:00",
+      "sc_uScm": 530,
+      "scTime": "2011-11-28T23:45:00.000-06:00"
+    },
+    {
+      "site": "05455100",
+      "name": "Old Mans Creek near Iowa City, IA",
+      "lat": 41.60640556,
+      "lon": -91.6157222,
+      "tempC": 8.9,
+      "tempTime": "2015-11-09T23:45:00.000-06:00"
+    },
+    {
+      "site": "05458300",
+      "name": "Cedar River at Waverly, IA",
+      "lat": 42.7372222,
+      "lon": -92.4700917,
+      "tempC": 7.1,
+      "tempTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "05464420",
+      "name": "Cedar River at Blairs Ferry Road at Palo, IA",
+      "lat": 42.06916389,
+      "lon": -91.7851806,
+      "tempC": 24,
+      "tempTime": "2018-08-03T11:30:00.000-05:00",
+      "sc_uScm": 596,
+      "scTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "05464475",
+      "name": "Morgan Creek near Covington, IA",
+      "lat": 41.98941597,
+      "lon": -91.7595985,
+      "tempC": 7.5,
+      "tempTime": "2025-11-19T10:30:00.000-06:00"
+    },
+    {
+      "site": "05464500",
+      "name": "Cedar River at Cedar Rapids, IA",
+      "lat": 41.97194549,
+      "lon": -91.6671239,
+      "tempC": 16.4,
+      "tempTime": "2012-09-30T23:45:00.000-05:00"
+    },
+    {
+      "site": "05465500",
+      "name": "Iowa River at Wapello, IA",
+      "lat": 41.1780861,
+      "lon": -91.1820917,
+      "tempC": 9.5,
+      "tempTime": "2018-04-23T10:45:00.000-05:00"
+    },
+    {
+      "site": "05474500",
+      "name": "Mississippi River at Keokuk, IA",
+      "lat": 40.39365535,
+      "lon": -91.374318,
+      "tempC": 9.1,
+      "tempTime": "2025-11-19T09:45:00.000-06:00",
+      "sc_uScm": 501,
+      "scTime": "2025-11-19T09:45:00.000-06:00"
+    },
+    {
+      "site": "05481000",
+      "name": "Boone River near Webster City, IA",
+      "lat": 42.4319722,
+      "lon": -93.8059444,
+      "tempC": -999999,
+      "tempTime": "2024-10-24T13:00:00.000-05:00"
+    },
+    {
+      "site": "05482000",
+      "name": "Des Moines River at 2nd Avenue at Des Moines, IA",
+      "lat": 41.61194444,
+      "lon": -93.6197222,
+      "tempC": -999999,
+      "tempTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "05482300",
+      "name": "North Raccoon River near Sac City, IA",
+      "lat": 42.35455556,
+      "lon": -94.9910278,
+      "tempC": 7.3,
+      "tempTime": "2022-05-04T10:15:00.000-05:00"
+    },
+    {
+      "site": "05482500",
+      "name": "North Raccoon River near Jefferson, IA",
+      "lat": 41.9878611,
+      "lon": -94.3770833,
+      "tempC": -999999,
+      "tempTime": "2025-05-29T10:30:00.000-05:00"
+    },
+    {
+      "site": "05484000",
+      "name": "South Raccoon River at Redfield, IA",
+      "lat": 41.59041667,
+      "lon": -94.1511667,
+      "tempC": -999999,
+      "tempTime": "2024-09-03T12:45:00.000-05:00"
+    },
+    {
+      "site": "05484500",
+      "name": "Raccoon River at Van Meter, IA",
+      "lat": 41.53402778,
+      "lon": -93.9497778,
+      "tempC": -999999,
+      "tempTime": "2024-06-04T14:00:00.000-05:00"
+    },
+    {
+      "site": "05487520",
+      "name": "Des Moines River near Swan, IA",
+      "lat": 41.48938889,
+      "lon": -93.2782222,
+      "tempC": 26.8,
+      "tempTime": "2022-07-12T13:15:00.000-05:00"
+    },
+    {
+      "site": "05488110",
+      "name": "Des Moines River near Pella, IA",
+      "lat": 41.36416667,
+      "lon": -92.9754722,
+      "tempC": 8.5,
+      "tempTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "05489500",
+      "name": "Des Moines River at Ottumwa, IA",
+      "lat": 41.0108472,
+      "lon": -92.4112917,
+      "tempC": 9.1,
+      "tempTime": "2025-11-19T10:20:00.000-06:00"
+    },
+    {
+      "site": "06601200",
+      "name": "Missouri River at Decatur, NE",
+      "lat": 42.0078333,
+      "lon": -96.2429167,
+      "tempC": 6.8,
+      "tempTime": "2007-11-20T23:30:00.000-06:00",
+      "sc_uScm": 826,
+      "scTime": "2007-11-20T23:30:00.000-06:00"
+    },
+    {
+      "site": "06808500",
+      "name": "West Nishnabotna River at Randolph, IA",
+      "lat": 40.87327778,
+      "lon": -95.5814444,
+      "tempC": 7.7,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "06817000",
+      "name": "Nodaway River at Clarinda, IA",
+      "lat": 40.7432222,
+      "lon": -95.0145278,
+      "tempC": -999999,
+      "tempTime": "2025-11-19T10:30:00.000-06:00"
+    },
+    {
+      "site": "03339000",
+      "name": "VERMILION RIVER NEAR DANVILLE, IL",
+      "lat": 40.1010833,
+      "lon": -87.5976111,
+      "tempC": 17.6,
+      "tempTime": "2024-10-04T10:30:00.000-06:00",
+      "sc_uScm": 645,
+      "scTime": "2021-10-04T23:45:00.000-06:00"
+    },
+    {
+      "site": "03346500",
+      "name": "EMBARRAS RIVER AT LAWRENCEVILLE, IL",
+      "lat": 38.72380556,
+      "lon": -87.6643611,
+      "tempC": 15.9,
+      "tempTime": "2021-10-19T09:45:00.000-06:00",
+      "sc_uScm": 402,
+      "scTime": "2021-10-19T06:00:00.000-06:00"
+    },
+    {
+      "site": "03381495",
+      "name": "LITTLE WABASH RIVER AT MAIN ST AT CARMI, IL",
+      "lat": 38.0922222,
+      "lon": -88.1561111,
+      "tempC": 28,
+      "tempTime": "2019-07-18T23:45:00.000-06:00",
+      "sc_uScm": 356,
+      "scTime": "2019-07-19T10:45:00.000-06:00"
+    },
+    {
+      "site": "03612600",
+      "name": "OHIO RIVER AT OLMSTED, IL",
+      "lat": 37.17921867,
+      "lon": -89.058404,
+      "tempC": 13.1,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 329,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05420400",
+      "name": "MISSISSIPPI RIVER AT DAM 13 NEAR FULTON, IL",
+      "lat": 41.8944725,
+      "lon": -90.156793,
+      "tempC": 6.2,
+      "tempTime": "2025-11-19T10:15:00.000-06:00",
+      "sc_uScm": 509,
+      "scTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "05440700",
+      "name": "ROCK RIVER AT BYRON, IL",
+      "lat": 42.12218889,
+      "lon": -89.2553639,
+      "tempC": 6.7,
+      "tempTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "05446500",
+      "name": "ROCK RIVER NEAR JOSLIN, IL",
+      "lat": 41.5561111,
+      "lon": -90.1852778,
+      "tempC": 1.1,
+      "tempTime": "2020-12-18T11:30:00.000-06:00",
+      "sc_uScm": 647,
+      "scTime": "2020-12-18T11:30:00.000-06:00"
+    },
+    {
+      "site": "05447500",
+      "name": "GREEN RIVER NEAR GENESEO, IL",
+      "lat": 41.4889333,
+      "lon": -90.1580083,
+      "tempC": 14.3,
+      "tempTime": "2021-10-20T11:30:00.000-06:00",
+      "sc_uScm": 678,
+      "scTime": "2021-10-20T11:45:00.000-06:00"
+    },
+    {
+      "site": "05527000",
+      "name": "KANKAKEE RIVER AT CUSTER PARK, IL",
+      "lat": 41.2461111,
+      "lon": -88.1275,
+      "tempC": 7.6,
+      "tempTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "05527500",
+      "name": "KANKAKEE RIVER NEAR WILMINGTON, IL",
+      "lat": 41.3463333,
+      "lon": -88.1867222,
+      "tempC": 8,
+      "tempTime": "2025-11-19T10:45:00.000-06:00"
+    },
+    {
+      "site": "05536137",
+      "name": "CHICAGO S & S CANAL AT WESTERN AVE AT CHICAGO, IL",
+      "lat": 41.83719444,
+      "lon": -87.6854167,
+      "tempC": 27.5,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 731,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05536995",
+      "name": "CHICAGO SANITARY AND SHIP CANAL AT ROMEOVILLE, IL",
+      "lat": 41.64,
+      "lon": -88.0599722,
+      "tempC": 12.2,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 1170,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05537980",
+      "name": "DES PLAINES RIVER AT ROUTE 53 AT JOLIET, IL",
+      "lat": 41.5364722,
+      "lon": -88.0836944,
+      "tempC": 10.7,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 1110,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05538010",
+      "name": "DES PLAINES RIVER AT ROCKDALE, IL",
+      "lat": 41.505,
+      "lon": -88.0997222,
+      "tempC": 10.9,
+      "tempTime": "2025-11-19T09:45:00.000-06:00",
+      "sc_uScm": 1270,
+      "scTime": "2025-11-19T09:45:00.000-06:00"
+    },
+    {
+      "site": "05538020",
+      "name": "DES PLAINES RIVER IN LOCK CHANNEL AT ROCKDALE, IL",
+      "lat": 41.5,
+      "lon": -88.1069444,
+      "tempC": -999999,
+      "tempTime": "2024-10-15T12:15:00.000-06:00",
+      "sc_uScm": -999999,
+      "scTime": "2024-10-15T12:45:00.000-06:00"
+    },
+    {
+      "site": "05539670",
+      "name": "DES PLAINES RIVER AT CHANNAHON, IL",
+      "lat": 41.41444444,
+      "lon": -88.2144444,
+      "tempC": 10.4,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 991,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05543010",
+      "name": "ILLINOIS RIVER AT SENECA, IL",
+      "lat": 41.29988889,
+      "lon": -88.6141944,
+      "tempC": 11.8,
+      "tempTime": "2025-04-15T10:45:00.000-06:00",
+      "sc_uScm": 825,
+      "scTime": "2025-04-15T10:45:00.000-06:00"
+    },
+    {
+      "site": "05549400",
+      "name": "FOX RIVER AT MILLER BRIDGE NEAR MCHENRY, IL",
+      "lat": 42.3233333,
+      "lon": -88.2516667,
+      "tempC": 6,
+      "tempTime": "2025-11-19T09:00:00.000-06:00"
+    },
+    {
+      "site": "05549500",
+      "name": "FOX RIVER NEAR MCHENRY, IL",
+      "lat": 42.3100222,
+      "lon": -88.2514745,
+      "tempC": 6.3,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 892,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05550001",
+      "name": "FOX RIVER (TAILWATER) AT ALGONQUIN, IL",
+      "lat": 42.16194444,
+      "lon": -88.29388889,
+      "tempC": -999999,
+      "tempTime": "2025-11-19T10:30:00.000-06:00",
+      "sc_uScm": -999999,
+      "scTime": "2025-11-19T10:30:00.000-06:00"
+    },
+    {
+      "site": "05551580",
+      "name": "FOX RIVER AT YORKVILLE, IL",
+      "lat": 41.64283889,
+      "lon": -88.4433806,
+      "sc_uScm": 961,
+      "scTime": "2016-11-14T23:45:00.000-06:00"
+    },
+    {
+      "site": "05553700",
+      "name": "ILLINOIS RIVER AT STARVED ROCK, IL",
+      "lat": 41.3247564,
+      "lon": -88.9839693,
+      "tempC": 5.6,
+      "tempTime": "2022-03-15T12:15:00.000-06:00",
+      "sc_uScm": 887,
+      "scTime": "2022-04-12T12:45:00.000-06:00"
+    },
+    {
+      "site": "05554000",
+      "name": "NORTH FORK VERMILION RIVER NEAR CHARLOTTE, IL",
+      "lat": 40.8355898,
+      "lon": -88.2989402,
+      "tempC": 25.3,
+      "tempTime": "2025-08-27T12:45:00.000-06:00"
+    },
+    {
+      "site": "05554200",
+      "name": "SOUTH FORK VERMILION RIVER AT FORREST, IL",
+      "lat": 40.74864588,
+      "lon": -88.4161649,
+      "tempC": 20,
+      "tempTime": "2025-08-27T13:45:00.000-06:00"
+    },
+    {
+      "site": "05554480",
+      "name": "VERMILION RIVER AT HWY 6 NEAR MCDOWELL, IL",
+      "lat": 40.8301111,
+      "lon": -88.5177778,
+      "tempC": 23.8,
+      "tempTime": "2025-08-27T14:45:00.000-06:00"
+    },
+    {
+      "site": "05554500",
+      "name": "VERMILION RIVER AT PONTIAC, IL",
+      "lat": 40.8778333,
+      "lon": -88.636,
+      "tempC": 24.7,
+      "tempTime": "2025-08-27T15:30:00.000-06:00"
+    },
+    {
+      "site": "05554580",
+      "name": "VERMILION RIVER AT RTE 23 NEAR CORNELL, IL",
+      "lat": 40.9892222,
+      "lon": -88.765,
+      "tempC": 23.5,
+      "tempTime": "2025-08-27T16:30:00.000-06:00"
+    },
+    {
+      "site": "05555300",
+      "name": "VERMILION RIVER NEAR LEONORE, IL",
+      "lat": 41.2083333,
+      "lon": -88.9305556,
+      "tempC": 24.7,
+      "tempTime": "2023-07-14T09:45:00.000-06:00"
+    },
+    {
+      "site": "05558300",
+      "name": "ILLINOIS RIVER AT HENRY, IL",
+      "lat": 41.10727778,
+      "lon": -89.3562222,
+      "tempC": 8.1,
+      "tempTime": "2025-11-19T09:45:00.000-06:00",
+      "sc_uScm": 875,
+      "scTime": "2025-11-19T09:45:00.000-06:00"
+    },
+    {
+      "site": "05559900",
+      "name": "ILLINOIS RIVER ABOVE RTE 150 AT PEORIA, IL",
+      "lat": 40.72503739,
+      "lon": -89.5495396,
+      "tempC": 10,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 822,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05564190",
+      "name": "MACKINAW RIVER AT 3400E NEAR COLFAX, IL",
+      "lat": 40.5573333,
+      "lon": -88.6103056,
+      "tempC": 29,
+      "tempTime": "2025-08-06T09:00:00.000-06:00"
+    },
+    {
+      "site": "05564250",
+      "name": "MACKINAW RIVER NEAR LEXINGTON, IL",
+      "lat": 40.62869444,
+      "lon": -88.7974167,
+      "tempC": 7.7,
+      "tempTime": "2025-03-12T09:45:00.000-06:00"
+    },
+    {
+      "site": "05565900",
+      "name": "MACKINAW RIVER AT 2300E NEAR KAPPA, IL",
+      "lat": 40.66225,
+      "lon": -89.1007778,
+      "tempC": 24.4,
+      "tempTime": "2025-08-05T08:30:00.000-06:00"
+    },
+    {
+      "site": "05567500",
+      "name": "MACKINAW RIVER NEAR CONGERVILLE, IL",
+      "lat": 40.6235,
+      "lon": -89.2416667,
+      "tempC": 8.1,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 729,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05567545",
+      "name": "MACKINAW RIVER ABOVE MACKINAW, IL",
+      "lat": 40.56815,
+      "lon": -89.3187,
+      "tempC": 24.5,
+      "tempTime": "2025-08-06T10:30:00.000-06:00"
+    },
+    {
+      "site": "05568000",
+      "name": "MACKINAW RIVER NEAR GREEN VALLEY, IL",
+      "lat": 40.45466667,
+      "lon": -89.6061667,
+      "tempC": 23.9,
+      "tempTime": "2025-08-06T07:30:00.000-06:00"
+    },
+    {
+      "site": "05568705",
+      "name": "MASON TAZEWELL DRAINAGE D AT CR2350E NR TOPEKA, IL",
+      "lat": 40.3265833,
+      "lon": -89.9141111,
+      "tempC": 10.8,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": -999999,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05568770",
+      "name": "SPOON RIVER AT MODENA, IL",
+      "lat": 41.13559267,
+      "lon": -89.7606569,
+      "tempC": 18,
+      "tempTime": "2025-08-26T10:15:00.000-06:00"
+    },
+    {
+      "site": "05568830",
+      "name": "SPOON RIVER AT ELMORE, IL",
+      "lat": 40.9569816,
+      "lon": -89.9762231,
+      "tempC": 20.1,
+      "tempTime": "2025-08-26T12:00:00.000-06:00"
+    },
+    {
+      "site": "05568917",
+      "name": "SPOON RIVER NEAR GILSON, IL",
+      "lat": 40.88725987,
+      "lon": -90.0990067,
+      "tempC": 20.8,
+      "tempTime": "2025-08-26T13:30:00.000-06:00"
+    },
+    {
+      "site": "05569500",
+      "name": "SPOON RIVER AT LONDON MILLS, IL",
+      "lat": 40.7077222,
+      "lon": -90.2797778,
+      "tempC": 21.6,
+      "tempTime": "2025-08-26T15:15:00.000-06:00"
+    },
+    {
+      "site": "05570000",
+      "name": "SPOON RIVER AT SEVILLE, IL",
+      "lat": 40.49008056,
+      "lon": -90.3400944,
+      "tempC": 11.6,
+      "tempTime": "2023-10-17T10:30:00.000-06:00"
+    },
+    {
+      "site": "05570400",
+      "name": "SPOON RIVER AT DUNCAN MILLS, IL",
+      "lat": 40.34059835,
+      "lon": -90.1892873,
+      "tempC": 20.9,
+      "tempTime": "2025-08-27T09:45:00.000-06:00"
+    },
+    {
+      "site": "05570910",
+      "name": "SANGAMON RIVER AT FISHER, IL",
+      "lat": 40.3109972,
+      "lon": -88.3223611,
+      "tempC": 27.8,
+      "tempTime": "2025-07-16T12:15:00.000-06:00"
+    },
+    {
+      "site": "05572000",
+      "name": "SANGAMON RIVER AT MONTICELLO, IL",
+      "lat": 40.03116667,
+      "lon": -88.5891667,
+      "tempC": 24.9,
+      "tempTime": "2025-07-18T07:12:00.000-06:00"
+    },
+    {
+      "site": "05572500",
+      "name": "SANGAMON RIVER NEAR OAKLEY, IL",
+      "lat": 39.91864444,
+      "lon": -88.8031306,
+      "tempC": 15.9,
+      "tempTime": "2024-04-15T10:15:00.000-06:00"
+    },
+    {
+      "site": "05573500",
+      "name": "SANGAMON RIVER AT LAKE DECATUR, IL",
+      "lat": 39.827475,
+      "lon": -88.9566167,
+      "tempC": 17.3,
+      "tempTime": "2025-05-04T17:15:00.000-06:00"
+    },
+    {
+      "site": "05573540",
+      "name": "SANGAMON RIVER AT ROUTE 48 AT DECATUR, IL",
+      "lat": 39.8311111,
+      "lon": -88.9763889,
+      "tempC": 23.8,
+      "tempTime": "2023-07-27T07:45:00.000-06:00"
+    },
+    {
+      "site": "05576000",
+      "name": "SOUTH FORK SANGAMON RIVER NEAR ROCHESTER, IL",
+      "lat": 39.7422222,
+      "lon": -89.5672778,
+      "tempC": 23.8,
+      "tempTime": "2025-07-17T08:30:00.000-06:00"
+    },
+    {
+      "site": "05576100",
+      "name": "LICK CREEK NEAR WOODSIDE, IL",
+      "lat": 39.71553889,
+      "lon": -89.7024444,
+      "tempC": 8.6,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 533,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05576195",
+      "name": "SUGAR CREEK NEAR CHATHAM, IL",
+      "lat": 39.659075,
+      "lon": -89.6589361,
+      "tempC": 8.6,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 511,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05576205",
+      "name": "SUGAR CREEK AT LAKE SPRINGFIELD, IL",
+      "lat": 39.761525,
+      "lon": -89.6000194,
+      "tempC": 26,
+      "tempTime": "2025-07-17T10:15:00.000-06:00"
+    },
+    {
+      "site": "05576250",
+      "name": "SUGAR CREEK NEAR SPRINGFIELD, IL",
+      "lat": 39.77913889,
+      "lon": -89.5925278,
+      "tempC": 26,
+      "tempTime": "2025-07-17T10:15:00.000-06:00"
+    },
+    {
+      "site": "05578000",
+      "name": "SANGAMON RIVER AT PETERSBURG, IL",
+      "lat": 40.0133333,
+      "lon": -89.8383333,
+      "tempC": 26.1,
+      "tempTime": "2024-07-23T02:15:00.000-06:00"
+    },
+    {
+      "site": "05578100",
+      "name": "SALT CREEK NEAR FARMER CITY, IL",
+      "lat": 40.22788889,
+      "lon": -88.66056389,
+      "tempC": 7,
+      "tempTime": "2025-11-19T10:30:00.000-06:00",
+      "sc_uScm": -999999,
+      "scTime": "2024-07-08T08:30:00.000-06:00"
+    },
+    {
+      "site": "05578250",
+      "name": "NORTH FORK SALT CREEK NEAR DE WITT, IL",
+      "lat": 40.2358611,
+      "lon": -88.8095556,
+      "tempC": 7.7,
+      "tempTime": "2025-11-19T10:30:00.000-06:00",
+      "sc_uScm": 609,
+      "scTime": "2020-07-23T16:30:00.000-06:00"
+    },
+    {
+      "site": "05578330",
+      "name": "SALT CREEK AT BRUSH COLLEGE RD NR CLINTON, IL",
+      "lat": 40.12121944,
+      "lon": -88.8976917,
+      "tempC": 29.8,
+      "tempTime": "2025-07-16T09:45:00.000-06:00"
+    },
+    {
+      "site": "05578360",
+      "name": "SALT CREEK AT WELDON SPRINGS RD NR CLINTON, IL",
+      "lat": 40.10988889,
+      "lon": -88.9237306,
+      "tempC": 27.4,
+      "tempTime": "2025-07-16T09:00:00.000-06:00"
+    },
+    {
+      "site": "05578500",
+      "name": "SALT CREEK NEAR ROWELL, IL",
+      "lat": 40.11516944,
+      "lon": -89.049175,
+      "tempC": 25.2,
+      "tempTime": "2025-07-16T07:45:00.000-06:00"
+    },
+    {
+      "site": "05579630",
+      "name": "KICKAPOO CREEK NEAR BLOOMINGTON, IL",
+      "lat": 40.4583333,
+      "lon": -88.8775,
+      "tempC": 18.4,
+      "tempTime": "2015-07-14T23:45:00.000-06:00",
+      "sc_uScm": 709,
+      "scTime": "2015-07-14T23:45:00.000-06:00"
+    },
+    {
+      "site": "05582000",
+      "name": "SALT CREEK NEAR GREENVIEW, IL",
+      "lat": 40.13185556,
+      "lon": -89.7357139,
+      "tempC": 28.3,
+      "tempTime": "2025-07-17T13:45:00.000-06:00"
+    },
+    {
+      "site": "05583000",
+      "name": "SANGAMON RIVER NEAR OAKFORD, IL",
+      "lat": 40.1233611,
+      "lon": -89.9839722,
+      "tempC": 27.3,
+      "tempTime": "2025-07-17T11:45:00.000-06:00"
+    },
+    {
+      "site": "05586300",
+      "name": "ILLINOIS RIVER AT FLORENCE, IL",
+      "lat": 39.63275,
+      "lon": -90.6076667,
+      "tempC": 11.6,
+      "tempTime": "2025-11-19T10:15:00.000-06:00",
+      "sc_uScm": 733,
+      "scTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "05587498",
+      "name": "Mississippi River Pool Lock and Dam 26 at Alton,IL",
+      "lat": 38.88730556,
+      "lon": -90.184,
+      "tempC": 10.4,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 590,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05595000",
+      "name": "KASKASKIA RIVER AT NEW ATHENS, IL",
+      "lat": 38.3197222,
+      "lon": -89.8883333,
+      "tempC": 23,
+      "tempTime": "2021-10-06T14:30:00.000-06:00",
+      "sc_uScm": 388,
+      "scTime": "2021-10-06T14:30:00.000-06:00"
+    },
+    {
+      "site": "05599490",
+      "name": "BIG MUDDY RIVER AT RTE 127 AT MURPHYSBORO, IL",
+      "lat": 37.7583333,
+      "lon": -89.3277778,
+      "tempC": 10.9,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 101,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "411955088280601",
+      "name": "HANSON GRAVEL PIT AT CULVERT NEAR MORRIS, IL",
+      "lat": 41.33305556,
+      "lon": -88.4669444,
+      "tempC": 7.9,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 538,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "412320088154101",
+      "name": "KANKAKEE R AT INFLOW OF POWER PLANT NR LORENZO, IL",
+      "lat": 41.38877778,
+      "lon": -88.2615833,
+      "tempC": 7.2,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "04026561",
+      "name": "TYLER FORKS RIVER AT STRICKER ROAD NEAR MELLEN, WI",
+      "lat": 46.3947222,
+      "lon": -90.59,
+      "tempC": 0,
+      "tempTime": "2025-11-19T10:30:00.000-06:00",
+      "sc_uScm": 98,
+      "scTime": "2025-11-19T10:30:00.000-06:00"
+    },
+    {
+      "site": "04027000",
+      "name": "BAD RIVER NEAR ODANAH, WI",
+      "lat": 46.4866144,
+      "lon": -90.696297,
+      "tempC": 0.2,
+      "tempTime": "2025-11-19T09:45:00.000-06:00",
+      "sc_uScm": 146,
+      "scTime": "2025-11-19T09:45:00.000-06:00"
+    },
+    {
+      "site": "04063700",
+      "name": "POPPLE RIVER NEAR FENCE, WI",
+      "lat": 45.7636111,
+      "lon": -88.4636111,
+      "tempC": 0.1,
+      "tempTime": "2025-11-19T09:45:00.000-06:00"
+    },
+    {
+      "site": "04067500",
+      "name": "MENOMINEE RIVER NEAR MC ALLISTER, WI",
+      "lat": 45.3258333,
+      "lon": -87.6633333,
+      "tempC": 2.2,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 292,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "040676485",
+      "name": "MENOMINEE RIVER AT HWY 41 AT MARINETTE, WI",
+      "lat": 45.1022222,
+      "lon": -87.6275,
+      "tempC": 16.8,
+      "tempTime": "2025-09-08T10:15:00.000-05:00",
+      "sc_uScm": 287,
+      "scTime": "2025-09-08T10:15:00.000-05:00"
+    },
+    {
+      "site": "04067958",
+      "name": "PESHTIGO RIVER NEAR WABENO, WI",
+      "lat": 45.38774406,
+      "lon": -88.3051099,
+      "tempC": 3.9,
+      "tempTime": "2015-12-10T23:45:00.000-06:00",
+      "sc_uScm": 230,
+      "scTime": "2015-10-19T00:45:00.000-05:00"
+    },
+    {
+      "site": "04069500",
+      "name": "PESHTIGO RIVER AT PESHTIGO, WI",
+      "lat": 45.0475,
+      "lon": -87.7444444,
+      "tempC": 3.3,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "04071000",
+      "name": "OCONTO RIVER NEAR GILLETT, WI",
+      "lat": 44.865,
+      "lon": -88.3,
+      "tempC": 0.8,
+      "tempTime": "2025-11-19T10:30:00.000-06:00"
+    },
+    {
+      "site": "04071765",
+      "name": "OCONTO RIVER NEAR OCONTO, WI",
+      "lat": 44.86055556,
+      "lon": -87.98388889,
+      "tempC": 1.9,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 477,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "04072150",
+      "name": "DUCK CREEK NEAR HOWARD, WI",
+      "lat": 44.53338889,
+      "lon": -88.1296944,
+      "tempC": 11.8,
+      "tempTime": "2015-10-05T00:45:00.000-05:00",
+      "sc_uScm": 954,
+      "scTime": "2015-10-05T00:45:00.000-05:00"
+    },
+    {
+      "site": "04073500",
+      "name": "FOX RIVER AT BERLIN, WI",
+      "lat": 43.96875,
+      "lon": -88.9503056,
+      "tempC": 4.4,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "04077630",
+      "name": "RED RIVER AT MORGAN ROAD NEAR MORGAN, WI",
+      "lat": 44.8980311,
+      "lon": -88.8442729,
+      "tempC": 17.2,
+      "tempTime": "2025-09-27T23:15:00.000-05:00"
+    },
+    {
+      "site": "04079000",
+      "name": "WOLF RIVER AT NEW LONDON, WI",
+      "lat": 44.3922026,
+      "lon": -88.7403812,
+      "tempC": 1.7,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "04080798",
+      "name": "TOMORROW RIVER NEAR NELSONVILLE, WI",
+      "lat": 44.5244444,
+      "lon": -89.3377778,
+      "tempC": 10.8,
+      "tempTime": "2017-10-12T11:45:00.000-05:00",
+      "sc_uScm": 467,
+      "scTime": "2017-10-12T11:45:00.000-05:00"
+    },
+    {
+      "site": "04084422",
+      "name": "LITTLE LAKE BUTTE DES MORTS AT MENASHA, WI",
+      "lat": 44.2047225,
+      "lon": -88.4686577,
+      "tempC": -999999,
+      "tempTime": "2025-11-17T11:19:00.000-06:00",
+      "sc_uScm": -999999,
+      "scTime": "2025-11-17T11:19:00.000-06:00"
+    },
+    {
+      "site": "04084445",
+      "name": "FOX RIVER AT APPLETON, WI",
+      "lat": 44.24805556,
+      "lon": -88.4230556,
+      "tempC": 4.4,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "040844505",
+      "name": "FOX RIVER AT COLLEGE AVENUE BRIDGE AT APPLETON, WI",
+      "lat": 44.2610978,
+      "lon": -88.3895513,
+      "tempC": -999999,
+      "tempTime": "2025-11-17T13:36:00.000-06:00",
+      "sc_uScm": -999999,
+      "scTime": "2025-11-17T13:36:00.000-06:00"
+    },
+    {
+      "site": "04084500",
+      "name": "FOX R AT RAPIDE CROCHE DAM NEAR WRIGHTSTOWN, WI",
+      "lat": 44.3174889,
+      "lon": -88.1973263,
+      "tempC": 5.9,
+      "tempTime": "2025-11-18T10:15:00.000-06:00",
+      "sc_uScm": 426,
+      "scTime": "2025-11-18T10:15:00.000-06:00"
+    },
+    {
+      "site": "04084911",
+      "name": "PLUM CREEK NEAR WRIGHTSTOWN, WI",
+      "lat": 44.3055449,
+      "lon": -88.1712146,
+      "tempC": 6.4,
+      "tempTime": "2024-11-18T12:00:00.000-06:00"
+    },
+    {
+      "site": "04085059",
+      "name": "FOX RIVER AT DE PERE, WI",
+      "lat": 44.44944406,
+      "lon": -88.064477,
+      "tempC": 5.8,
+      "tempTime": "2025-11-18T12:23:00.000-06:00",
+      "sc_uScm": 401,
+      "scTime": "2025-11-18T12:23:00.000-06:00"
+    },
+    {
+      "site": "04085108",
+      "name": "EAST RIVER @ CNTY TRUNK HIGHWAY ZZ NR GREENLEAF,WI",
+      "lat": 44.37194444,
+      "lon": -88.0922222,
+      "tempC": 2.3,
+      "tempTime": "2017-11-30T10:15:00.000-06:00"
+    },
+    {
+      "site": "04085138",
+      "name": "EAST RIVER AT GREEN BAY, WI",
+      "lat": 44.5091661,
+      "lon": -87.9916967,
+      "sc_uScm": 775,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "040851385",
+      "name": "FOX RIVER AT OIL TANK DEPOT AT GREEN BAY, WI",
+      "lat": 44.5286111,
+      "lon": -88.01,
+      "tempC": 5.4,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 429,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "04085200",
+      "name": "KEWAUNEE RIVER NEAR KEWAUNEE, WI",
+      "lat": 44.45833125,
+      "lon": -87.5564746,
+      "tempC": 2.2,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "04085427",
+      "name": "MANITOWOC RIVER AT MANITOWOC, WI",
+      "lat": 44.10616667,
+      "lon": -87.7160278,
+      "tempC": 7.8,
+      "tempTime": "2022-11-08T13:53:00.000-06:00",
+      "sc_uScm": 682,
+      "scTime": "2022-11-08T13:53:00.000-06:00"
+    },
+    {
+      "site": "04087000",
+      "name": "MILWAUKEE RIVER AT MILWAUKEE, WI",
+      "lat": 43.10001159,
+      "lon": -87.9089745,
+      "tempC": 4.7,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "04087119",
+      "name": "HONEY CREEK AT WAUWATOSA, WI",
+      "lat": 43.0438333,
+      "lon": -88.0051111,
+      "tempC": 13.6,
+      "tempTime": "2016-10-23T23:30:00.000-05:00",
+      "sc_uScm": 1950,
+      "scTime": "2016-10-23T23:30:00.000-05:00"
+    },
+    {
+      "site": "04087142",
+      "name": "MENOMONEE RIVER AT 16TH STREET AT MILWAUKEE, WI",
+      "lat": 43.03389487,
+      "lon": -87.934194,
+      "tempC": 3.4,
+      "tempTime": "2019-01-03T11:38:00.000-06:00",
+      "sc_uScm": 1960,
+      "scTime": "2019-01-03T11:38:00.000-06:00"
+    },
+    {
+      "site": "040871475",
+      "name": "WILSON PARK CREEK @ GMIA OUTFALL 7 @ MILWAUKEE,WI",
+      "lat": 42.95702778,
+      "lon": -87.9073056,
+      "tempC": 10.2,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "040871476",
+      "name": "HOLMES AVE CRK TRIB @ GMIA OUTFALL 1 AT MILWAUKEE",
+      "lat": 42.94516667,
+      "lon": -87.9110556,
+      "tempC": -999999,
+      "tempTime": "2025-09-23T04:05:00.000-05:00"
+    },
+    {
+      "site": "04087159",
+      "name": "KINNICKINNIC RIVER @ S. 11TH STREET @ MILWAUKEE,WI",
+      "lat": 42.9975,
+      "lon": -87.92638889,
+      "tempC": 22.5,
+      "tempTime": "2024-06-21T12:11:00.000-05:00"
+    },
+    {
+      "site": "04087170",
+      "name": "MILWAUKEE RIVER AT MOUTH AT MILWAUKEE, WI",
+      "lat": 43.02444444,
+      "lon": -87.8983333,
+      "tempC": 19.4,
+      "tempTime": "2024-10-08T10:35:00.000-05:00",
+      "sc_uScm": 819,
+      "scTime": "2024-10-08T10:35:00.000-05:00"
+    },
+    {
+      "site": "04087234",
+      "name": "ROOT RIVER AT 60TH ST NEAR CALEDONIA, WI",
+      "lat": 42.85555556,
+      "lon": -87.9907222,
+      "tempC": 4.1,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 1100,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05331833",
+      "name": "NAMEKAGON RIVER AT LEONARDS, WI",
+      "lat": 46.1713687,
+      "lon": -91.3293778,
+      "tempC": 1.7,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05333500",
+      "name": "ST. CROIX RIVER NEAR DANBURY, WI",
+      "lat": 46.0761111,
+      "lon": -92.2466667,
+      "tempC": 7.5,
+      "tempTime": "2017-04-11T00:45:00.000-05:00"
+    },
+    {
+      "site": "05340500",
+      "name": "ST. CROIX RIVER AT ST. CROIX FALLS, WI",
+      "lat": 45.4069444,
+      "lon": -92.6469444,
+      "tempC": 3.5,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05370000",
+      "name": "EAU GALLE RIVER AT SPRING VALLEY, WI",
+      "lat": 44.85277778,
+      "lon": -92.2383333,
+      "tempC": 4.9,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05382255",
+      "name": "STILLWELL CREEK AT SIXTEENTH COURT NEAR TOMAH, WI",
+      "lat": 43.99388889,
+      "lon": -90.6572222,
+      "tempC": 7.1,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05382257",
+      "name": "STILLWELL CREEK AT YARD ROAD NEAR TOMAH, WI",
+      "lat": 44.00055556,
+      "lon": -90.6811111,
+      "tempC": 7.5,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05382267",
+      "name": "LA CROSSE RIVER @ CNTY TRUNK HIGHWY BB NR TOMAH,WI",
+      "lat": 44.00027778,
+      "lon": -90.7244444,
+      "tempC": 6.4,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05382284",
+      "name": "SILVER CREEK AT STATE HIGHWAY 21 NEAR ANGELO, WI",
+      "lat": 43.9672222,
+      "lon": -90.765,
+      "tempC": 5.9,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05406457",
+      "name": "BLACK EARTH CREEK NR BREWERY RD AT CROSS PLAINS,WI",
+      "lat": 43.1097222,
+      "lon": -89.6408333,
+      "tempC": 7.6,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 551,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05406469",
+      "name": "BREWERY CREEK-UPSTREAM SITE-AT CROSS PLAINS, WI",
+      "lat": 43.12527778,
+      "lon": -89.635,
+      "tempC": -999999,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 0,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05406479",
+      "name": "BLACK EARTH CK NR TREATMENT PLNT @ CROSS PLAINS,WI",
+      "lat": 43.1147222,
+      "lon": -89.6641667,
+      "tempC": 7.8,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 698,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05406500",
+      "name": "BLACK EARTH CREEK AT BLACK EARTH, WI",
+      "lat": 43.13416667,
+      "lon": -89.7322222,
+      "tempC": 13.2,
+      "tempTime": "2013-10-01T00:00:00.000-05:00",
+      "sc_uScm": 637,
+      "scTime": "2013-10-01T00:00:00.000-05:00"
+    },
+    {
+      "site": "05407000",
+      "name": "WISCONSIN RIVER AT MUSCODA, WI",
+      "lat": 43.19805556,
+      "lon": -90.4433333,
+      "tempC": 6,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05427850",
+      "name": "YAHARA RIVER AT STATE HIGHWAY 113 AT MADISON, WI",
+      "lat": 43.1508333,
+      "lon": -89.4019444,
+      "tempC": 3.3,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 753,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05427905",
+      "name": "SIXMILE CREEK AT WOODLAND DRIVE NEAR WAUNAKEE, WI",
+      "lat": 43.1600722,
+      "lon": -89.4321,
+      "tempC": 4.9,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 844,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05427930",
+      "name": "DORN (SPRING) CREEK AT CT HIGHWAY M NR WAUNAKEE,WI",
+      "lat": 43.14027778,
+      "lon": -89.4423056,
+      "tempC": 5.5,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 798,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05427948",
+      "name": "PHEASANT BRANCH AT MIDDLETON, WI",
+      "lat": 43.1033333,
+      "lon": -89.5116667,
+      "tempC": 4.9,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 1080,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05428500",
+      "name": "YAHARA RIVER AT EAST MAIN STREET AT MADISON, WI",
+      "lat": 43.08944444,
+      "lon": -89.3608333,
+      "tempC": 7.1,
+      "tempTime": "2025-11-19T09:55:00.000-06:00",
+      "sc_uScm": 599,
+      "scTime": "2025-11-19T09:55:00.000-06:00"
+    },
+    {
+      "site": "05429369",
+      "name": "SWAN CREEK AT LALOR ROAD NEAR FITCHBURG, WI",
+      "lat": 42.99951944,
+      "lon": -89.3615417,
+      "tempC": 5.4,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 803,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05429500",
+      "name": "YAHARA RIVER AT MC FARLAND, WI",
+      "lat": 43.00888889,
+      "lon": -89.305,
+      "tempC": 6.5,
+      "tempTime": "2025-11-19T09:55:00.000-06:00",
+      "sc_uScm": 591,
+      "scTime": "2025-11-19T09:55:00.000-06:00"
+    },
+    {
+      "site": "05430175",
+      "name": "YAHARA RIVER NEAR FULTON, WI",
+      "lat": 42.82638889,
+      "lon": -89.1719444,
+      "tempC": 4.2,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 556,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05435943",
+      "name": "BADGER MILL CREEK AT VERONA, WI",
+      "lat": 42.97694444,
+      "lon": -89.5394444,
+      "tempC": 7.7,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 876,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05435950",
+      "name": "SUGAR RIVER NEAR VERONA, WI",
+      "lat": 42.94916667,
+      "lon": -89.5441667,
+      "tempC": 6.4,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 690,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05545750",
+      "name": "FOX RIVER NEAR NEW MUNSTER, WI",
+      "lat": 42.61085116,
+      "lon": -88.225923,
+      "tempC": 5.3,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 993,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "425037087583301",
+      "name": "Root River at W. Eight Mile Rd near Caledonia, WI",
+      "lat": 42.84366667,
+      "lon": -87.97575,
+      "tempC": 6.7,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "04010510",
+      "name": "GRAND PORTAGE RIVER AT GRAND PORTAGE MN",
+      "lat": 47.9635983,
+      "lon": -89.68342869,
+      "tempC": 0.2,
+      "tempTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "04015438",
+      "name": "ST. LOUIS RIVER NEAR SKIBO, MN",
+      "lat": 47.48111111,
+      "lon": -92.04,
+      "tempC": 0.8,
+      "tempTime": "2025-11-19T09:45:00.000-06:00",
+      "sc_uScm": 56,
+      "scTime": "2025-11-19T09:45:00.000-06:00"
+    },
+    {
+      "site": "04024000",
+      "name": "ST. LOUIS RIVER AT SCANLON, MN",
+      "lat": 46.703511,
+      "lon": -92.418378,
+      "tempC": 1.9,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 348,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05062130",
+      "name": "RED RIVER OF THE NORTH NEAR GEORGETOWN, MN",
+      "lat": 47.0926944,
+      "lon": -96.8170556,
+      "tempC": -999999,
+      "tempTime": "2025-11-13T11:45:00.000-06:00",
+      "sc_uScm": -999999,
+      "scTime": "2025-11-13T11:45:00.000-06:00"
+    },
+    {
+      "site": "05124480",
+      "name": "KAWISHIWI RIVER NEAR ELY, MN",
+      "lat": 47.922814,
+      "lon": -91.535142,
+      "tempC": 4,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05128400",
+      "name": "SAND RIVER NEAR BRITT, MN",
+      "lat": 47.6307046,
+      "lon": -92.5568952,
+      "tempC": 0.2,
+      "tempTime": "2025-11-19T09:45:00.000-06:00",
+      "sc_uScm": 874,
+      "scTime": "2025-11-19T09:45:00.000-06:00"
+    },
+    {
+      "site": "05133500",
+      "name": "RAINY RIVER AT MANITOU RAPIDS, MN",
+      "lat": 48.63442818,
+      "lon": -93.91331106,
+      "tempC": 2.3,
+      "tempTime": "2025-11-19T10:30:00.000-06:00"
+    },
+    {
+      "site": "05288475",
+      "name": "COON CREEK AT 131 STREET IN COON RAPIDS, MN",
+      "lat": 45.20829845,
+      "lon": -93.334119,
+      "tempC": 6,
+      "tempTime": "2023-11-11T21:45:00.000-06:00"
+    },
+    {
+      "site": "05288487",
+      "name": "SAND CREEK AT XEON STREET IN COON RAPIDS, MN",
+      "lat": 45.18386828,
+      "lon": -93.2968846,
+      "tempC": 4.2,
+      "tempTime": "2023-11-22T10:30:00.000-06:00"
+    },
+    {
+      "site": "05288580",
+      "name": "RICE CREEK BLW OLD HWY. 8 IN MOUNDS VIEW, MN",
+      "lat": 45.092413,
+      "lon": -93.200369,
+      "tempC": 3.8,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 527,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05288705",
+      "name": "SHINGLE CREEK AT QUEEN AVE IN MINNEAPOLIS, MN",
+      "lat": 45.049798,
+      "lon": -93.310445,
+      "tempC": 5.4,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 1120,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05289800",
+      "name": "MINNEHAHA CREEK AT HIAWATHA AVE. IN MINNEAPOLIS,MN",
+      "lat": 44.91550278,
+      "lon": -93.21293889,
+      "tempC": 5.3,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 570,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "05341550",
+      "name": "ST. CROIX RIVER AT STILLWATER, MN",
+      "lat": 45.056725,
+      "lon": -92.802469,
+      "tempC": 4.7,
+      "tempTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "06818000",
+      "name": "Missouri River at St. Joseph, MO",
+      "lat": 39.75325,
+      "lon": -94.8568333,
+      "tempC": 9.8,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 765,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "06819550",
+      "name": "Mozingo Creek near Pickering, MO",
+      "lat": 40.4311111,
+      "lon": -94.7722222,
+      "tempC": -999999,
+      "tempTime": "2025-11-19T10:15:00.000-06:00",
+      "sc_uScm": -999999,
+      "scTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "06893060",
+      "name": "Missouri River at Randolph, MO",
+      "lat": 39.15169444,
+      "lon": -94.4940556,
+      "tempC": 9.9,
+      "tempTime": "2025-11-19T10:30:00.000-06:00"
+    },
+    {
+      "site": "06893619",
+      "name": "Rock Creek at E Wilson Road in Independence, MO",
+      "lat": 39.10903056,
+      "lon": -94.4724667,
+      "tempC": 9.4,
+      "tempTime": "2025-11-19T10:30:00.000-06:00",
+      "sc_uScm": 785,
+      "scTime": "2025-11-19T10:30:00.000-06:00"
+    },
+    {
+      "site": "06893620",
+      "name": "Rock Creek at Kentucky Road in Independence, MO",
+      "lat": 39.11194444,
+      "lon": -94.4722222,
+      "tempC": -999999,
+      "tempTime": "2024-02-07T12:30:00.000-06:00",
+      "sc_uScm": -999999,
+      "scTime": "2024-02-07T12:30:00.000-06:00"
+    },
+    {
+      "site": "06893820",
+      "name": "Little Blue R. at Lees Summit Rd in Independence",
+      "lat": 39.0173611,
+      "lon": -94.3872778,
+      "tempC": 9.6,
+      "tempTime": "2025-11-19T10:15:00.000-06:00",
+      "sc_uScm": 520,
+      "scTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "06893830",
+      "name": "Adair Creek at Independence, MO",
+      "lat": 39.03777778,
+      "lon": -94.3633333,
+      "tempC": 4.6,
+      "tempTime": "2018-01-31T13:15:00.000-06:00",
+      "sc_uScm": 785,
+      "scTime": "2018-01-31T13:15:00.000-06:00"
+    },
+    {
+      "site": "06893890",
+      "name": "East Fork Little Blue River near Blue Springs, MO",
+      "lat": 39.02556175,
+      "lon": -94.3438385,
+      "tempC": -999999,
+      "tempTime": "2023-09-15T02:45:00.000-05:00",
+      "sc_uScm": -999999,
+      "scTime": "2023-09-14T03:45:00.000-05:00"
+    },
+    {
+      "site": "06893970",
+      "name": "Spring Branch Ck at Holke Rd in Independence, MO",
+      "lat": 39.08416667,
+      "lon": -94.3372222,
+      "tempC": -999999,
+      "tempTime": "2024-08-09T06:15:00.000-05:00",
+      "sc_uScm": 813,
+      "scTime": "2019-09-04T12:45:00.000-05:00"
+    },
+    {
+      "site": "06894000",
+      "name": "Little Blue River near Lake City, MO",
+      "lat": 39.1005609,
+      "lon": -94.3005038,
+      "tempC": 10.4,
+      "tempTime": "2025-11-19T10:30:00.000-06:00",
+      "sc_uScm": 574,
+      "scTime": "2025-11-19T10:30:00.000-06:00"
+    },
+    {
+      "site": "06894650",
+      "name": "Missouri River at Napoleon, MO",
+      "lat": 39.1336111,
+      "lon": -94.0638889,
+      "tempC": 9.9,
+      "tempTime": "2025-11-19T09:45:00.000-06:00",
+      "sc_uScm": 650,
+      "scTime": "2025-11-19T09:45:00.000-06:00"
+    },
+    {
+      "site": "06899900",
+      "name": "Medicine Creek at Lucerne, MO",
+      "lat": 40.45444444,
+      "lon": -93.2863889,
+      "tempC": -999999,
+      "tempTime": "2023-11-16T12:30:00.000-06:00",
+      "sc_uScm": -999999,
+      "scTime": "2023-11-16T12:30:00.000-06:00"
+    },
+    {
+      "site": "06900050",
+      "name": "Medicine Creek near Laredo, MO",
+      "lat": 40.0266111,
+      "lon": -93.4362222,
+      "tempC": -999999,
+      "tempTime": "2023-11-16T14:30:00.000-06:00",
+      "sc_uScm": -999999,
+      "scTime": "2023-11-16T14:30:00.000-06:00"
+    },
+    {
+      "site": "06901500",
+      "name": "Locust Creek near Linneus, MO",
+      "lat": 39.89594444,
+      "lon": -93.2365278,
+      "tempC": -999999,
+      "tempTime": "2023-11-17T11:15:00.000-06:00",
+      "sc_uScm": -999999,
+      "scTime": "2023-11-17T11:15:00.000-06:00"
+    },
+    {
+      "site": "06902000",
+      "name": "Grand River near Sumner, MO",
+      "lat": 39.64002778,
+      "lon": -93.2736944,
+      "tempC": 10.4,
+      "tempTime": "2025-11-19T10:15:00.000-06:00",
+      "sc_uScm": 472,
+      "scTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "06906500",
+      "name": "Missouri River at Glasgow, MO",
+      "lat": 39.2222512,
+      "lon": -92.848798,
+      "tempC": -999999,
+      "tempTime": "2024-02-13T11:15:00.000-06:00"
+    },
+    {
+      "site": "06910450",
+      "name": "Missouri River at Jefferson City, MO",
+      "lat": 38.5871111,
+      "lon": -92.1786389,
+      "tempC": 21.5,
+      "tempTime": "2017-05-19T00:45:00.000-05:00"
+    },
+    {
+      "site": "06918250",
+      "name": "Osage River at Taberville, MO",
+      "lat": 38.00388889,
+      "lon": -93.9947222,
+      "tempC": 12.3,
+      "tempTime": "2025-11-19T09:45:00.000-06:00"
+    },
+    {
+      "site": "06926080",
+      "name": "Osage River at Tuscumbia, MO",
+      "lat": 38.23253889,
+      "lon": -92.4586111,
+      "tempC": 14.9,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "06926290",
+      "name": "Tavern Creek below St. Elizabeth, MO",
+      "lat": 38.27777778,
+      "lon": -92.2333333,
+      "tempC": 12.8,
+      "tempTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "06926510",
+      "name": "Osage River below St. Thomas, MO",
+      "lat": 38.42144444,
+      "lon": -92.20825,
+      "tempC": 12.6,
+      "tempTime": "2021-04-16T13:45:00.000-05:00"
+    },
+    {
+      "site": "06934000",
+      "name": "Gasconade River near Rich Fountain, MO",
+      "lat": 38.38880556,
+      "lon": -91.8198889,
+      "tempC": 13.5,
+      "tempTime": "2021-03-31T17:45:00.000-05:00"
+    },
+    {
+      "site": "06934500",
+      "name": "Missouri River at Hermann, MO",
+      "lat": 38.70980556,
+      "lon": -91.4385,
+      "tempC": 10.5,
+      "tempTime": "2025-11-19T10:15:00.000-06:00",
+      "sc_uScm": 660,
+      "scTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "06935550",
+      "name": "Missouri River near Labadie, MO",
+      "lat": 38.5658333,
+      "lon": -90.8391667,
+      "tempC": 21,
+      "tempTime": "2025-10-13T01:15:00.000-05:00"
+    },
+    {
+      "site": "07014000",
+      "name": "Huzzah Creek near Steelville, MO",
+      "lat": 37.97477778,
+      "lon": -91.2040278,
+      "tempC": 13.5,
+      "tempTime": "2025-11-19T10:30:00.000-06:00"
+    },
+    {
+      "site": "07017610",
+      "name": "Big River below Bonne Terre, MO",
+      "lat": 37.96525,
+      "lon": -90.5745,
+      "tempC": 13,
+      "tempTime": "2025-11-19T10:30:00.000-06:00"
+    },
+    {
+      "site": "07018500",
+      "name": "Big River at Byrnesville, MO",
+      "lat": 38.3917222,
+      "lon": -90.6378056,
+      "tempC": 21.8,
+      "tempTime": "2013-09-30T23:45:00.000-05:00"
+    },
+    {
+      "site": "07020850",
+      "name": "Mississippi River at Cape Girardeau, MO",
+      "lat": 37.30188889,
+      "lon": -89.518,
+      "tempC": 11.4,
+      "tempTime": "2025-11-19T09:45:00.000-06:00",
+      "sc_uScm": 665,
+      "scTime": "2025-11-19T09:45:00.000-06:00"
+    },
+    {
+      "site": "07053450",
+      "name": "White River bl Table Rock Dam near Branson, MO",
+      "lat": 36.5950631,
+      "lon": -93.3090721,
+      "tempC": 14.5,
+      "tempTime": "2025-11-19T10:15:00.000-06:00",
+      "sc_uScm": -999999,
+      "scTime": "2023-12-06T11:15:00.000-06:00"
+    },
+    {
+      "site": "07061270",
+      "name": "East Fork Black River near Lesterville, MO",
+      "lat": 37.55255556,
+      "lon": -90.8424444,
+      "tempC": 12.8,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 236,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "07061290",
+      "name": "E. Fk. Black R. bl Lower Taum Sauk Reservoir",
+      "lat": 37.4936111,
+      "lon": -90.8383333,
+      "tempC": 13.5,
+      "tempTime": "2025-11-19T10:00:00.000-06:00",
+      "sc_uScm": 176,
+      "scTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "07065200",
+      "name": "Jacks Fork near Mountain View, MO",
+      "lat": 37.05652778,
+      "lon": -91.6680278,
+      "tempC": 19.2,
+      "tempTime": "2025-11-19T09:45:00.000-06:00"
+    },
+    {
+      "site": "06461500",
+      "name": "Niobrara River near Sparks, Nebr.",
+      "lat": 42.90207778,
+      "lon": -100.3625278,
+      "tempC": 6,
+      "tempTime": "2025-11-19T09:45:00.000-06:00",
+      "sc_uScm": 213,
+      "scTime": "2025-11-19T09:45:00.000-06:00"
+    },
+    {
+      "site": "06465500",
+      "name": "Niobrara River near Verdel, Nebr.",
+      "lat": 42.73972222,
+      "lon": -98.22277778,
+      "tempC": 6.3,
+      "tempTime": "2025-11-19T10:15:00.000-06:00",
+      "sc_uScm": 282,
+      "scTime": "2023-10-26T13:00:00.000-05:00"
+    },
+    {
+      "site": "06478522",
+      "name": "Bow Creek near Wynot, Nebr.",
+      "lat": 42.76527778,
+      "lon": -97.17256667,
+      "tempC": 4.9,
+      "tempTime": "2024-11-15T11:00:00.000-06:00",
+      "sc_uScm": 858,
+      "scTime": "2024-11-15T11:00:00.000-06:00"
+    },
+    {
+      "site": "06486000",
+      "name": "Missouri River at Sioux City, IA",
+      "lat": 42.48619444,
+      "lon": -96.4130833,
+      "tempC": -999999,
+      "tempTime": "2025-11-19T10:00:00.000-06:00"
+    },
+    {
+      "site": "06610000",
+      "name": "Missouri River at Omaha, NE",
+      "lat": 41.25905556,
+      "lon": -95.92325,
+      "tempC": 26.6,
+      "tempTime": "2022-06-25T00:45:00.000-05:00"
+    },
+    {
+      "site": "06680500",
+      "name": "North Platte River at Scottsbluff, Nebr.",
+      "lat": 41.84994444,
+      "lon": -103.6755556,
+      "tempC": 8.9,
+      "tempTime": "2025-11-19T09:00:00.000-07:00"
+    },
+    {
+      "site": "06768000",
+      "name": "Platte River near Overton, Nebr.",
+      "lat": 40.6825,
+      "lon": -99.5405556,
+      "tempC": 7.1,
+      "tempTime": "2025-11-19T09:45:00.000-06:00"
+    },
+    {
+      "site": "06775900",
+      "name": "Dismal River near Thedford, Nebr.",
+      "lat": 41.7786111,
+      "lon": -100.5252778,
+      "tempC": 9.2,
+      "tempTime": "2025-11-19T10:45:00.000-06:00"
+    },
+    {
+      "site": "06784000",
+      "name": "South Loup River at Saint Michael, Nebr.",
+      "lat": 41.0325,
+      "lon": -98.7405556,
+      "tempC": 6.3,
+      "tempTime": "2018-10-16T11:45:00.000-05:00",
+      "sc_uScm": 393,
+      "scTime": "2018-10-02T15:15:00.000-05:00"
+    },
+    {
+      "site": "06785500",
+      "name": "North Loup River at Brewster, Nebr.",
+      "lat": 41.94166667,
+      "lon": -99.8602778,
+      "tempC": 5,
+      "tempTime": "2017-10-24T08:30:00.000-05:00"
+    },
+    {
+      "site": "06786000",
+      "name": "North Loup River at Taylor, Nebr.",
+      "lat": 41.77694444,
+      "lon": -99.3791667,
+      "tempC": 7.3,
+      "tempTime": "2017-10-24T11:15:00.000-05:00"
+    },
+    {
+      "site": "06796500",
+      "name": "Platte River near Leshara, Nebr.",
+      "lat": 41.32,
+      "lon": -96.4038889,
+      "tempC": 7.7,
+      "tempTime": "2025-11-06T10:15:00.000-06:00",
+      "sc_uScm": 416,
+      "scTime": "2025-11-06T10:15:00.000-06:00"
+    },
+    {
+      "site": "06796550",
+      "name": "Platte River near Venice, Nebr.",
+      "lat": 41.19797778,
+      "lon": -96.3394861,
+      "tempC": 7.1,
+      "tempTime": "2025-11-19T10:15:00.000-06:00"
+    },
+    {
+      "site": "06799350",
+      "name": "Elkhorn River at West Point, Nebr.",
+      "lat": 41.8394441,
+      "lon": -96.7275324,
+      "tempC": 15.2,
+      "tempTime": "2018-10-03T09:45:00.000-05:00"
+    },
+    {
+      "site": "06800500",
+      "name": "Elkhorn River at Waterloo, Nebr.",
+      "lat": 41.2933333,
+      "lon": -96.2838889,
+      "tempC": 8.8,
+      "tempTime": "2025-11-06T11:00:00.000-06:00",
+      "sc_uScm": 714,
+      "scTime": "2025-11-06T10:45:00.000-06:00"
+    },
+    {
+      "site": "06801000",
+      "name": "Platte River near Ashland, Nebr",
+      "lat": 41.06225556,
+      "lon": -96.3245139,
+      "tempC": 25.8,
+      "tempTime": "2022-09-16T18:00:00.000-05:00",
+      "sc_uScm": 429,
+      "scTime": "2022-09-16T18:00:00.000-05:00"
+    },
+    {
+      "site": "06805000",
+      "name": "Salt Creek near Ashland, Nebr.",
+      "lat": 41.05166667,
+      "lon": -96.3386111,
+      "tempC": 9.1,
+      "tempTime": "2025-11-06T09:15:00.000-06:00",
+      "sc_uScm": 3600,
+      "scTime": "2025-11-06T09:15:00.000-06:00"
+    },
+    {
+      "site": "06805500",
+      "name": "Platte River at Louisville, Nebr",
+      "lat": 41.01497778,
+      "lon": -96.1575,
+      "tempC": 9.9,
+      "tempTime": "2025-11-06T13:00:00.000-06:00",
+      "sc_uScm": -999999,
+      "scTime": "2025-11-06T13:00:00.000-06:00"
+    },
+    {
+      "site": "06807000",
+      "name": "Missouri River at Nebraska City, NE",
+      "lat": 40.68180556,
+      "lon": -95.8470833,
+      "tempC": -999999,
+      "tempTime": "2024-08-06T13:00:00.000-05:00",
+      "sc_uScm": 794,
+      "scTime": "2007-11-20T23:30:00.000-06:00"
+    },
+    {
+      "site": "06813500",
+      "name": "Missouri River at Rulo, NE",
+      "lat": 40.05205556,
+      "lon": -95.42175,
+      "tempC": -999999,
+      "tempTime": "2025-01-28T14:30:00.000-06:00"
+    }
+  ]
+}
