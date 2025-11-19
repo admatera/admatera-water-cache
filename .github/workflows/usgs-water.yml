@@ -2,8 +2,7 @@ name: USGS Water Cache (daily)
 
 on:
   schedule:
-    # pick a daily time that’s gentle on rate limits (UTC):
-    - cron: "20 12 * * *"   # 12:20 UTC each day
+    - cron: "20 12 * * *"   # daily 12:20 UTC
   workflow_dispatch:
 
 permissions:
@@ -21,79 +20,95 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch USGS temp & conductance → JSON
-        env:
-          # Start with a small region; expand later.
-          # Use USPS/USGS 2-letter codes separated by commas.
-          STATES: "IA,IL,WI,MN,MO,NE"
-          # USGS parameter codes:
-          # 00010 = Water temperature (°C), 00095 = Specific conductance (µS/cm @25°C)
-          PARAMS: "00010,00095"
+      - name: Fetch USGS (temp 00010 + cond 00095) for all states
         run: |
-          mkdir -p data
           node -e '
           const fs = require("fs");
-          const states = (process.env.STATES||"IA").split(",").map(s=>s.trim()).filter(Boolean);
-          const params = process.env.PARAMS || "00010,00095";
-          const sleep = ms => new Promise(r=>setTimeout(r,ms));
 
-          async function getJson(url){
-            const res = await fetch(url);
-            if(!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-            return res.json();
+          const states = [
+            "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA",
+            "HI","ID","IL","IN","IA","KS","KY","LA","ME","MD",
+            "MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ",
+            "NM","NY","NC","ND","OH","OK","OR","PA","RI","SC",
+            "SD","TN","TX","UT","VT","VA","WA","WV","WI","WY"
+          ];
+
+          const sleep = (ms)=>new Promise(r=>setTimeout(r,ms));
+
+          async function getJson(url, tries=3){
+            let lastErr;
+            for (let i=0;i<tr ies;i++){
+              try {
+                const r = await fetch(url, { headers: { "User-Agent": "admatera-water-cache" }});
+                if (r.ok) return await r.json();
+                lastErr = new Error("HTTP "+r.status);
+              } catch(e){ lastErr = e; }
+              await sleep(1000*(i+1));
+            }
+            throw lastErr;
           }
 
-          async function main(){
+          function takeLastValue(ts){
+            const arr = ts?.values?.[0]?.value || [];
+            const last = arr[arr.length-1];
+            if(!last) return { v:null, t:null };
+            return { v: Number(last.value), t: last.dateTime };
+          }
+
+          async function fetchState(st){
+            const base = "https://waterservices.usgs.gov/nwis/iv/";
+            const url = base + "?format=json&stateCd="+st+"&parameterCd=00010,00095&siteStatus=active&period=PT12H";
+            const data = await getJson(url);
+            const series = data?.value?.timeSeries || [];
             const bySite = new Map();
 
-            for(const st of states){
-              const url = `https://waterservices.usgs.gov/nwis/iv/?format=json&stateCd=${st}&parameterCd=${params}&siteStatus=active&siteType=ST`;
-              console.log("Fetching:", url);
-              try{
-                const j = await getJson(url);
-                const series = j?.value?.timeSeries || [];
-                for(const s of series){
-                  const site = s?.sourceInfo?.siteCode?.[0]?.value;
-                  if(!site) continue;
-                  const name = s?.sourceInfo?.siteName || "";
-                  const loc  = s?.sourceInfo?.geoLocation?.geogLocation || {};
-                  const lat  = Number(loc.latitude);
-                  const lon  = Number(loc.longitude);
+            for (const ts of series){
+              const site = ts?.sourceInfo?.siteCode?.[0]?.value;
+              if(!site) continue;
+              const name = ts?.sourceInfo?.siteName || "";
+              const lat = ts?.sourceInfo?.geoLocation?.geogLocation?.latitude;
+              const lon = ts?.sourceInfo?.geoLocation?.geogLocation?.longitude;
+              const code = ts?.variable?.variableCode?.[0]?.value; // 00010 or 00095
+              const { v, t } = takeLastValue(ts);
 
-                  const varCode = s?.variable?.variableCode?.[0]?.value;
-                  const vals = s?.values?.[0]?.value || [];
-                  const last = vals.length ? vals[vals.length-1] : null;
-                  const val  = last ? parseFloat(last.value) : null;
-                  const when = last ? last.dateTime : null;
-
-                  const cur = bySite.get(site) || { site, name, lat, lon };
-                  if(varCode === "00010"){ cur.tempC   = val; cur.tempTime = when; }
-                  if(varCode === "00095"){ cur.sc_uScm = val; cur.scTime   = when; }
-                  bySite.set(site, cur);
-                }
-              }catch(e){
-                console.error("State failed:", st, e.message);
+              if(!bySite.has(site)){
+                bySite.set(site, { site, name, lat, lon, tempC:null, cond_uScm:null, updatedAt:t });
               }
-              // gentle spacing between state calls
-              await sleep(800);
+              const rec = bySite.get(site);
+              if(code==="00010") rec.tempC = isNaN(v)?null:v;
+              if(code==="00095") rec.cond_uScm = isNaN(v)?null:v;
+              if(t && (!rec.updatedAt || new Date(t) > new Date(rec.updatedAt))) rec.updatedAt = t;
             }
 
             const items = Array.from(bySite.values());
-            const stamp = new Date().toISOString();
-            const out = { updatedAt: stamp, count: items.length, items };
-
-            fs.writeFileSync("data/usgs-latest.json", JSON.stringify(out, null, 2));
-            fs.writeFileSync("data/health.json", JSON.stringify({ updatedAt: stamp }, null, 2));
-            console.log("Wrote", items.length, "sites");
+            fs.mkdirSync("data/states", { recursive:true });
+            fs.writeFileSync(`data/states/${st}.json`, JSON.stringify({
+              state: st,
+              updatedAt: new Date().toISOString(),
+              count: items.length,
+              items
+            }, null, 2));
+            return { state: st, count: items.length, updatedAt: new Date().toISOString() };
           }
 
-          main().catch(e=>{ console.error(e); process.exit(1); });
+          (async()=>{
+            const index = [];
+            for(const st of states){
+              const entry = await fetchState(st);
+              index.push(entry);
+              await sleep(1200); // polite delay between calls
+            }
+            fs.writeFileSync("data/usgs-index.json", JSON.stringify({
+              updatedAt: new Date().toISOString(),
+              states: index
+            }, null, 2));
+          })().catch(e=>{ console.error(e); process.exit(1); });
           '
 
       - name: Commit & push
         run: |
           git config user.name  "admatera-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/usgs-latest.json data/health.json
+          git add data/states data/usgs-index.json
           git commit -m "water cache $(date -u +'%F %T UTC')" || echo "no changes"
           git push
