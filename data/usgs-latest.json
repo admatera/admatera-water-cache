@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-03T22:38:50.269Z",
+  "updatedAt": "2025-12-03T22:54:34.486Z",
   "count": 2672,
   "items": [
     {
@@ -248,7 +248,7 @@
     {
       "site": "02458600",
       "state": "al",
-      "tempC": 13.2,
+      "tempC": 13.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -725,7 +725,7 @@
     {
       "site": "15297475",
       "state": "ak",
-      "tempC": 4,
+      "tempC": 4.1,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -743,7 +743,7 @@
     {
       "site": "15300300",
       "state": "ak",
-      "tempC": 2.7,
+      "tempC": 2.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -986,7 +986,7 @@
     {
       "site": "09429070",
       "state": "az",
-      "tempC": 13.6,
+      "tempC": 13.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -1067,11 +1067,11 @@
     {
       "site": "09510000",
       "state": "az",
-      "tempC": 15,
-      "condu": 480,
+      "tempC": 15.2,
+      "condu": 479,
       "ph": 8.3,
       "tds": null,
-      "tdsEst": 322
+      "tdsEst": 321
     },
     {
       "site": "09522005",
@@ -1086,10 +1086,10 @@
       "site": "09530200",
       "state": "az",
       "tempC": 29.8,
-      "condu": 1790,
+      "condu": 1780,
       "ph": null,
       "tds": null,
-      "tdsEst": 1199
+      "tdsEst": 1193
     },
     {
       "site": "09534000",
@@ -1121,7 +1121,7 @@
     {
       "site": "07047932",
       "state": "ar",
-      "tempC": 5.8,
+      "tempC": 5.9,
       "condu": 402,
       "ph": null,
       "tds": null,
@@ -1211,7 +1211,7 @@
     {
       "site": "07055646",
       "state": "ar",
-      "tempC": 8.8,
+      "tempC": 8.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -1409,11 +1409,11 @@
     {
       "site": "07264500",
       "state": "ar",
-      "tempC": 7,
-      "condu": 236,
+      "tempC": 6.9,
+      "condu": 234,
       "ph": null,
       "tds": null,
-      "tdsEst": 158
+      "tdsEst": 157
     },
     {
       "site": "07337000",
@@ -1571,7 +1571,7 @@
     {
       "site": "10336780",
       "state": "ca",
-      "tempC": 2.2,
+      "tempC": 2.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -1662,19 +1662,19 @@
       "site": "11125605",
       "state": "ca",
       "tempC": 16,
-      "condu": 783,
+      "condu": 839,
       "ph": null,
       "tds": null,
-      "tdsEst": 525
+      "tdsEst": 562
     },
     {
       "site": "11126000",
       "state": "ca",
-      "tempC": 14.2,
-      "condu": 867,
+      "tempC": 14.3,
+      "condu": 868,
       "ph": null,
       "tds": null,
-      "tdsEst": 581
+      "tdsEst": 582
     },
     {
       "site": "11126400",
@@ -1688,7 +1688,7 @@
     {
       "site": "11128500",
       "state": "ca",
-      "tempC": 15.9,
+      "tempC": 16.3,
       "condu": 1010,
       "ph": null,
       "tds": null,
@@ -1787,7 +1787,7 @@
     {
       "site": "11171500",
       "state": "ca",
-      "tempC": 11.2,
+      "tempC": 11.1,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -1805,7 +1805,7 @@
     {
       "site": "11172945",
       "state": "ca",
-      "tempC": 10.1,
+      "tempC": 10.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -1850,7 +1850,7 @@
     {
       "site": "11173575",
       "state": "ca",
-      "tempC": 11,
+      "tempC": 11.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -2003,7 +2003,7 @@
     {
       "site": "11261100",
       "state": "ca",
-      "tempC": 11.2,
+      "tempC": 11.3,
       "condu": 1500,
       "ph": null,
       "tds": null,
@@ -2021,7 +2021,7 @@
     {
       "site": "11262900",
       "state": "ca",
-      "tempC": 11.4,
+      "tempC": 11.5,
       "condu": 1820,
       "ph": null,
       "tds": null,
@@ -2030,7 +2030,7 @@
     {
       "site": "11264500",
       "state": "ca",
-      "tempC": 2.5,
+      "tempC": 2.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -2039,7 +2039,7 @@
     {
       "site": "11273400",
       "state": "ca",
-      "tempC": 11.1,
+      "tempC": 11.3,
       "condu": 1400,
       "ph": 7.7,
       "tds": null,
@@ -2057,7 +2057,7 @@
     {
       "site": "11274550",
       "state": "ca",
-      "tempC": 10.5,
+      "tempC": 10.7,
       "condu": 1150,
       "ph": null,
       "tds": null,
@@ -2093,7 +2093,7 @@
     {
       "site": "11276900",
       "state": "ca",
-      "tempC": 7.3,
+      "tempC": 7.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -2111,7 +2111,7 @@
     {
       "site": "11278000",
       "state": "ca",
-      "tempC": 9.4,
+      "tempC": 9.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -2147,11 +2147,11 @@
     {
       "site": "11290000",
       "state": "ca",
-      "tempC": 13.7,
-      "condu": 508,
+      "tempC": 11.6,
+      "condu": 98,
       "ph": null,
       "tds": null,
-      "tdsEst": 340
+      "tdsEst": 66
     },
     {
       "site": "11299997",
@@ -2183,7 +2183,7 @@
     {
       "site": "11303000",
       "state": "ca",
-      "tempC": 10.6,
+      "tempC": 10.7,
       "condu": 74,
       "ph": null,
       "tds": null,
@@ -2399,7 +2399,7 @@
     {
       "site": "11446220",
       "state": "ca",
-      "tempC": 13.9,
+      "tempC": 13.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -2445,10 +2445,10 @@
       "site": "11447650",
       "state": "ca",
       "tempC": 10.6,
-      "condu": 198,
+      "condu": 197,
       "ph": 7.6,
       "tds": null,
-      "tdsEst": 133
+      "tdsEst": 132
     },
     {
       "site": "11447830",
@@ -2840,7 +2840,7 @@
     {
       "site": "11511990",
       "state": "ca",
-      "tempC": 6.1,
+      "tempC": 6.2,
       "condu": 129,
       "ph": 8.2,
       "tds": null,
@@ -3003,10 +3003,10 @@
       "site": "07097000",
       "state": "co",
       "tempC": 1.7,
-      "condu": 458,
+      "condu": 460,
       "ph": null,
       "tds": null,
-      "tdsEst": 307
+      "tdsEst": 308
     },
     {
       "site": "07099400",
@@ -3074,7 +3074,7 @@
     {
       "site": "07104905",
       "state": "co",
-      "tempC": 0.2,
+      "tempC": 0.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -3083,7 +3083,7 @@
     {
       "site": "07105500",
       "state": "co",
-      "tempC": 0.6,
+      "tempC": 0.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -3092,7 +3092,7 @@
     {
       "site": "07105530",
       "state": "co",
-      "tempC": 8.9,
+      "tempC": 9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -3165,10 +3165,10 @@
       "site": "07109500",
       "state": "co",
       "tempC": 4.8,
-      "condu": 892,
+      "condu": 886,
       "ph": 8.2,
       "tds": null,
-      "tdsEst": 598
+      "tdsEst": 594
     },
     {
       "site": "07119700",
@@ -3389,7 +3389,7 @@
     {
       "site": "09041400",
       "state": "co",
-      "tempC": 5.5,
+      "tempC": 5.4,
       "condu": 510,
       "ph": null,
       "tds": null,
@@ -3605,7 +3605,7 @@
     {
       "site": "09095500",
       "state": "co",
-      "tempC": 2.3,
+      "tempC": 2.4,
       "condu": 1390,
       "ph": 8.4,
       "tds": null,
@@ -3758,11 +3758,11 @@
     {
       "site": "09152500",
       "state": "co",
-      "tempC": 3.7,
-      "condu": 973,
+      "tempC": 3.6,
+      "condu": 974,
       "ph": 8.5,
       "tds": null,
-      "tdsEst": 652
+      "tdsEst": 653
     },
     {
       "site": "09163492",
@@ -3947,11 +3947,11 @@
     {
       "site": "09342600",
       "state": "co",
-      "tempC": 0.8,
-      "condu": 234,
+      "tempC": 1,
+      "condu": 230,
       "ph": null,
       "tds": null,
-      "tdsEst": 157
+      "tdsEst": 154
     },
     {
       "site": "09352900",
@@ -4037,20 +4037,20 @@
     {
       "site": "09371492",
       "state": "co",
-      "tempC": 0.9,
-      "condu": 6070,
+      "tempC": 1,
+      "condu": 6040,
       "ph": null,
       "tds": null,
-      "tdsEst": 4067
+      "tdsEst": 4047
     },
     {
       "site": "09371520",
       "state": "co",
-      "tempC": 1.4,
-      "condu": 2760,
+      "tempC": 1.6,
+      "condu": 2750,
       "ph": null,
       "tds": null,
-      "tdsEst": 1849
+      "tdsEst": 1843
     },
     {
       "site": "381312104321001",
@@ -4649,11 +4649,11 @@
     {
       "site": "01478950",
       "state": "de",
-      "tempC": 4.9,
-      "condu": 239,
+      "tempC": 4.6,
+      "condu": 242,
       "ph": null,
       "tds": null,
-      "tdsEst": 160
+      "tdsEst": 162
     },
     {
       "site": "01479000",
@@ -4694,11 +4694,11 @@
     {
       "site": "01480120",
       "state": "de",
-      "tempC": 4.9,
-      "condu": 1220,
+      "tempC": 4.7,
+      "condu": 920,
       "ph": null,
       "tds": null,
-      "tdsEst": 817
+      "tdsEst": 616
     },
     {
       "site": "01481500",
@@ -4874,11 +4874,11 @@
     {
       "site": "02239501",
       "state": "fl",
-      "tempC": 23.1,
-      "condu": 503,
+      "tempC": 23,
+      "condu": 502,
       "ph": 7.4,
       "tds": null,
-      "tdsEst": 337
+      "tdsEst": 336
     },
     {
       "site": "02244040",
@@ -4901,17 +4901,17 @@
     {
       "site": "02245290",
       "state": "fl",
-      "tempC": 18.6,
-      "condu": 643,
+      "tempC": 18.9,
+      "condu": 650,
       "ph": null,
       "tds": null,
-      "tdsEst": 431
+      "tdsEst": 436
     },
     {
       "site": "02245340",
       "state": "fl",
-      "tempC": 19.1,
-      "condu": 805,
+      "tempC": 19,
+      "condu": 804,
       "ph": null,
       "tds": null,
       "tdsEst": 539
@@ -4937,20 +4937,20 @@
     {
       "site": "02246500",
       "state": "fl",
-      "tempC": 19.1,
-      "condu": 7100,
+      "tempC": 18.8,
+      "condu": 5840,
       "ph": null,
       "tds": null,
-      "tdsEst": 4757
+      "tdsEst": 3913
     },
     {
       "site": "02246518",
       "state": "fl",
-      "tempC": 18.5,
-      "condu": 988,
+      "tempC": 18.4,
+      "condu": 940,
       "ph": null,
       "tds": null,
-      "tdsEst": 662
+      "tdsEst": 630
     },
     {
       "site": "02246751",
@@ -5063,20 +5063,20 @@
     {
       "site": "02277100",
       "state": "fl",
-      "tempC": 24,
-      "condu": 34200,
+      "tempC": 24.2,
+      "condu": 36000,
       "ph": null,
       "tds": null,
-      "tdsEst": 22914
+      "tdsEst": 24120
     },
     {
       "site": "02286328",
       "state": "fl",
       "tempC": 25,
-      "condu": 1270,
+      "condu": 1210,
       "ph": null,
       "tds": null,
-      "tdsEst": 851
+      "tdsEst": 811
     },
     {
       "site": "02288900",
@@ -5135,11 +5135,11 @@
     {
       "site": "02290709",
       "state": "fl",
-      "tempC": 25.6,
-      "condu": 424,
+      "tempC": 25.4,
+      "condu": 427,
       "ph": null,
       "tds": null,
-      "tdsEst": 284
+      "tdsEst": 286
     },
     {
       "site": "022908205",
@@ -5153,11 +5153,11 @@
     {
       "site": "022908295",
       "state": "fl",
-      "tempC": 24.6,
-      "condu": 486,
+      "tempC": 24.7,
+      "condu": 488,
       "ph": null,
       "tds": null,
-      "tdsEst": 326
+      "tdsEst": 327
     },
     {
       "site": "02290878",
@@ -5315,11 +5315,11 @@
     {
       "site": "02299734",
       "state": "fl",
-      "tempC": 23.3,
-      "condu": 51600,
+      "tempC": 23,
+      "condu": 52100,
       "ph": null,
       "tds": null,
-      "tdsEst": 34572
+      "tdsEst": 34907
     },
     {
       "site": "023000095",
@@ -5369,7 +5369,7 @@
     {
       "site": "02304000",
       "state": "fl",
-      "tempC": 20.3,
+      "tempC": 20.2,
       "condu": 461,
       "ph": null,
       "tds": null,
@@ -5387,20 +5387,20 @@
     {
       "site": "02304517",
       "state": "fl",
-      "tempC": 23.6,
-      "condu": 12100,
+      "tempC": 23.7,
+      "condu": 13100,
       "ph": null,
       "tds": null,
-      "tdsEst": 8107
+      "tdsEst": 8777
     },
     {
       "site": "023060013",
       "state": "fl",
       "tempC": 23.6,
-      "condu": 15200,
+      "condu": 14700,
       "ph": null,
       "tds": null,
-      "tdsEst": 10184
+      "tdsEst": 9849
     },
     {
       "site": "02306028",
@@ -5450,7 +5450,7 @@
     {
       "site": "02310687",
       "state": "fl",
-      "tempC": 22.6,
+      "tempC": 22.2,
       "condu": 7080,
       "ph": null,
       "tds": null,
@@ -5468,11 +5468,11 @@
     {
       "site": "02310690",
       "state": "fl",
-      "tempC": 21.9,
-      "condu": 10000,
+      "tempC": 21.7,
+      "condu": 11000,
       "ph": null,
       "tds": null,
-      "tdsEst": 6700
+      "tdsEst": 7370
     },
     {
       "site": "02310700",
@@ -5612,8 +5612,8 @@
     {
       "site": "02319000",
       "state": "fl",
-      "tempC": 17.9,
-      "condu": 551,
+      "tempC": 17.8,
+      "condu": 550,
       "ph": null,
       "tds": null,
       "tdsEst": 369
@@ -5730,10 +5730,10 @@
       "site": "02324170",
       "state": "fl",
       "tempC": 18.7,
-      "condu": 33800,
+      "condu": 34000,
       "ph": null,
       "tds": null,
-      "tdsEst": 22646
+      "tdsEst": 22780
     },
     {
       "site": "02325543",
@@ -5765,9 +5765,9 @@
     {
       "site": "02326526",
       "state": "fl",
-      "tempC": 18.1,
+      "tempC": 18.2,
       "condu": 305,
-      "ph": 8.3,
+      "ph": 8.2,
       "tds": null,
       "tdsEst": 204
     },
@@ -5783,11 +5783,11 @@
     {
       "site": "02327031",
       "state": "fl",
-      "tempC": 16.7,
-      "condu": 48100,
+      "tempC": 16.6,
+      "condu": 47800,
       "ph": null,
       "tds": null,
-      "tdsEst": 32227
+      "tdsEst": 32026
     },
     {
       "site": "02327033",
@@ -5811,10 +5811,10 @@
       "site": "02358000",
       "state": "fl",
       "tempC": 15.9,
-      "condu": 123,
+      "condu": 124,
       "ph": null,
       "tds": null,
-      "tdsEst": 82
+      "tdsEst": 83
     },
     {
       "site": "02359170",
@@ -5828,11 +5828,11 @@
     {
       "site": "02359223",
       "state": "fl",
-      "tempC": 17.6,
-      "condu": 2940,
+      "tempC": 17.4,
+      "condu": 1850,
       "ph": 7.6,
       "tds": null,
-      "tdsEst": 1970
+      "tdsEst": 1240
     },
     {
       "site": "250802081035500",
@@ -6054,16 +6054,16 @@
       "site": "255138081321701",
       "state": "fl",
       "tempC": 24.1,
-      "condu": 53400,
+      "condu": 53300,
       "ph": null,
       "tds": null,
-      "tdsEst": 35778
+      "tdsEst": 35711
     },
     {
       "site": "255151080371501",
       "state": "fl",
-      "tempC": 23.1,
-      "condu": 677,
+      "tempC": 23.2,
+      "condu": 678,
       "ph": null,
       "tds": null,
       "tdsEst": 454
@@ -6153,37 +6153,37 @@
       "site": "265906080093500",
       "state": "fl",
       "tempC": 23.6,
-      "condu": 565,
+      "condu": 564,
       "ph": null,
       "tds": null,
-      "tdsEst": 379
+      "tdsEst": 378
     },
     {
       "site": "265929080091800",
       "state": "fl",
       "tempC": 23.5,
-      "condu": 640,
+      "condu": 724,
       "ph": null,
       "tds": null,
-      "tdsEst": 429
+      "tdsEst": 485
     },
     {
       "site": "285531082412600",
       "state": "fl",
       "tempC": 20.2,
-      "condu": 32000,
+      "condu": 28400,
       "ph": null,
       "tds": null,
-      "tdsEst": 21440
+      "tdsEst": 19028
     },
     {
       "site": "294213081345300",
       "state": "fl",
-      "tempC": 19.4,
-      "condu": 785,
+      "tempC": 19.6,
+      "condu": 780,
       "ph": null,
       "tds": null,
-      "tdsEst": 526
+      "tdsEst": 523
     },
     {
       "site": "295308085143700",
@@ -6233,20 +6233,20 @@
     {
       "site": "301124081395901",
       "state": "fl",
-      "tempC": 18.5,
-      "condu": 969,
+      "tempC": 18.4,
+      "condu": 948,
       "ph": null,
       "tds": null,
-      "tdsEst": 649
+      "tdsEst": 635
     },
     {
       "site": "301204081434900",
       "state": "fl",
       "tempC": 17.6,
-      "condu": 617,
+      "condu": 623,
       "ph": null,
       "tds": null,
-      "tdsEst": 413
+      "tdsEst": 417
     },
     {
       "site": "301510081383500",
@@ -6260,16 +6260,16 @@
     {
       "site": "301817081393600",
       "state": "fl",
-      "tempC": 19.7,
-      "condu": 6770,
+      "tempC": 19.1,
+      "condu": 5860,
       "ph": null,
       "tds": null,
-      "tdsEst": 4536
+      "tdsEst": 3926
     },
     {
       "site": "302307083101400",
       "state": "fl",
-      "tempC": 19.7,
+      "tempC": 19.6,
       "condu": 339,
       "ph": null,
       "tds": null,
@@ -6279,28 +6279,28 @@
       "site": "302309081333001",
       "state": "fl",
       "tempC": 19.1,
-      "condu": 32500,
+      "condu": 30800,
       "ph": null,
       "tds": null,
-      "tdsEst": 21775
+      "tdsEst": 20636
     },
     {
       "site": "302609081453300",
       "state": "fl",
-      "tempC": 17.9,
-      "condu": 10400,
+      "tempC": 18.1,
+      "condu": 10700,
       "ph": null,
       "tds": null,
-      "tdsEst": 6968
+      "tdsEst": 7169
     },
     {
       "site": "302657081312400",
       "state": "fl",
-      "tempC": 19.8,
-      "condu": 32700,
+      "tempC": 19.7,
+      "condu": 34600,
       "ph": null,
       "tds": null,
-      "tdsEst": 21909
+      "tdsEst": 23182
     },
     {
       "site": "02176930",
@@ -6314,7 +6314,7 @@
     {
       "site": "02181350",
       "state": "ga",
-      "tempC": 8.9,
+      "tempC": 8.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -6368,20 +6368,20 @@
     {
       "site": "02198920",
       "state": "ga",
-      "tempC": 14.6,
-      "condu": 8180,
-      "ph": 7.4,
+      "tempC": 15.2,
+      "condu": 14900,
+      "ph": 7.6,
       "tds": null,
-      "tdsEst": 5481
+      "tdsEst": 9983
     },
     {
       "site": "02198950",
       "state": "ga",
       "tempC": 14.4,
-      "condu": 3730,
-      "ph": 7.3,
+      "condu": 4360,
+      "ph": 7.4,
       "tds": null,
-      "tdsEst": 2499
+      "tdsEst": 2921
     },
     {
       "site": "02198955",
@@ -6395,29 +6395,29 @@
     {
       "site": "021989715",
       "state": "ga",
-      "tempC": 15.3,
-      "condu": 16900,
-      "ph": 7.5,
+      "tempC": 15.5,
+      "condu": 18900,
+      "ph": 7.6,
       "tds": null,
-      "tdsEst": 11323
+      "tdsEst": 12663
     },
     {
       "site": "021989773",
       "state": "ga",
-      "tempC": 15.8,
-      "condu": 22700,
+      "tempC": 15.7,
+      "condu": 24000,
       "ph": 7.7,
       "tds": null,
-      "tdsEst": 15209
+      "tdsEst": 16080
     },
     {
       "site": "021989792",
       "state": "ga",
-      "tempC": 13.9,
-      "condu": 889,
+      "tempC": 14,
+      "condu": 994,
       "ph": 7.1,
       "tds": null,
-      "tdsEst": 596
+      "tdsEst": 666
     },
     {
       "site": "021989793",
@@ -6459,10 +6459,10 @@
       "site": "022035975",
       "state": "ga",
       "tempC": 15.8,
-      "condu": 45400,
-      "ph": 7.6,
+      "condu": 45300,
+      "ph": 7.7,
       "tds": null,
-      "tdsEst": 30418
+      "tdsEst": 30351
     },
     {
       "site": "02203603",
@@ -6512,11 +6512,11 @@
     {
       "site": "02203873",
       "state": "ga",
-      "tempC": 9.3,
-      "condu": 94,
+      "tempC": 9.2,
+      "condu": 93,
       "ph": 7.1,
       "tds": null,
-      "tdsEst": 63
+      "tdsEst": 62
     },
     {
       "site": "02203900",
@@ -6540,19 +6540,19 @@
       "site": "02203960",
       "state": "ga",
       "tempC": 8.7,
-      "condu": 75,
+      "condu": 77,
       "ph": 7.2,
       "tds": null,
-      "tdsEst": 50
+      "tdsEst": 52
     },
     {
       "site": "02204037",
       "state": "ga",
-      "tempC": 8.7,
-      "condu": 69,
+      "tempC": 8.6,
+      "condu": 71,
       "ph": 7.2,
       "tds": null,
-      "tdsEst": 46
+      "tdsEst": 48
     },
     {
       "site": "02205000",
@@ -6593,17 +6593,17 @@
     {
       "site": "02207135",
       "state": "ga",
-      "tempC": 9.3,
-      "condu": 111,
+      "tempC": 9.2,
+      "condu": 112,
       "ph": 7.1,
       "tds": null,
-      "tdsEst": 74
+      "tdsEst": 75
     },
     {
       "site": "02207160",
       "state": "ga",
       "tempC": 10.5,
-      "condu": 72,
+      "condu": 71,
       "ph": 7.3,
       "tds": null,
       "tdsEst": 48
@@ -6863,11 +6863,11 @@
     {
       "site": "02334480",
       "state": "ga",
-      "tempC": 9.2,
-      "condu": 172,
+      "tempC": 9.1,
+      "condu": 177,
       "ph": null,
       "tds": null,
-      "tdsEst": 115
+      "tdsEst": 119
     },
     {
       "site": "02334500",
@@ -7016,11 +7016,11 @@
     {
       "site": "02335880",
       "state": "ga",
-      "tempC": 10.6,
-      "condu": 88,
+      "tempC": 10.5,
+      "condu": 87,
       "ph": null,
       "tds": null,
-      "tdsEst": 59
+      "tdsEst": 58
     },
     {
       "site": "02336000",
@@ -7088,7 +7088,7 @@
     {
       "site": "02336313",
       "state": "ga",
-      "tempC": 8.9,
+      "tempC": 8.8,
       "condu": 213,
       "ph": 7.3,
       "tds": null,
@@ -7340,7 +7340,7 @@
     {
       "site": "02394000",
       "state": "ga",
-      "tempC": 13.6,
+      "tempC": 13.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -7349,11 +7349,11 @@
     {
       "site": "02394682",
       "state": "ga",
-      "tempC": 12.5,
-      "condu": 91,
+      "tempC": 12.1,
+      "condu": 90,
       "ph": 7.4,
       "tds": null,
-      "tdsEst": 61
+      "tdsEst": 60
     },
     {
       "site": "02394820",
@@ -7376,11 +7376,11 @@
     {
       "site": "02413205",
       "state": "ga",
-      "tempC": 8.4,
-      "condu": 89,
+      "tempC": 8.3,
+      "condu": 91,
       "ph": 7,
       "tds": null,
-      "tdsEst": 60
+      "tdsEst": 61
     },
     {
       "site": "02413210",
@@ -7412,7 +7412,7 @@
     {
       "site": "16618000",
       "state": "hi",
-      "tempC": 19.1,
+      "tempC": 19.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -7727,7 +7727,7 @@
     {
       "site": "13307000",
       "state": "id",
-      "tempC": 1.4,
+      "tempC": 1.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -7745,7 +7745,7 @@
     {
       "site": "13310850",
       "state": "id",
-      "tempC": 0.3,
+      "tempC": 0.5,
       "condu": 64,
       "ph": 7.7,
       "tds": null,
@@ -8096,11 +8096,11 @@
     {
       "site": "05558300",
       "state": "il",
-      "tempC": 2.3,
-      "condu": 962,
+      "tempC": 2.2,
+      "condu": 967,
       "ph": 8.4,
       "tds": null,
-      "tdsEst": 645
+      "tdsEst": 648
     },
     {
       "site": "05559900",
@@ -8339,7 +8339,7 @@
     {
       "site": "05578250",
       "state": "il",
-      "tempC": 2.2,
+      "tempC": 2.1,
       "condu": 609,
       "ph": null,
       "tds": null,
@@ -8519,7 +8519,7 @@
     {
       "site": "03340900",
       "state": "in",
-      "tempC": 6.5,
+      "tempC": 6.6,
       "condu": 403,
       "ph": 8.1,
       "tds": null,
@@ -8726,7 +8726,7 @@
     {
       "site": "04183030",
       "state": "in",
-      "tempC": 1,
+      "tempC": 0.9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -9113,11 +9113,11 @@
     {
       "site": "06856600",
       "state": "ks",
-      "tempC": 1.2,
-      "condu": 865,
+      "tempC": 1.1,
+      "condu": 864,
       "ph": 8.3,
       "tds": null,
-      "tdsEst": 580
+      "tdsEst": 579
     },
     {
       "site": "06865500",
@@ -9149,7 +9149,7 @@
     {
       "site": "06879650",
       "state": "ks",
-      "tempC": 4.8,
+      "tempC": 4.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -9194,8 +9194,8 @@
     {
       "site": "06889110",
       "state": "ks",
-      "tempC": 0.3,
-      "condu": 731,
+      "tempC": 0.1,
+      "condu": 732,
       "ph": 8.2,
       "tds": null,
       "tdsEst": 490
@@ -9239,11 +9239,11 @@
     {
       "site": "06892513",
       "state": "ks",
-      "tempC": 2.4,
-      "condu": 717,
+      "tempC": 2.3,
+      "condu": 726,
       "ph": 8.2,
       "tds": null,
-      "tdsEst": 480
+      "tdsEst": 486
     },
     {
       "site": "06892518",
@@ -9429,10 +9429,10 @@
       "site": "375350097262800",
       "state": "ks",
       "tempC": 4.9,
-      "condu": 825,
+      "condu": 827,
       "ph": 8,
       "tds": null,
-      "tdsEst": 553
+      "tdsEst": 554
     },
     {
       "site": "03123499",
@@ -9591,10 +9591,10 @@
       "site": "03290500",
       "state": "ky",
       "tempC": 7.9,
-      "condu": 448,
+      "condu": 447,
       "ph": 8,
       "tds": null,
-      "tdsEst": 300
+      "tdsEst": 299
     },
     {
       "site": "03292470",
@@ -9608,20 +9608,20 @@
     {
       "site": "0329247350",
       "state": "ky",
-      "tempC": 5.7,
-      "condu": 1130,
-      "ph": 8.6,
+      "tempC": 5.5,
+      "condu": 1120,
+      "ph": 8.5,
       "tds": null,
-      "tdsEst": 757
+      "tdsEst": 750
     },
     {
       "site": "03292474",
       "state": "ky",
-      "tempC": 5.5,
-      "condu": 822,
+      "tempC": 5.6,
+      "condu": 790,
       "ph": 8.2,
       "tds": null,
-      "tdsEst": 551
+      "tdsEst": 529
     },
     {
       "site": "0329247450",
@@ -9636,10 +9636,10 @@
       "site": "03292475",
       "state": "ky",
       "tempC": 3.2,
-      "condu": 925,
+      "condu": 948,
       "ph": 8.7,
       "tds": null,
-      "tdsEst": 620
+      "tdsEst": 635
     },
     {
       "site": "03292480",
@@ -9663,10 +9663,10 @@
       "site": "03292550",
       "state": "ky",
       "tempC": 4.2,
-      "condu": 2860,
-      "ph": 7.8,
+      "condu": 2810,
+      "ph": 7.7,
       "tds": null,
-      "tdsEst": 1916
+      "tdsEst": 1883
     },
     {
       "site": "03292900",
@@ -9707,20 +9707,20 @@
     {
       "site": "03293530",
       "state": "ky",
-      "tempC": 3.5,
-      "condu": 901,
+      "tempC": 3.4,
+      "condu": 905,
       "ph": 8.2,
       "tds": null,
-      "tdsEst": 604
+      "tdsEst": 606
     },
     {
       "site": "03293532",
       "state": "ky",
-      "tempC": 4.2,
-      "condu": 1020,
+      "tempC": 4.4,
+      "condu": 1080,
       "ph": 8.1,
       "tds": null,
-      "tdsEst": 683
+      "tdsEst": 724
     },
     {
       "site": "03294570",
@@ -9743,11 +9743,11 @@
     {
       "site": "03297900",
       "state": "ky",
-      "tempC": 1.9,
-      "condu": 595,
+      "tempC": 1.8,
+      "condu": 597,
       "ph": 8.4,
       "tds": null,
-      "tdsEst": 399
+      "tdsEst": 400
     },
     {
       "site": "03298000",
@@ -10023,10 +10023,10 @@
       "site": "07381150",
       "state": "la",
       "tempC": 14.5,
-      "condu": 613,
+      "condu": 615,
       "ph": null,
       "tds": null,
-      "tdsEst": 411
+      "tdsEst": 412
     },
     {
       "site": "07381235",
@@ -10112,7 +10112,7 @@
     {
       "site": "295124089542100",
       "state": "la",
-      "tempC": 15.6,
+      "tempC": 15.7,
       "condu": 527,
       "ph": null,
       "tds": null,
@@ -10130,7 +10130,7 @@
     {
       "site": "295847093420600",
       "state": "la",
-      "tempC": 10.2,
+      "tempC": 10.3,
       "condu": 11200,
       "ph": null,
       "tds": null,
@@ -10256,20 +10256,20 @@
     {
       "site": "01579550",
       "state": "md",
-      "tempC": 7.1,
-      "condu": 281,
-      "ph": 8.4,
+      "tempC": 6.9,
+      "condu": 280,
+      "ph": 7.8,
       "tds": null,
       "tdsEst": 188
     },
     {
       "site": "01581752",
       "state": "md",
-      "tempC": 5.2,
-      "condu": 386,
+      "tempC": 5.1,
+      "condu": 391,
       "ph": null,
       "tds": null,
-      "tdsEst": 259
+      "tdsEst": 262
     },
     {
       "site": "01581920",
@@ -10283,11 +10283,11 @@
     {
       "site": "01585075",
       "state": "md",
-      "tempC": 5,
-      "condu": 251,
+      "tempC": 4.9,
+      "condu": 252,
       "ph": null,
       "tds": null,
-      "tdsEst": 168
+      "tdsEst": 169
     },
     {
       "site": "01585219",
@@ -10355,7 +10355,7 @@
     {
       "site": "01640152",
       "state": "md",
-      "tempC": 4.5,
+      "tempC": 4.4,
       "condu": 345,
       "ph": 7.9,
       "tds": null,
@@ -10392,37 +10392,37 @@
       "site": "01649190",
       "state": "md",
       "tempC": 4.3,
-      "condu": 267,
+      "condu": 268,
       "ph": 7.5,
       "tds": null,
-      "tdsEst": 179
+      "tdsEst": 180
     },
     {
       "site": "01649500",
       "state": "md",
-      "tempC": 5.9,
-      "condu": 339,
+      "tempC": 5.8,
+      "condu": 341,
       "ph": 7.7,
       "tds": null,
-      "tdsEst": 227
+      "tdsEst": 228
     },
     {
       "site": "01650800",
       "state": "md",
-      "tempC": 5.1,
-      "condu": 291,
+      "tempC": 5,
+      "condu": 293,
       "ph": 7.7,
       "tds": null,
-      "tdsEst": 195
+      "tdsEst": 196
     },
     {
       "site": "01651003",
       "state": "md",
-      "tempC": 5.4,
-      "condu": 325,
+      "tempC": 5.2,
+      "condu": 330,
       "ph": null,
       "tds": null,
-      "tdsEst": 218
+      "tdsEst": 221
     },
     {
       "site": "01651730",
@@ -10445,29 +10445,29 @@
     {
       "site": "01653522",
       "state": "md",
-      "tempC": 10.1,
-      "condu": 383,
+      "tempC": 10,
+      "condu": 379,
       "ph": null,
       "tds": null,
-      "tdsEst": 257
+      "tdsEst": 254
     },
     {
       "site": "01653560",
       "state": "md",
-      "tempC": 6.5,
-      "condu": 333,
+      "tempC": 6.4,
+      "condu": 334,
       "ph": null,
       "tds": null,
-      "tdsEst": 223
+      "tdsEst": 224
     },
     {
       "site": "01653620",
       "state": "md",
-      "tempC": 7,
-      "condu": 309,
+      "tempC": 6.7,
+      "condu": 311,
       "ph": null,
       "tds": null,
-      "tdsEst": 207
+      "tdsEst": 208
     },
     {
       "site": "01658000",
@@ -10490,8 +10490,8 @@
     {
       "site": "01095220",
       "state": "ma",
-      "tempC": 2.5,
-      "condu": 190,
+      "tempC": 2.4,
+      "condu": 189,
       "ph": null,
       "tds": null,
       "tdsEst": 127
@@ -10499,11 +10499,11 @@
     {
       "site": "01095375",
       "state": "ma",
-      "tempC": 2.5,
-      "condu": 422,
+      "tempC": 2.1,
+      "condu": 430,
       "ph": null,
       "tds": null,
-      "tdsEst": 283
+      "tdsEst": 288
     },
     {
       "site": "01095434",
@@ -10653,10 +10653,10 @@
       "site": "01168250",
       "state": "ma",
       "tempC": 0,
-      "condu": 164,
+      "condu": 167,
       "ph": null,
       "tds": null,
-      "tdsEst": 110
+      "tdsEst": 112
     },
     {
       "site": "01170100",
@@ -10698,10 +10698,10 @@
       "site": "040325155",
       "state": "mi",
       "tempC": -0.1,
-      "condu": 152,
+      "condu": 149,
       "ph": 7.8,
       "tds": null,
-      "tdsEst": 102
+      "tdsEst": 100
     },
     {
       "site": "04041500",
@@ -11021,7 +11021,7 @@
     {
       "site": "04137500",
       "state": "mi",
-      "tempC": 2.8,
+      "tempC": 2.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -11076,10 +11076,10 @@
       "site": "04166100",
       "state": "mi",
       "tempC": 0.1,
-      "condu": 1940,
+      "condu": 1930,
       "ph": null,
       "tds": null,
-      "tdsEst": 1300
+      "tdsEst": 1293
     },
     {
       "site": "04166500",
@@ -11103,10 +11103,10 @@
       "site": "04167625",
       "state": "mi",
       "tempC": 8.9,
-      "condu": 1050,
+      "condu": 1040,
       "ph": null,
       "tds": null,
-      "tdsEst": 704
+      "tdsEst": 697
     },
     {
       "site": "04168400",
@@ -11417,11 +11417,11 @@
     {
       "site": "06893619",
       "state": "mo",
-      "tempC": 2.2,
-      "condu": 844,
+      "tempC": 2.3,
+      "condu": 853,
       "ph": null,
       "tds": null,
-      "tdsEst": 565
+      "tdsEst": 572
     },
     {
       "site": "06893620",
@@ -11471,8 +11471,8 @@
     {
       "site": "06894000",
       "state": "mo",
-      "tempC": 2.9,
-      "condu": 447,
+      "tempC": 3,
+      "condu": 446,
       "ph": 7.6,
       "tds": null,
       "tdsEst": 299
@@ -11615,7 +11615,7 @@
     {
       "site": "07017610",
       "state": "mo",
-      "tempC": 3.4,
+      "tempC": 3.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -11759,7 +11759,7 @@
     {
       "site": "06026420",
       "state": "mt",
-      "tempC": 0.4,
+      "tempC": 0.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -11822,7 +11822,7 @@
     {
       "site": "06038800",
       "state": "mt",
-      "tempC": 5.3,
+      "tempC": 5.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -11885,7 +11885,7 @@
     {
       "site": "06066500",
       "state": "mt",
-      "tempC": 6,
+      "tempC": 5.9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -12173,7 +12173,7 @@
     {
       "site": "12323600",
       "state": "mt",
-      "tempC": 0.1,
+      "tempC": 0,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -12191,7 +12191,7 @@
     {
       "site": "12323720",
       "state": "mt",
-      "tempC": 4.4,
+      "tempC": 4.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -12227,7 +12227,7 @@
     {
       "site": "12323850",
       "state": "mt",
-      "tempC": 3.8,
+      "tempC": 3.9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -12696,7 +12696,7 @@
       "site": "10301500",
       "state": "nv",
       "tempC": 5,
-      "condu": 486,
+      "condu": 487,
       "ph": null,
       "tds": null,
       "tdsEst": 326
@@ -12704,7 +12704,7 @@
     {
       "site": "10302002",
       "state": "nv",
-      "tempC": 6.6,
+      "tempC": 6.7,
       "condu": 410,
       "ph": null,
       "tds": null,
@@ -12767,7 +12767,7 @@
     {
       "site": "10350500",
       "state": "nv",
-      "tempC": 6.1,
+      "tempC": 6.3,
       "condu": 254,
       "ph": 8.4,
       "tds": null,
@@ -13083,10 +13083,10 @@
       "site": "01412350",
       "state": "nj",
       "tempC": null,
-      "condu": 29600,
+      "condu": 31000,
       "ph": null,
       "tds": null,
-      "tdsEst": 19832
+      "tdsEst": 20770
     },
     {
       "site": "01412800",
@@ -13145,7 +13145,7 @@
     {
       "site": "01455290",
       "state": "nj",
-      "tempC": 4,
+      "tempC": 3.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -13154,7 +13154,7 @@
     {
       "site": "01457500",
       "state": "nj",
-      "tempC": 3.9,
+      "tempC": 3.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -13163,7 +13163,7 @@
     {
       "site": "01458500",
       "state": "nj",
-      "tempC": 3.2,
+      "tempC": 3.1,
       "condu": 263,
       "ph": 8.5,
       "tds": null,
@@ -13181,7 +13181,7 @@
     {
       "site": "01460440",
       "state": "nj",
-      "tempC": 4.4,
+      "tempC": 4.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -13209,15 +13209,15 @@
       "site": "01463500",
       "state": "nj",
       "tempC": 3.9,
-      "condu": 224,
-      "ph": 9.2,
+      "condu": 230,
+      "ph": 9,
       "tds": null,
-      "tdsEst": 150
+      "tdsEst": 154
     },
     {
       "site": "01464040",
       "state": "nj",
-      "tempC": 3.9,
+      "tempC": 4.1,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -13227,10 +13227,10 @@
       "site": "01464290",
       "state": "nj",
       "tempC": 4.2,
-      "condu": 71,
+      "condu": 70,
       "ph": null,
       "tds": null,
-      "tdsEst": 48
+      "tdsEst": 47
     },
     {
       "site": "01464500",
@@ -13253,11 +13253,11 @@
     {
       "site": "01465880",
       "state": "nj",
-      "tempC": 4.5,
-      "condu": 227,
+      "tempC": 4.4,
+      "condu": 228,
       "ph": null,
       "tds": null,
-      "tdsEst": 152
+      "tdsEst": 153
     },
     {
       "site": "01466500",
@@ -13271,7 +13271,7 @@
     {
       "site": "01466900",
       "state": "nj",
-      "tempC": 4.9,
+      "tempC": 4.8,
       "condu": 62,
       "ph": null,
       "tds": null,
@@ -13280,7 +13280,7 @@
     {
       "site": "01467000",
       "state": "nj",
-      "tempC": 4.9,
+      "tempC": 4.8,
       "condu": 77,
       "ph": null,
       "tds": null,
@@ -13299,10 +13299,10 @@
       "site": "01467024",
       "state": "nj",
       "tempC": 4.8,
-      "condu": 226,
+      "condu": 224,
       "ph": null,
       "tds": null,
-      "tdsEst": 151
+      "tdsEst": 150
     },
     {
       "site": "01467081",
@@ -13325,11 +13325,11 @@
     {
       "site": "01467194",
       "state": "nj",
-      "tempC": 5.5,
-      "condu": 286,
+      "tempC": 5.4,
+      "condu": 283,
       "ph": null,
       "tds": null,
-      "tdsEst": 192
+      "tdsEst": 190
     },
     {
       "site": "01475001",
@@ -13352,7 +13352,7 @@
     {
       "site": "01477120",
       "state": "nj",
-      "tempC": 5,
+      "tempC": 4.9,
       "condu": 220,
       "ph": null,
       "tds": null,
@@ -13469,11 +13469,11 @@
     {
       "site": "08380500",
       "state": "nm",
-      "tempC": 2,
-      "condu": 260,
+      "tempC": 1.9,
+      "condu": 257,
       "ph": 8.5,
       "tds": null,
-      "tdsEst": 174
+      "tdsEst": 172
     },
     {
       "site": "08386970",
@@ -13569,10 +13569,10 @@
       "site": "01302020",
       "state": "ny",
       "tempC": 5.2,
-      "condu": 590,
+      "condu": 570,
       "ph": 7.4,
       "tds": null,
-      "tdsEst": 395
+      "tdsEst": 382
     },
     {
       "site": "01309500",
@@ -13613,7 +13613,7 @@
     {
       "site": "01353995",
       "state": "ny",
-      "tempC": 0.8,
+      "tempC": 0.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -13622,7 +13622,7 @@
     {
       "site": "0135403025",
       "state": "ny",
-      "tempC": 1,
+      "tempC": 0.9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -13659,7 +13659,7 @@
       "site": "01355475",
       "state": "ny",
       "tempC": 1.3,
-      "condu": 411,
+      "condu": 410,
       "ph": 8,
       "tds": null,
       "tdsEst": 275
@@ -13676,7 +13676,7 @@
     {
       "site": "01357500",
       "state": "ny",
-      "tempC": 2.2,
+      "tempC": 2,
       "condu": 320,
       "ph": null,
       "tds": null,
@@ -13694,7 +13694,7 @@
     {
       "site": "01359139",
       "state": "ny",
-      "tempC": 2.4,
+      "tempC": 2.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -13721,7 +13721,7 @@
     {
       "site": "0136219503",
       "state": "ny",
-      "tempC": 3.7,
+      "tempC": 3.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -13730,7 +13730,7 @@
     {
       "site": "01362200",
       "state": "ny",
-      "tempC": 3.1,
+      "tempC": 3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -13739,7 +13739,7 @@
     {
       "site": "01362230",
       "state": "ny",
-      "tempC": 2.9,
+      "tempC": 2.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -13794,10 +13794,10 @@
       "site": "01364500",
       "state": "ny",
       "tempC": 3.2,
-      "condu": 224,
+      "condu": 222,
       "ph": null,
       "tds": null,
-      "tdsEst": 150
+      "tdsEst": 149
     },
     {
       "site": "01365100",
@@ -13811,7 +13811,7 @@
     {
       "site": "01365550",
       "state": "ny",
-      "tempC": 5.1,
+      "tempC": 4.9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -13937,7 +13937,7 @@
     {
       "site": "01423000",
       "state": "ny",
-      "tempC": 1.6,
+      "tempC": 1.5,
       "condu": 102,
       "ph": null,
       "tds": null,
@@ -13973,7 +13973,7 @@
     {
       "site": "01427000",
       "state": "ny",
-      "tempC": 1.9,
+      "tempC": 1.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -14027,7 +14027,7 @@
     {
       "site": "0143400680",
       "state": "ny",
-      "tempC": 7.4,
+      "tempC": 7.3,
       "condu": 9,
       "ph": null,
       "tds": null,
@@ -14099,7 +14099,7 @@
     {
       "site": "01436690",
       "state": "ny",
-      "tempC": 1.2,
+      "tempC": 1.1,
       "condu": 47,
       "ph": null,
       "tds": null,
@@ -14181,10 +14181,10 @@
       "site": "04219915",
       "state": "ny",
       "tempC": 1.1,
-      "condu": 777,
+      "condu": 784,
       "ph": null,
       "tds": null,
-      "tdsEst": 521
+      "tdsEst": 525
     },
     {
       "site": "04220045",
@@ -14244,15 +14244,15 @@
       "site": "04231600",
       "state": "ny",
       "tempC": 1.3,
-      "condu": 546,
-      "ph": 8.1,
+      "condu": 547,
+      "ph": 8,
       "tds": null,
       "tdsEst": 366
     },
     {
       "site": "04232050",
       "state": "ny",
-      "tempC": 5.6,
+      "tempC": 5.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -14342,7 +14342,7 @@
     {
       "site": "02077200",
       "state": "nc",
-      "tempC": 5.1,
+      "tempC": 5.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -14388,19 +14388,19 @@
       "site": "0208114150",
       "state": "nc",
       "tempC": 11.4,
-      "condu": 5080,
+      "condu": 5110,
       "ph": 7.2,
       "tds": null,
-      "tdsEst": 3404
+      "tdsEst": 3424
     },
     {
       "site": "02101726",
       "state": "nc",
-      "tempC": 8.1,
-      "condu": 112,
-      "ph": 7.1,
+      "tempC": 7.8,
+      "condu": 113,
+      "ph": 7.2,
       "tds": null,
-      "tdsEst": 75
+      "tdsEst": 76
     },
     {
       "site": "02102500",
@@ -14432,7 +14432,7 @@
     {
       "site": "0212378405",
       "state": "nc",
-      "tempC": 13.8,
+      "tempC": 13.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -14531,7 +14531,7 @@
     {
       "site": "03446000",
       "state": "nc",
-      "tempC": 6.1,
+      "tempC": 6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -14540,7 +14540,7 @@
     {
       "site": "03447687",
       "state": "nc",
-      "tempC": 6.7,
+      "tempC": 6.6,
       "condu": 39,
       "ph": 7,
       "tds": null,
@@ -14558,7 +14558,7 @@
     {
       "site": "0344878100",
       "state": "nc",
-      "tempC": 6.3,
+      "tempC": 6,
       "condu": 81,
       "ph": 7.2,
       "tds": null,
@@ -14585,7 +14585,7 @@
     {
       "site": "03451500",
       "state": "nc",
-      "tempC": 5.9,
+      "tempC": 5.8,
       "condu": 47,
       "ph": 7.5,
       "tds": null,
@@ -14594,7 +14594,7 @@
     {
       "site": "03455500",
       "state": "nc",
-      "tempC": 4.5,
+      "tempC": 4.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -14612,7 +14612,7 @@
     {
       "site": "03460000",
       "state": "nc",
-      "tempC": 4.9,
+      "tempC": 4.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -14999,7 +14999,7 @@
     {
       "site": "03119971",
       "state": "oh",
-      "tempC": 1.7,
+      "tempC": 1.6,
       "condu": 317,
       "ph": null,
       "tds": null,
@@ -15018,28 +15018,28 @@
       "site": "03120820",
       "state": "oh",
       "tempC": 2,
-      "condu": 403,
+      "condu": 401,
       "ph": null,
       "tds": null,
-      "tdsEst": 270
+      "tdsEst": 269
     },
     {
       "site": "03120869",
       "state": "oh",
-      "tempC": 2.9,
-      "condu": 161,
+      "tempC": 2.8,
+      "condu": 162,
       "ph": null,
       "tds": null,
-      "tdsEst": 108
+      "tdsEst": 109
     },
     {
       "site": "03120961",
       "state": "oh",
-      "tempC": 2.5,
-      "condu": 496,
+      "tempC": 2.4,
+      "condu": 497,
       "ph": null,
       "tds": null,
-      "tdsEst": 332
+      "tdsEst": 333
     },
     {
       "site": "03125338",
@@ -15053,7 +15053,7 @@
     {
       "site": "03126395",
       "state": "oh",
-      "tempC": 1.4,
+      "tempC": 1.3,
       "condu": 2180,
       "ph": null,
       "tds": null,
@@ -15098,16 +15098,16 @@
     {
       "site": "03140900",
       "state": "oh",
-      "tempC": 2,
-      "condu": 534,
+      "tempC": 2.1,
+      "condu": 532,
       "ph": null,
       "tds": null,
-      "tdsEst": 358
+      "tdsEst": 356
     },
     {
       "site": "03140950",
       "state": "oh",
-      "tempC": 1.9,
+      "tempC": 1.8,
       "condu": 886,
       "ph": null,
       "tds": null,
@@ -15152,11 +15152,11 @@
     {
       "site": "03220510",
       "state": "oh",
-      "tempC": 5.6,
-      "condu": 775,
+      "tempC": 5.5,
+      "condu": 773,
       "ph": 7.9,
       "tds": null,
-      "tdsEst": 519
+      "tdsEst": 518
     },
     {
       "site": "03228039",
@@ -15170,11 +15170,11 @@
     {
       "site": "03228300",
       "state": "oh",
-      "tempC": 2.1,
-      "condu": 587,
+      "tempC": 1.8,
+      "condu": 588,
       "ph": 8.5,
       "tds": null,
-      "tdsEst": 393
+      "tdsEst": 394
     },
     {
       "site": "03228805",
@@ -15206,7 +15206,7 @@
     {
       "site": "03240000",
       "state": "oh",
-      "tempC": 2.4,
+      "tempC": 2.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -15251,7 +15251,7 @@
     {
       "site": "03265000",
       "state": "oh",
-      "tempC": 2.6,
+      "tempC": 2.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -15332,7 +15332,7 @@
     {
       "site": "04198000",
       "state": "oh",
-      "tempC": 2.5,
+      "tempC": 2.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -15341,7 +15341,7 @@
     {
       "site": "04199000",
       "state": "oh",
-      "tempC": 0.9,
+      "tempC": 0.7,
       "condu": 712,
       "ph": 8.3,
       "tds": null,
@@ -15395,7 +15395,7 @@
     {
       "site": "04208509",
       "state": "oh",
-      "tempC": 2.4,
+      "tempC": 2.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -15422,11 +15422,11 @@
     {
       "site": "411402080492400",
       "state": "oh",
-      "tempC": 2.9,
-      "condu": 503,
+      "tempC": 2.8,
+      "condu": 505,
       "ph": 8.4,
       "tds": null,
-      "tdsEst": 337
+      "tdsEst": 338
     },
     {
       "site": "412122083061400",
@@ -15449,7 +15449,7 @@
     {
       "site": "07164500",
       "state": "ok",
-      "tempC": 11.5,
+      "tempC": 11.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -15530,7 +15530,7 @@
     {
       "site": "07195500",
       "state": "ok",
-      "tempC": 11,
+      "tempC": 10.9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -15539,7 +15539,7 @@
     {
       "site": "07198000",
       "state": "ok",
-      "tempC": 15.5,
+      "tempC": 15.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -15566,7 +15566,7 @@
     {
       "site": "07239500",
       "state": "ok",
-      "tempC": 5.9,
+      "tempC": 6,
       "condu": 1570,
       "ph": null,
       "tds": null,
@@ -15656,7 +15656,7 @@
     {
       "site": "07339000",
       "state": "ok",
-      "tempC": 13.2,
+      "tempC": 13.1,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -15683,7 +15683,7 @@
     {
       "site": "11491450",
       "state": "or",
-      "tempC": 5.1,
+      "tempC": 5.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -15701,7 +15701,7 @@
     {
       "site": "11491950",
       "state": "or",
-      "tempC": 1.2,
+      "tempC": 1.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -15710,7 +15710,7 @@
     {
       "site": "11492550",
       "state": "or",
-      "tempC": 1,
+      "tempC": 1.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -15728,7 +15728,7 @@
     {
       "site": "11501000",
       "state": "or",
-      "tempC": 2.3,
+      "tempC": 2.4,
       "condu": 97,
       "ph": null,
       "tds": null,
@@ -15756,10 +15756,10 @@
       "site": "11504260",
       "state": "or",
       "tempC": 1.7,
-      "condu": 70,
+      "condu": 73,
       "ph": null,
       "tds": null,
-      "tdsEst": 47
+      "tdsEst": 49
     },
     {
       "site": "11507500",
@@ -15863,7 +15863,7 @@
     {
       "site": "14034500",
       "state": "or",
-      "tempC": 6.8,
+      "tempC": 6.9,
       "condu": null,
       "ph": 8.2,
       "tds": null,
@@ -15890,7 +15890,7 @@
     {
       "site": "14043840",
       "state": "or",
-      "tempC": 2.3,
+      "tempC": 2.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -15908,7 +15908,7 @@
     {
       "site": "14046778",
       "state": "or",
-      "tempC": 4.2,
+      "tempC": 4.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -15953,7 +15953,7 @@
     {
       "site": "14070900",
       "state": "or",
-      "tempC": 3.3,
+      "tempC": 3.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -16052,7 +16052,7 @@
     {
       "site": "14120000",
       "state": "or",
-      "tempC": 4.8,
+      "tempC": 4.9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -16133,7 +16133,7 @@
     {
       "site": "14142500",
       "state": "or",
-      "tempC": 6.1,
+      "tempC": 6.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -16277,7 +16277,7 @@
     {
       "site": "14152500",
       "state": "or",
-      "tempC": 6.2,
+      "tempC": 6.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -16304,7 +16304,7 @@
     {
       "site": "14155500",
       "state": "or",
-      "tempC": 8.5,
+      "tempC": 8.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -16313,7 +16313,7 @@
     {
       "site": "14157500",
       "state": "or",
-      "tempC": 9,
+      "tempC": 9.1,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -16448,7 +16448,7 @@
     {
       "site": "14161500",
       "state": "or",
-      "tempC": 5.9,
+      "tempC": 6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -16457,7 +16457,7 @@
     {
       "site": "14162050",
       "state": "or",
-      "tempC": 6.8,
+      "tempC": 6.9,
       "condu": 46,
       "ph": 7.3,
       "tds": null,
@@ -16484,7 +16484,7 @@
     {
       "site": "14162500",
       "state": "or",
-      "tempC": 6.3,
+      "tempC": 6.4,
       "condu": 59,
       "ph": 8.2,
       "tds": null,
@@ -16493,7 +16493,7 @@
     {
       "site": "14163000",
       "state": "or",
-      "tempC": 6.1,
+      "tempC": 6.4,
       "condu": 42,
       "ph": 8.2,
       "tds": null,
@@ -16520,7 +16520,7 @@
     {
       "site": "14164550",
       "state": "or",
-      "tempC": 6.7,
+      "tempC": 6.8,
       "condu": 65,
       "ph": 7.6,
       "tds": null,
@@ -16529,11 +16529,11 @@
     {
       "site": "14164700",
       "state": "or",
-      "tempC": 9.1,
-      "condu": 112,
+      "tempC": 9.3,
+      "condu": 111,
       "ph": null,
       "tds": null,
-      "tdsEst": 75
+      "tdsEst": 74
     },
     {
       "site": "14164900",
@@ -16574,7 +16574,7 @@
     {
       "site": "14166500",
       "state": "or",
-      "tempC": 6.5,
+      "tempC": 6.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -16592,7 +16592,7 @@
     {
       "site": "14170000",
       "state": "or",
-      "tempC": 7.6,
+      "tempC": 7.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -16646,7 +16646,7 @@
     {
       "site": "14178000",
       "state": "or",
-      "tempC": 5.4,
+      "tempC": 5.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -16718,7 +16718,7 @@
     {
       "site": "14179000",
       "state": "or",
-      "tempC": 6,
+      "tempC": 6.1,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -16772,7 +16772,7 @@
     {
       "site": "14181900",
       "state": "or",
-      "tempC": 6.4,
+      "tempC": 6.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -16943,7 +16943,7 @@
     {
       "site": "14189050",
       "state": "or",
-      "tempC": 8.8,
+      "tempC": 8.9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -17078,7 +17078,7 @@
     {
       "site": "14206241",
       "state": "or",
-      "tempC": 7.3,
+      "tempC": 7.4,
       "condu": 105,
       "ph": 7.2,
       "tds": null,
@@ -17177,7 +17177,7 @@
     {
       "site": "14209700",
       "state": "or",
-      "tempC": 6.2,
+      "tempC": 6.3,
       "condu": 38,
       "ph": 7.6,
       "tds": null,
@@ -17204,7 +17204,7 @@
     {
       "site": "14210750",
       "state": "or",
-      "tempC": 7.9,
+      "tempC": 8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -17231,7 +17231,7 @@
     {
       "site": "14211499",
       "state": "or",
-      "tempC": 7.7,
+      "tempC": 7.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -17240,7 +17240,7 @@
     {
       "site": "14211500",
       "state": "or",
-      "tempC": 7.6,
+      "tempC": 7.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -17258,7 +17258,7 @@
     {
       "site": "14211550",
       "state": "or",
-      "tempC": 8.2,
+      "tempC": 8.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -17321,7 +17321,7 @@
     {
       "site": "14303600",
       "state": "or",
-      "tempC": 8.6,
+      "tempC": 8.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -17330,7 +17330,7 @@
     {
       "site": "14305500",
       "state": "or",
-      "tempC": 8.3,
+      "tempC": 8.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -17393,7 +17393,7 @@
     {
       "site": "14308000",
       "state": "or",
-      "tempC": 5.7,
+      "tempC": 5.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -17429,7 +17429,7 @@
     {
       "site": "14312330",
       "state": "or",
-      "tempC": 9.3,
+      "tempC": 9.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -17456,7 +17456,7 @@
     {
       "site": "14316700",
       "state": "or",
-      "tempC": 5.3,
+      "tempC": 5.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -17501,7 +17501,7 @@
     {
       "site": "14320934",
       "state": "or",
-      "tempC": 7.7,
+      "tempC": 7.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -17546,7 +17546,7 @@
     {
       "site": "14327000",
       "state": "or",
-      "tempC": 7.7,
+      "tempC": 7.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -17555,7 +17555,7 @@
     {
       "site": "14327150",
       "state": "or",
-      "tempC": 10.2,
+      "tempC": 10.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -17681,7 +17681,7 @@
     {
       "site": "14378200",
       "state": "or",
-      "tempC": 8.2,
+      "tempC": 8.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -17690,7 +17690,7 @@
     {
       "site": "14400000",
       "state": "or",
-      "tempC": 8.8,
+      "tempC": 8.9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -18158,7 +18158,7 @@
     {
       "site": "452731123092100",
       "state": "or",
-      "tempC": 9.3,
+      "tempC": 9.4,
       "condu": 95,
       "ph": 7.1,
       "tds": null,
@@ -18410,7 +18410,7 @@
     {
       "site": "01428750",
       "state": "pa",
-      "tempC": 1,
+      "tempC": 0.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -18437,7 +18437,7 @@
     {
       "site": "01432055",
       "state": "pa",
-      "tempC": 2.5,
+      "tempC": 2.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -18473,7 +18473,7 @@
     {
       "site": "01432805",
       "state": "pa",
-      "tempC": 0.7,
+      "tempC": 0.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -18572,11 +18572,11 @@
     {
       "site": "01451400",
       "state": "pa",
-      "tempC": 7.6,
-      "condu": 652,
+      "tempC": 7.7,
+      "condu": 648,
       "ph": null,
       "tds": null,
-      "tdsEst": 437
+      "tdsEst": 434
     },
     {
       "site": "01451500",
@@ -18590,11 +18590,11 @@
     {
       "site": "01451630",
       "state": "pa",
-      "tempC": 6.4,
-      "condu": 972,
+      "tempC": 6.3,
+      "condu": 970,
       "ph": null,
       "tds": null,
-      "tdsEst": 651
+      "tdsEst": 650
     },
     {
       "site": "01451650",
@@ -18699,10 +18699,10 @@
       "site": "01468500",
       "state": "pa",
       "tempC": null,
-      "condu": 532,
+      "condu": 523,
       "ph": null,
       "tds": null,
-      "tdsEst": 356
+      "tdsEst": 350
     },
     {
       "site": "01470736",
@@ -18743,7 +18743,7 @@
     {
       "site": "01472157",
       "state": "pa",
-      "tempC": 3.1,
+      "tempC": 2.9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -18761,16 +18761,16 @@
     {
       "site": "01473169",
       "state": "pa",
-      "tempC": 6.1,
-      "condu": 876,
+      "tempC": 5.9,
+      "condu": 872,
       "ph": null,
       "tds": null,
-      "tdsEst": 587
+      "tdsEst": 584
     },
     {
       "site": "01473470",
       "state": "pa",
-      "tempC": 4.6,
+      "tempC": 4.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -18779,11 +18779,11 @@
     {
       "site": "01473500",
       "state": "pa",
-      "tempC": 4.2,
-      "condu": 601,
-      "ph": 8.1,
+      "tempC": 4.3,
+      "condu": 614,
+      "ph": 8,
       "tds": null,
-      "tdsEst": 403
+      "tdsEst": 411
     },
     {
       "site": "01473900",
@@ -18815,20 +18815,20 @@
     {
       "site": "01474703",
       "state": "pa",
-      "tempC": 7.4,
-      "condu": 513,
+      "tempC": 7.2,
+      "condu": 493,
       "ph": null,
       "tds": null,
-      "tdsEst": 344
+      "tdsEst": 330
     },
     {
       "site": "01475510",
       "state": "pa",
-      "tempC": 4.2,
-      "condu": 440,
+      "tempC": 4.1,
+      "condu": 442,
       "ph": null,
       "tds": null,
-      "tdsEst": 295
+      "tdsEst": 296
     },
     {
       "site": "01475530",
@@ -18869,7 +18869,7 @@
     {
       "site": "01478100",
       "state": "pa",
-      "tempC": 5,
+      "tempC": 4.9,
       "condu": 239,
       "ph": null,
       "tds": null,
@@ -18914,11 +18914,11 @@
     {
       "site": "01478245",
       "state": "pa",
-      "tempC": 4.2,
-      "condu": 273,
+      "tempC": 4.1,
+      "condu": 274,
       "ph": null,
       "tds": null,
-      "tdsEst": 183
+      "tdsEst": 184
     },
     {
       "site": "01480400",
@@ -18941,16 +18941,16 @@
     {
       "site": "01480617",
       "state": "pa",
-      "tempC": 4.6,
-      "condu": 433,
+      "tempC": 4.4,
+      "condu": 435,
       "ph": null,
       "tds": null,
-      "tdsEst": 290
+      "tdsEst": 291
     },
     {
       "site": "01480629",
       "state": "pa",
-      "tempC": 3.7,
+      "tempC": 3.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -18960,19 +18960,19 @@
       "site": "01480870",
       "state": "pa",
       "tempC": 4.8,
-      "condu": 458,
+      "condu": 459,
       "ph": 7.6,
       "tds": null,
-      "tdsEst": 307
+      "tdsEst": 308
     },
     {
       "site": "01481000",
       "state": "pa",
       "tempC": 4.1,
-      "condu": 545,
+      "condu": 546,
       "ph": 7.9,
       "tds": null,
-      "tdsEst": 365
+      "tdsEst": 366
     },
     {
       "site": "01516350",
@@ -19024,18 +19024,18 @@
       "state": "pa",
       "tempC": 2.9,
       "condu": 252,
-      "ph": 8.2,
+      "ph": 8.1,
       "tds": null,
       "tdsEst": 169
     },
     {
       "site": "01542500",
       "state": "pa",
-      "tempC": 2.1,
-      "condu": 348,
+      "tempC": 2,
+      "condu": 349,
       "ph": 7.6,
       "tds": null,
-      "tdsEst": 233
+      "tdsEst": 234
     },
     {
       "site": "01544500",
@@ -19112,11 +19112,11 @@
     {
       "site": "01573208",
       "state": "pa",
-      "tempC": 2.9,
-      "condu": 332,
+      "tempC": 2.8,
+      "condu": 333,
       "ph": 8.6,
       "tds": null,
-      "tdsEst": 222
+      "tdsEst": 223
     },
     {
       "site": "01573660",
@@ -19130,11 +19130,11 @@
     {
       "site": "01573684",
       "state": "pa",
-      "tempC": 3.3,
-      "condu": 316,
+      "tempC": 3,
+      "condu": 322,
       "ph": 8.2,
       "tds": null,
-      "tdsEst": 212
+      "tdsEst": 216
     },
     {
       "site": "01573695",
@@ -19175,11 +19175,11 @@
     {
       "site": "01575598",
       "state": "pa",
-      "tempC": 6,
-      "condu": 818,
+      "tempC": 5.9,
+      "condu": 778,
       "ph": null,
       "tds": null,
-      "tdsEst": 548
+      "tdsEst": 521
     },
     {
       "site": "01575900",
@@ -19229,11 +19229,11 @@
     {
       "site": "01576381",
       "state": "pa",
-      "tempC": 7.7,
-      "condu": 544,
-      "ph": 8.4,
+      "tempC": 7,
+      "condu": 547,
+      "ph": 8.2,
       "tds": null,
-      "tdsEst": 364
+      "tdsEst": 366
     },
     {
       "site": "015765195",
@@ -19247,11 +19247,11 @@
     {
       "site": "01577500",
       "state": "pa",
-      "tempC": 3.4,
-      "condu": 185,
+      "tempC": 3,
+      "condu": 187,
       "ph": null,
       "tds": null,
-      "tdsEst": 124
+      "tdsEst": 125
     },
     {
       "site": "01577505",
@@ -19265,7 +19265,7 @@
     {
       "site": "03007800",
       "state": "pa",
-      "tempC": 2,
+      "tempC": 1.9,
       "condu": 85,
       "ph": null,
       "tds": null,
@@ -19346,7 +19346,7 @@
     {
       "site": "03026480",
       "state": "pa",
-      "tempC": 3,
+      "tempC": 2.9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -19482,10 +19482,10 @@
       "site": "03043810",
       "state": "pa",
       "tempC": 4.9,
-      "condu": 542,
+      "condu": 544,
       "ph": 7.7,
       "tds": null,
-      "tdsEst": 363
+      "tdsEst": 364
     },
     {
       "site": "03044000",
@@ -19536,10 +19536,10 @@
       "site": "03072655",
       "state": "pa",
       "tempC": 6.2,
-      "condu": 218,
+      "condu": 216,
       "ph": 7.5,
       "tds": null,
-      "tdsEst": 146
+      "tdsEst": 145
     },
     {
       "site": "03073000",
@@ -19580,11 +19580,11 @@
     {
       "site": "03079000",
       "state": "pa",
-      "tempC": 1,
-      "condu": 415,
+      "tempC": 0.9,
+      "condu": 416,
       "ph": 7.6,
       "tds": null,
-      "tdsEst": 278
+      "tdsEst": 279
     },
     {
       "site": "03081000",
@@ -19643,7 +19643,7 @@
     {
       "site": "03104490",
       "state": "pa",
-      "tempC": 3.8,
+      "tempC": 3.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -19662,7 +19662,7 @@
       "site": "03106000",
       "state": "pa",
       "tempC": 2,
-      "condu": 634,
+      "condu": 635,
       "ph": 7.7,
       "tds": null,
       "tdsEst": 425
@@ -19680,7 +19680,7 @@
       "site": "03108500",
       "state": "pa",
       "tempC": 4.6,
-      "condu": 337,
+      "condu": 338,
       "ph": 7.8,
       "tds": null,
       "tdsEst": 226
@@ -19860,10 +19860,10 @@
       "site": "02110550",
       "state": "sc",
       "tempC": 11.8,
-      "condu": 156,
+      "condu": 155,
       "ph": 6.9,
       "tds": null,
-      "tdsEst": 105
+      "tdsEst": 104
     },
     {
       "site": "02110701",
@@ -19896,7 +19896,7 @@
       "site": "02110755",
       "state": "sc",
       "tempC": 13.5,
-      "condu": 178,
+      "condu": 177,
       "ph": null,
       "tds": null,
       "tdsEst": 119
@@ -20040,7 +20040,7 @@
       "site": "02160105",
       "state": "sc",
       "tempC": 8.3,
-      "condu": 129,
+      "condu": 128,
       "ph": 7.5,
       "tds": null,
       "tdsEst": 86
@@ -20075,7 +20075,7 @@
     {
       "site": "021622825",
       "state": "sc",
-      "tempC": 6.6,
+      "tempC": 6.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -20210,11 +20210,11 @@
     {
       "site": "02171645",
       "state": "sc",
-      "tempC": 13.8,
-      "condu": 94,
-      "ph": 8.2,
+      "tempC": 13.7,
+      "condu": 97,
+      "ph": 7.6,
       "tds": null,
-      "tdsEst": 63
+      "tdsEst": 65
     },
     {
       "site": "02171905",
@@ -20372,7 +20372,7 @@
     {
       "site": "02172300",
       "state": "sc",
-      "tempC": 10.6,
+      "tempC": 10.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -20426,20 +20426,20 @@
     {
       "site": "021989784",
       "state": "sc",
-      "tempC": 14,
-      "condu": 553,
+      "tempC": 13.9,
+      "condu": 591,
       "ph": null,
       "tds": null,
-      "tdsEst": 371
+      "tdsEst": 396
     },
     {
       "site": "0219897993",
       "state": "sc",
       "tempC": 15.4,
-      "condu": 32700,
+      "condu": 34700,
       "ph": 7.8,
       "tds": null,
-      "tdsEst": 21909
+      "tdsEst": 23249
     },
     {
       "site": "06403700",
@@ -20489,7 +20489,7 @@
     {
       "site": "03417500",
       "state": "tn",
-      "tempC": 11.8,
+      "tempC": 11.7,
       "condu": 178,
       "ph": 7.9,
       "tds": null,
@@ -20543,20 +20543,20 @@
     {
       "site": "03431091",
       "state": "tn",
-      "tempC": 10.8,
-      "condu": 212,
+      "tempC": 10.7,
+      "condu": 225,
       "ph": 8.2,
       "tds": null,
-      "tdsEst": 142
+      "tdsEst": 151
     },
     {
       "site": "03431514",
       "state": "tn",
-      "tempC": 11,
-      "condu": 200,
+      "tempC": 10.9,
+      "condu": 202,
       "ph": 8.2,
       "tds": null,
-      "tdsEst": 134
+      "tdsEst": 135
     },
     {
       "site": "03432100",
@@ -20571,10 +20571,10 @@
       "site": "0343233905",
       "state": "tn",
       "tempC": 7.4,
-      "condu": 393,
+      "condu": 394,
       "ph": 7.9,
       "tds": null,
-      "tdsEst": 263
+      "tdsEst": 264
     },
     {
       "site": "03432350",
@@ -20598,10 +20598,10 @@
       "site": "03433500",
       "state": "tn",
       "tempC": 7,
-      "condu": 491,
+      "condu": 492,
       "ph": 8.4,
       "tds": null,
-      "tdsEst": 329
+      "tdsEst": 330
     },
     {
       "site": "03434500",
@@ -20624,11 +20624,11 @@
     {
       "site": "03527620",
       "state": "tn",
-      "tempC": 7,
-      "condu": 313,
+      "tempC": 6.9,
+      "condu": 311,
       "ph": 8.2,
       "tds": null,
-      "tdsEst": 210
+      "tdsEst": 208
     },
     {
       "site": "03538830",
@@ -20687,7 +20687,7 @@
     {
       "site": "07227500",
       "state": "tx",
-      "tempC": 8,
+      "tempC": 7.8,
       "condu": 3740,
       "ph": null,
       "tds": null,
@@ -20705,11 +20705,11 @@
     {
       "site": "07311800",
       "state": "tx",
-      "tempC": 11.2,
-      "condu": 12000,
+      "tempC": 9.6,
+      "condu": 11300,
       "ph": null,
       "tds": null,
-      "tdsEst": 8040
+      "tdsEst": 7571
     },
     {
       "site": "07312500",
@@ -20814,7 +20814,7 @@
       "site": "08057000",
       "state": "tx",
       "tempC": 14.9,
-      "condu": 523,
+      "condu": 522,
       "ph": 7.9,
       "tds": null,
       "tdsEst": 350
@@ -20832,10 +20832,10 @@
       "site": "08062500",
       "state": "tx",
       "tempC": 13.4,
-      "condu": 467,
+      "condu": 466,
       "ph": 7.7,
       "tds": null,
-      "tdsEst": 313
+      "tdsEst": 312
     },
     {
       "site": "08065350",
@@ -20868,19 +20868,19 @@
       "site": "08067100",
       "state": "tx",
       "tempC": 13.6,
-      "condu": 332,
+      "condu": 333,
       "ph": null,
       "tds": null,
-      "tdsEst": 222
+      "tdsEst": 223
     },
     {
       "site": "08067215",
       "state": "tx",
       "tempC": 15.9,
-      "condu": 1940,
+      "condu": 2180,
       "ph": null,
       "tds": null,
-      "tdsEst": 1300
+      "tdsEst": 1461
     },
     {
       "site": "08067250",
@@ -20904,10 +20904,10 @@
       "site": "08067254",
       "state": "tx",
       "tempC": 14.2,
-      "condu": 1380,
+      "condu": 1510,
       "ph": null,
       "tds": null,
-      "tdsEst": 925
+      "tdsEst": 1012
     },
     {
       "site": "08068000",
@@ -21084,10 +21084,10 @@
       "site": "08181800",
       "state": "tx",
       "tempC": 21,
-      "condu": 1370,
+      "condu": 1380,
       "ph": 8.1,
       "tds": null,
-      "tdsEst": 918
+      "tdsEst": 925
     },
     {
       "site": "08188060",
@@ -21110,11 +21110,11 @@
     {
       "site": "08195000",
       "state": "tx",
-      "tempC": 14.9,
-      "condu": 553,
+      "tempC": 15,
+      "condu": 552,
       "ph": null,
       "tds": null,
-      "tdsEst": 371
+      "tdsEst": 370
     },
     {
       "site": "08211200",
@@ -21138,10 +21138,10 @@
       "site": "08364000",
       "state": "tx",
       "tempC": 16.4,
-      "condu": 3880,
+      "condu": 3910,
       "ph": null,
       "tds": null,
-      "tdsEst": 2600
+      "tdsEst": 2620
     },
     {
       "site": "08371500",
@@ -21353,7 +21353,7 @@
     {
       "site": "09180000",
       "state": "ut",
-      "tempC": 3.9,
+      "tempC": 3.8,
       "condu": 1950,
       "ph": null,
       "tds": null,
@@ -21371,7 +21371,7 @@
     {
       "site": "09183600",
       "state": "ut",
-      "tempC": 4.3,
+      "tempC": 4.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -21416,20 +21416,20 @@
     {
       "site": "09314500",
       "state": "ut",
-      "tempC": 2.9,
-      "condu": 2080,
+      "tempC": 2.7,
+      "condu": 2110,
       "ph": null,
       "tds": null,
-      "tdsEst": 1394
+      "tdsEst": 1414
     },
     {
       "site": "09315000",
       "state": "ut",
       "tempC": 4.7,
-      "condu": 770,
+      "condu": 769,
       "ph": 8.5,
       "tds": null,
-      "tdsEst": 516
+      "tdsEst": 515
     },
     {
       "site": "09326500",
@@ -21443,7 +21443,7 @@
     {
       "site": "09328500",
       "state": "ut",
-      "tempC": 4.7,
+      "tempC": 4.6,
       "condu": 2550,
       "ph": null,
       "tds": null,
@@ -21479,11 +21479,11 @@
     {
       "site": "09406000",
       "state": "ut",
-      "tempC": 7.5,
-      "condu": 771,
+      "tempC": 7.6,
+      "condu": 768,
       "ph": null,
       "tds": null,
-      "tdsEst": 517
+      "tdsEst": 515
     },
     {
       "site": "09408400",
@@ -21497,7 +21497,7 @@
     {
       "site": "10126000",
       "state": "ut",
-      "tempC": 3.7,
+      "tempC": 3.8,
       "condu": 1330,
       "ph": null,
       "tds": null,
@@ -21506,7 +21506,7 @@
     {
       "site": "10129900",
       "state": "ut",
-      "tempC": 6.7,
+      "tempC": 6.6,
       "condu": 2180,
       "ph": 8,
       "tds": null,
@@ -21515,11 +21515,11 @@
     {
       "site": "10133650",
       "state": "ut",
-      "tempC": 3.1,
-      "condu": 916,
-      "ph": 8.5,
+      "tempC": 3,
+      "condu": 915,
+      "ph": 8.4,
       "tds": null,
-      "tdsEst": 614
+      "tdsEst": 613
     },
     {
       "site": "10133800",
@@ -21560,7 +21560,7 @@
     {
       "site": "10155500",
       "state": "ut",
-      "tempC": 6.2,
+      "tempC": 6.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -21695,7 +21695,7 @@
     {
       "site": "0164579522",
       "state": "va",
-      "tempC": 5.9,
+      "tempC": 5.8,
       "condu": 179,
       "ph": 6.3,
       "tds": null,
@@ -21731,11 +21731,11 @@
     {
       "site": "01654107",
       "state": "va",
-      "tempC": 5.3,
-      "condu": 136,
-      "ph": 6.9,
+      "tempC": 5.1,
+      "condu": 137,
+      "ph": 6.8,
       "tds": null,
-      "tdsEst": 91
+      "tdsEst": 92
     },
     {
       "site": "01654500",
@@ -21821,9 +21821,9 @@
     {
       "site": "01673000",
       "state": "va",
-      "tempC": 4.7,
-      "condu": 144,
-      "ph": 7.8,
+      "tempC": 4.6,
+      "condu": 143,
+      "ph": 7.7,
       "tds": null,
       "tdsEst": 96
     },
@@ -21875,7 +21875,7 @@
     {
       "site": "02012800",
       "state": "va",
-      "tempC": 7.3,
+      "tempC": 7.1,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -21949,7 +21949,7 @@
       "state": "va",
       "tempC": 6.4,
       "condu": 414,
-      "ph": 8.5,
+      "ph": 8.4,
       "tds": null,
       "tdsEst": 277
     },
@@ -21974,11 +21974,11 @@
     {
       "site": "0205551614",
       "state": "va",
-      "tempC": 8.6,
-      "condu": 482,
-      "ph": 8.3,
+      "tempC": 8.4,
+      "condu": 487,
+      "ph": 8.2,
       "tds": null,
-      "tdsEst": 323
+      "tdsEst": 326
     },
     {
       "site": "02072000",
@@ -21992,7 +21992,7 @@
     {
       "site": "02072500",
       "state": "va",
-      "tempC": 8.4,
+      "tempC": 8.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -22001,7 +22001,7 @@
     {
       "site": "02073000",
       "state": "va",
-      "tempC": 5.9,
+      "tempC": 5.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -22064,7 +22064,7 @@
     {
       "site": "03524740",
       "state": "va",
-      "tempC": 5.5,
+      "tempC": 5.4,
       "condu": 348,
       "ph": 8.5,
       "tds": null,
@@ -22091,7 +22091,7 @@
     {
       "site": "12042800",
       "state": "wa",
-      "tempC": 7.6,
+      "tempC": 7.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -22100,7 +22100,7 @@
     {
       "site": "12043000",
       "state": "wa",
-      "tempC": 8.2,
+      "tempC": 8.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -22181,7 +22181,7 @@
     {
       "site": "12102078",
       "state": "wa",
-      "tempC": 9.8,
+      "tempC": 10,
       "condu": 233,
       "ph": null,
       "tds": null,
@@ -22352,7 +22352,7 @@
     {
       "site": "12147600",
       "state": "wa",
-      "tempC": 4.6,
+      "tempC": 4.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -22568,7 +22568,7 @@
     {
       "site": "12210900",
       "state": "wa",
-      "tempC": 6.3,
+      "tempC": 6.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -22586,7 +22586,7 @@
     {
       "site": "12212430",
       "state": "wa",
-      "tempC": 8.4,
+      "tempC": 8.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -22649,7 +22649,7 @@
     {
       "site": "12442500",
       "state": "wa",
-      "tempC": 2.3,
+      "tempC": 2.4,
       "condu": 168,
       "ph": 7.9,
       "tds": null,
@@ -22874,11 +22874,11 @@
     {
       "site": "01608500",
       "state": "wv",
-      "tempC": 4.2,
-      "condu": 261,
+      "tempC": 4.1,
+      "condu": 262,
       "ph": 8.4,
       "tds": null,
-      "tdsEst": 175
+      "tdsEst": 176
     },
     {
       "site": "01610400",
@@ -22892,11 +22892,11 @@
     {
       "site": "01611500",
       "state": "wv",
-      "tempC": 4,
-      "condu": 213,
+      "tempC": 3.8,
+      "condu": 212,
       "ph": 8.3,
       "tds": null,
-      "tdsEst": 143
+      "tdsEst": 142
     },
     {
       "site": "01636500",
@@ -22982,7 +22982,7 @@
     {
       "site": "03066000",
       "state": "wv",
-      "tempC": 1.5,
+      "tempC": 1.4,
       "condu": null,
       "ph": 7.4,
       "tds": null,
@@ -23063,7 +23063,7 @@
     {
       "site": "03180500",
       "state": "wv",
-      "tempC": 1.5,
+      "tempC": 1.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -23072,7 +23072,7 @@
     {
       "site": "03181949",
       "state": "wv",
-      "tempC": 3.9,
+      "tempC": 3.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -23081,11 +23081,11 @@
     {
       "site": "03183500",
       "state": "wv",
-      "tempC": 4.3,
-      "condu": 192,
+      "tempC": 4.2,
+      "condu": 191,
       "ph": 8,
       "tds": null,
-      "tdsEst": 129
+      "tdsEst": 128
     },
     {
       "site": "03184500",
@@ -23108,7 +23108,7 @@
     {
       "site": "03187500",
       "state": "wv",
-      "tempC": 2.8,
+      "tempC": 2.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -23117,7 +23117,7 @@
     {
       "site": "03189100",
       "state": "wv",
-      "tempC": 2.8,
+      "tempC": 2.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -23135,7 +23135,7 @@
     {
       "site": "03193000",
       "state": "wv",
-      "tempC": 6.1,
+      "tempC": 6.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -23155,7 +23155,7 @@
       "state": "wv",
       "tempC": 5,
       "condu": 158,
-      "ph": 7.6,
+      "ph": 7.5,
       "tds": null,
       "tdsEst": 106
     },
@@ -23675,7 +23675,7 @@
     {
       "site": "06036940",
       "state": "wy",
-      "tempC": 18.1,
+      "tempC": 17.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -23792,7 +23792,7 @@
     {
       "site": "09196500",
       "state": "wy",
-      "tempC": 1.4,
+      "tempC": 1.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -23864,7 +23864,7 @@
     {
       "site": "13010065",
       "state": "wy",
-      "tempC": 2.7,
+      "tempC": 3.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -23954,7 +23954,7 @@
     {
       "site": "13018750",
       "state": "wy",
-      "tempC": 3.1,
+      "tempC": 3.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -24000,24 +24000,24 @@
       "site": "01651760",
       "state": "dc",
       "tempC": 5.6,
-      "condu": 294,
+      "condu": 292,
       "ph": 7.5,
       "tds": null,
-      "tdsEst": 197
+      "tdsEst": 196
     },
     {
       "site": "01651770",
       "state": "dc",
       "tempC": 11.9,
-      "condu": 665,
+      "condu": 662,
       "ph": null,
       "tds": null,
-      "tdsEst": 446
+      "tdsEst": 444
     },
     {
       "site": "01651800",
       "state": "dc",
-      "tempC": 6.6,
+      "tempC": 6.5,
       "condu": 458,
       "ph": null,
       "tds": null,
@@ -24026,29 +24026,29 @@
     {
       "site": "01651827",
       "state": "dc",
-      "tempC": 6.9,
-      "condu": 441,
+      "tempC": 6.8,
+      "condu": 443,
       "ph": null,
       "tds": null,
-      "tdsEst": 295
+      "tdsEst": 297
     },
     {
       "site": "50048565",
       "state": "pr",
       "tempC": 26.9,
-      "condu": 364,
+      "condu": 380,
       "ph": 7.2,
       "tds": null,
-      "tdsEst": 244
+      "tdsEst": 255
     },
     {
       "site": "50048580",
       "state": "pr",
-      "tempC": 27.6,
-      "condu": 766,
+      "tempC": 27.4,
+      "condu": 776,
       "ph": 7.4,
       "tds": null,
-      "tdsEst": 513
+      "tdsEst": 520
     }
   ]
 }

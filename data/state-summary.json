@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2025-12-03T22:38:50.269Z",
+  "updatedAt": "2025-12-03T22:54:34.486Z",
   "states": [
     {
       "state": "AK",
       "sites": 69,
-      "medianTempC": 2.7,
+      "medianTempC": 2.8,
       "medianCond_uScm": 166,
       "medianPH": 7.7,
       "medianTDS_mgL": 112
@@ -21,9 +21,9 @@
       "state": "AR",
       "sites": 40,
       "medianTempC": 7.8,
-      "medianCond_uScm": 236,
+      "medianCond_uScm": 234,
       "medianPH": 6.8,
-      "medianTDS_mgL": 158
+      "medianTDS_mgL": 157
     },
     {
       "state": "AZ",
@@ -37,9 +37,9 @@
       "state": "CA",
       "sites": 162,
       "medianTempC": 12.1,
-      "medianCond_uScm": 295,
+      "medianCond_uScm": 286,
       "medianPH": 7.8,
-      "medianTDS_mgL": 198
+      "medianTDS_mgL": 192
     },
     {
       "state": "CO",
@@ -60,10 +60,10 @@
     {
       "state": "DC",
       "sites": 6,
-      "medianTempC": 6.9,
-      "medianCond_uScm": 441,
+      "medianTempC": 6.8,
+      "medianCond_uScm": 443,
       "medianPH": 7.5,
-      "medianTDS_mgL": 295
+      "medianTDS_mgL": 297
     },
     {
       "state": "DE",
@@ -92,7 +92,7 @@
     {
       "state": "HI",
       "sites": 1,
-      "medianTempC": 19.1,
+      "medianTempC": 19.2,
       "medianCond_uScm": null,
       "medianPH": null,
       "medianTDS_mgL": null
@@ -132,10 +132,10 @@
     {
       "state": "KS",
       "sites": 36,
-      "medianTempC": 4.5,
-      "medianCond_uScm": 724,
+      "medianTempC": 4.3,
+      "medianCond_uScm": 729,
       "medianPH": 8.2,
-      "medianTDS_mgL": 485
+      "medianTDS_mgL": 488
     },
     {
       "state": "KY",
@@ -165,9 +165,9 @@
       "state": "MD",
       "sites": 28,
       "medianTempC": 5.8,
-      "medianCond_uScm": 333,
+      "medianCond_uScm": 334,
       "medianPH": 7.7,
-      "medianTDS_mgL": 223
+      "medianTDS_mgL": 224
     },
     {
       "state": "ME",
@@ -220,7 +220,7 @@
     {
       "state": "NC",
       "sites": 34,
-      "medianTempC": 8.1,
+      "medianTempC": 7.8,
       "medianCond_uScm": 69,
       "medianPH": 7.2,
       "medianTDS_mgL": 46
@@ -253,9 +253,9 @@
       "state": "NJ",
       "sites": 52,
       "medianTempC": 5,
-      "medianCond_uScm": 227,
+      "medianCond_uScm": 229,
       "medianPH": 8,
-      "medianTDS_mgL": 152
+      "medianTDS_mgL": 154
     },
     {
       "state": "NM",
@@ -268,7 +268,7 @@
     {
       "state": "NV",
       "sites": 15,
-      "medianTempC": 6.1,
+      "medianTempC": 6.3,
       "medianCond_uScm": 318,
       "medianPH": 8,
       "medianTDS_mgL": 213
@@ -292,7 +292,7 @@
     {
       "state": "OK",
       "sites": 25,
-      "medianTempC": 11.5,
+      "medianTempC": 11.6,
       "medianCond_uScm": 1130,
       "medianPH": 7.7,
       "medianTDS_mgL": 757
@@ -308,18 +308,18 @@
     {
       "state": "PA",
       "sites": 148,
-      "medianTempC": 3.7,
-      "medianCond_uScm": 335,
+      "medianTempC": 3.6,
+      "medianCond_uScm": 336,
       "medianPH": 7.7,
-      "medianTDS_mgL": 224
+      "medianTDS_mgL": 225
     },
     {
       "state": "PR",
       "sites": 2,
-      "medianTempC": 27.3,
-      "medianCond_uScm": 565,
+      "medianTempC": 27.1,
+      "medianCond_uScm": 578,
       "medianPH": 7.3,
-      "medianTDS_mgL": 379
+      "medianTDS_mgL": 388
     },
     {
       "state": "RI",
@@ -356,7 +356,7 @@
     {
       "state": "TX",
       "sites": 74,
-      "medianTempC": 14.9,
+      "medianTempC": 15,
       "medianCond_uScm": 961,
       "medianPH": 8.1,
       "medianTDS_mgL": 644
@@ -364,7 +364,7 @@
     {
       "state": "UT",
       "sites": 26,
-      "medianTempC": 4.7,
+      "medianTempC": 4.6,
       "medianCond_uScm": 1140,
       "medianPH": 8.5,
       "medianTDS_mgL": 764
@@ -374,7 +374,7 @@
       "sites": 51,
       "medianTempC": 5.6,
       "medianCond_uScm": 251,
-      "medianPH": 7.8,
+      "medianPH": 7.7,
       "medianTDS_mgL": 168
     },
     {
@@ -405,14 +405,14 @@
       "state": "WV",
       "sites": 36,
       "medianTempC": 4.3,
-      "medianCond_uScm": 203,
+      "medianCond_uScm": 202,
       "medianPH": 7.8,
-      "medianTDS_mgL": 136
+      "medianTDS_mgL": 135
     },
     {
       "state": "WY",
       "sites": 36,
-      "medianTempC": 2.9,
+      "medianTempC": 3.2,
       "medianCond_uScm": 641,
       "medianPH": 8.2,
       "medianTDS_mgL": 429
