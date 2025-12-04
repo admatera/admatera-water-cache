@@ -5,17 +5,12 @@ on:
     - cron: "35 13 * * *"   # daily 13:35 UTC
   workflow_dispatch:
 
-concurrency:
-  group: cache-water
-  cancel-in-progress: false
-
 permissions:
   contents: write
 
 jobs:
   cache-water:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -42,11 +37,12 @@ jobs:
             'dc','pr','vi','gu','as','mp'
           ];
           const BASE   = 'https://waterservices.usgs.gov/nwis/iv/?format=json&siteType=ST&siteStatus=active';
-          // 00010 tempC, 00095 specific conductance, 00400 pH, 70300 TDS (mg/L), 00300 DO (mg/L), 00076 Turb NTU, 63680 Turb FNU
+          // 00010 tempC, 00095 specific conductance (µS/cm), 00400 pH, 70300 TDS mg/L,
+          // 00300 DO mg/L, 00076 Turbidity NTU, 63680 Turbidity FNU (separate mode later)
           const PARAMS = '00010,00095,00400,70300,00300,00076,63680';
           const sleep  = (ms)=>new Promise(r=>setTimeout(r,ms));
 
-          // Treat bad sentinels as missing
+          // Treat big negative sentinels as missing
           const CLEAN = (v) => {
             const n = Number(v);
             return Number.isFinite(n) && n > -1000 ? n : null;
@@ -76,27 +72,27 @@ jobs:
                   const site = s?.sourceInfo?.siteCode?.[0]?.value;
                   if (!site) continue;
 
-                  const code = s?.variable?.variableCode?.[0]?.value; // '00010','00095','00400','70300','00300','00076','63680'
+                  const code = s?.variable?.variableCode?.[0]?.value;
                   const rec = bySite.get(site) || {
                     site, state: st,
-                    tempC: null, condu: null, ph: null, tds: null,
-                    do_mgL: null, turb_NTU: null, turb_FNU: null,
-                    tdsEst: null
+                    tempC: null, condu: null, ph: null,
+                    tds: null, tdsEst: null,
+                    do_mgL: null, turbNTU: null, turbFNU: null
                   };
 
-                  const v = latestValue(s);
-                  if (code === '00010') rec.tempC    = CLEAN(v);
-                  if (code === '00095') rec.condu    = CLEAN(v);
-                  if (code === '00400') rec.ph       = CLEAN(v);
-                  if (code === '70300') rec.tds      = CLEAN(v);
-                  if (code === '00300') rec.do_mgL   = CLEAN(v);
-                  if (code === '00076') rec.turb_NTU = CLEAN(v);
-                  if (code === '63680') rec.turb_FNU = CLEAN(v);
+                  const v = CLEAN(latestValue(s));
+                  if (code === '00010') rec.tempC   = v;
+                  if (code === '00095') rec.condu   = v;
+                  if (code === '00400') rec.ph      = v;
+                  if (code === '70300') rec.tds     = v;
+                  if (code === '00300') rec.do_mgL  = v;
+                  if (code === '00076') rec.turbNTU = v;
+                  if (code === '63680') rec.turbFNU = v;
 
                   bySite.set(site, rec);
                 }
 
-                // TDS estimate if measured TDS absent but conductance present
+                // Fill TDS estimate if no measured TDS but have conductance
                 for (const rec of bySite.values()) {
                   if ((rec.tds == null) && (rec.condu != null)) {
                     rec.tdsEst = Math.round(rec.condu * 0.67);
@@ -114,20 +110,11 @@ jobs:
 
           const median = (arr) => {
             const xs = arr.filter(v => v !== null);
-            if (xs.length < 3) return null;           // require ≥3 values
+            if (!xs.length) return null;
             xs.sort((a,b)=>a-b);
             const m = Math.floor(xs.length/2);
             const val = xs.length % 2 ? xs[m] : (xs[m-1] + xs[m]) / 2;
-            return Number(val);
-          };
-
-          const rounders = {
-            tempC:  (x)=> Number(x.toFixed(1)),
-            condu:  (x)=> Math.round(x),
-            ph:     (x)=> Number(x.toFixed(2)),
-            tds:    (x)=> Math.round(x),
-            do_mgL: (x)=> Number(x.toFixed(1)),
-            turb:   (x)=> Number(x.toFixed(1)),
+            return +Number(val).toFixed(1);
           };
 
           (async () => {
@@ -155,42 +142,38 @@ jobs:
             for (const it of all) {
               const key = it.state.toUpperCase();
               const g = groups.get(key) || {
-                count: 0, temps: [], conds: [], phs: [], tdses: [], dos: [], turbsNTU: [], turbsFNU: []
+                count: 0, temps: [], conds: [], phs: [], tdses: [],
+                dos: [], turbN: [], turbF: []
               };
               g.count++;
-              if (Number.isFinite(it.tempC))     g.temps.push(it.tempC);
-              if (Number.isFinite(it.condu))     g.conds.push(it.condu);
-              if (Number.isFinite(it.ph))        g.phs.push(it.ph);
-              if (Number.isFinite(it.do_mgL))    g.dos.push(it.do_mgL);
-              if (Number.isFinite(it.turb_NTU))  g.turbsNTU.push(it.turb_NTU);
-              if (Number.isFinite(it.turb_FNU))  g.turbsFNU.push(it.turb_FNU);
+              if (Number.isFinite(it.tempC))   g.temps.push(it.tempC);
+              if (Number.isFinite(it.condu))   g.conds.push(it.condu);
+              if (Number.isFinite(it.ph))      g.phs.push(it.ph);
 
+              // TDS: prefer measured else estimated
               const tdsInput = Number.isFinite(it.tds) ? it.tds
-                                : (Number.isFinite(it.tdsEst) ? it.tdsEst : null);
-              if (tdsInput != null) g.tdses.push(tdsInput);
+                              : (Number.isFinite(it.tdsEst) ? it.tdsEst : null);
+              if (tdsInput != null)            g.tdses.push(tdsInput);
+
+              if (Number.isFinite(it.do_mgL))  g.dos.push(it.do_mgL);
+              if (Number.isFinite(it.turbNTU)) g.turbN.push(it.turbNTU);
+              if (Number.isFinite(it.turbFNU)) g.turbF.push(it.turbFNU);
+
               groups.set(key, g);
             }
 
             const stateRows = [];
             for (const [st, g] of [...groups.entries()].sort((a,b)=>a[0].localeCompare(b[0]))) {
-              const medTemp = median(g.temps);
-              const medCond = median(g.conds);
-              const medPH   = median(g.phs);
-              const medTDS  = median(g.tdses);
-              const medDO   = median(g.dos);
-              const medNTU  = median(g.turbsNTU);
-              const medFNU  = median(g.turbsFNU);
-
               stateRows.push({
                 state: st,
                 sites: g.count,
-                medianTempC:      medTemp == null ? null : rounders.tempC(medTemp),
-                medianCond_uScm:  medCond == null ? null : rounders.condu(medCond),
-                medianPH:         medPH   == null ? null : rounders.ph(medPH),
-                medianTDS_mgL:    medTDS  == null ? null : rounders.tds(medTDS),
-                medianDO_mgL:     medDO   == null ? null : rounders.do_mgL(medDO),
-                medianTurb_NTU:   medNTU  == null ? null : rounders.turb(medNTU),
-                medianTurb_FNU:   medFNU  == null ? null : rounders.turb(medFNU)
+                medianTempC:       median(g.temps),
+                medianCond_uScm:   (median(g.conds)   === null ? null : Math.round(median(g.conds))),
+                medianPH:          (median(g.phs)     === null ? null : +median(g.phs).toFixed(2)),
+                medianTDS_mgL:     (median(g.tdses)   === null ? null : Math.round(median(g.tdses))),
+                medianDO_mgL:      (median(g.dos)     === null ? null : +median(g.dos).toFixed(1)),
+                medianTurb_NTU:    (median(g.turbN)   === null ? null : +median(g.turbN).toFixed(1)),
+                medianTurb_FNU:    (median(g.turbF)   === null ? null : +median(g.turbF).toFixed(1))
               });
             }
 
@@ -199,16 +182,16 @@ jobs:
             fs.writeFileSync('data/state-summary.json', JSON.stringify({ updatedAt: stamp, states: stateRows }, null, 2));
             fs.writeFileSync('data/health.json',       JSON.stringify({ updatedAt: stamp }, null, 2));
 
-            // Step summary table (short)
+            // Step summary table (Actions UI)
             const dash = [];
             const fmt = (x)=> (x === null ? '—' : String(x));
             dash.push(`# USGS Cache Summary\n`);
             dash.push(`Updated: ${stamp}`);
             dash.push(`Total sites: ${out.count}\n`);
-            dash.push(`| State | Sites | °C | µS/cm | pH | TDS mg/L | DO mg/L | Turb (NTU) |`);
-            dash.push(`|:-----:|-----:|---:|------:|--:|---------:|--------:|-----------:|`);
+            dash.push(`| State | Sites | °C | µS/cm | pH | TDS mg/L | DO mg/L | Turb NTU | Turb FNU |`);
+            dash.push(`|:-----:|-----:|---:|-----:|---:|--------:|-------:|--------:|--------:|`);
             for (const r of stateRows) {
-              dash.push(`| ${r.state} | ${r.sites} | ${fmt(r.medianTempC)} | ${fmt(r.medianCond_uScm)} | ${fmt(r.medianPH)} | ${fmt(r.medianTDS_mgL)} | ${fmt(r.medianDO_mgL)} | ${fmt(r.medianTurb_NTU ?? r.medianTurb_FNU)} |`);
+              dash.push(`| ${r.state} | ${r.sites} | ${fmt(r.medianTempC)} | ${fmt(r.medianCond_uScm)} | ${fmt(r.medianPH)} | ${fmt(r.medianTDS_mgL)} | ${fmt(r.medianDO_mgL)} | ${fmt(r.medianTurb_NTU)} | ${fmt(r.medianTurb_FNU)} |`);
             }
             if (process.env.GITHUB_STEP_SUMMARY) {
               fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, dash.join('\n') + '\n');
