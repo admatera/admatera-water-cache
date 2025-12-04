@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-04T18:33:16.486Z",
+  "updatedAt": "2025-12-04T18:42:53.195Z",
   "count": 2773,
   "items": [
     {
@@ -185,11 +185,11 @@
     {
       "site": "02423496",
       "state": "al",
-      "tempC": 8.7,
-      "condu": 346,
+      "tempC": 8.8,
+      "condu": 347,
       "ph": null,
       "tds": null,
-      "do_mgL": 11,
+      "do_mgL": 11.2,
       "turb_NTU": null,
       "turb_FNU": null,
       "tdsEst": 232
@@ -353,26 +353,26 @@
     {
       "site": "02461130",
       "state": "al",
-      "tempC": 14.9,
-      "condu": 305,
+      "tempC": 15.2,
+      "condu": 307,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 204
+      "tdsEst": 206
     },
     {
       "site": "02461192",
       "state": "al",
-      "tempC": 11.8,
-      "condu": 294,
+      "tempC": 12.2,
+      "condu": 295,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 197
+      "tdsEst": 198
     },
     {
       "site": "02461405",
@@ -413,14 +413,14 @@
     {
       "site": "02470805",
       "state": "al",
-      "tempC": 11.5,
-      "condu": 1570,
+      "tempC": 11.3,
+      "condu": 1410,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 1052
+      "tdsEst": 945
     },
     {
       "site": "15008000",
@@ -581,7 +581,7 @@
     {
       "site": "15081497",
       "state": "ak",
-      "tempC": 5.3,
+      "tempC": 5.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -593,7 +593,7 @@
     {
       "site": "15085697",
       "state": "ak",
-      "tempC": 5.9,
+      "tempC": 5.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -689,7 +689,7 @@
     {
       "site": "15129500",
       "state": "ak",
-      "tempC": 4.4,
+      "tempC": 4.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -701,7 +701,7 @@
     {
       "site": "15200280",
       "state": "ak",
-      "tempC": 0,
+      "tempC": 0.1,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -773,7 +773,7 @@
     {
       "site": "15238951",
       "state": "ak",
-      "tempC": 0.8,
+      "tempC": 0.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -917,7 +917,7 @@
     {
       "site": "15290000",
       "state": "ak",
-      "tempC": 1,
+      "tempC": 1.1,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -1433,7 +1433,7 @@
     {
       "site": "09510000",
       "state": "az",
-      "tempC": 14,
+      "tempC": 14.1,
       "condu": 476,
       "ph": 8.3,
       "tds": null,
@@ -1637,11 +1637,11 @@
     {
       "site": "07060000",
       "state": "ar",
-      "tempC": 14.7,
+      "tempC": 14.3,
       "condu": null,
       "ph": null,
       "tds": null,
-      "do_mgL": 5.6,
+      "do_mgL": 9.1,
       "turb_NTU": null,
       "turb_FNU": null,
       "tdsEst": null
@@ -1853,14 +1853,14 @@
     {
       "site": "072638805",
       "state": "ar",
-      "tempC": 6.7,
-      "condu": 272,
+      "tempC": 6.6,
+      "condu": 273,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 20.3,
-      "tdsEst": 182
+      "turb_FNU": 20.4,
+      "tdsEst": 183
     },
     {
       "site": "07264000",
@@ -2057,13 +2057,13 @@
     {
       "site": "10336610",
       "state": "ca",
-      "tempC": 1.3,
+      "tempC": 1.4,
       "condu": null,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 5.7,
+      "turb_FNU": 3.3,
       "tdsEst": null
     },
     {
@@ -2085,7 +2085,7 @@
       "condu": null,
       "ph": null,
       "tds": null,
-      "do_mgL": 11.8,
+      "do_mgL": 11.7,
       "turb_NTU": null,
       "turb_FNU": 0.2,
       "tdsEst": null
@@ -2109,9 +2109,9 @@
       "condu": null,
       "ph": null,
       "tds": null,
-      "do_mgL": 11.1,
+      "do_mgL": 11.2,
       "turb_NTU": null,
-      "turb_FNU": 12.1,
+      "turb_FNU": 23.7,
       "tdsEst": null
     },
     {
@@ -2129,7 +2129,7 @@
     {
       "site": "10346000",
       "state": "ca",
-      "tempC": 3.9,
+      "tempC": 4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -2357,7 +2357,7 @@
     {
       "site": "11162753",
       "state": "ca",
-      "tempC": 13.8,
+      "tempC": 13.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -2369,13 +2369,13 @@
     {
       "site": "11170000",
       "state": "ca",
-      "tempC": 11.5,
+      "tempC": 11.6,
       "condu": null,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 12.6,
+      "turb_FNU": 12.8,
       "tdsEst": null
     },
     {
@@ -2393,7 +2393,7 @@
     {
       "site": "11171500",
       "state": "ca",
-      "tempC": 10.2,
+      "tempC": 10.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -2477,7 +2477,7 @@
     {
       "site": "11173575",
       "state": "ca",
-      "tempC": 9.4,
+      "tempC": 9.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -2609,14 +2609,14 @@
     {
       "site": "11204100",
       "state": "ca",
-      "tempC": 6.4,
-      "condu": 153,
+      "tempC": 6.7,
+      "condu": 152,
       "ph": 8,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 103
+      "tdsEst": 102
     },
     {
       "site": "11206820",
@@ -2669,7 +2669,7 @@
     {
       "site": "11251000",
       "state": "ca",
-      "tempC": 12.6,
+      "tempC": 12.7,
       "condu": 45,
       "ph": null,
       "tds": null,
@@ -2825,7 +2825,7 @@
     {
       "site": "11277300",
       "state": "ca",
-      "tempC": 4.5,
+      "tempC": 4.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -2837,7 +2837,7 @@
     {
       "site": "11278000",
       "state": "ca",
-      "tempC": 7.8,
+      "tempC": 7.9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -2861,7 +2861,7 @@
     {
       "site": "11278400",
       "state": "ca",
-      "tempC": 7.9,
+      "tempC": 8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -2886,7 +2886,7 @@
       "site": "11290000",
       "state": "ca",
       "tempC": 10.6,
-      "condu": 102,
+      "condu": 101,
       "ph": null,
       "tds": null,
       "do_mgL": null,
@@ -3149,7 +3149,7 @@
     {
       "site": "11383500",
       "state": "ca",
-      "tempC": 6.6,
+      "tempC": 6.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -3282,7 +3282,7 @@
       "site": "11447650",
       "state": "ca",
       "tempC": 10.4,
-      "condu": 196,
+      "condu": 195,
       "ph": 7.6,
       "tds": null,
       "do_mgL": 10.2,
@@ -3653,11 +3653,11 @@
     {
       "site": "11461500",
       "state": "ca",
-      "tempC": 7.2,
+      "tempC": 7.3,
       "condu": 276,
-      "ph": 7.9,
+      "ph": 8,
       "tds": null,
-      "do_mgL": 11.6,
+      "do_mgL": 11.7,
       "turb_NTU": null,
       "turb_FNU": 0.6,
       "tdsEst": 185
@@ -3965,7 +3965,7 @@
     {
       "site": "384115121402501",
       "state": "ca",
-      "tempC": 9.2,
+      "tempC": 9.4,
       "condu": 0,
       "ph": null,
       "tds": null,
@@ -4061,14 +4061,14 @@
     {
       "site": "07097000",
       "state": "co",
-      "tempC": 1.2,
-      "condu": 419,
+      "tempC": 1.8,
+      "condu": 449,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 281
+      "tdsEst": 301
     },
     {
       "site": "07099400",
@@ -4109,14 +4109,14 @@
     {
       "site": "07099971",
       "state": "co",
-      "tempC": 6.4,
-      "condu": 684,
+      "tempC": 6.8,
+      "condu": 679,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 458
+      "tdsEst": 455
     },
     {
       "site": "07103700",
@@ -4577,11 +4577,11 @@
     {
       "site": "09041400",
       "state": "co",
-      "tempC": 5.2,
+      "tempC": 5.6,
       "condu": 509,
       "ph": null,
       "tds": null,
-      "do_mgL": 9.5,
+      "do_mgL": 9.9,
       "turb_NTU": null,
       "turb_FNU": null,
       "tdsEst": 341
@@ -4805,7 +4805,7 @@
     {
       "site": "09076300",
       "state": "co",
-      "tempC": 5.5,
+      "tempC": null,
       "condu": 426,
       "ph": null,
       "tds": null,
@@ -5321,14 +5321,14 @@
     {
       "site": "09342600",
       "state": "co",
-      "tempC": 1.3,
-      "condu": 270,
+      "tempC": 1.4,
+      "condu": 334,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 181
+      "tdsEst": 224
     },
     {
       "site": "09352900",
@@ -5585,13 +5585,13 @@
     {
       "site": "391953108130201",
       "state": "co",
-      "tempC": 0.1,
+      "tempC": 0.6,
       "condu": 2050,
       "ph": 8.5,
       "tds": null,
       "do_mgL": 12.4,
       "turb_NTU": null,
-      "turb_FNU": 25.8,
+      "turb_FNU": 26,
       "tdsEst": 1374
     },
     {
@@ -6389,7 +6389,7 @@
     {
       "site": "01483700",
       "state": "de",
-      "tempC": 6.2,
+      "tempC": 6.4,
       "condu": 192,
       "ph": null,
       "tds": null,
@@ -6509,8 +6509,8 @@
     {
       "site": "02232400",
       "state": "fl",
-      "tempC": 20.7,
-      "condu": 404,
+      "tempC": 21,
+      "condu": 405,
       "ph": null,
       "tds": null,
       "do_mgL": null,
@@ -6581,8 +6581,8 @@
     {
       "site": "02244040",
       "state": "fl",
-      "tempC": 19,
-      "condu": 717,
+      "tempC": 19.1,
+      "condu": 716,
       "ph": null,
       "tds": null,
       "do_mgL": 5.1,
@@ -6630,13 +6630,13 @@
       "site": "022462002",
       "state": "fl",
       "tempC": 16.8,
-      "condu": 273,
+      "condu": 274,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 183
+      "tdsEst": 184
     },
     {
       "site": "02246459",
@@ -6653,7 +6653,7 @@
     {
       "site": "02246500",
       "state": "fl",
-      "tempC": 18.5,
+      "tempC": 18.6,
       "condu": 13900,
       "ph": null,
       "tds": null,
@@ -6785,11 +6785,11 @@
     {
       "site": "02266495",
       "state": "fl",
-      "tempC": 18.6,
+      "tempC": 18.7,
       "condu": 250,
       "ph": null,
       "tds": null,
-      "do_mgL": 1.3,
+      "do_mgL": 1.2,
       "turb_NTU": null,
       "turb_FNU": null,
       "tdsEst": 168
@@ -6917,14 +6917,14 @@
     {
       "site": "02290709",
       "state": "fl",
-      "tempC": 25.2,
-      "condu": 421,
+      "tempC": 25.3,
+      "condu": 420,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 282
+      "tdsEst": 281
     },
     {
       "site": "022908205",
@@ -6941,14 +6941,14 @@
     {
       "site": "022908295",
       "state": "fl",
-      "tempC": 23.1,
-      "condu": 490,
+      "tempC": 23.7,
+      "condu": 493,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 328
+      "tdsEst": 330
     },
     {
       "site": "02290878",
@@ -7157,14 +7157,14 @@
     {
       "site": "02299734",
       "state": "fl",
-      "tempC": 22.2,
-      "condu": 51100,
+      "tempC": 22.3,
+      "condu": 52000,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 34237
+      "tdsEst": 34840
     },
     {
       "site": "023000095",
@@ -7229,7 +7229,7 @@
     {
       "site": "02304000",
       "state": "fl",
-      "tempC": 20.3,
+      "tempC": 20.4,
       "condu": 454,
       "ph": null,
       "tds": null,
@@ -7253,14 +7253,14 @@
     {
       "site": "02304517",
       "state": "fl",
-      "tempC": 22.9,
-      "condu": 10800,
+      "tempC": 23,
+      "condu": 10900,
       "ph": null,
       "tds": null,
-      "do_mgL": 3.6,
+      "do_mgL": 3.4,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 7236
+      "tdsEst": 7303
     },
     {
       "site": "023060013",
@@ -7337,14 +7337,14 @@
     {
       "site": "02310687",
       "state": "fl",
-      "tempC": 20.4,
-      "condu": 6740,
+      "tempC": 21,
+      "condu": 6700,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 4516
+      "tdsEst": 4489
     },
     {
       "site": "02310689",
@@ -7422,13 +7422,13 @@
       "site": "02310752",
       "state": "fl",
       "tempC": 20.9,
-      "condu": 1250,
+      "condu": 28000,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 838
+      "tdsEst": 18760
     },
     {
       "site": "02313090",
@@ -7517,7 +7517,7 @@
     {
       "site": "02315550",
       "state": "fl",
-      "tempC": 16.6,
+      "tempC": 16.8,
       "condu": 266,
       "ph": null,
       "tds": null,
@@ -7553,14 +7553,14 @@
     {
       "site": "02319000",
       "state": "fl",
-      "tempC": 16.8,
-      "condu": 518,
+      "tempC": 16.9,
+      "condu": 526,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 347
+      "tdsEst": 352
     },
     {
       "site": "02319394",
@@ -7757,11 +7757,11 @@
     {
       "site": "02326526",
       "state": "fl",
-      "tempC": 16.2,
+      "tempC": 16.3,
       "condu": 308,
-      "ph": 8.3,
+      "ph": 8.4,
       "tds": null,
-      "do_mgL": 7.9,
+      "do_mgL": 8.7,
       "turb_NTU": null,
       "turb_FNU": null,
       "tdsEst": 206
@@ -7818,13 +7818,13 @@
       "site": "02358000",
       "state": "fl",
       "tempC": 15.4,
-      "condu": 132,
+      "condu": 133,
       "ph": null,
       "tds": null,
-      "do_mgL": 9.2,
+      "do_mgL": 9.3,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 88
+      "tdsEst": 89
     },
     {
       "site": "02359170",
@@ -8285,14 +8285,14 @@
     {
       "site": "255726081303700",
       "state": "fl",
-      "tempC": 23.3,
-      "condu": 30500,
+      "tempC": 24.5,
+      "condu": 33200,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 20435
+      "tdsEst": 22244
     },
     {
       "site": "265906080093500",
@@ -8309,14 +8309,14 @@
     {
       "site": "265929080091800",
       "state": "fl",
-      "tempC": 22.8,
-      "condu": 1390,
+      "tempC": 23,
+      "condu": 722,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 931
+      "tdsEst": 484
     },
     {
       "site": "285531082412600",
@@ -8405,14 +8405,14 @@
     {
       "site": "301124081395901",
       "state": "fl",
-      "tempC": 17.9,
-      "condu": 1030,
+      "tempC": 18,
+      "condu": 1060,
       "ph": null,
       "tds": null,
       "do_mgL": 7,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 690
+      "tdsEst": 710
     },
     {
       "site": "301204081434900",
@@ -8429,31 +8429,31 @@
     {
       "site": "301510081383500",
       "state": "fl",
-      "tempC": 17.5,
-      "condu": 1750,
+      "tempC": 17.8,
+      "condu": 3450,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 1173
+      "tdsEst": 2312
     },
     {
       "site": "301817081393600",
       "state": "fl",
-      "tempC": 18.4,
-      "condu": 11000,
+      "tempC": 18.3,
+      "condu": 9650,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 7370
+      "tdsEst": 6466
     },
     {
       "site": "302307083101400",
       "state": "fl",
-      "tempC": 18.4,
+      "tempC": 18.6,
       "condu": 338,
       "ph": null,
       "tds": null,
@@ -8597,14 +8597,14 @@
     {
       "site": "02198950",
       "state": "ga",
-      "tempC": 13.6,
-      "condu": 7820,
-      "ph": 7.5,
+      "tempC": 13.3,
+      "condu": 5010,
+      "ph": 7.4,
       "tds": null,
-      "do_mgL": 7.5,
+      "do_mgL": 8.2,
       "turb_NTU": null,
-      "turb_FNU": 165,
-      "tdsEst": 5239
+      "turb_FNU": 78.4,
+      "tdsEst": 3357
     },
     {
       "site": "02198955",
@@ -8633,26 +8633,26 @@
     {
       "site": "021989773",
       "state": "ga",
-      "tempC": 15,
+      "tempC": 15.1,
       "condu": 22600,
       "ph": 7.7,
       "tds": null,
-      "do_mgL": 7,
+      "do_mgL": 6.8,
       "turb_NTU": null,
-      "turb_FNU": 38,
+      "turb_FNU": 63.3,
       "tdsEst": 15142
     },
     {
       "site": "021989792",
       "state": "ga",
       "tempC": 12.9,
-      "condu": 1420,
+      "condu": 845,
       "ph": 7.2,
       "tds": null,
-      "do_mgL": 8.3,
+      "do_mgL": 8.4,
       "turb_NTU": null,
-      "turb_FNU": 35.8,
-      "tdsEst": 951
+      "turb_FNU": 32.7,
+      "tdsEst": 566
     },
     {
       "site": "021989793",
@@ -8705,11 +8705,11 @@
     {
       "site": "022035975",
       "state": "ga",
-      "tempC": 14.4,
+      "tempC": 14.3,
       "condu": 45500,
       "ph": 7.5,
       "tds": null,
-      "do_mgL": 6.2,
+      "do_mgL": 6,
       "turb_NTU": null,
       "turb_FNU": 13,
       "tdsEst": 30485
@@ -8765,13 +8765,13 @@
     {
       "site": "02203863",
       "state": "ga",
-      "tempC": 7.4,
-      "condu": 104,
+      "tempC": 7.7,
+      "condu": 105,
       "ph": 7.4,
       "tds": null,
-      "do_mgL": 10.9,
+      "do_mgL": 10.8,
       "turb_NTU": null,
-      "turb_FNU": 4,
+      "turb_FNU": 3.9,
       "tdsEst": 70
     },
     {
@@ -8801,38 +8801,38 @@
     {
       "site": "02203950",
       "state": "ga",
-      "tempC": 8.3,
+      "tempC": 8.6,
       "condu": 108,
-      "ph": 7,
+      "ph": 7.1,
       "tds": null,
       "do_mgL": 10.6,
       "turb_NTU": null,
-      "turb_FNU": 9.9,
+      "turb_FNU": 9.6,
       "tdsEst": 72
     },
     {
       "site": "02203960",
       "state": "ga",
-      "tempC": 7.3,
+      "tempC": 7.4,
       "condu": 90,
-      "ph": 7.3,
+      "ph": 7.2,
       "tds": null,
       "do_mgL": 11.3,
       "turb_NTU": null,
-      "turb_FNU": 7.5,
+      "turb_FNU": 6.9,
       "tdsEst": 60
     },
     {
       "site": "02204037",
       "state": "ga",
-      "tempC": 7.7,
-      "condu": 75,
+      "tempC": 7.8,
+      "condu": 76,
       "ph": 7.2,
       "tds": null,
       "do_mgL": 10.8,
       "turb_NTU": null,
       "turb_FNU": 8,
-      "tdsEst": 50
+      "tdsEst": 51
     },
     {
       "site": "02205000",
@@ -9293,7 +9293,7 @@
     {
       "site": "02334653",
       "state": "ga",
-      "tempC": 11.9,
+      "tempC": 12.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -9497,11 +9497,11 @@
     {
       "site": "02336152",
       "state": "ga",
-      "tempC": 6.8,
+      "tempC": 7,
       "condu": 91,
       "ph": 6.3,
       "tds": null,
-      "do_mgL": 9.8,
+      "do_mgL": 9.9,
       "turb_NTU": null,
       "turb_FNU": 14.2,
       "tdsEst": 61
@@ -9557,13 +9557,13 @@
     {
       "site": "02336340",
       "state": "ga",
-      "tempC": 7,
+      "tempC": 7.2,
       "condu": 101,
       "ph": 7.1,
       "tds": null,
       "do_mgL": 11,
       "turb_NTU": null,
-      "turb_FNU": 24.1,
+      "turb_FNU": 23.3,
       "tdsEst": 68
     },
     {
@@ -9719,7 +9719,7 @@
       "tds": null,
       "do_mgL": 11.1,
       "turb_NTU": null,
-      "turb_FNU": 6.1,
+      "turb_FNU": 5.9,
       "tdsEst": 43
     },
     {
@@ -10115,7 +10115,7 @@
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 7,
+      "turb_FNU": 6,
       "tdsEst": null
     },
     {
@@ -10139,7 +10139,7 @@
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 12,
+      "turb_FNU": 11,
       "tdsEst": null
     },
     {
@@ -10445,7 +10445,7 @@
     {
       "site": "13190500",
       "state": "id",
-      "tempC": 9.4,
+      "tempC": 9.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -10637,8 +10637,8 @@
     {
       "site": "13311250",
       "state": "id",
-      "tempC": 0.2,
-      "condu": 117,
+      "tempC": 0.3,
+      "condu": 116,
       "ph": 8,
       "tds": null,
       "do_mgL": null,
@@ -10650,13 +10650,13 @@
       "site": "13311450",
       "state": "id",
       "tempC": 0.1,
-      "condu": 126,
+      "condu": 122,
       "ph": 8,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 84
+      "tdsEst": 82
     },
     {
       "site": "13317000",
@@ -11981,13 +11981,13 @@
     {
       "site": "04183030",
       "state": "in",
-      "tempC": 1.2,
+      "tempC": 1.3,
       "condu": null,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 26.2,
+      "turb_FNU": 27.2,
       "tdsEst": null
     },
     {
@@ -11999,7 +11999,7 @@
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 19,
+      "turb_FNU": 95,
       "tdsEst": null
     },
     {
@@ -12161,7 +12161,7 @@
     {
       "site": "413339087223001",
       "state": "in",
-      "tempC": 4.9,
+      "tempC": 5.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -12209,7 +12209,7 @@
     {
       "site": "05420500",
       "state": "ia",
-      "tempC": 0.8,
+      "tempC": 1,
       "condu": 359,
       "ph": 8.4,
       "tds": null,
@@ -12498,13 +12498,13 @@
       "site": "06856600",
       "state": "ks",
       "tempC": -0.1,
-      "condu": 914,
+      "condu": 916,
       "ph": 8.3,
       "tds": null,
-      "do_mgL": 14.3,
+      "do_mgL": 14.2,
       "turb_NTU": null,
-      "turb_FNU": 11.8,
-      "tdsEst": 612
+      "turb_FNU": 12.3,
+      "tdsEst": 614
     },
     {
       "site": "06865500",
@@ -12606,13 +12606,13 @@
       "site": "06889110",
       "state": "ks",
       "tempC": 0.2,
-      "condu": 820,
+      "condu": 810,
       "ph": 8,
       "tds": null,
-      "do_mgL": 13.5,
+      "do_mgL": 13.8,
       "turb_NTU": null,
       "turb_FNU": 4.1,
-      "tdsEst": 549
+      "tdsEst": 543
     },
     {
       "site": "06889160",
@@ -12629,13 +12629,13 @@
     {
       "site": "06892350",
       "state": "ks",
-      "tempC": 0.5,
+      "tempC": 0.9,
       "condu": 529,
       "ph": 8.3,
       "tds": null,
       "do_mgL": 7.4,
       "turb_NTU": null,
-      "turb_FNU": 58.5,
+      "turb_FNU": 58,
       "tdsEst": 354
     },
     {
@@ -12773,7 +12773,7 @@
     {
       "site": "07137500",
       "state": "ks",
-      "tempC": 5.3,
+      "tempC": 5.7,
       "condu": 3840,
       "ph": null,
       "tds": null,
@@ -12971,7 +12971,7 @@
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 5.8,
+      "turb_FNU": 5.9,
       "tdsEst": null
     },
     {
@@ -13121,7 +13121,7 @@
     {
       "site": "03289500",
       "state": "ky",
-      "tempC": 4.4,
+      "tempC": 4.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -13231,9 +13231,9 @@
       "state": "ky",
       "tempC": 4.6,
       "condu": 2390,
-      "ph": 7.8,
+      "ph": 7.9,
       "tds": null,
-      "do_mgL": 12.8,
+      "do_mgL": 13,
       "turb_NTU": null,
       "turb_FNU": null,
       "tdsEst": 1601
@@ -13265,14 +13265,14 @@
     {
       "site": "03293500",
       "state": "ky",
-      "tempC": 4.5,
-      "condu": 1640,
+      "tempC": 4.6,
+      "condu": 1600,
       "ph": 8.1,
       "tds": null,
       "do_mgL": 11.2,
       "turb_NTU": null,
-      "turb_FNU": 4.2,
-      "tdsEst": 1099
+      "turb_FNU": 4.3,
+      "tdsEst": 1072
     },
     {
       "site": "03293510",
@@ -13301,14 +13301,14 @@
     {
       "site": "03293532",
       "state": "ky",
-      "tempC": 4.6,
-      "condu": 1950,
+      "tempC": 4.7,
+      "condu": 1960,
       "ph": 7.9,
       "tds": null,
-      "do_mgL": 9.4,
+      "do_mgL": 10.3,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 1307
+      "tdsEst": 1313
     },
     {
       "site": "03294570",
@@ -13433,14 +13433,14 @@
     {
       "site": "03301940",
       "state": "ky",
-      "tempC": 5.7,
-      "condu": 892,
-      "ph": 8.1,
+      "tempC": 5.8,
+      "condu": 900,
+      "ph": 8.2,
       "tds": null,
-      "do_mgL": 13,
+      "do_mgL": 13.5,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 598
+      "tdsEst": 603
     },
     {
       "site": "03302000",
@@ -13517,7 +13517,7 @@
     {
       "site": "03307000",
       "state": "ky",
-      "tempC": 4.1,
+      "tempC": 4.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -13854,13 +13854,13 @@
       "site": "295501090190400",
       "state": "la",
       "tempC": 14.4,
-      "condu": 528,
+      "condu": 527,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 354
+      "tdsEst": 353
     },
     {
       "site": "295847093420600",
@@ -14010,13 +14010,13 @@
       "site": "01491000",
       "state": "md",
       "tempC": 3.8,
-      "condu": 168,
+      "condu": 167,
       "ph": 7.2,
       "tds": null,
-      "do_mgL": 12.2,
+      "do_mgL": 12.3,
       "turb_NTU": null,
-      "turb_FNU": 8.1,
-      "tdsEst": 113
+      "turb_FNU": 7.9,
+      "tdsEst": 112
     },
     {
       "site": "01493112",
@@ -14514,13 +14514,13 @@
       "site": "01104430",
       "state": "ma",
       "tempC": 5.6,
-      "condu": 805,
+      "condu": 803,
       "ph": null,
       "tds": null,
       "do_mgL": 11.8,
       "turb_NTU": null,
       "turb_FNU": 1.9,
-      "tdsEst": 539
+      "tdsEst": 538
     },
     {
       "site": "01104453",
@@ -14621,8 +14621,8 @@
     {
       "site": "01168250",
       "state": "ma",
-      "tempC": 0.2,
-      "condu": 138,
+      "tempC": 0.1,
+      "condu": 137,
       "ph": null,
       "tds": null,
       "do_mgL": null,
@@ -14718,13 +14718,13 @@
       "site": "04043097",
       "state": "mi",
       "tempC": 0,
-      "condu": 144,
+      "condu": 145,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 96
+      "tdsEst": 97
     },
     {
       "site": "04043238",
@@ -14889,7 +14889,7 @@
       "condu": null,
       "ph": null,
       "tds": null,
-      "do_mgL": 14.6,
+      "do_mgL": 14.8,
       "turb_NTU": null,
       "turb_FNU": null,
       "tdsEst": null
@@ -14901,7 +14901,7 @@
       "condu": null,
       "ph": null,
       "tds": null,
-      "do_mgL": 14.3,
+      "do_mgL": 14.4,
       "turb_NTU": null,
       "turb_FNU": null,
       "tdsEst": null
@@ -14961,7 +14961,7 @@
       "condu": null,
       "ph": null,
       "tds": null,
-      "do_mgL": 13,
+      "do_mgL": 13.1,
       "turb_NTU": null,
       "turb_FNU": null,
       "tdsEst": null
@@ -15221,13 +15221,13 @@
     {
       "site": "04167625",
       "state": "mi",
-      "tempC": 8.1,
+      "tempC": 8.2,
       "condu": 1060,
       "ph": null,
       "tds": null,
-      "do_mgL": 10.3,
+      "do_mgL": 10.4,
       "turb_NTU": null,
-      "turb_FNU": 9.9,
+      "turb_FNU": 11.2,
       "tdsEst": 710
     },
     {
@@ -15671,7 +15671,7 @@
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 18.5,
+      "turb_FNU": 19.9,
       "tdsEst": null
     },
     {
@@ -16541,7 +16541,7 @@
     {
       "site": "06287800",
       "state": "mt",
-      "tempC": 7.6,
+      "tempC": 7.9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -16565,14 +16565,14 @@
     {
       "site": "06307500",
       "state": "mt",
-      "tempC": 4.1,
-      "condu": 518,
+      "tempC": 4.6,
+      "condu": 515,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 347
+      "tdsEst": 345
     },
     {
       "site": "06307616",
@@ -16721,7 +16721,7 @@
     {
       "site": "12323720",
       "state": "mt",
-      "tempC": 2.9,
+      "tempC": 3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -16733,7 +16733,7 @@
     {
       "site": "12323750",
       "state": "mt",
-      "tempC": 1.2,
+      "tempC": 1.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -16781,7 +16781,7 @@
     {
       "site": "12323850",
       "state": "mt",
-      "tempC": 1.5,
+      "tempC": 1.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -17273,7 +17273,7 @@
     {
       "site": "06796550",
       "state": "ne",
-      "tempC": 0.7,
+      "tempC": 0.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -17405,14 +17405,14 @@
     {
       "site": "10301500",
       "state": "nv",
-      "tempC": 0.9,
-      "condu": 495,
+      "tempC": 1.1,
+      "condu": 493,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 332
+      "tdsEst": 330
     },
     {
       "site": "10302002",
@@ -17525,14 +17525,14 @@
     {
       "site": "10350500",
       "state": "nv",
-      "tempC": 3.5,
-      "condu": 236,
+      "tempC": 3.8,
+      "condu": 235,
       "ph": 8.4,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 158
+      "tdsEst": 157
     },
     {
       "site": "10351600",
@@ -17946,13 +17946,13 @@
       "site": "01412350",
       "state": "nj",
       "tempC": null,
-      "condu": 33800,
+      "condu": 34000,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 22646
+      "tdsEst": 22780
     },
     {
       "site": "01412800",
@@ -18053,14 +18053,14 @@
     {
       "site": "01458500",
       "state": "nj",
-      "tempC": 3.2,
-      "condu": 255,
-      "ph": 8.6,
+      "tempC": 3.3,
+      "condu": 256,
+      "ph": 8.7,
       "tds": null,
-      "do_mgL": 15.6,
+      "do_mgL": 15.7,
       "turb_NTU": null,
       "turb_FNU": 0.8,
-      "tdsEst": 171
+      "tdsEst": 172
     },
     {
       "site": "01460380",
@@ -18077,7 +18077,7 @@
     {
       "site": "01460440",
       "state": "nj",
-      "tempC": 3.8,
+      "tempC": 3.9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -18090,13 +18090,13 @@
       "site": "01460595",
       "state": "nj",
       "tempC": 4.4,
-      "condu": 272,
-      "ph": 7.2,
+      "condu": 279,
+      "ph": 7.3,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": 2.8,
-      "tdsEst": 182
+      "tdsEst": 187
     },
     {
       "site": "01462000",
@@ -18173,14 +18173,14 @@
     {
       "site": "01465880",
       "state": "nj",
-      "tempC": 4,
-      "condu": 222,
+      "tempC": 4.2,
+      "condu": 221,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 149
+      "tdsEst": 148
     },
     {
       "site": "01466500",
@@ -18233,7 +18233,7 @@
     {
       "site": "01467024",
       "state": "nj",
-      "tempC": 5.4,
+      "tempC": 5.7,
       "condu": 250,
       "ph": null,
       "tds": null,
@@ -18317,13 +18317,13 @@
     {
       "site": "07214550",
       "state": "nm",
-      "tempC": 1.7,
+      "tempC": 1.9,
       "condu": null,
       "ph": 8.4,
       "tds": null,
-      "do_mgL": 9.5,
+      "do_mgL": 9.4,
       "turb_NTU": null,
-      "turb_FNU": 5.7,
+      "turb_FNU": 5.9,
       "tdsEst": null
     },
     {
@@ -18413,13 +18413,13 @@
     {
       "site": "08329918",
       "state": "nm",
-      "tempC": 6.4,
+      "tempC": 6.7,
       "condu": null,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 315,
+      "turb_FNU": 297,
       "tdsEst": null
     },
     {
@@ -18479,7 +18479,7 @@
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 34.8,
+      "turb_FNU": 2.6,
       "tdsEst": null
     },
     {
@@ -18491,7 +18491,7 @@
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 411,
+      "turb_FNU": 414,
       "tdsEst": null
     },
     {
@@ -18533,7 +18533,7 @@
     {
       "site": "08405400",
       "state": "nm",
-      "tempC": 9.8,
+      "tempC": 9.9,
       "condu": 1650,
       "ph": null,
       "tds": null,
@@ -18569,7 +18569,7 @@
     {
       "site": "09355500",
       "state": "nm",
-      "tempC": 5.4,
+      "tempC": 6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -18689,14 +18689,14 @@
     {
       "site": "01349527",
       "state": "ny",
-      "tempC": 1.2,
-      "condu": 463,
+      "tempC": 1.3,
+      "condu": 466,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": 4.2,
-      "tdsEst": 310
+      "tdsEst": 312
     },
     {
       "site": "01351500",
@@ -19409,7 +19409,7 @@
     {
       "site": "01420500",
       "state": "ny",
-      "tempC": 1.1,
+      "tempC": 1.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -19433,7 +19433,7 @@
     {
       "site": "01421500",
       "state": "ny",
-      "tempC": 0.8,
+      "tempC": 0.9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -19457,7 +19457,7 @@
     {
       "site": "01425000",
       "state": "ny",
-      "tempC": 5.4,
+      "tempC": 5.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -20057,14 +20057,14 @@
     {
       "site": "02101726",
       "state": "nc",
-      "tempC": 7.5,
-      "condu": 127,
+      "tempC": 7.8,
+      "condu": 128,
       "ph": 7.2,
       "tds": null,
-      "do_mgL": 10.8,
+      "do_mgL": 11.2,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 85
+      "tdsEst": 86
     },
     {
       "site": "02102500",
@@ -20225,7 +20225,7 @@
     {
       "site": "03441000",
       "state": "nc",
-      "tempC": 4.6,
+      "tempC": 4.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -20237,7 +20237,7 @@
     {
       "site": "03446000",
       "state": "nc",
-      "tempC": 4.2,
+      "tempC": 4.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -20345,7 +20345,7 @@
     {
       "site": "03460000",
       "state": "nc",
-      "tempC": 3.8,
+      "tempC": 4.1,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -20921,7 +20921,7 @@
     {
       "site": "03125338",
       "state": "oh",
-      "tempC": 1.8,
+      "tempC": 2,
       "condu": 1580,
       "ph": null,
       "tds": null,
@@ -20945,7 +20945,7 @@
     {
       "site": "03127980",
       "state": "oh",
-      "tempC": 1.3,
+      "tempC": 1.5,
       "condu": 1180,
       "ph": null,
       "tds": null,
@@ -20969,20 +20969,20 @@
     {
       "site": "03127989",
       "state": "oh",
-      "tempC": 4.5,
-      "condu": 327,
+      "tempC": 4.6,
+      "condu": 339,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 219
+      "tdsEst": 227
     },
     {
       "site": "03140853",
       "state": "oh",
-      "tempC": 1.3,
-      "condu": 547,
+      "tempC": 1.5,
+      "condu": 546,
       "ph": null,
       "tds": null,
       "do_mgL": null,
@@ -21029,7 +21029,7 @@
     {
       "site": "03159540",
       "state": "oh",
-      "tempC": 1.4,
+      "tempC": 1.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -21083,7 +21083,7 @@
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 63.8,
+      "turb_FNU": 62.4,
       "tdsEst": null
     },
     {
@@ -21305,7 +21305,7 @@
     {
       "site": "04198000",
       "state": "oh",
-      "tempC": 2,
+      "tempC": 2.1,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -21353,7 +21353,7 @@
     {
       "site": "04201500",
       "state": "oh",
-      "tempC": 1.5,
+      "tempC": 1.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -21389,7 +21389,7 @@
     {
       "site": "04208509",
       "state": "oh",
-      "tempC": 5.4,
+      "tempC": 3.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -21425,11 +21425,11 @@
     {
       "site": "411402080492400",
       "state": "oh",
-      "tempC": 2.6,
+      "tempC": 2.8,
       "condu": 504,
-      "ph": 8.3,
+      "ph": 8.4,
       "tds": null,
-      "do_mgL": 13.4,
+      "do_mgL": 13.5,
       "turb_NTU": null,
       "turb_FNU": null,
       "tdsEst": 338
@@ -21486,13 +21486,13 @@
       "site": "07178200",
       "state": "ok",
       "tempC": 8.7,
-      "condu": 445,
-      "ph": 7.9,
+      "condu": 454,
+      "ph": 7.8,
       "tds": null,
       "do_mgL": 11.1,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 298
+      "tdsEst": 304
     },
     {
       "site": "07185080",
@@ -21515,13 +21515,13 @@
       "tds": null,
       "do_mgL": 7,
       "turb_NTU": null,
-      "turb_FNU": 1.5,
+      "turb_FNU": 1.7,
       "tdsEst": 208
     },
     {
       "site": "07191222",
       "state": "ok",
-      "tempC": 12.1,
+      "tempC": 12.2,
       "condu": 287,
       "ph": 7.6,
       "tds": null,
@@ -21539,13 +21539,13 @@
       "tds": null,
       "do_mgL": 10.8,
       "turb_NTU": null,
-      "turb_FNU": 2.4,
+      "turb_FNU": 2.8,
       "tdsEst": null
     },
     {
       "site": "07191315",
       "state": "ok",
-      "tempC": 16,
+      "tempC": 16.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -21569,23 +21569,23 @@
     {
       "site": "07195500",
       "state": "ok",
-      "tempC": 11.5,
+      "tempC": 11.6,
       "condu": null,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 2.3,
+      "turb_FNU": 2.6,
       "tdsEst": null
     },
     {
       "site": "07198000",
       "state": "ok",
-      "tempC": 15.1,
+      "tempC": 14.8,
       "condu": null,
       "ph": null,
       "tds": null,
-      "do_mgL": 9.4,
+      "do_mgL": 9.5,
       "turb_NTU": null,
       "turb_FNU": null,
       "tdsEst": null
@@ -21725,7 +21725,7 @@
     {
       "site": "07335700",
       "state": "ok",
-      "tempC": 8.9,
+      "tempC": 9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -21773,7 +21773,7 @@
     {
       "site": "11491450",
       "state": "or",
-      "tempC": 4.6,
+      "tempC": 4.9,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -21797,7 +21797,7 @@
     {
       "site": "11491950",
       "state": "or",
-      "tempC": 1.4,
+      "tempC": 1.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -21881,7 +21881,7 @@
     {
       "site": "11507500",
       "state": "or",
-      "tempC": 3.7,
+      "tempC": 3.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -21917,13 +21917,13 @@
     {
       "site": "11509500",
       "state": "or",
-      "tempC": 4.4,
+      "tempC": 4.5,
       "condu": 123,
       "ph": 7.4,
       "tds": null,
       "do_mgL": 11.2,
       "turb_NTU": null,
-      "turb_FNU": 10,
+      "turb_FNU": 10.3,
       "tdsEst": 82
     },
     {
@@ -21977,7 +21977,7 @@
     {
       "site": "14020000",
       "state": "or",
-      "tempC": 5.2,
+      "tempC": 5.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -21989,7 +21989,7 @@
     {
       "site": "14033500",
       "state": "or",
-      "tempC": 6.5,
+      "tempC": 6.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -22013,7 +22013,7 @@
     {
       "site": "14034500",
       "state": "or",
-      "tempC": 6,
+      "tempC": 6.1,
       "condu": null,
       "ph": 8,
       "tds": null,
@@ -22421,7 +22421,7 @@
     {
       "site": "14144900",
       "state": "or",
-      "tempC": 4.5,
+      "tempC": 4.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -22497,7 +22497,7 @@
       "condu": null,
       "ph": null,
       "tds": null,
-      "do_mgL": 12.2,
+      "do_mgL": 12.5,
       "turb_NTU": null,
       "turb_FNU": 7.1,
       "tdsEst": null
@@ -22641,9 +22641,9 @@
       "condu": null,
       "ph": null,
       "tds": null,
-      "do_mgL": 11.6,
+      "do_mgL": 11.8,
       "turb_NTU": null,
-      "turb_FNU": 3.3,
+      "turb_FNU": 3.2,
       "tdsEst": null
     },
     {
@@ -22701,7 +22701,7 @@
       "condu": 63,
       "ph": 7.8,
       "tds": null,
-      "do_mgL": 12.1,
+      "do_mgL": 12.2,
       "turb_NTU": null,
       "turb_FNU": 0.3,
       "tdsEst": 42
@@ -22937,7 +22937,7 @@
     {
       "site": "14165500",
       "state": "or",
-      "tempC": 6.6,
+      "tempC": 6.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -23265,7 +23265,7 @@
       "condu": 46,
       "ph": 7.6,
       "tds": null,
-      "do_mgL": 11.2,
+      "do_mgL": 11.4,
       "turb_NTU": null,
       "turb_FNU": 0.6,
       "tdsEst": 31
@@ -23381,7 +23381,7 @@
     {
       "site": "14187000",
       "state": "or",
-      "tempC": 5.3,
+      "tempC": 5.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -23741,7 +23741,7 @@
     {
       "site": "14207770",
       "state": "or",
-      "tempC": 8.5,
+      "tempC": 8.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -24125,7 +24125,7 @@
     {
       "site": "14312000",
       "state": "or",
-      "tempC": 8,
+      "tempC": 8.1,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -24161,7 +24161,7 @@
     {
       "site": "14316500",
       "state": "or",
-      "tempC": 4.3,
+      "tempC": 4.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -24245,7 +24245,7 @@
     {
       "site": "14321000",
       "state": "or",
-      "tempC": 8.4,
+      "tempC": 8.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -24257,7 +24257,7 @@
     {
       "site": "14322810",
       "state": "or",
-      "tempC": 8.1,
+      "tempC": 8.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -24341,7 +24341,7 @@
     {
       "site": "14337500",
       "state": "or",
-      "tempC": 4.7,
+      "tempC": 4.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -24389,7 +24389,7 @@
     {
       "site": "14359000",
       "state": "or",
-      "tempC": 5.5,
+      "tempC": 5.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -25469,7 +25469,7 @@
     {
       "site": "01428750",
       "state": "pa",
-      "tempC": 1.6,
+      "tempC": 1.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -25481,7 +25481,7 @@
     {
       "site": "01429000",
       "state": "pa",
-      "tempC": 3.5,
+      "tempC": 3.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -25493,7 +25493,7 @@
     {
       "site": "01431500",
       "state": "pa",
-      "tempC": 1.2,
+      "tempC": 1.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -25505,7 +25505,7 @@
     {
       "site": "01432055",
       "state": "pa",
-      "tempC": 2.3,
+      "tempC": 2.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -25553,7 +25553,7 @@
     {
       "site": "01432805",
       "state": "pa",
-      "tempC": 0.4,
+      "tempC": 0.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -25649,7 +25649,7 @@
     {
       "site": "01449360",
       "state": "pa",
-      "tempC": 2.3,
+      "tempC": 2.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -25661,7 +25661,7 @@
     {
       "site": "01449800",
       "state": "pa",
-      "tempC": 8.2,
+      "tempC": 8.1,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -25697,26 +25697,26 @@
     {
       "site": "01451500",
       "state": "pa",
-      "tempC": 6.8,
-      "condu": 675,
+      "tempC": 7.1,
+      "condu": 657,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 452
+      "tdsEst": 440
     },
     {
       "site": "01451630",
       "state": "pa",
-      "tempC": 6.4,
-      "condu": 853,
+      "tempC": 6.5,
+      "condu": 843,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 572
+      "tdsEst": 565
     },
     {
       "site": "01451650",
@@ -25847,32 +25847,32 @@
       "tds": null,
       "do_mgL": 10.3,
       "turb_NTU": null,
-      "turb_FNU": 12.9,
+      "turb_FNU": 11.5,
       "tdsEst": 115
     },
     {
       "site": "01468500",
       "state": "pa",
       "tempC": null,
-      "condu": 509,
+      "condu": 512,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 341
+      "tdsEst": 343
     },
     {
       "site": "01470736",
       "state": "pa",
-      "tempC": 1.7,
-      "condu": 262,
+      "tempC": 2.2,
+      "condu": 255,
       "ph": 7.8,
       "tds": null,
-      "do_mgL": 14.6,
+      "do_mgL": 14.4,
       "turb_NTU": null,
-      "turb_FNU": 3.8,
-      "tdsEst": 176
+      "turb_FNU": 5.3,
+      "tdsEst": 171
     },
     {
       "site": "01470779",
@@ -26010,25 +26010,25 @@
       "site": "01474703",
       "state": "pa",
       "tempC": 7.4,
-      "condu": 633,
+      "condu": 558,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 424
+      "tdsEst": 374
     },
     {
       "site": "01475510",
       "state": "pa",
       "tempC": 4.2,
-      "condu": 469,
+      "condu": 470,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 314
+      "tdsEst": 315
     },
     {
       "site": "01475530",
@@ -26081,7 +26081,7 @@
     {
       "site": "01478100",
       "state": "pa",
-      "tempC": 4.5,
+      "tempC": 4.6,
       "condu": 250,
       "ph": null,
       "tds": null,
@@ -26141,14 +26141,14 @@
     {
       "site": "01478245",
       "state": "pa",
-      "tempC": 3.6,
-      "condu": 302,
+      "tempC": 3.7,
+      "condu": 303,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 14.9,
-      "tdsEst": 202
+      "turb_FNU": 15,
+      "tdsEst": 203
     },
     {
       "site": "01479820",
@@ -26333,14 +26333,14 @@
     {
       "site": "01542500",
       "state": "pa",
-      "tempC": 1.8,
-      "condu": 373,
+      "tempC": 1.9,
+      "condu": 375,
       "ph": 7.6,
       "tds": null,
       "do_mgL": 10.5,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 250
+      "tdsEst": 251
     },
     {
       "site": "01544500",
@@ -26381,14 +26381,14 @@
     {
       "site": "01548030",
       "state": "pa",
-      "tempC": 7.6,
-      "condu": 409,
+      "tempC": 7.7,
+      "condu": 408,
       "ph": 8.1,
       "tds": null,
-      "do_mgL": 12,
+      "do_mgL": 12.3,
       "turb_NTU": null,
-      "turb_FNU": 1.8,
-      "tdsEst": 274
+      "turb_FNU": 1.9,
+      "tdsEst": 273
     },
     {
       "site": "01549700",
@@ -26561,7 +26561,7 @@
     {
       "site": "01576003",
       "state": "pa",
-      "tempC": 2.5,
+      "tempC": 2.6,
       "condu": 218,
       "ph": 7.9,
       "tds": null,
@@ -26837,7 +26837,7 @@
     {
       "site": "03038000",
       "state": "pa",
-      "tempC": 2,
+      "tempC": 2.1,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -27006,13 +27006,13 @@
       "site": "03072655",
       "state": "pa",
       "tempC": 5.7,
-      "condu": 203,
+      "condu": 201,
       "ph": 7.4,
       "tds": null,
       "do_mgL": 9,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 136
+      "tdsEst": 135
     },
     {
       "site": "03073000",
@@ -27209,11 +27209,11 @@
     {
       "site": "04212895",
       "state": "pa",
-      "tempC": 1.6,
+      "tempC": 1.7,
       "condu": 231,
       "ph": 7.9,
       "tds": null,
-      "do_mgL": 13.8,
+      "do_mgL": 14.1,
       "turb_NTU": null,
       "turb_FNU": 4.2,
       "tdsEst": 155
@@ -27245,7 +27245,7 @@
     {
       "site": "01115098",
       "state": "ri",
-      "tempC": 3,
+      "tempC": 3.1,
       "condu": 175,
       "ph": null,
       "tds": null,
@@ -27269,7 +27269,7 @@
     {
       "site": "01115114",
       "state": "ri",
-      "tempC": 2.6,
+      "tempC": 2.8,
       "condu": 127,
       "ph": null,
       "tds": null,
@@ -27293,19 +27293,19 @@
     {
       "site": "01115183",
       "state": "ri",
-      "tempC": 2,
-      "condu": 133,
+      "tempC": 2.1,
+      "condu": 132,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 89
+      "tdsEst": 88
     },
     {
       "site": "011151843",
       "state": "ri",
-      "tempC": 3.9,
+      "tempC": 4,
       "condu": 73,
       "ph": null,
       "tds": null,
@@ -27317,7 +27317,7 @@
     {
       "site": "01115185",
       "state": "ri",
-      "tempC": 2.7,
+      "tempC": 2.9,
       "condu": 89,
       "ph": null,
       "tds": null,
@@ -27329,7 +27329,7 @@
     {
       "site": "01115187",
       "state": "ri",
-      "tempC": 2.3,
+      "tempC": 5.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -27341,7 +27341,7 @@
     {
       "site": "01115190",
       "state": "ri",
-      "tempC": 2.5,
+      "tempC": 2.7,
       "condu": 105,
       "ph": null,
       "tds": null,
@@ -27353,7 +27353,7 @@
     {
       "site": "01115265",
       "state": "ri",
-      "tempC": 1.7,
+      "tempC": 1.8,
       "condu": 84,
       "ph": null,
       "tds": null,
@@ -27365,8 +27365,8 @@
     {
       "site": "01115276",
       "state": "ri",
-      "tempC": 3.2,
-      "condu": 32,
+      "tempC": 3.3,
+      "condu": 31,
       "ph": null,
       "tds": null,
       "do_mgL": null,
@@ -27377,8 +27377,8 @@
     {
       "site": "01115278",
       "state": "ri",
-      "tempC": 3.5,
-      "condu": 163,
+      "tempC": 3.6,
+      "condu": 162,
       "ph": null,
       "tds": null,
       "do_mgL": null,
@@ -27438,12 +27438,12 @@
       "site": "02110550",
       "state": "sc",
       "tempC": 11.2,
-      "condu": 141,
+      "condu": 140,
       "ph": 6.8,
       "tds": null,
       "do_mgL": 8.4,
       "turb_NTU": null,
-      "turb_FNU": 2.4,
+      "turb_FNU": 2.5,
       "tdsEst": 94
     },
     {
@@ -27533,11 +27533,11 @@
     {
       "site": "02110802",
       "state": "sc",
-      "tempC": 12.8,
+      "tempC": 12.7,
       "condu": null,
       "ph": null,
       "tds": null,
-      "do_mgL": 7.7,
+      "do_mgL": 8.2,
       "turb_NTU": null,
       "turb_FNU": null,
       "tdsEst": null
@@ -27678,7 +27678,7 @@
       "site": "02160105",
       "state": "sc",
       "tempC": 6.8,
-      "condu": 120,
+      "condu": 119,
       "ph": 7.4,
       "tds": null,
       "do_mgL": 11.7,
@@ -27881,11 +27881,11 @@
     {
       "site": "02171500",
       "state": "sc",
-      "tempC": 13.3,
-      "condu": 93,
+      "tempC": 13.4,
+      "condu": 92,
       "ph": 7.4,
       "tds": null,
-      "do_mgL": 10,
+      "do_mgL": 10.1,
       "turb_NTU": null,
       "turb_FNU": null,
       "tdsEst": 62
@@ -27929,14 +27929,14 @@
     {
       "site": "02171920",
       "state": "sc",
-      "tempC": 14.8,
-      "condu": 48200,
+      "tempC": 14.9,
+      "condu": 48100,
       "ph": null,
       "tds": null,
-      "do_mgL": 7.2,
+      "do_mgL": 7.4,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 32294
+      "tdsEst": 32227
     },
     {
       "site": "02172002",
@@ -28097,14 +28097,14 @@
     {
       "site": "021720869",
       "state": "sc",
-      "tempC": 13.8,
-      "condu": 28900,
+      "tempC": 13.7,
+      "condu": 25300,
       "ph": null,
       "tds": null,
-      "do_mgL": 7.4,
+      "do_mgL": 7.5,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 19363
+      "tdsEst": 16951
     },
     {
       "site": "021721675",
@@ -28133,14 +28133,14 @@
     {
       "site": "021765795",
       "state": "sc",
-      "tempC": 14.6,
-      "condu": 48500,
+      "tempC": 14.5,
+      "condu": 48300,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 32495
+      "tdsEst": 32361
     },
     {
       "site": "0217689150",
@@ -28157,7 +28157,7 @@
     {
       "site": "02185010",
       "state": "sc",
-      "tempC": 6.1,
+      "tempC": 6.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -28259,13 +28259,13 @@
       "tds": null,
       "do_mgL": 12.1,
       "turb_NTU": null,
-      "turb_FNU": 43.2,
+      "turb_FNU": 46.3,
       "tdsEst": 110
     },
     {
       "site": "03409500",
       "state": "tn",
-      "tempC": 4.3,
+      "tempC": 4.4,
       "condu": 55,
       "ph": null,
       "tds": null,
@@ -28277,7 +28277,7 @@
     {
       "site": "03417500",
       "state": "tn",
-      "tempC": 11.6,
+      "tempC": 11.7,
       "condu": 178,
       "ph": 7.9,
       "tds": null,
@@ -28325,14 +28325,14 @@
     {
       "site": "03430200",
       "state": "tn",
-      "tempC": 12,
-      "condu": 288,
+      "tempC": 11.9,
+      "condu": 308,
       "ph": 8,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 193
+      "tdsEst": 206
     },
     {
       "site": "03431083",
@@ -28373,14 +28373,14 @@
     {
       "site": "03432100",
       "state": "tn",
-      "tempC": 7.7,
-      "condu": 408,
+      "tempC": 7.8,
+      "condu": 409,
       "ph": 7.9,
       "tds": null,
-      "do_mgL": 11.3,
+      "do_mgL": 11.5,
       "turb_NTU": null,
       "turb_FNU": 3.1,
-      "tdsEst": 273
+      "tdsEst": 274
     },
     {
       "site": "0343233905",
@@ -28578,13 +28578,13 @@
       "site": "07311782",
       "state": "tx",
       "tempC": 9.8,
-      "condu": 53600,
+      "condu": 53400,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 35912
+      "tdsEst": 35778
     },
     {
       "site": "07311800",
@@ -28673,26 +28673,26 @@
     {
       "site": "08047050",
       "state": "tx",
-      "tempC": 10.5,
-      "condu": 521,
+      "tempC": 10.6,
+      "condu": 524,
       "ph": 8.1,
       "tds": null,
-      "do_mgL": 9.7,
+      "do_mgL": 9.9,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 349
+      "tdsEst": 351
     },
     {
       "site": "08048000",
       "state": "tx",
-      "tempC": 11.5,
-      "condu": 287,
+      "tempC": 11.4,
+      "condu": 288,
       "ph": 7,
       "tds": null,
-      "do_mgL": 8.8,
+      "do_mgL": 9.1,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 192
+      "tdsEst": 193
     },
     {
       "site": "08049500",
@@ -28721,14 +28721,14 @@
     {
       "site": "08052745",
       "state": "tx",
-      "tempC": 11.9,
-      "condu": 318,
+      "tempC": 12,
+      "condu": 335,
       "ph": 8.2,
       "tds": null,
       "do_mgL": 10.2,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 213
+      "tdsEst": 224
     },
     {
       "site": "08057000",
@@ -28805,7 +28805,7 @@
     {
       "site": "08067100",
       "state": "tx",
-      "tempC": 15,
+      "tempC": 14.9,
       "condu": 363,
       "ph": null,
       "tds": null,
@@ -28854,25 +28854,25 @@
       "site": "08067254",
       "state": "tx",
       "tempC": 14.7,
-      "condu": 806,
+      "condu": 720,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 540
+      "tdsEst": 482
     },
     {
       "site": "08068000",
       "state": "tx",
       "tempC": 12.6,
-      "condu": 199,
+      "condu": 200,
       "ph": 7.3,
       "tds": null,
       "do_mgL": 9.7,
       "turb_NTU": null,
-      "turb_FNU": 82.1,
-      "tdsEst": 133
+      "turb_FNU": 87.6,
+      "tdsEst": 134
     },
     {
       "site": "08068500",
@@ -28890,13 +28890,13 @@
       "site": "08069500",
       "state": "tx",
       "tempC": 13.6,
-      "condu": 170,
-      "ph": 7.6,
+      "condu": 180,
+      "ph": 7.5,
       "tds": null,
-      "do_mgL": 9.8,
+      "do_mgL": 9.7,
       "turb_NTU": null,
-      "turb_FNU": 117,
-      "tdsEst": 114
+      "turb_FNU": 98.8,
+      "tdsEst": 121
     },
     {
       "site": "08070200",
@@ -29106,13 +29106,13 @@
       "site": "08181800",
       "state": "tx",
       "tempC": 21.7,
-      "condu": 1290,
+      "condu": 1300,
       "ph": 8,
       "tds": null,
-      "do_mgL": 7.5,
+      "do_mgL": 7.6,
       "turb_NTU": null,
-      "turb_FNU": 16.3,
-      "tdsEst": 864
+      "turb_FNU": 16.1,
+      "tdsEst": 871
     },
     {
       "site": "08188060",
@@ -29141,7 +29141,7 @@
     {
       "site": "08195000",
       "state": "tx",
-      "tempC": 15.2,
+      "tempC": 15.3,
       "condu": 554,
       "ph": null,
       "tds": null,
@@ -29465,14 +29465,14 @@
     {
       "site": "09180000",
       "state": "ut",
-      "tempC": 1.9,
-      "condu": 1920,
+      "tempC": 2,
+      "condu": 1910,
       "ph": null,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 1286
+      "tdsEst": 1280
     },
     {
       "site": "09180500",
@@ -29567,7 +29567,7 @@
       "tds": null,
       "do_mgL": 11.6,
       "turb_NTU": null,
-      "turb_FNU": 19.3,
+      "turb_FNU": 18.3,
       "tdsEst": 517
     },
     {
@@ -29585,7 +29585,7 @@
     {
       "site": "09328500",
       "state": "ut",
-      "tempC": 0.6,
+      "tempC": 0.7,
       "condu": 2620,
       "ph": null,
       "tds": null,
@@ -29621,13 +29621,13 @@
     {
       "site": "09379500",
       "state": "ut",
-      "tempC": 3.5,
+      "tempC": 3.6,
       "condu": 752,
       "ph": null,
       "tds": null,
       "do_mgL": 11.8,
       "turb_NTU": null,
-      "turb_FNU": 42.5,
+      "turb_FNU": 40.2,
       "tdsEst": 504
     },
     {
@@ -29669,14 +29669,14 @@
     {
       "site": "10129900",
       "state": "ut",
-      "tempC": 6.3,
-      "condu": 2260,
+      "tempC": 5.9,
+      "condu": 2270,
       "ph": 7.9,
       "tds": null,
-      "do_mgL": 9.5,
+      "do_mgL": 9.9,
       "turb_NTU": null,
-      "turb_FNU": 1.4,
-      "tdsEst": 1514
+      "turb_FNU": 1.6,
+      "tdsEst": 1521
     },
     {
       "site": "10133650",
@@ -29741,7 +29741,7 @@
     {
       "site": "10155500",
       "state": "ut",
-      "tempC": 3.6,
+      "tempC": 4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -29825,14 +29825,14 @@
     {
       "site": "0163287828",
       "state": "va",
-      "tempC": 4.3,
-      "condu": 486,
+      "tempC": 4.6,
+      "condu": 485,
       "ph": 8.4,
       "tds": null,
-      "do_mgL": 13.5,
+      "do_mgL": 13.6,
       "turb_NTU": null,
-      "turb_FNU": 2.2,
-      "tdsEst": 326
+      "turb_FNU": 1.4,
+      "tdsEst": 325
     },
     {
       "site": "01632900",
@@ -29921,8 +29921,8 @@
     {
       "site": "0164579522",
       "state": "va",
-      "tempC": 5.1,
-      "condu": 201,
+      "tempC": 5.2,
+      "condu": 202,
       "ph": 6.2,
       "tds": null,
       "do_mgL": 10.8,
@@ -30149,7 +30149,7 @@
     {
       "site": "02012500",
       "state": "va",
-      "tempC": 7.2,
+      "tempC": 7.7,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -30257,13 +30257,13 @@
     {
       "site": "02054550",
       "state": "va",
-      "tempC": 5.4,
-      "condu": 399,
+      "tempC": 5.5,
+      "condu": 398,
       "ph": 8.6,
       "tds": null,
       "do_mgL": 13.9,
       "turb_NTU": null,
-      "turb_FNU": 1.4,
+      "turb_FNU": 1.5,
       "tdsEst": 267
     },
     {
@@ -30317,7 +30317,7 @@
     {
       "site": "02072500",
       "state": "va",
-      "tempC": 7.4,
+      "tempC": 7.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -30341,11 +30341,11 @@
     {
       "site": "02079500",
       "state": "va",
-      "tempC": 12.5,
+      "tempC": 12.4,
       "condu": 108,
       "ph": 7.9,
       "tds": null,
-      "do_mgL": 11,
+      "do_mgL": 10.8,
       "turb_NTU": null,
       "turb_FNU": null,
       "tdsEst": 72
@@ -30413,13 +30413,13 @@
     {
       "site": "03524740",
       "state": "va",
-      "tempC": 4.6,
-      "condu": 338,
+      "tempC": 4.8,
+      "condu": 337,
       "ph": 8.5,
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 3.5,
+      "turb_FNU": 3.4,
       "tdsEst": 226
     },
     {
@@ -30485,7 +30485,7 @@
     {
       "site": "12042800",
       "state": "wa",
-      "tempC": 7.5,
+      "tempC": 7.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -30497,7 +30497,7 @@
     {
       "site": "12043000",
       "state": "wa",
-      "tempC": 8.2,
+      "tempC": 8.3,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -30521,14 +30521,14 @@
     {
       "site": "12056500",
       "state": "wa",
-      "tempC": 6,
-      "condu": 115,
+      "tempC": 6.1,
+      "condu": 117,
       "ph": 6.6,
       "tds": null,
       "do_mgL": 2.1,
       "turb_NTU": null,
-      "turb_FNU": 64.8,
-      "tdsEst": 77
+      "turb_FNU": 64.6,
+      "tdsEst": 78
     },
     {
       "site": "12090400",
@@ -30779,7 +30779,7 @@
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 0.6,
+      "turb_FNU": 0.5,
       "tdsEst": null
     },
     {
@@ -30803,7 +30803,7 @@
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 1.7,
+      "turb_FNU": 1.6,
       "tdsEst": null
     },
     {
@@ -31265,7 +31265,7 @@
     {
       "site": "12212430",
       "state": "wa",
-      "tempC": 8.5,
+      "tempC": 8.6,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -31445,7 +31445,7 @@
     {
       "site": "12462500",
       "state": "wa",
-      "tempC": 4.3,
+      "tempC": 4.4,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -31535,7 +31535,7 @@
       "tds": null,
       "do_mgL": 10.8,
       "turb_NTU": null,
-      "turb_FNU": 1,
+      "turb_FNU": 1.4,
       "tdsEst": 97
     },
     {
@@ -31631,7 +31631,7 @@
       "tds": null,
       "do_mgL": null,
       "turb_NTU": null,
-      "turb_FNU": 8,
+      "turb_FNU": 8.2,
       "tdsEst": null
     },
     {
@@ -31925,7 +31925,7 @@
     {
       "site": "03114500",
       "state": "wv",
-      "tempC": 2.7,
+      "tempC": 2.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -32777,7 +32777,7 @@
     {
       "site": "06036940",
       "state": "wy",
-      "tempC": 15.4,
+      "tempC": 15.2,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -32873,7 +32873,7 @@
     {
       "site": "06285100",
       "state": "wy",
-      "tempC": 1.4,
+      "tempC": 1.5,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -33041,7 +33041,7 @@
     {
       "site": "13011000",
       "state": "wy",
-      "tempC": 4.6,
+      "tempC": 4.8,
       "condu": null,
       "ph": null,
       "tds": null,
@@ -33258,13 +33258,13 @@
       "site": "50048565",
       "state": "pr",
       "tempC": 27,
-      "condu": 395,
-      "ph": 7.3,
+      "condu": 397,
+      "ph": 7.2,
       "tds": null,
-      "do_mgL": 6.1,
+      "do_mgL": 5.9,
       "turb_NTU": null,
       "turb_FNU": null,
-      "tdsEst": 265
+      "tdsEst": 266
     },
     {
       "site": "50048580",
