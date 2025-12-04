@@ -2,8 +2,7 @@ name: USGS Water Cache (daily)
 
 on:
   schedule:
-    # Daily at 13:35 UTC (adjust as desired)
-    - cron: "35 13 * * *"
+    - cron: "35 13 * * *"   # daily 13:35 UTC
   workflow_dispatch:
 
 permissions:
@@ -21,7 +20,7 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch USGS temp/cond/pH/TDS for all states & territories
+      - name: Fetch USGS IV (temp/cond/pH/TDS/DO/Turbidity) and roll up by state
         shell: bash
         run: |
           set -euo pipefail
@@ -30,154 +29,118 @@ jobs:
           node - <<'NODE'
           const fs = require('fs');
 
-          // ------------------------------
-          // Config
-          // ------------------------------
+          // ---- Config
           const STATES = [
             'al','ak','az','ar','ca','co','ct','de','fl','ga','hi','id','il','in','ia','ks','ky','la','me','md','ma','mi','mn','ms','mo','mt','ne','nv','nh','nj','nm','ny','nc','nd','oh','ok','or','pa','ri','sc','sd','tn','tx','ut','vt','va','wa','wv','wi','wy',
             'dc','pr','vi','gu','as','mp'
           ];
-          const BASE   = 'https://waterservices.usgs.gov/nwis/iv/?format=json&siteType=ST&siteStatus=active';
-          // 00010 tempC, 00095 specific conductance, 00400 pH, 70300 TDS (mg/L)
-          const PARAMS = '00010,00095,00400,70300';
-          const sleep  = (ms)=>new Promise(r=>setTimeout(r,ms));
+          const BASE='https://waterservices.usgs.gov/nwis/iv/?format=json&siteType=ST&siteStatus=active';
+          // 00010 tempC, 00095 cond µS/cm, 00400 pH, 70300 TDS mg/L, 00300 DO mg/L, 00076 Turbidity NTU
+          const PARAMS='00010,00095,00400,70300,00300,00076';
+          const sleep = ms => new Promise(r=>setTimeout(r,ms));
+          const CLEAN = v => { const n=Number(v); return Number.isFinite(n) && n>-1000 ? n : null; };
+          const latest = s => { const a=s?.values?.[0]?.value; return (a&&a.length)? Number(a[a.length-1]?.value) : null; };
 
-          // Guard bad sentinels
-          const CLEAN = (v) => {
-            const n = Number(v);
-            return Number.isFinite(n) && n > -1000 ? n : null;
-          };
-
-          const latestValue = (series) => {
-            const arr = series?.values?.[0]?.value;
-            if (!arr || !arr.length) return null;
-            return Number(arr[arr.length - 1]?.value);
-          };
-
-          async function fetchState(st) {
+          async function fetchState(st){
             const url = `${BASE}&parameterCd=${PARAMS}&stateCd=${st}`;
-            for (let attempt = 1; attempt <= 3; attempt++) {
-              try {
-                const res = await fetch(url);
-                if (!res.ok) {
-                  console.warn(`WARN ${st.toUpperCase()}: HTTP ${res.status}`);
-                  if (attempt < 3) { await sleep(500 * attempt); continue; }
-                  return { state: st, items: [] };
+            for(let attempt=1;attempt<=3;attempt++){
+              try{
+                const res=await fetch(url);
+                if(!res.ok){ if(attempt<3){ await sleep(500*attempt); continue; } return {state:st,items:[]}; }
+                const ts=(await res.json())?.value?.timeSeries||[];
+                const bySite=new Map();
+                for(const s of ts){
+                  const site=s?.sourceInfo?.siteCode?.[0]?.value; if(!site) continue;
+                  const code=s?.variable?.variableCode?.[0]?.value;
+                  const rec=bySite.get(site) || { site, state: st, tempC:null, condu:null, ph:null, tds:null, tdsEst:null, do:null, turb:null };
+                  const v=CLEAN(latest(s));
+                  if(code==='00010') rec.tempC=v;
+                  if(code==='00095') rec.condu=v;
+                  if(code==='00400') rec.ph=v;
+                  if(code==='70300') rec.tds=v;
+                  if(code==='00300') rec.do=v;
+                  if(code==='00076') rec.turb=v;
+                  bySite.set(site,rec);
                 }
-                const json = await res.json();
-                const ts = json?.value?.timeSeries || [];
-
-                const bySite = new Map();
-                for (const s of ts) {
-                  const site = s?.sourceInfo?.siteCode?.[0]?.value;
-                  if (!site) continue;
-
-                  const code = s?.variable?.variableCode?.[0]?.value; // '00010','00095','00400','70300'
-                  const rec = bySite.get(site) || { site, state: st, tempC: null, condu: null, ph: null, tds: null, tdsEst: null };
-
-                  const v = latestValue(s);
-                  if (code === '00010') rec.tempC = CLEAN(v);
-                  if (code === '00095') rec.condu = CLEAN(v);
-                  if (code === '00400') rec.ph    = CLEAN(v);
-                  if (code === '70300') rec.tds   = CLEAN(v);
-
-                  bySite.set(site, rec);
-                }
-
-                // Fill TDS estimate if no measured TDS but have conductance
-                for (const rec of bySite.values()) {
-                  if ((rec.tds == null) && (rec.condu != null)) {
-                    rec.tdsEst = Math.round(rec.condu * 0.67);
-                  }
-                }
-
-                return { state: st, items: Array.from(bySite.values()) };
-              } catch (e) {
-                console.warn(`WARN ${st.toUpperCase()}: ${e.message}`);
-                if (attempt < 3) { await sleep(500 * attempt); continue; }
-                return { state: st, items: [] };
+                // TDS estimate if needed
+                for(const r of bySite.values()){ if(r.tds==null && r.condu!=null) r.tdsEst=Math.round(r.condu*0.67); }
+                return { state:st, items:[...bySite.values()] };
+              }catch(e){
+                if(attempt<3){ await sleep(500*attempt); continue; }
+                return { state:st, items:[] };
               }
             }
           }
 
-          const median = (arr) => {
-            const xs = arr.filter(v => v !== null);
-            if (!xs.length) return null;
+          const median = arr => {
+            const xs = arr.filter(v=>v!=null);
+            if(!xs.length) return null;
             xs.sort((a,b)=>a-b);
-            const m = Math.floor(xs.length/2);
-            const val = xs.length % 2 ? xs[m] : (xs[m-1] + xs[m]) / 2;
+            const m=Math.floor(xs.length/2);
+            const val = xs.length%2 ? xs[m] : (xs[m-1]+xs[m])/2;
             return +Number(val).toFixed(1);
           };
 
-          (async () => {
-            const all = [];
-            for (const st of STATES) {
-              const r = await fetchState(st);
-              all.push(...r.items);
-              await sleep(700); // gentle pacing
-            }
+          (async()=>{
+            const all=[];
+            for(const st of STATES){ const r=await fetchState(st); all.push(...r.items); await sleep(700); }
 
-            const stamp = new Date().toISOString();
-            const out = { updatedAt: stamp, count: all.length, items: all };
+            const stamp=new Date().toISOString();
+            const out={updatedAt:stamp,count:all.length,items:all};
 
-            // Guard vs previous run: require >= 75% of prior count
-            try {
-              const prev = JSON.parse(fs.readFileSync('data/usgs-latest.json','utf8'));
-              const prevCount = prev?.count;
-              if (prevCount && out.count < Math.floor(prevCount * 0.75)) {
-                throw new Error(`Guard: new count ${out.count} < 75% of previous ${prevCount}`);
-              }
-            } catch {}
+            // Guard vs previous
+            try{
+              const prev=JSON.parse(fs.readFileSync('data/usgs-latest.json','utf8'));
+              const prevCount=prev?.count;
+              if(prevCount && out.count < Math.floor(prevCount*0.75)) throw new Error("Guard trip on low count");
+            }catch{}
 
-            // Aggregate by 2-letter state
-            const groups = new Map();
-            for (const it of all) {
-              const key = it.state.toUpperCase();
-              const g = groups.get(key) || { count: 0, temps: [], conds: [], phs: [], tdses: [] };
+            // Group by state
+            const groups=new Map();
+            for(const it of all){
+              const key=it.state.toUpperCase();
+              const g=groups.get(key)||{count:0,temps:[],conds:[],phs:[],tdses:[],dos:[],turbs:[]};
               g.count++;
-              if (Number.isFinite(it.tempC)) g.temps.push(it.tempC);
-              if (Number.isFinite(it.condu)) g.conds.push(it.condu);
-              if (Number.isFinite(it.ph))    g.phs.push(it.ph);
-              // prefer measured TDS, else estimated
-              const tdsInput = Number.isFinite(it.tds) ? it.tds
-                              : (Number.isFinite(it.tdsEst) ? it.tdsEst : null);
-              if (tdsInput != null) g.tdses.push(tdsInput);
-              groups.set(key, g);
+              if(Number.isFinite(it.tempC)) g.temps.push(it.tempC);
+              if(Number.isFinite(it.condu)) g.conds.push(it.condu);
+              if(Number.isFinite(it.ph))    g.phs.push(it.ph);
+              const tdsIn = Number.isFinite(it.tds) ? it.tds : (Number.isFinite(it.tdsEst)?it.tdsEst:null);
+              if(tdsIn!=null) g.tdses.push(tdsIn);
+              if(Number.isFinite(it.do))    g.dos.push(it.do);
+              if(Number.isFinite(it.turb))  g.turbs.push(it.turb);
+              groups.set(key,g);
             }
 
-            const stateRows = [];
-            for (const [st, g] of [...groups.entries()].sort((a,b)=>a[0].localeCompare(b[0]))) {
-              stateRows.push({
-                state: st,
-                sites: g.count,
+            const rows=[];
+            for(const [st,g] of [...groups.entries()].sort((a,b)=>a[0].localeCompare(b[0]))){
+              rows.push({
+                state:st,
+                sites:g.count,
                 medianTempC:     median(g.temps),
-                medianCond_uScm: (median(g.conds) === null ? null : Math.round(median(g.conds))),
-                medianPH:        (median(g.phs)   === null ? null : +median(g.phs).toFixed(2)),
-                medianTDS_mgL:   (median(g.tdses) === null ? null : Math.round(median(g.tdses)))
+                medianCond_uScm: (median(g.conds)===null?null:Math.round(median(g.conds))),
+                medianPH:        (median(g.phs)  ===null?null:+median(g.phs).toFixed(2)),
+                medianTDS_mgL:   (median(g.tdses)===null?null:Math.round(median(g.tdses))),
+                medianDO_mgL:    median(g.dos),
+                medianTurb_NTU:  (median(g.turbs)===null?null:+Number(median(g.turbs)).toFixed(1))
               });
             }
 
-            // Write files
-            fs.writeFileSync('data/usgs-latest.json', JSON.stringify(out,  null, 2));
-            fs.writeFileSync('data/state-summary.json', JSON.stringify({ updatedAt: stamp, states: stateRows }, null, 2));
-            fs.writeFileSync('data/health.json',       JSON.stringify({ updatedAt: stamp }, null, 2));
+            fs.writeFileSync('data/usgs-latest.json', JSON.stringify(out,null,2));
+            fs.writeFileSync('data/state-summary.json', JSON.stringify({updatedAt:stamp,states:rows},null,2));
+            fs.writeFileSync('data/health.json', JSON.stringify({updatedAt:stamp},null,2));
 
-            // Step summary table
-            const dash = [];
-            const fmt = (x)=> (x === null ? '—' : String(x));
-            dash.push(`# USGS Cache Summary\n`);
+            const fmt=x=>x===null?'—':String(x);
+            const dash=[];
+            dash.push(`# USGS Cache Summary`);
             dash.push(`Updated: ${stamp}`);
             dash.push(`Total sites: ${out.count}\n`);
-            dash.push(`| State | Sites | Median °C | Median µS/cm | Median pH | Median TDS mg/L |`);
-            dash.push(`|:-----:|-----:|----------:|-------------:|---------:|----------------:|`);
-            for (const r of stateRows) {
-              dash.push(`| ${r.state} | ${r.sites} | ${fmt(r.medianTempC)} | ${fmt(r.medianCond_uScm)} | ${fmt(r.medianPH)} | ${fmt(r.medianTDS_mgL)} |`);
-            }
-            if (process.env.GITHUB_STEP_SUMMARY) {
-              fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, dash.join('\n') + '\n');
-            }
+            dash.push(`| State | Sites | °C | µS/cm | pH | TDS mg/L | DO mg/L | Turb NTU |`);
+            dash.push(`|:----:|-----:|---:|-----:|--:|--------:|-------:|--------:|`);
+            for(const r of rows){ dash.push(`| ${r.state} | ${r.sites} | ${fmt(r.medianTempC)} | ${fmt(r.medianCond_uScm)} | ${fmt(r.medianPH)} | ${fmt(r.medianTDS_mgL)} | ${fmt(r.medianDO_mgL)} | ${fmt(r.medianTurb_NTU)} |`); }
+            if(process.env.GITHUB_STEP_SUMMARY) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,dash.join('\n')+'\n');
+
             console.log(`Wrote ${out.count} sites at ${stamp}`);
-          })().catch(e => { console.error(e); process.exit(1); });
+          })().catch(e=>{ console.error(e); process.exit(1); });
           NODE
 
       - name: Show summary
