@@ -1,71 +1,71 @@
 {
-  "updatedAt": "2025-12-09T13:56:31.063Z",
+  "updatedAt": "2025-12-10T13:58:04.208Z",
   "states": [
     {
       "state": "AK",
       "sites": 69,
       "medianTempC": 0.2,
       "medianCond_uScm": 180,
-      "medianPH": 7.6,
+      "medianPH": 7.5,
       "medianTDS_mgL": 121,
-      "medianDO_mgL": 13.8,
+      "medianDO_mgL": 13.6,
       "medianTurb_NTU": null,
       "medianTurb_FNU": 30
     },
     {
       "state": "AL",
       "sites": 35,
-      "medianTempC": 10.4,
-      "medianCond_uScm": 327,
+      "medianTempC": 9.9,
+      "medianCond_uScm": 338,
       "medianPH": 7.8,
-      "medianTDS_mgL": 219,
+      "medianTDS_mgL": 226,
       "medianDO_mgL": 9.4,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 1.1
+      "medianTurb_FNU": 1.3
     },
     {
       "state": "AR",
       "sites": 40,
-      "medianTempC": 6.4,
-      "medianCond_uScm": 231,
+      "medianTempC": 7.2,
+      "medianCond_uScm": 227,
       "medianPH": 6.8,
-      "medianTDS_mgL": 155,
-      "medianDO_mgL": 8.5,
+      "medianTDS_mgL": 152,
+      "medianDO_mgL": 9.4,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 2.9
+      "medianTurb_FNU": 6.6
     },
     {
       "state": "AZ",
       "sites": 21,
-      "medianTempC": 12.8,
-      "medianCond_uScm": 1630,
+      "medianTempC": 12.6,
+      "medianCond_uScm": 1680,
       "medianPH": 8.1,
-      "medianTDS_mgL": 1092,
-      "medianDO_mgL": 9.6,
+      "medianTDS_mgL": 1126,
+      "medianDO_mgL": 9.7,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 0.7
+      "medianTurb_FNU": 0.4
     },
     {
       "state": "CA",
       "sites": 165,
       "medianTempC": 11.1,
-      "medianCond_uScm": 283,
+      "medianCond_uScm": 275,
       "medianPH": 7.8,
-      "medianTDS_mgL": 189,
+      "medianTDS_mgL": 184,
       "medianDO_mgL": 8.6,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 5.2
+      "medianTurb_FNU": 4.6
     },
     {
       "state": "CO",
       "sites": 166,
-      "medianTempC": 3.5,
-      "medianCond_uScm": 797,
+      "medianTempC": 3.7,
+      "medianCond_uScm": 805,
       "medianPH": 8.3,
-      "medianTDS_mgL": 534,
+      "medianTDS_mgL": 539,
       "medianDO_mgL": 9.9,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 6.3
+      "medianTurb_FNU": 7
     },
     {
       "state": "CT",
@@ -76,62 +76,62 @@
       "medianTDS_mgL": 173,
       "medianDO_mgL": 9.7,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 2.3
+      "medianTurb_FNU": 2
     },
     {
       "state": "DC",
       "sites": 6,
-      "medianTempC": 4,
-      "medianCond_uScm": 444,
+      "medianTempC": 3.5,
+      "medianCond_uScm": 496,
       "medianPH": 7.5,
-      "medianTDS_mgL": 297,
-      "medianDO_mgL": 9.9,
+      "medianTDS_mgL": 332,
+      "medianDO_mgL": 10.1,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 4.8
+      "medianTurb_FNU": 5.8
     },
     {
       "state": "DE",
       "sites": 22,
-      "medianTempC": 2.3,
+      "medianTempC": 3,
       "medianCond_uScm": 432,
       "medianPH": 7.2,
       "medianTDS_mgL": 289,
       "medianDO_mgL": 11.2,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 2.6
+      "medianTurb_FNU": 1.9
     },
     {
       "state": "FL",
-      "sites": 167,
+      "sites": 166,
       "medianTempC": 21.5,
-      "medianCond_uScm": 712,
-      "medianPH": 7.7,
-      "medianTDS_mgL": 477,
+      "medianCond_uScm": 735,
+      "medianPH": 7.8,
+      "medianTDS_mgL": 493,
       "medianDO_mgL": 5.9,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 4.2
+      "medianTurb_FNU": 4.8
     },
     {
       "state": "GA",
       "sites": 123,
-      "medianTempC": 8.8,
-      "medianCond_uScm": 103,
+      "medianTempC": 9.1,
+      "medianCond_uScm": 105,
       "medianPH": 7.2,
-      "medianTDS_mgL": 69,
+      "medianTDS_mgL": 70,
       "medianDO_mgL": 10.7,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 5.3
+      "medianTurb_FNU": 4.8
     },
     {
       "state": "HI",
       "sites": 16,
-      "medianTempC": 19.8,
+      "medianTempC": 19.5,
       "medianCond_uScm": null,
       "medianPH": null,
       "medianTDS_mgL": null,
       "medianDO_mgL": null,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 2
+      "medianTurb_FNU": 2.6
     },
     {
       "state": "IA",
@@ -147,10 +147,10 @@
     {
       "state": "ID",
       "sites": 49,
-      "medianTempC": 9.1,
-      "medianCond_uScm": 127,
+      "medianTempC": 9.4,
+      "medianCond_uScm": 122,
       "medianPH": 8,
-      "medianTDS_mgL": 85,
+      "medianTDS_mgL": 82,
       "medianDO_mgL": 9.5,
       "medianTurb_NTU": null,
       "medianTurb_FNU": 5.3
@@ -159,64 +159,64 @@
       "state": "IL",
       "sites": 72,
       "medianTempC": 17.5,
-      "medianCond_uScm": 709,
-      "medianPH": 8,
-      "medianTDS_mgL": 475,
-      "medianDO_mgL": 10.6,
+      "medianCond_uScm": 729,
+      "medianPH": 8.1,
+      "medianTDS_mgL": 488,
+      "medianDO_mgL": 10.9,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 6.9
+      "medianTurb_FNU": 7.6
     },
     {
       "state": "IN",
       "sites": 46,
-      "medianTempC": 2.9,
-      "medianCond_uScm": 691,
+      "medianTempC": 4.2,
+      "medianCond_uScm": 685,
       "medianPH": 8,
-      "medianTDS_mgL": 463,
-      "medianDO_mgL": 12.1,
+      "medianTDS_mgL": 459,
+      "medianDO_mgL": 11.4,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 8.1
+      "medianTurb_FNU": 8.3
     },
     {
       "state": "KS",
       "sites": 36,
-      "medianTempC": 3.6,
-      "medianCond_uScm": 847,
+      "medianTempC": 4.6,
+      "medianCond_uScm": 851,
       "medianPH": 8.2,
-      "medianTDS_mgL": 567,
-      "medianDO_mgL": 12.1,
+      "medianTDS_mgL": 570,
+      "medianDO_mgL": 11.8,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 10.5
+      "medianTurb_FNU": 12.3
     },
     {
       "state": "KY",
       "sites": 57,
-      "medianTempC": 5.3,
-      "medianCond_uScm": 687,
+      "medianTempC": 6.6,
+      "medianCond_uScm": 666,
       "medianPH": 8,
-      "medianTDS_mgL": 460,
-      "medianDO_mgL": 10.8,
+      "medianTDS_mgL": 447,
+      "medianDO_mgL": 10.2,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 4.5
+      "medianTurb_FNU": 4.8
     },
     {
       "state": "LA",
       "sites": 22,
-      "medianTempC": 13.6,
-      "medianCond_uScm": 1265,
-      "medianPH": 7.9,
-      "medianTDS_mgL": 848,
-      "medianDO_mgL": 6.6,
+      "medianTempC": 13.2,
+      "medianCond_uScm": 1280,
+      "medianPH": 7.8,
+      "medianTDS_mgL": 858,
+      "medianDO_mgL": 5.7,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 77.8
+      "medianTurb_FNU": 68
     },
     {
       "state": "MA",
       "sites": 21,
-      "medianTempC": 0.4,
-      "medianCond_uScm": 694,
+      "medianTempC": 1.9,
+      "medianCond_uScm": 702,
       "medianPH": 7.1,
-      "medianTDS_mgL": 465,
+      "medianTDS_mgL": 470,
       "medianDO_mgL": 11.6,
       "medianTurb_NTU": null,
       "medianTurb_FNU": 1.9
@@ -224,21 +224,21 @@
     {
       "state": "MD",
       "sites": 33,
-      "medianTempC": 3.8,
+      "medianTempC": 3.3,
       "medianCond_uScm": 406,
       "medianPH": 7.8,
       "medianTDS_mgL": 272,
-      "medianDO_mgL": 13.1,
+      "medianDO_mgL": 13.3,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 1.8
+      "medianTurb_FNU": 2
     },
     {
       "state": "ME",
       "sites": 10,
       "medianTempC": 6.9,
-      "medianCond_uScm": 60,
+      "medianCond_uScm": 64,
       "medianPH": 7.9,
-      "medianTDS_mgL": 40,
+      "medianTDS_mgL": 43,
       "medianDO_mgL": 13.2,
       "medianTurb_NTU": null,
       "medianTurb_FNU": 0
@@ -246,40 +246,40 @@
     {
       "state": "MI",
       "sites": 52,
-      "medianTempC": 0.4,
+      "medianTempC": 0.8,
       "medianCond_uScm": 736,
       "medianPH": 8,
       "medianTDS_mgL": 493,
-      "medianDO_mgL": 13.1,
+      "medianDO_mgL": 12.8,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 5
+      "medianTurb_FNU": 4.8
     },
     {
       "state": "MN",
       "sites": 16,
       "medianTempC": 0.2,
-      "medianCond_uScm": 725,
-      "medianPH": 8.2,
-      "medianTDS_mgL": 486,
-      "medianDO_mgL": 13.4,
+      "medianCond_uScm": 724,
+      "medianPH": 8.1,
+      "medianTDS_mgL": 485,
+      "medianDO_mgL": 13.1,
       "medianTurb_NTU": null,
       "medianTurb_FNU": 15.5
     },
     {
       "state": "MO",
       "sites": 32,
-      "medianTempC": 4.7,
+      "medianTempC": 4.9,
       "medianCond_uScm": 799,
       "medianPH": 7.9,
       "medianTDS_mgL": 536,
-      "medianDO_mgL": 12.6,
+      "medianDO_mgL": 12.5,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 9.7
+      "medianTurb_FNU": 6.2
     },
     {
       "state": "MS",
       "sites": 14,
-      "medianTempC": 11.2,
+      "medianTempC": 10.7,
       "medianCond_uScm": 608,
       "medianPH": 6.9,
       "medianTDS_mgL": 407,
@@ -290,7 +290,7 @@
     {
       "state": "MT",
       "sites": 92,
-      "medianTempC": 4.2,
+      "medianTempC": 4,
       "medianCond_uScm": 540,
       "medianPH": 8.3,
       "medianTDS_mgL": 362,
@@ -301,13 +301,13 @@
     {
       "state": "NC",
       "sites": 34,
-      "medianTempC": 5.2,
-      "medianCond_uScm": 67,
+      "medianTempC": 4.6,
+      "medianCond_uScm": 70,
       "medianPH": 7,
-      "medianTDS_mgL": 45,
-      "medianDO_mgL": 10.1,
+      "medianTDS_mgL": 47,
+      "medianDO_mgL": 10.6,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 3.5
+      "medianTurb_FNU": 4.2
     },
     {
       "state": "ND",
@@ -318,12 +318,12 @@
       "medianTDS_mgL": 992,
       "medianDO_mgL": 10.7,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 6.7
+      "medianTurb_FNU": 6.5
     },
     {
       "state": "NE",
       "sites": 20,
-      "medianTempC": 6.7,
+      "medianTempC": 7,
       "medianCond_uScm": 429,
       "medianPH": 8.4,
       "medianTDS_mgL": 287,
@@ -334,7 +334,7 @@
     {
       "state": "NH",
       "sites": 10,
-      "medianTempC": 0.1,
+      "medianTempC": 0.2,
       "medianCond_uScm": null,
       "medianPH": null,
       "medianTDS_mgL": null,
@@ -345,87 +345,87 @@
     {
       "state": "NJ",
       "sites": 51,
-      "medianTempC": 2.5,
-      "medianCond_uScm": 260,
-      "medianPH": 7.9,
+      "medianTempC": 3,
+      "medianCond_uScm": 259,
+      "medianPH": 7.8,
       "medianTDS_mgL": 174,
-      "medianDO_mgL": 13.1,
+      "medianDO_mgL": 13,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 3.1
+      "medianTurb_FNU": 3.2
     },
     {
       "state": "NM",
       "sites": 28,
-      "medianTempC": 4.1,
+      "medianTempC": 4.4,
       "medianCond_uScm": 784,
-      "medianPH": 8.3,
+      "medianPH": 8.1,
       "medianTDS_mgL": 525,
-      "medianDO_mgL": 10.3,
+      "medianDO_mgL": 10,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 8.7
+      "medianTurb_FNU": 23.9
     },
     {
       "state": "NV",
       "sites": 17,
-      "medianTempC": 4.4,
-      "medianCond_uScm": 308,
+      "medianTempC": 4.9,
+      "medianCond_uScm": 305,
       "medianPH": 8,
-      "medianTDS_mgL": 206,
+      "medianTDS_mgL": 204,
       "medianDO_mgL": 10.7,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 2.6
+      "medianTurb_FNU": 2.5
     },
     {
       "state": "NY",
       "sites": 111,
-      "medianTempC": 0.3,
-      "medianCond_uScm": 302,
+      "medianTempC": 0.7,
+      "medianCond_uScm": 300,
       "medianPH": 8,
-      "medianTDS_mgL": 202,
-      "medianDO_mgL": 13.9,
+      "medianTDS_mgL": 201,
+      "medianDO_mgL": 13.4,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 2.3
+      "medianTurb_FNU": 2.1
     },
     {
       "state": "OH",
       "sites": 61,
-      "medianTempC": 0.7,
+      "medianTempC": 1.8,
       "medianCond_uScm": 711,
       "medianPH": 8.2,
       "medianTDS_mgL": 477,
-      "medianDO_mgL": 12,
+      "medianDO_mgL": 11.4,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 3.5
+      "medianTurb_FNU": 4
     },
     {
       "state": "OK",
       "sites": 25,
-      "medianTempC": 10.8,
+      "medianTempC": 10.9,
       "medianCond_uScm": 1210,
-      "medianPH": 7.8,
+      "medianPH": 7.7,
       "medianTDS_mgL": 811,
-      "medianDO_mgL": 10.2,
+      "medianDO_mgL": 10.1,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 2.2
+      "medianTurb_FNU": 1.6
     },
     {
       "state": "OR",
       "sites": 307,
-      "medianTempC": 8.9,
-      "medianCond_uScm": 67,
-      "medianPH": 7.4,
-      "medianTDS_mgL": 45,
-      "medianDO_mgL": 11,
+      "medianTempC": 9.2,
+      "medianCond_uScm": 73,
+      "medianPH": 7.3,
+      "medianTDS_mgL": 49,
+      "medianDO_mgL": 10.9,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 7.3
+      "medianTurb_FNU": 7.6
     },
     {
       "state": "PA",
       "sites": 151,
-      "medianTempC": 0.6,
-      "medianCond_uScm": 391,
+      "medianTempC": 1.3,
+      "medianCond_uScm": 369,
       "medianPH": 7.6,
-      "medianTDS_mgL": 262,
+      "medianTDS_mgL": 247,
       "medianDO_mgL": 11.7,
       "medianTurb_NTU": null,
       "medianTurb_FNU": 2.2
@@ -433,21 +433,21 @@
     {
       "state": "PR",
       "sites": 2,
-      "medianTempC": 27.1,
-      "medianCond_uScm": 553,
-      "medianPH": 7.1,
-      "medianTDS_mgL": 370,
-      "medianDO_mgL": 3.3,
+      "medianTempC": 26.9,
+      "medianCond_uScm": 565,
+      "medianPH": 7.2,
+      "medianTDS_mgL": 378,
+      "medianDO_mgL": 3.4,
       "medianTurb_NTU": null,
       "medianTurb_FNU": null
     },
     {
       "state": "RI",
       "sites": 14,
-      "medianTempC": 0,
-      "medianCond_uScm": 113,
+      "medianTempC": 0.9,
+      "medianCond_uScm": 112,
       "medianPH": null,
-      "medianTDS_mgL": 76,
+      "medianTDS_mgL": 75,
       "medianDO_mgL": null,
       "medianTurb_NTU": null,
       "medianTurb_FNU": null
@@ -455,13 +455,13 @@
     {
       "state": "SC",
       "sites": 67,
-      "medianTempC": 10.9,
-      "medianCond_uScm": 206,
+      "medianTempC": 9.9,
+      "medianCond_uScm": 197,
       "medianPH": 7.4,
-      "medianTDS_mgL": 138,
+      "medianTDS_mgL": 132,
       "medianDO_mgL": 9.2,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 4.5
+      "medianTurb_FNU": 4.2
     },
     {
       "state": "SD",
@@ -477,54 +477,54 @@
     {
       "state": "TN",
       "sites": 26,
-      "medianTempC": 7.2,
-      "medianCond_uScm": 263,
+      "medianTempC": 7.6,
+      "medianCond_uScm": 262,
       "medianPH": 8,
       "medianTDS_mgL": 176,
-      "medianDO_mgL": 11,
+      "medianDO_mgL": 10.9,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 6.6
+      "medianTurb_FNU": 6.7
     },
     {
       "state": "TX",
       "sites": 75,
-      "medianTempC": 13.4,
-      "medianCond_uScm": 957,
+      "medianTempC": 13.2,
+      "medianCond_uScm": 908,
       "medianPH": 8,
-      "medianTDS_mgL": 641,
+      "medianTDS_mgL": 608,
       "medianDO_mgL": 9.3,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 21
+      "medianTurb_FNU": 20
     },
     {
       "state": "UT",
       "sites": 26,
-      "medianTempC": 2.8,
-      "medianCond_uScm": 1250,
+      "medianTempC": 4.3,
+      "medianCond_uScm": 1260,
       "medianPH": 8.3,
-      "medianTDS_mgL": 838,
-      "medianDO_mgL": 11.1,
+      "medianTDS_mgL": 844,
+      "medianDO_mgL": 10.7,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 8.7
+      "medianTurb_FNU": 9.4
     },
     {
       "state": "VA",
       "sites": 51,
-      "medianTempC": 2.7,
-      "medianCond_uScm": 365,
+      "medianTempC": 2.5,
+      "medianCond_uScm": 370,
       "medianPH": 7.6,
-      "medianTDS_mgL": 245,
+      "medianTDS_mgL": 248,
       "medianDO_mgL": 13.1,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 2.2
+      "medianTurb_FNU": 2.1
     },
     {
       "state": "VT",
       "sites": 3,
-      "medianTempC": 0.1,
-      "medianCond_uScm": 126,
+      "medianTempC": 0.2,
+      "medianCond_uScm": 108,
       "medianPH": null,
-      "medianTDS_mgL": 84,
+      "medianTDS_mgL": 72,
       "medianDO_mgL": null,
       "medianTurb_NTU": null,
       "medianTurb_FNU": 0.3
@@ -532,40 +532,40 @@
     {
       "state": "WA",
       "sites": 106,
-      "medianTempC": 7.3,
-      "medianCond_uScm": 130,
+      "medianTempC": 7.5,
+      "medianCond_uScm": 143,
       "medianPH": 7.5,
-      "medianTDS_mgL": 87,
-      "medianDO_mgL": 11.4,
+      "medianTDS_mgL": 96,
+      "medianDO_mgL": 11.5,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 16.1
+      "medianTurb_FNU": 22.5
     },
     {
       "state": "WI",
       "sites": 52,
-      "medianTempC": 2.2,
-      "medianCond_uScm": 637,
+      "medianTempC": 2.3,
+      "medianCond_uScm": 546,
       "medianPH": 8.1,
-      "medianTDS_mgL": 427,
-      "medianDO_mgL": 11.5,
+      "medianTDS_mgL": 366,
+      "medianDO_mgL": 11.2,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 7.6
+      "medianTurb_FNU": 7.7
     },
     {
       "state": "WV",
       "sites": 36,
-      "medianTempC": 2.8,
-      "medianCond_uScm": 154,
-      "medianPH": 7.6,
-      "medianTDS_mgL": 103,
+      "medianTempC": 2.9,
+      "medianCond_uScm": 158,
+      "medianPH": 7.7,
+      "medianTDS_mgL": 106,
       "medianDO_mgL": 12.9,
       "medianTurb_NTU": null,
-      "medianTurb_FNU": 3.1
+      "medianTurb_FNU": 3
     },
     {
       "state": "WY",
       "sites": 36,
-      "medianTempC": 3.5,
+      "medianTempC": 3.8,
       "medianCond_uScm": 641,
       "medianPH": 8.2,
       "medianTDS_mgL": 429,
