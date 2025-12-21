@@ -38,8 +38,9 @@ jobs:
           const PARAMS = '00010,00095,00400,70300,00300,00076,63680';
           const sleep  = (ms)=>new Promise(r=>setTimeout(r,ms));
 
-          const MAX_AGE_DAYS = 30;
-          const MS_PER_DAY   = 24 * 60 * 60 * 1000;
+          const MAX_AGE_DAYS     = 30;
+          const MS_PER_DAY       = 24 * 60 * 60 * 1000;
+          const LOW_STREAK_LIMIT = 3;  // how many consecutive low-count days we tolerate
 
           const CLEAN = (v) => {
             const n = Number(v);
@@ -174,13 +175,13 @@ jobs:
                 };
 
                 g.count++;
-                if (Number.isFinite(it.tempC))     g.temps.push(it.tempC);
-                if (Number.isFinite(it.condu))     g.conds.push(it.condu);
-                if (Number.isFinite(it.ph))        g.phs.push(it.ph);
-                if (Number.isFinite(tdsInput))     g.tdses.push(tdsInput);
-                if (Number.isFinite(it.do_mgL))    g.dos.push(it.do_mgL);
-                if (Number.isFinite(it.turb_NTU))  g.turbsNTU.push(it.turb_NTU);
-                if (Number.isFinite(it.turb_FNU))  g.turbsFNU.push(it.turb_FNU);
+                if (Number.isFinite(it.tempC))    g.temps.push(it.tempC);
+                if (Number.isFinite(it.condu))    g.conds.push(it.condu);
+                if (Number.isFinite(it.ph))       g.phs.push(it.ph);
+                if (Number.isFinite(tdsInput))    g.tdses.push(tdsInput);
+                if (Number.isFinite(it.do_mgL))   g.dos.push(it.do_mgL);
+                if (Number.isFinite(it.turb_NTU)) g.turbsNTU.push(it.turb_NTU);
+                if (Number.isFinite(it.turb_FNU)) g.turbsFNU.push(it.turb_FNU);
 
                 groups.set(key, g);
               }
@@ -188,16 +189,54 @@ jobs:
               await sleep(700);
             }
 
-            const stamp = new Date().toISOString();
-            const out = { updatedAt: stamp, count: all.length, items: all };
+            const stamp    = new Date().toISOString();
+            const newCount = all.length;
 
+            // Load previous accepted snapshot
+            let prevCount = null;
             try {
               const prev = JSON.parse(fs.readFileSync('data/usgs-latest.json','utf8'));
-              const prevCount = prev?.count;
-              if (prevCount && out.count < Math.floor(prevCount * 0.75)) {
-                throw new Error(`Guard: new count ${out.count} < 75% of previous ${prevCount}`);
-              }
+              prevCount = prev?.count ?? null;
             } catch {}
+
+            // Load previous health (for low-count streak tracking)
+            let lowStreak = 0;
+            try {
+              const prevHealth = JSON.parse(fs.readFileSync('data/health.json','utf8'));
+              lowStreak = prevHealth?.lowStreak ?? 0;
+            } catch {}
+
+            const out = { updatedAt: stamp, count: newCount, items: all };
+
+            // Guard with streak: short bad runs keep old snapshot,
+            // long bad runs become the new baseline.
+            if (prevCount && newCount < Math.floor(prevCount * 0.75)) {
+              const nextStreak = (lowStreak || 0) + 1;
+              console.warn(
+                `Guard: new count ${newCount} < 75% of previous ${prevCount} (streak ${nextStreak})`
+              );
+
+              if (nextStreak < LOW_STREAK_LIMIT) {
+                fs.writeFileSync(
+                  'data/health.json',
+                  JSON.stringify(
+                    {
+                      updatedAt: stamp,
+                      prevAcceptedCount: prevCount,
+                      lastAttemptCount: newCount,
+                      lowStreak: nextStreak
+                    },
+                    null,
+                    2
+                  )
+                );
+                console.log('Keeping previous cache snapshot due to guard.');
+                process.exit(0);
+              }
+
+              // After LOW_STREAK_LIMIT consecutive low days, accept new baseline
+              lowStreak = 0;
+            }
 
             const stateRows = [];
             for (const [st, g] of [...groups.entries()].sort((a,b)=>a[0].localeCompare(b[0]))) {
@@ -222,25 +261,53 @@ jobs:
               });
             }
 
+            // Write accepted snapshot + metadata
             fs.writeFileSync('data/usgs-latest.json', JSON.stringify(out,  null, 2));
-            fs.writeFileSync('data/state-summary.json', JSON.stringify({ updatedAt: stamp, states: stateRows }, null, 2));
-            fs.writeFileSync('data/health.json',       JSON.stringify({ updatedAt: stamp }, null, 2));
+            fs.writeFileSync(
+              'data/state-summary.json',
+              JSON.stringify(
+                {
+                  updatedAt: stamp,
+                  maxAgeDays: MAX_AGE_DAYS,
+                  states: stateRows
+                },
+                null,
+                2
+              )
+            );
+            fs.writeFileSync(
+              'data/health.json',
+              JSON.stringify(
+                {
+                  updatedAt: stamp,
+                  prevAcceptedCount: newCount,
+                  lastAttemptCount: newCount,
+                  lowStreak
+                },
+                null,
+                2
+              )
+            );
 
             const dash = [];
             const fmt = (x)=> (x === null ? '—' : String(x));
             dash.push(`# USGS Cache Summary\n`);
             dash.push(`Updated: ${stamp}`);
-            dash.push(`Total recent sites: ${out.count}\n`);
-            dash.push(`(Only sites whose last reading is within ${MAX_AGE_DAYS} days are included.)\n`);
+            dash.push(`Total recent sites: ${newCount}\n`);
+            dash.push(
+              `(Only sites whose last reading is within ${MAX_AGE_DAYS} days are included.)\n`
+            );
             dash.push(`| State | Sites | °C | µS/cm | pH | TDS mg/L | DO mg/L | Turb (NTU) |`);
             dash.push(`|:-----:|-----:|---:|------:|--:|---------:|--------:|-----------:|`);
             for (const r of stateRows) {
-              dash.push(`| ${r.state} | ${r.sites} | ${fmt(r.medianTempC)} | ${fmt(r.medianCond_uScm)} | ${fmt(r.medianPH)} | ${fmt(r.medianTDS_mgL)} | ${fmt(r.medianDO_mgL)} | ${fmt(r.medianTurb_NTU ?? r.medianTurb_FNU)} |`);
+              dash.push(
+                `| ${r.state} | ${r.sites} | ${fmt(r.medianTempC)} | ${fmt(r.medianCond_uScm)} | ${fmt(r.medianPH)} | ${fmt(r.medianTDS_mgL)} | ${fmt(r.medianDO_mgL)} | ${fmt(r.medianTurb_NTU ?? r.medianTurb_FNU)} |`
+              );
             }
             if (process.env.GITHUB_STEP_SUMMARY) {
               fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, dash.join('\n') + '\n');
             }
-            console.log(`Wrote ${out.count} recent sites at ${stamp}`);
+            console.log(`Wrote ${newCount} recent sites at ${stamp}`);
           })().catch(e => { console.error(e); process.exit(1); });
           NODE
 
