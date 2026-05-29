@@ -2,7 +2,8 @@ name: USGS Water Cache (daily)
 
 on:
   schedule:
-    - cron: "35 13 * * *"   # daily 13:35 UTC
+    - cron: "10 13 * * *"   # about 9:10 AM ET during daylight saving
+    - cron: "10 16 * * *"   # about 12:10 PM ET during daylight saving
   workflow_dispatch:
 
 permissions:
@@ -40,7 +41,7 @@ jobs:
 
           const MAX_AGE_DAYS     = 30;
           const MS_PER_DAY       = 24 * 60 * 60 * 1000;
-          const LOW_STREAK_LIMIT = 3;  // how many consecutive low-count days we tolerate
+          const LOW_STREAK_LIMIT = 3;
 
           const CLEAN = (v) => {
             const n = Number(v);
@@ -192,14 +193,12 @@ jobs:
             const stamp    = new Date().toISOString();
             const newCount = all.length;
 
-            // Load previous accepted snapshot
             let prevCount = null;
             try {
               const prev = JSON.parse(fs.readFileSync('data/usgs-latest.json','utf8'));
               prevCount = prev?.count ?? null;
             } catch {}
 
-            // Load previous health (for low-count streak tracking)
             let lowStreak = 0;
             try {
               const prevHealth = JSON.parse(fs.readFileSync('data/health.json','utf8'));
@@ -208,8 +207,6 @@ jobs:
 
             const out = { updatedAt: stamp, count: newCount, items: all };
 
-            // Guard with streak: short bad runs keep old snapshot,
-            // long bad runs become the new baseline.
             if (prevCount && newCount < Math.floor(prevCount * 0.75)) {
               const nextStreak = (lowStreak || 0) + 1;
               console.warn(
@@ -234,7 +231,6 @@ jobs:
                 process.exit(0);
               }
 
-              // After LOW_STREAK_LIMIT consecutive low days, accept new baseline
               lowStreak = 0;
             }
 
@@ -261,7 +257,6 @@ jobs:
               });
             }
 
-            // Write accepted snapshot + metadata
             fs.writeFileSync('data/usgs-latest.json', JSON.stringify(out,  null, 2));
             fs.writeFileSync(
               'data/state-summary.json',
