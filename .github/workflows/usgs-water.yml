@@ -2,8 +2,10 @@ name: USGS Water Cache (daily)
 
 on:
   schedule:
-    - cron: "10 13 * * *"   # about 9:10 AM ET during daylight saving
-    - cron: "10 16 * * *"   # about 12:10 PM ET during daylight saving
+    - cron: "10-40/5 13 * * *" # 09:10-09:40 ET during daylight saving
+    - cron: "10-40/5 14 * * *" # 09:10-09:40 ET during standard time
+    - cron: "10-40/5 1 * * *"  # 21:10-21:40 ET during daylight saving
+    - cron: "10-40/5 2 * * *"  # 21:10-21:40 ET during standard time
   workflow_dispatch:
 
 permissions:
@@ -14,18 +16,87 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Fetch USGS temp/cond/pH/TDS/DO/Turbidity for all states & territories
+        id: fetch_water
+        env:
+          ALLOW_OFF_SCHEDULE: ${{ vars.ALLOW_OFF_SCHEDULE || 'false' }}
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p data
+
+          node - <<'NODE'
+          const fs = require('fs');
+
+          const allowOffSchedule = String(process.env.ALLOW_OFF_SCHEDULE || '').toLowerCase() === 'true';
+          const etParts = new Intl.DateTimeFormat('en-US', {
+            timeZone: 'America/New_York',
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit',
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: false
+          }).formatToParts(new Date()).reduce((acc, part) => {
+            acc[part.type] = part.value;
+            return acc;
+          }, {});
+
+          const etHour = Number(etParts.hour);
+          const etMinute = Number(etParts.minute);
+          const etTotal = etHour * 60 + etMinute;
+          const etDate = `${etParts.year}-${etParts.month}-${etParts.day}`;
+          const windows = [
+            { key: '0910', label: '09:10 ET', start: 9 * 60 + 10, end: 9 * 60 + 40 },
+            { key: '2110', label: '21:10 ET', start: 21 * 60 + 10, end: 21 * 60 + 40 }
+          ];
+          const activeWindow = windows.find(w => etTotal >= w.start && etTotal <= w.end);
+
+          const markSkip = (message) => {
+            console.log(message);
+            if (process.env.GITHUB_OUTPUT) {
+              fs.appendFileSync(process.env.GITHUB_OUTPUT, 'skip=true\n');
+            }
+            fs.writeFileSync('.skip-water-cache', '1');
+          };
+
+          if (!allowOffSchedule && !activeWindow) {
+            markSkip(`Skipping off-schedule water cache run. ET ${etDate} ${String(etHour).padStart(2, '0')}:${String(etMinute).padStart(2, '0')}.`);
+            console.log('Approved windows: daily around 09:10 ET and 21:10 ET.');
+            process.exit(0);
+          }
+
+          const cacheSlotKey = activeWindow ? `${etDate}-${activeWindow.key}` : `${etDate}-manual`;
+          const waterWindowET = activeWindow ? activeWindow.label : 'manual/off-schedule';
+
+          if (!allowOffSchedule) {
+            try {
+              const prevHealth = JSON.parse(fs.readFileSync('data/health.json', 'utf8'));
+              if (prevHealth?.cacheSlotKey === cacheSlotKey) {
+                markSkip(`Skipping duplicate water cache slot ${cacheSlotKey}.`);
+                process.exit(0);
+              }
+            } catch {}
+          }
+
+          fs.writeFileSync('.water-slot.json', JSON.stringify({ cacheSlotKey, waterWindowET }, null, 2));
+          if (process.env.GITHUB_OUTPUT) {
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, 'skip=false\n');
+          }
+          console.log(`Approved water cache slot ${cacheSlotKey} (${waterWindowET}).`);
+          NODE
+
+          if [ -f .skip-water-cache ]; then
+            rm .skip-water-cache
+            exit 0
+          fi
 
           node - <<'NODE'
           const fs = require('fs');
@@ -144,6 +215,11 @@ jobs:
           };
 
           (async () => {
+            let slotMeta = { cacheSlotKey: null, waterWindowET: null };
+            try {
+              slotMeta = JSON.parse(fs.readFileSync('.water-slot.json', 'utf8'));
+            } catch {}
+
             const all = [];
             const groups = new Map();
 
@@ -205,7 +281,14 @@ jobs:
               lowStreak = prevHealth?.lowStreak ?? 0;
             } catch {}
 
-            const out = { updatedAt: stamp, count: newCount, items: all };
+            const out = {
+              updatedAt: stamp,
+              cacheUpdatedAt: stamp,
+              cacheSlotKey: slotMeta.cacheSlotKey,
+              waterWindowET: slotMeta.waterWindowET,
+              count: newCount,
+              items: all
+            };
 
             if (prevCount && newCount < Math.floor(prevCount * 0.75)) {
               const nextStreak = (lowStreak || 0) + 1;
@@ -219,6 +302,9 @@ jobs:
                   JSON.stringify(
                     {
                       updatedAt: stamp,
+                      cacheUpdatedAt: stamp,
+                      cacheSlotKey: slotMeta.cacheSlotKey,
+                      waterWindowET: slotMeta.waterWindowET,
                       prevAcceptedCount: prevCount,
                       lastAttemptCount: newCount,
                       lowStreak: nextStreak
@@ -263,6 +349,9 @@ jobs:
               JSON.stringify(
                 {
                   updatedAt: stamp,
+                  cacheUpdatedAt: stamp,
+                  cacheSlotKey: slotMeta.cacheSlotKey,
+                  waterWindowET: slotMeta.waterWindowET,
                   maxAgeDays: MAX_AGE_DAYS,
                   states: stateRows
                 },
@@ -275,6 +364,9 @@ jobs:
               JSON.stringify(
                 {
                   updatedAt: stamp,
+                  cacheUpdatedAt: stamp,
+                  cacheSlotKey: slotMeta.cacheSlotKey,
+                  waterWindowET: slotMeta.waterWindowET,
                   prevAcceptedCount: newCount,
                   lastAttemptCount: newCount,
                   lowStreak
@@ -307,9 +399,11 @@ jobs:
           NODE
 
       - name: Show summary
+        if: steps.fetch_water.outputs.skip != 'true'
         run: cat "$GITHUB_STEP_SUMMARY" || true
 
       - name: Commit & push
+        if: steps.fetch_water.outputs.skip != 'true'
         run: |
           git config user.name "admatera-bot"
           git config user.email "actions@users.noreply.github.com"
