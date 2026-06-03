@@ -2,10 +2,9 @@ name: USGS Water Cache (daily)
 
 on:
   schedule:
-    - cron: "10-40/5 13 * * *" # 09:10-09:40 ET during daylight saving
-    - cron: "10-40/5 14 * * *" # 09:10-09:40 ET during standard time
-    - cron: "10-40/5 1 * * *"  # 21:10-21:40 ET during daylight saving
-    - cron: "10-40/5 2 * * *"  # 21:10-21:40 ET during standard time
+    - cron: "*/5 11-15 * * *" # Continuous morning candidates; ET guard accepts 07:30-10:00
+    - cron: "*/5 23 * * *"    # Continuous evening candidates before UTC midnight
+    - cron: "*/5 0-3 * * *"   # Continuous evening candidates after UTC midnight
   workflow_dispatch:
 
 permissions:
@@ -54,8 +53,8 @@ jobs:
           const etTotal = etHour * 60 + etMinute;
           const etDate = `${etParts.year}-${etParts.month}-${etParts.day}`;
           const windows = [
-            { key: '0910', label: '09:10 ET', start: 9 * 60 + 10, end: 9 * 60 + 40 },
-            { key: '2110', label: '21:10 ET', start: 21 * 60 + 10, end: 21 * 60 + 40 }
+            { key: '0730', label: '07:30 ET', start: 7 * 60 + 30, end: 10 * 60 },
+            { key: '1930', label: '19:30 ET', start: 19 * 60 + 30, end: 22 * 60 }
           ];
           const activeWindow = windows.find(w => etTotal >= w.start && etTotal <= w.end);
 
@@ -69,7 +68,7 @@ jobs:
 
           if (!allowOffSchedule && !activeWindow) {
             markSkip(`Skipping off-schedule water cache run. ET ${etDate} ${String(etHour).padStart(2, '0')}:${String(etMinute).padStart(2, '0')}.`);
-            console.log('Approved windows: daily around 09:10 ET and 21:10 ET.');
+            console.log('Approved runtime windows: daily 07:30-10:00 ET and 19:30-22:00 ET. Target water slots remain 07:30 ET and 19:30 ET.');
             process.exit(0);
           }
 
@@ -90,7 +89,7 @@ jobs:
           if (process.env.GITHUB_OUTPUT) {
             fs.appendFileSync(process.env.GITHUB_OUTPUT, 'skip=false\n');
           }
-          console.log(`Approved water cache slot ${cacheSlotKey} (${waterWindowET}).`);
+          console.log(`Proceeding with water cache slot ${cacheSlotKey} (${waterWindowET}).`);
           NODE
 
           if [ -f .skip-water-cache ]; then
