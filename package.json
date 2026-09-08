@@ -1,0 +1,12 @@
+{
+  "name": "admatera-maps-c7-governed-refresh",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "check": "node tests/verify-refresh-candidate.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.1127.0"
+  }
+}

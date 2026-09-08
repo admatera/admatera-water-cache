@@ -1,0 +1,92 @@
+name: AdMatera C7 governed water refresh
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: admatera-c7-water-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out pinned repository revision
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+
+      - name: Install pinned Node runtime
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version: "24.8.0"
+          cache: npm
+
+      - name: Install locked dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Create immutable run identity
+        id: run
+        shell: bash
+        run: |
+          set -euo pipefail
+          run_id="MAP-DATA-012_$(date -u +%Y%m%dT%H%M%SZ)"
+          run_dir=".c7-refresh/${run_id}"
+          mkdir -p "${run_dir}"
+          echo "run_id=${run_id}" >> "${GITHUB_OUTPUT}"
+          echo "run_dir=${run_dir}" >> "${GITHUB_OUTPUT}"
+
+      - name: Fetch and validate USGS OGC evidence
+        id: refresh
+        continue-on-error: true
+        env:
+          USGS_API_KEY: ${{ secrets.USGS_API_KEY }}
+          C7_RUN_DIR: ${{ steps.run.outputs.run_dir }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          node scripts/fetch-usgs-ogc.mjs \
+            --live \
+            --window-hours=24 \
+            --publication-minimum-sites=1 \
+            --schema-version=admatera-water-summary-v2 \
+            --include-metric-evidence \
+            --omit-overall-sites \
+            --output="${C7_RUN_DIR}/state-summary.json" \
+            --health="${C7_RUN_DIR}/health.json" \
+            --evidence="${C7_RUN_DIR}/usgs-raw-evidence.json" \
+            --audit="${C7_RUN_DIR}/audit.json" \
+            --schema="${C7_RUN_DIR}/schema.json"
+
+      - name: Seal successful evidence
+        if: steps.refresh.outcome == 'success'
+        env:
+          C7_RUN_DIR: ${{ steps.run.outputs.run_dir }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gzip -9 --keep "${C7_RUN_DIR}/usgs-raw-evidence.json"
+          sha256sum \
+            "${C7_RUN_DIR}/state-summary.json" \
+            "${C7_RUN_DIR}/health.json" \
+            "${C7_RUN_DIR}/audit.json" \
+            "${C7_RUN_DIR}/schema.json" \
+            "${C7_RUN_DIR}/usgs-raw-evidence.json.gz" \
+            > "${C7_RUN_DIR}/SHA256SUMS.txt"
+
+      - name: Upload health, immutable evidence, and pointer-last promotion
+        env:
+          C7_RUN_ID: ${{ steps.run.outputs.run_id }}
+          C7_RUN_DIR: ${{ steps.run.outputs.run_dir }}
+          C7_REFRESH_OUTCOME: ${{ steps.refresh.outcome }}
+          C7_R2_ACCOUNT_ID: ${{ vars.C7_R2_ACCOUNT_ID }}
+          C7_R2_BUCKET: ${{ vars.C7_R2_BUCKET }}
+          C7_R2_ACCESS_KEY_ID: ${{ secrets.C7_R2_ACCESS_KEY_ID }}
+          C7_R2_SECRET_ACCESS_KEY: ${{ secrets.C7_R2_SECRET_ACCESS_KEY }}
+        run: node scripts/upload-c7-r2.mjs
+
+      - name: Fail visibly after preserving health
+        if: steps.refresh.outcome != 'success'
+        run: exit 1

@@ -1,0 +1,4 @@
+node_modules/
+.c7-refresh/
+.env
+.env.*
