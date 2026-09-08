@@ -6,4 +6,4 @@ Server-side refresh tooling for AdMatera MAPS C7.
 
 - Validates current water observations before publication.
 - Retains the last validated snapshot when a refresh fails.
-- Keeps credentials and live data-provider requests out of the visitor bundle.
+- Keeps credentials and live data-provider requests separate from the visitor bundle.
