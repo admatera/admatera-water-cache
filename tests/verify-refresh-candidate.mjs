@@ -9,7 +9,8 @@ const packageJson = JSON.parse(await readFile(resolve(root, "package.json"), "ut
 const statePaths = JSON.parse(await readFile(resolve(root, "data/state-paths.json"), "utf8"));
 
 assert.match(workflow, /workflow_dispatch:/);
-assert.doesNotMatch(workflow, /\bschedule:|\bcron:/);
+assert.match(workflow, /schedule:/);
+assert.match(workflow, /cron: ["']17 \*\/6 \* \* \*["']/);
 assert.doesNotMatch(workflow, /pull_request:|push:/);
 assert.match(workflow, /permissions:\n  contents: read/);
 assert.match(workflow, /cancel-in-progress: false/);

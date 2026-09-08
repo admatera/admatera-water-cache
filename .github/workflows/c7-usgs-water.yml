@@ -2,6 +2,8 @@ name: AdMatera C7 governed water refresh
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
 
 permissions:
   contents: read
