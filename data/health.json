@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-10T14:44:58.242Z",
-  "cacheUpdatedAt": "2026-09-10T14:44:58.242Z",
-  "cacheSlotKey": "2026-09-10-0730",
-  "waterWindowET": "07:30 ET",
+  "updatedAt": "2026-09-11T00:35:25.292Z",
+  "cacheUpdatedAt": "2026-09-11T00:35:25.292Z",
+  "cacheSlotKey": "2026-09-10-1930",
+  "waterWindowET": "19:30 ET",
   "prevAcceptedCount": 1981,
-  "lastAttemptCount": 0,
+  "lastAttemptCount": 1981,
   "lowStreak": 1
 }
